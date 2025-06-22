@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Raise the Bar AI Bar Manager</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        .response, .conversation-history {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            max-width: 100%;
+            overflow-x: auto;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Raise the Bar AI Bar Manager</h1>
+
+        <form method="POST">
+            <label for="concept">Venue Concept</label>
+            <input type="text" name="concept" placeholder="e.g., Farm-to-glass rooftop bar" required>
+
+            <label for="user_prompt">Ask the Bar Manager</label>
+            <textarea name="user_prompt" placeholder="e.g., Recommend a cocktail featuring aquavit" required></textarea>
+
+            <label for="email">Email (optional)</label>
+            <input type="email" name="email" placeholder="you@example.com">
+
+            <button type="submit">Ask the AI</button>
+        </form>
+
+        <form method="POST" action="/reset" style="margin-top: 10px;">
+            <button type="submit">Reset Conversation</button>
+        </form>
+
+        {% if result %}
+            <div class="result">
+                <h2>AI Response</h2>
+                <div class="response">{{ result }}</div>
+
+                <h3>Conversation History</h3>
+                <div class="conversation-history">
+                    <ul>
+                        {% for msg in conversation %}
+                            <li><strong>{{ msg.role }}:</strong> {{ msg.content }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>

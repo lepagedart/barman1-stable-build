@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea,
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.response, .conversation-history {
+  white-space: pre-wrap;         /* 🧠 Keeps line breaks and wraps text */
+  word-wrap: break-word;         /* 💥 Breaks long words to prevent overflow */
+  overflow-wrap: break-word;     /* ✅ Ensures compatibility across browsers */
+  max-width: 100%;               /* 👌 Prevents going outside container */
+  overflow-x: auto;              /* Optional: lets users scroll horizontally if needed */
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.chat-box {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.chat-box.user {
+    background-color: #dff0d8;
+}
+
+.chat-box.assistant {
+    background-color: #d9edf7;
+}
+
+.email-form {
+    margin-top: 20px;
+}

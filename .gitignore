@@ -1,0 +1,52 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ---- Environments ----
+.env
+.venv/
+venv/
+env/
+
+# ---- VS Code / Codespaces ----
+.vscode/
+*.code-workspace
+
+# ---- OS-specific ----
+.DS_Store
+Thumbs.db
+
+# ---- FAISS vectorstore files ----
+vectorstore/
+*.faiss
+*.pkl
+
+# ---- Logs and Debugging ----
+*.log
+
+# ---- Byte-compiled Jupyter Notebooks ----
+.ipynb_checkpoints/
+
+# ---- Pytest / Test Artifacts ----
+.cache/
+.coverage
+htmlcov/
+pytest_cache/
+
+# ---- Ignore any backups or temp files ----
+*.bak
+*.tmp
+*.swp
+*~
+
+# ---- Allow PDFs inside knowledge_base ----
+# (Don't ignore .pdf files globally)
+# If you previously had this:
+# *.pdf     👈❌ REMOVE THIS
+
+# ---- Allow tracking your knowledge_base/ content ----
+# (Leave it unignored so PDFs can be added to GitHub)
+!knowledge_base/
+!knowledge_base/**/*.pdf
