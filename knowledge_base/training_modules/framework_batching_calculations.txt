@@ -1,0 +1,33 @@
+DOCUMENT TYPE: Framework
+
+TOPIC: Cocktail Batching Calculations
+
+SUMMARY:
+Outlines batching strategies to maximize labor efficiency while preserving quality.
+
+Batching Rules of Thumb:
+
+• Batch components with high volume and consistent shelf stability
+• Avoid batching perishable juices beyond 48-72 hour shelf life
+• Separate dilution (water) from batched spirits unless specified for service speed
+
+Sample Calculations:
+
+• Target batch size: 20 cocktails
+• Recipe: 1.5 oz base spirit, 0.75 oz modifier, 0.5 oz syrup
+• Total per cocktail: 2.75 oz
+
+Batch Formula:
+- Total Volume Needed = 2.75 oz * 20 = 55 oz
+- Account for ~5% prep loss → prepare 58 oz batch
+
+Operational Notes:
+
+• Label batches with prep date & expiry
+• Maintain prep sheet logs to track volume turnover
+• Recalculate batch sizes seasonally as sales mix shifts
+
+Profitability Notes:
+
+• Labor savings increase exponentially above 50 batch portions
+• Waste costs decrease when batch prep cycles match sales velocity

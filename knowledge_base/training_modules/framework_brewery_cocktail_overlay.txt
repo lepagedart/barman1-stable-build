@@ -1,0 +1,34 @@
+DOCUMENT TYPE: Framework
+
+TOPIC: Brewery-Based Limited Cocktail Overlay
+
+SUMMARY:
+Defines small-scale cocktail offerings for breweries adding spirits service.
+
+Key Parameters:
+
+• Full beer program remains primary revenue driver
+• Cocktail overlay limited to 4-6 signature options
+• Simplicity and staff training ease prioritized
+
+Menu Approach:
+
+• 3 batched signature cocktails:
+    - One tequila base (margarita or paloma variant)
+    - One whiskey base (old fashioned or sour variant)
+    - One vodka base (fruit-forward lemonade or spritz)
+
+• 1-2 seasonal rotating cocktails (shaken)
+
+Operational Notes:
+
+• No dedicated full bar prep position
+• Prep handled by brewery staff trained on simple batching SOPs
+• Limited spirits inventory (no more than 15 SKUs total)
+• No high-volume egg white or cream cocktails
+
+Profitability Notes:
+
+• Target ingredient cost 18-22%
+• Leverage distributor local partnerships for craft distillery cross-promotion
+• Pricing aligned to premium beer pricing to avoid undercutting beer sales

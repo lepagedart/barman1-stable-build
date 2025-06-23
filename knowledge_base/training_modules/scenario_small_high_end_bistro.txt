@@ -1,0 +1,65 @@
+
+DOCUMENT TYPE: Scenario
+
+TOPIC: Small High-End Bistro Bar Setup
+
+SUMMARY:
+This scenario models bar setup recommendations for a boutique 40-seat high-end bistro with a chef-driven seasonal menu.
+
+⸻
+
+Core Framework
+
+Seating Capacity:
+	•	40 seats, single service bar, chef’s counter proximity.
+
+Cocktail Menu:
+	•	8 signature cocktails.
+	•	60% shaken, 40% stirred builds approximately.  this can be 4 of each. or 5 shaken and 4 stirred, or 5 shaken and 3 stirred etc.  this is not a hard line breakdown and should eb situational.
+	•	Emphasize aperitivo, fortified wines, and aromatized modifiers.
+    -   Reference the Advanced Cocktailing Techniques section of cocktail_techniques.txt for relevant modern processes to craft flavorful twists into cocktails.  at the higher pricepoint this scenario is a perfect use case for more labor intensive prep techniques.
+
+Ingredient Management:
+	•	Batching recommended for shaken builds with citrus.  remember that only the liqour ingredients are batched and perishable ingredients added later.  
+	•	Maximize cross-utilization of house-made syrups and infusions.
+
+Pricing Strategy:
+	•	Plates average $38-$55.
+	•	Cocktail pricing: $16-$20.
+	•	Showcase premium spirits without extensive backbar bloat.
+
+Staffing Model:
+	•	1 bartender per service shift weekdays (or shifts that are reliably less busy), 1 bartender for the bar seating service and 1 Dedicated service bartender for busiest shifts.
+	•	bartenders should serve as the prep person daily for necessary batching, juice, and syrup production during preshift setup on early week shifts (again the less busy shifts in preparationfor the busier days where prep should be as needed with the goal of not having to prep on thesee days)
+
+⸻
+
+Operational Considerations
+	•	3-day juice rotation (lemon, lime, grapefruit) for fresh squeezed juices.  they should be quality controlled before each shift and refridgerated until open and returned at close.
+	•	Specialty ice program (large cube, clear spear for signature drinks).
+	•	Glassware selection favors visual storytelling.
+
+⸻
+
+Profitability Notes
+	•	Ingredient costs target 22% per cocktail.
+	•	Negotiate boutique spirit pricing with regional distributors.
+	•	Build storytelling value into drink descriptions to justify premium pricing.
+
+⸻
+
+Relevant Supplier Considerations
+	•	Martignetti boutique import brands.
+	•	Incentives on high-end vermouths, fortified wines, craft liqueurs.
+
+⸻
+
+Sample Application Scenario
+
+Venue Concept: Chef-driven New England bistro with seasonal tasting menu.
+Seats: 40
+Avg Plate: $42
+Goal: Elevated dining experience, curated cocktail program with tight inventory management.
+
+Bar Strategy:
+8 signature cocktails built around local ingredients, house-made bitters, and minimal waste through batch prep and supplier partnerships.

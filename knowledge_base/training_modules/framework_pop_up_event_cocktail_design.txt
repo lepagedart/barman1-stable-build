@@ -1,0 +1,37 @@
+DOCUMENT TYPE: Framework
+
+TOPIC: Pop-Up Event Cocktail Program Design
+
+SUMMARY:
+Temporary mobile cocktail activation framework for events and festivals.
+
+Key Design Principles:
+
+• Fully batched models mandatory for volume and speed
+• Zero fresh prep on-site (all prep done offsite in licensed commissary)
+• Visual aesthetic prioritized for viral/social impact
+
+Menu Setup:
+
+• 3-5 highly visual signature cocktails
+• Pre-batched into labeled 1-gallon containers per SKU
+• Individual portion garnishes pre-skewered and packaged
+• Mobile bar design includes branded batch tap system or nitrogen-kegged service
+
+Operational Notes:
+
+• Pre-pour staging station behind primary service point
+• Dedicated runner assigned for ongoing batch refill from refrigerated trailer
+• Cashless point-of-sale integrated for rapid guest turnover
+
+Profitability Targets:
+
+• Ingredient cost 15-20% (limited perishability reduces waste)
+• Supplier-sponsored visibility packages often subsidize batch ingredient costs
+• Bundle custom branded glassware as VIP upsell package
+
+Staffing:
+
+• Event bartenders require basic pour service skills
+• Pre-event prep team handles 100% of batching in advance
+• Visual service training mandatory to preserve brand consistency

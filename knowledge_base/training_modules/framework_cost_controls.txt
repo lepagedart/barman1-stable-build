@@ -1,0 +1,58 @@
+DOCUMENT TYPE: Framework
+
+TOPIC: Bar Cost Control Framework for Cocktail Programs
+
+SUMMARY:
+This framework outlines key strategies for maintaining target profitability on bar programs while allowing creative flexibility based on venue concept and market conditions.
+
+⸻
+
+Core Framework
+
+Ingredient Cost Targets:
+	•	Goal: 20-25% ingredient cost per cocktail.
+	•	Ideal cost tolerance:
+	•	20% for high-volume or casual concepts.
+	•	25% acceptable for premium venues emphasizing guest experience.
+
+Costing Techniques:
+	•	Cost all cocktails by weighted average pour costs at expected service volumes.
+	•	Include perishables and prep labor when evaluating batch recipes.
+	•	Account for shrinkage and spoilage in juice-heavy programs.
+
+Distributor Negotiations:
+	•	Request quarterly deal sheets from suppliers.
+	•	Use off-invoice pricing, case discounts, and brand placement incentives.
+	•	Structure house-pour agreements for volume price breaks.
+
+Menu Design Levers:
+	•	Incorporate 1-2 high-margin “dealer’s choice” offerings.
+	•	Limit low-margin, niche SKUs unless justified by branding or storytelling.
+	•	Batch whenever possible to reduce labor during service.
+
+Waste Management:
+	•	Rotate fresh ingredients on 3-4 day cycles.
+	•	Cross-utilize citrus, syrups, and garnishes across multiple drinks.
+	•	Avoid “single-use” specialty modifiers unless offset by marketing value.
+
+⸻
+
+Operational Considerations
+	•	Use inventory management software or weekly Excel audits.
+	•	Train staff to standardize free-pour technique or use jiggers.
+	•	Monitor post-shift variance reports when possible.
+	•	Use pre-opening prep logs to control mise en place quantities.
+
+⸻
+
+Profitability Notes
+	•	Cost controls should not sacrifice guest perception of quality.
+	•	Transparency with ownership on margin drivers builds trust.
+	•	Menu adjustments should occur seasonally or when pricing shifts.
+
+⸻
+
+Relevant Supplier Considerations
+	•	Martignetti: Common quarterly discount programs on whiskey, gin, aperitivos.
+	•	Use supplier tasting events to discover lower-cost alternatives with high guest appeal.DOCUMENT TYPE: Framework
+

@@ -1,0 +1,36 @@
+DOCUMENT TYPE: Scenario
+
+TOPIC: High Volume Sports Bar Setup
+
+SUMMARY:
+Designing bar program for a 150-seat casual sports bar with peak game-day surges.
+
+Venue Details:
+• Seats: 150
+• Average Check: $22 per guest
+• Peak Service: Game days, high beer sales, basic cocktails
+
+Bar Program Strategy:
+
+• 8 cocktails total:
+    - 4 batched draft cocktails
+    - 4 simple shaken/stirred menu builds
+
+• Beer: 20 taps prioritized
+• House Margarita + Draft Mule as top-selling batched cocktails
+
+• Prep Considerations:
+    - Daily citrus juicing for batches
+    - 3-day rotation for syrup batches
+    - Weekly inventory audit
+
+Staffing:
+
+• 3 bartenders for peak shifts
+• 1 prep shift daily for batching
+
+Profitability Targets:
+
+• Ingredient cost: 19% average on batched cocktails
+• Distributor deal products featured in batches
+• House tequila supplier rebate tied to quarterly volume

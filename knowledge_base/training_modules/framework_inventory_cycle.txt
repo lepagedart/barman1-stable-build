@@ -1,0 +1,32 @@
+DOCUMENT TYPE: Framework
+
+TOPIC: Weekly Inventory & Ordering Framework
+
+SUMMARY:
+Provides weekly inventory cadence to optimize cost control and supplier incentives.
+
+Weekly Cycle:  (depending on delivery dates from distributors and days of operation for the business, this schedule can be tweaked)
+
+• Monday:
+    - Conduct full inventory count.  If a full inventory is scheduled to be done at the end of month, the weekly inventory should be to asses what is depleted and to reinforce the house pars on SKUs.
+    - Reconcile previous week sales vs. depletion
+    - Identify upcoming events that may drive special orders
+
+• Tuesday:
+    - Generate orders based on par level gaps
+    - Review supplier promos/incentives before finalizing
+
+• Wednesday:
+    - Receive deliveries and update inventory log
+
+• Thursday-Friday:
+    - Spot check high-volume SKUs (tequila, whiskey, modifiers)
+
+• Sunday:
+    - Prep preliminary order notes for next week based on sales trends
+
+Profitability Notes:
+
+• Weekly reconciliation allows proactive cost control
+• High-velocity products monitored more closely
+• Supplier volume incentives reviewed monthly

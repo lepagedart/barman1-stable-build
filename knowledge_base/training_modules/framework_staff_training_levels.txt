@@ -1,0 +1,43 @@
+DOCUMENT TYPE: Framework
+
+TOPIC: Bartender Skill Level Framework
+
+SUMMARY:
+Defines levels of bartender proficiency to guide training, menu design, and task delegation.
+
+Skill Levels:
+
+• Level 1 — Basic Service Bartender:
+    - Limited cocktail experience
+    - Beer, wine, basic spirit knowledge
+    - Can execute batched cocktails and simple builds
+    - Focus on hospitality and guest interaction
+
+• Level 2 — Competent Cocktail Bartender:
+    - Understands basic shaking, stirring, dilution principles
+    - Executes all house cocktails confidently
+    - Can train new staff on SOPs
+    - Understands costing, speed, batching impact
+
+• Level 3 — Lead Bartender:
+    - Designs recipes within costing targets
+    - Monitors prep levels, batch rotation, inventory control
+    - Assists in supplier relations and menu updates
+    - Provides ongoing staff coaching
+
+• Level 4 — Program Manager:
+    - Designs full seasonal menus aligned to venue concept
+    - Costing, profitability modeling
+    - Negotiates supplier contracts and incentive programs
+    - Oversees training curriculum
+
+Operational Considerations:
+
+• Staff level dictates feasible menu complexity
+• Training programs should target skill elevation over time
+• Retain simple high-margin offerings for new staff training
+
+Profitability Notes:
+
+• Balanced teams protect labor costs during turnover
+• Simpler builds reduce error rates on new hires
