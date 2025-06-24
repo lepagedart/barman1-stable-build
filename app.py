@@ -1,64 +1,79 @@
 import os
-import sys
-import uuid
-from flask import Flask, render_template, request, redirect, session
-from flask_session import Session
-from dotenv import load_dotenv
+from flask import Flask, render_template, request, session, redirect, url_for
 from openai import OpenAI
 from rag_retriever import retrieve_codex_context, check_and_update_vectorstore
-from utils import generate_pdf, send_email
+from dotenv import load_dotenv
 
+# Load environment variables
 load_dotenv()
 
+# Flask setup
 app = Flask(__name__)
-app.config["SESSION_TYPE"] = "filesystem"
-Session(app)
+app.secret_key = os.environ.get("FLASK_SECRET_KEY", "your-default-secret-key")
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# OpenAI client
+client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+
+# Knowledge base folder
+KB_FOLDER = "knowledge_base"
+
+# Load system prompt from external file
+with open("system_prompt.txt", "r") as f:
+    SYSTEM_PROMPT = f.read()
 
 @app.route("/", methods=["GET", "POST"])
 def index():
-    result = ""
-    conversation = session.get("conversation", [])
+    if "conversation" not in session:
+        session["conversation"] = []
 
-    # 🧠 Run vectorstore sync check before handling user request
-    check_and_update_vectorstore()
+    conversation = session["conversation"]
+    ai_response = None
 
     if request.method == "POST":
-        venue = request.form.get("concept", "")
+        venue_concept = request.form.get("venue_concept", "")
         user_prompt = request.form.get("user_prompt", "")
-        email = request.form.get("email", "")
 
-        conversation.append({"role": "user", "content": f"Venue concept: {venue}\n{user_prompt}"})
-
-        rag_context = retrieve_codex_context(user_prompt)
-        conversation.insert(-1, {"role": "system", "content": f"Helpful reference:\n{rag_context}"})
-
-        with open("system_prompt.txt", "r") as file:
-            system_prompt = file.read()
-
-        response = client.chat.completions.create(
-            model="gpt-3.5-turbo",
-            messages=[
-                {"role": "system", "content": system_prompt},
-                *session.get("chat_history", [])
-            ]
-        )
-        result = response.choices[0].message.content.strip()
-
-        conversation.append({"role": "assistant", "content": result})
+        # Add user message to conversation history (for UI display)
+        conversation.append({"role": "user", "content": user_prompt})
         session["conversation"] = conversation
 
-        if email:
-            generate_pdf(result)
-            send_email(email, "Raise the Bar - Cocktail Response", result)
+        # Check and update vectorstore if needed
+        check_and_update_vectorstore(KB_FOLDER)
 
-    return render_template("index.html", result=result, conversation=conversation)
+        # Retrieve RAG context using both venue concept + user prompt
+        rag_context = retrieve_codex_context(user_prompt, venue_concept)
+
+        # Build full prompt
+        full_prompt = (
+            f"{SYSTEM_PROMPT}\n\n"
+            f"Venue Concept: {venue_concept}\n"
+            f"Relevant Context:\n{rag_context}\n\n"
+            f"User Question: {user_prompt}"
+        )
+
+        # Call OpenAI API (system + single user turn)
+        completion = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": full_prompt}
+            ],
+            temperature=0.7
+        )
+
+        ai_response = completion.choices[0].message.content
+
+        # Store full assistant reply into session for UI display
+        conversation.append({"role": "assistant", "content": ai_response})
+        session["conversation"] = conversation
+
+    return render_template("index.html", venue_concept="", conversation=conversation, ai_response=ai_response)
+
 
 @app.route("/reset", methods=["POST"])
 def reset():
-    session.clear()
-    return redirect("/")
+    session["conversation"] = []
+    return redirect(url_for("index"))
 
 if __name__ == "__main__":
     app.run(debug=True)

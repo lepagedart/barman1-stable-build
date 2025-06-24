@@ -2,55 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Raise the Bar AI Bar Manager</title>
-    <link rel="stylesheet" href="/static/styles.css">
+    <title>Raise the Bar Consulting — Barman-1</title>
     <style>
-        .response, .conversation-history {
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            overflow-wrap: break-word;
-            max-width: 100%;
-            overflow-x: auto;
-            padding: 1rem;
-        }
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .container { max-width: 800px; margin: auto; }
+        .response { background-color: #f3f3f3; padding: 20px; margin-top: 20px; border-radius: 8px; }
+        .conversation { margin-top: 40px; }
+        .user, .assistant { margin-bottom: 15px; }
+        .user { font-weight: bold; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Raise the Bar AI Bar Manager</h1>
+        <h1>Raise the Bar Consulting — Barman-1</h1>
 
         <form method="POST">
-            <label for="concept">Venue Concept</label>
-            <input type="text" name="concept" placeholder="e.g., Farm-to-glass rooftop bar" required>
+            <label for="venue_concept">Venue Concept:</label><br>
+            <input type="text" id="venue_concept" name="venue_concept" style="width:100%;"><br><br>
 
-            <label for="user_prompt">Ask the Bar Manager</label>
-            <textarea name="user_prompt" placeholder="e.g., Recommend a cocktail featuring aquavit" required></textarea>
-
-            <label for="email">Email (optional)</label>
-            <input type="email" name="email" placeholder="you@example.com">
+            <label for="user_prompt">Ask the Bar Manager:</label><br>
+            <textarea id="user_prompt" name="user_prompt" rows="5" style="width:100%;"></textarea><br><br>
 
             <button type="submit">Ask the AI</button>
         </form>
 
-        <form method="POST" action="/reset" style="margin-top: 10px;">
+        <form method="POST" action="/reset" style="display:inline;">
             <button type="submit">Reset Conversation</button>
         </form>
 
-        {% if result %}
-            <div class="result">
-                <h2>AI Response</h2>
-                <div class="response">{{ result }}</div>
-
-                <h3>Conversation History</h3>
-                <div class="conversation-history">
-                    <ul>
-                        {% for msg in conversation %}
-                            <li><strong>{{ msg.role }}:</strong> {{ msg.content }}</li>
-                        {% endfor %}
-                    </ul>
-                </div>
+        {% if ai_response %}
+            <div class="response">
+                {{ ai_response | safe }}
             </div>
         {% endif %}
+
+        <div class="conversation">
+            <h2>Conversation History:</h2>
+            {% for msg in conversation %}
+                <div class="{{ msg.role }}">
+                    <strong>{{ msg.role.capitalize() }}:</strong> {{ msg.content }}
+                </div>
+            {% endfor %}
+        </div>
     </div>
 </body>
 </html>
