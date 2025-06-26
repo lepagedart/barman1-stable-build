@@ -1,79 +1,63 @@
 import os
-from flask import Flask, render_template, request, session, redirect, url_for
+from flask import Flask, render_template, request, jsonify, session
 from openai import OpenAI
 from rag_retriever import retrieve_codex_context, check_and_update_vectorstore
-from dotenv import load_dotenv
-
-# Load environment variables
-load_dotenv()
 
 # Flask setup
 app = Flask(__name__)
-app.secret_key = os.environ.get("FLASK_SECRET_KEY", "your-default-secret-key")
+app.secret_key = os.environ.get("FLASK_SECRET_KEY")
 
-# OpenAI client
+# OpenAI client setup
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 # Knowledge base folder
 KB_FOLDER = "knowledge_base"
 
-# Load system prompt from external file
-with open("system_prompt.txt", "r") as f:
-    SYSTEM_PROMPT = f.read()
-
 @app.route("/", methods=["GET", "POST"])
 def index():
+    check_and_update_vectorstore(KB_FOLDER)
+
     if "conversation" not in session:
         session["conversation"] = []
 
-    conversation = session["conversation"]
-    ai_response = None
-
     if request.method == "POST":
-        venue_concept = request.form.get("venue_concept", "")
+        venue = request.form.get("venue_concept", "")
         user_prompt = request.form.get("user_prompt", "")
 
-        # Add user message to conversation history (for UI display)
+        # Add user message to conversation history
+        conversation = session["conversation"]
         conversation.append({"role": "user", "content": user_prompt})
-        session["conversation"] = conversation
 
-        # Check and update vectorstore if needed
-        check_and_update_vectorstore(KB_FOLDER)
+        # Retrieve RAG context
+        rag_context = retrieve_codex_context(user_prompt, venue)
 
-        # Retrieve RAG context using both venue concept + user prompt
-        rag_context = retrieve_codex_context(user_prompt, venue_concept)
+        # Build full messages list for OpenAI
+        messages = [
+            {"role": "system", "content": open("system_prompt.txt").read()},
+            {"role": "system", "content": f"Relevant knowledge base context:\n{rag_context}"}
+        ]
+        messages.extend(conversation)
 
-        # Build full prompt
-        full_prompt = (
-            f"{SYSTEM_PROMPT}\n\n"
-            f"Venue Concept: {venue_concept}\n"
-            f"Relevant Context:\n{rag_context}\n\n"
-            f"User Question: {user_prompt}"
-        )
-
-        # Call OpenAI API (system + single user turn)
+        # Get response from OpenAI
         completion = client.chat.completions.create(
             model="gpt-3.5-turbo",
-            messages=[
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": full_prompt}
-            ],
-            temperature=0.7
+            messages=messages
         )
 
-        ai_response = completion.choices[0].message.content
+        assistant_response = completion.choices[0].message.content
 
-        # Store full assistant reply into session for UI display
-        conversation.append({"role": "assistant", "content": ai_response})
+        # Add assistant response to conversation history
+        conversation.append({"role": "assistant", "content": assistant_response})
         session["conversation"] = conversation
 
-    return render_template("index.html", venue_concept="", conversation=conversation, ai_response=ai_response)
+        return jsonify({"response": assistant_response})
 
+    return render_template("index.html", conversation=session["conversation"])
 
 @app.route("/reset", methods=["POST"])
 def reset():
-    session["conversation"] = []
-    return redirect(url_for("index"))
+    session.clear()
+    return jsonify({"response": "Conversation reset."})
 
 if __name__ == "__main__":
     app.run(debug=True)

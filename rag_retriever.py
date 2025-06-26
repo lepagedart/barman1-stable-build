@@ -1,5 +1,5 @@
 import os
-from langchain_community.vectorstores import FAISS
+from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
 # Embedding model
@@ -12,19 +12,18 @@ def load_vectorstore():
         model_name=EMBEDDING_MODEL,
         model_kwargs={"device": "cpu"}
     )
-    vectordb = FAISS.load_local(VECTORSTORE_DIR, embeddings, allow_dangerous_deserialization=True)
+    vectordb = Chroma(persist_directory=VECTORSTORE_DIR, embedding_function=embeddings)
     return vectordb
+
 def retrieve_codex_context(user_prompt, venue_concept):
     vectordb = load_vectorstore()
-    
-    # Combine venue concept and user prompt into the retrieval query
+
     query = f"Venue Concept: {venue_concept}. Question: {user_prompt}"
-    
     retriever = vectordb.as_retriever(search_kwargs={"k": 2})
     docs = retriever.get_relevant_documents(query)
-    
+
     context = "\n\n".join([doc.page_content for doc in docs])
     return context
 
 def check_and_update_vectorstore(kb_folder):
-    pass  # Leave your existing vectorstore rebuild logic intact
+    pass  # Your existing rebuild logic can go here if needed
