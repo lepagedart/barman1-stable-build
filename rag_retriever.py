@@ -1,18 +1,18 @@
 import os
-from langchain_community.vectorstores import Chroma
+from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
-# Embedding model
-EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+# Embedding model - must match rag_loader.py
+EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 KB_FOLDER = "knowledge_base"
-VECTORSTORE_DIR = "vectorstore"
+VECTORSTORE_DIR = "codex_faiss_index"
 
 def load_vectorstore():
     embeddings = HuggingFaceEmbeddings(
         model_name=EMBEDDING_MODEL,
         model_kwargs={"device": "cpu"}
     )
-    vectordb = Chroma(persist_directory=VECTORSTORE_DIR, embedding_function=embeddings)
+    vectordb = FAISS.load_local(VECTORSTORE_DIR, embeddings, allow_dangerous_deserialization=True)
     return vectordb
 
 def retrieve_codex_context(user_prompt, venue_concept):
