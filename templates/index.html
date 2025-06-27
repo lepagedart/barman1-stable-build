@@ -25,7 +25,13 @@
 
     <div id="conversation">
       <h2>Conversation Log</h2>
-      <div id="log"></div>
+      <div id="log">
+        {% for msg in conversation %}
+          <div class="message {{ msg.role }}">
+            <strong>{{ msg.role.title() }}:</strong> {{ msg.content }}
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 

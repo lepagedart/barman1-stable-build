@@ -1,79 +1,88 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+  padding: 2rem;
+  margin: 0;
 }
 
 .container {
-    max-width: 800px;
-    margin: 40px auto;
-    background-color: white;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
-h1 {
-    text-align: center;
-    color: #333;
+h1, h2 {
+  color: #333;
 }
 
-form {
-    margin-bottom: 20px;
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
 }
 
 input[type="text"],
-textarea,
-input[type="email"] {
-    width: 100%;
-    padding: 12px;
-    margin: 10px 0 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 16px;
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+.button-group {
+  margin-top: 1rem;
 }
 
 button {
-    background-color: #333;
-    color: white;
-    padding: 10px 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
 }
 
 button:hover {
-    background-color: #555;
+  background-color: #004d99;
 }
 
-.response, .conversation-history {
-  white-space: pre-wrap;         /* 🧠 Keeps line breaks and wraps text */
-  word-wrap: break-word;         /* 💥 Breaks long words to prevent overflow */
-  overflow-wrap: break-word;     /* ✅ Ensures compatibility across browsers */
-  max-width: 100%;               /* 👌 Prevents going outside container */
-  overflow-x: auto;              /* Optional: lets users scroll horizontally if needed */
-  max-height: 60vh;
-  overflow-y: auto;
+#log {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+  white-space: pre-wrap;
 }
 
-.chat-box {
-    background-color: #f1f1f1;
-    padding: 15px;
-    border-radius: 6px;
-    margin-bottom: 10px;
+.message {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
 }
 
-.chat-box.user {
-    background-color: #dff0d8;
+.message.user {
+  background-color: #e3f2fd;
+  border-left: 4px solid #2196f3;
 }
 
-.chat-box.assistant {
-    background-color: #d9edf7;
+.message.assistant {
+  background-color: #f3e5f5;
+  border-left: 4px solid #9c27b0;
 }
 
-.email-form {
-    margin-top: 20px;
+.message strong {
+  color: #333;
 }

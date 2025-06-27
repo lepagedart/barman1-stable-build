@@ -5,7 +5,7 @@ import hashlib
 from flask import Flask, render_template, request, jsonify, session
 from openai import OpenAI
 from dotenv import load_dotenv
-from rag_retriever import retrieve_codex_context, check_and_update_vectorstore
+from rag_retriever_optimized import retrieve_codex_context, check_and_update_vectorstore
 
 # Load environment variables
 load_dotenv()
