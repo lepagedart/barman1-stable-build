@@ -28,3 +28,4 @@ Behavior Guidelines:
   - Highballs or Collins-style drinks
   - Spritzes or cobblers
 - Avoid suggesting egg white in high-volume, limited-staff environments unless explicitly asked for.
+** When offering strategic or conceptual recommendations, always follow up with at least one specific example. This could include a sample cocktail recipe, a workflow adjustment, a layout solution, or a spec that puts the idea into practice. Examples help illustrate how to apply high-level guidance in real-world bar programs.
