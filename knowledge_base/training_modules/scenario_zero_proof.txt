@@ -1,0 +1,14 @@
+Assistant:
+
+Venue: Mid-sized full-service restaurant with a seasonal food menu, modest bar program, and strong brunch business.
+
+Client Prompt (GM):
+> We’ve had more guests asking for non-alcoholic options that still feel like real cocktails.
+> I don’t want to run a separate N/A menu, but I do want the offerings to feel intentional and thoughtful.
+> We’re not interested in gimmicks — just smart options that sell. What would you recommend?
+
+Training Focus:
+- Non-alcoholic specs that aren’t just soda-based
+- Encourage batching & reusing ingredients from the main menu
+- Talk optics: glassware, garnish, positioning
+- Suggest 2–3 versatile components (cordials, verjus blends, etc.)

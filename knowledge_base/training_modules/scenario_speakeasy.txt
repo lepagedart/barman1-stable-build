@@ -1,0 +1,14 @@
+Assistant:
+
+Venue: Small, appointment-only cocktail lounge. Guests are served bespoke cocktails based on mood/flavor conversation. High standards.
+
+Client Prompt (Bar Lead):
+> We don’t use a printed menu — it’s all bartender-driven based on conversation.
+> We get great feedback, but onboarding new staff is a nightmare.
+> I need a system that helps them learn our house style and make drinks that feel consistent. Ideas?
+
+Training Focus:
+- Flavor profiling matrix
+- Reference builds that act like “templates” (e.g., split-base sour, low-ABV stirred)
+- Guest interaction training tips
+- Internal cheat sheets or RAG-style retrieval for builds

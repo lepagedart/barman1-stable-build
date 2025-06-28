@@ -1,0 +1,13 @@
+Assistant:
+
+Venue: Busy late-night bar with minimal service standards but high revenue. Basic spirits, big volume. Weekends are chaos.
+
+Client Prompt (Owner):
+> I need help tightening up the menu and flow. Our bartenders are fast, but we’re wasting product and have no consistency.
+> Drinks take too long because we keep changing specs. I don’t want to make it fancy — just smarter.
+
+Training Focus:
+- Free-pour guidelines (when and how)
+- Spec stability: use 6-8 bottle speed rail and build around it
+- Eliminate liqueurs or modifiers that slow service
+- Jigger exceptions — reinforce why we’d avoid them here

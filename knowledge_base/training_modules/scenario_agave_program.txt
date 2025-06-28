@@ -1,0 +1,13 @@
+Assistant:
+
+Venue: Busy contemporary Mexican kitchen with a large tequila/mezcal backbar. Mostly table service, no bar manager.
+
+Client Prompt (Owner):
+> We want guests to feel like the agave program is central to our concept — but right now, our bartenders don’t know how to talk about mezcal or steer people toward what we want to sell.
+> We have great spirits, but the menu doesn’t show it. What should we change?
+
+Training Focus:
+- Education tools (80/20 bottle usage, tasting notes cheat sheets)
+- Menu design that groups by flavor profile or production style
+- Cocktail spec alignment with kitchen (smoke, citrus, heat)
+- Recommends layout or menu logic that doesn’t rely on staff expertise

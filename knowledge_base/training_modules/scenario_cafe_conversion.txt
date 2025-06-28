@@ -1,0 +1,13 @@
+Assistant:
+
+Venue: A coffee shop that becomes a bar after 4pm using the same counter and staff. No dedicated bar setup or ice machine.
+
+Client Prompt (Owner):
+> We’re running evening cocktail service out of our café. The transition is bumpy and we’re not profitable yet.
+> I need a drink menu that makes sense for this space and workflow. What should I change?
+
+Training Focus:
+- Cross-functional ingredient use (e.g., citrus, syrups, tea bases)
+- No-shake specs or pitcher batching
+- Menu organization and drinkware reuse
+- Pre-batched cocktails built to live in the café fridge
