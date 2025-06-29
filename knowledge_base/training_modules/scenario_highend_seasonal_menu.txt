@@ -1,31 +1,37 @@
-Assistant:
+Scenario 7 – High-End Seasonal Menu with Staff Constraints
 
-Considering your venue’s emphasis on chef-driven seasonal ingredients and the need to maintain execution efficiency with limited prep labor, here’s how I’d approach your spring cocktail menu:
+Venue Type:
+Upscale full-service restaurant with a strong culinary identity and a high-end clientele. Bar program is respected but not the main attraction.
 
-1. Ingredient Strategy
-- Build around fresh rhubarb, strawberries, and herbs — infusions and cordials are ideal for capturing flavor while reducing prep-day complexity.
-- Avoid volatile aromatics like ramps or green garlic in drinks; instead, mirror those savory notes through herbaceous pairings like thyme, chive blossom, or a hint of white pepper.
+Key Constraints:
+- Chef-driven menu changes seasonally, with emphasis on local and foraged ingredients
+- Bartenders are competent but limited in number (2 per shift), and can’t handle overly complex builds during peak service
+- GM wants a seasonal cocktail program that “feels elevated and boutique”
+- Guest base expects modern craft standards (proper ice, glassware, garnish) but values speed and elegance over showmanship
 
-2. Batching & Prep
-- Dedicate your limited prep window to 2–3 foundational batches:
-  - A rhubarb-strawberry cordial (for spritz or sour builds)
-  - A thyme-infused syrup (plays well in shaken or stirred specs)
-  - A pre-diluted stirred base (e.g. gin-vermouth-amaro for fast service)
-- These allow you to deliver complexity during service with minimal assembly time.
+Training Goal:
+Barman-1 must balance creativity with operational realism. Recommendations should:
+- Reflect seasonal thinking and high-end presentation
+- Minimize a la minute builds or last-second garnishes
+- Emphasize batch-prep opportunities without sacrificing perceived quality
+- Avoid overdesigning or adding niche ingredients that introduce sourcing or spoilage issues
 
-3. Build Philosophy
-- Favor tight, 3–4 ingredient builds to ensure consistency with moderately skilled staff.
-- Stick with shaken drinks for guest engagement and flexibility — reserve stirred builds for slow periods or service bar if needed.
+User Prompt:
+We want to launch a seasonal menu for summer. It should feel high-end and experience-driven but still manageable for our staff. Any advice on structure or direction?
 
-4. Presentation Guidelines
-- Garnishes should reinforce the food program while staying replicable:
-  - Chive blossoms or thyme sprigs (can be picked and stored ahead)
-  - Dehydrated rhubarb strips as a low-waste, visually striking accent
-- Avoid garnish work that depends on last-minute prep or precision cuts.
+Assistant Response:
+Absolutely — here’s how to frame a high-end seasonal program that drives guest interest without overwhelming your team:
 
-5. Example Spec
-Spring Thyme Spritz
-- Gin, rhubarb-strawberry cordial, lemon juice, thyme syrup, soda
-- Build: Shake first three, strain over fresh ice, top with soda, garnish with thyme sprig
+• Structure it around 4–6 seasonal cocktails max — enough to feel curated, but not chaotic for execution.
 
-By focusing on batchable components, efficient garnish prep, and staff-friendly builds, you’ll be able to offer a spring menu that reads like an extension of the kitchen — without compromising service flow or consistency.
+• Use a modular ingredient approach: Anchor the menu around 2–3 seasonal syrups or purees that can be batch-prepped and used across multiple builds. For example, a roasted peach syrup could support both a shaken sour and a stirred whiskey drink.
+
+• Highlight one summer-forward modifier like white vermouth, Cocchi Americano, or fino sherry — these signal seasonality and sophistication without increasing your mise-en-place.
+
+• Consider batching the most complex spec in full or partial batches — especially if it’s a fan favorite or staff pick. This reduces strain during peak service.
+
+• Reinforce summer flavors with thoughtful garnishes: charred citrus wheels, herbs like basil or Thai mint, or frozen fruit cubes all elevate the visual experience without complicating builds.
+
+• Don’t forget low- and zero-proof options: a well-balanced spirit-free highball with seasonal syrup and quality soda water adds value for non-drinkers and broadens appeal.
+
+Keep the storytelling tight on the menu — lead with ingredient-driven descriptors and seasonal cues, not overextended names or techniques. You're aiming for an experience that feels special *and* smooth to execute.

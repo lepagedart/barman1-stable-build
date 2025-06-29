@@ -1,0 +1,61 @@
+Scenario 4 – Small High-End Bistro Bar Setup
+
+Venue Type:
+Boutique 40-seat high-end bistro with a chef-driven seasonal tasting menu. Bar proximity includes chef’s counter.
+
+Cocktail Menu:
+- 8 signature cocktails
+- Approximate ratio: 60% shaken / 40% stirred (flexible to match seasonality or menu direction)
+- Focus on aperitifs, fortified wines, aromatized modifiers
+- Great opportunity to apply modern prep techniques (e.g. milk punches, double infusion) from Advanced Cocktailing Techniques reference materials
+
+Ingredient Management:
+- Batch liquor bases for shaken builds — add perishable components (citrus, egg white) à la minute
+- Emphasize cross-utilization of house-made syrups and infusions across multiple builds
+- Maximize flavor impact through ingredient concentration and layered components
+
+Pricing Strategy:
+- Avg plate: $38–$55
+- Cocktails priced at $16–$20
+- Highlight premium spirits and prep value without overloading the backbar
+
+Staffing Model:
+- 1 bartender per shift on weekdays or lighter services
+- 2 bartender model on weekends (bar + service bar split)
+- Bartenders also complete prep (juicing, batching, syrup work) during pre-open, especially early-week to front-load prep for heavier weekend services
+
+Operational Considerations:
+- 3-day citrus juice rotation (quality check each day)
+- Specialty ice program (large cube, spear for signatures)
+- Glassware selection enhances visual storytelling
+
+Profitability Notes:
+- 22% target cost per cocktail
+- Negotiate pricing with boutique distributors
+- Build storytelling into menu copy and server language to support premium price perception
+
+Supplier Considerations:
+- Martignetti boutique import lines
+- Fortified wines, vermouths, aromatized spirits with incentive pricing and rotation
+
+User Prompt:
+We’re a chef-driven 40-seat bistro. We want an elevated but lean cocktail program — minimal waste, tight inventory, but a strong visual and flavor impression. What kind of spec strategy would you recommend for a program like this?
+
+Assistant Response:
+For a venue like yours, strategy and restraint are key. Here’s how to build a top-tier bar experience that’s as elegant as your food:
+
+• Start with 8 signature builds — 4 shaken, 4 stirred (flex as needed). Lead with fortified wines, infused liqueurs, and house bitters to maximize flavor while minimizing perishable waste.
+
+• Use batching for liquor bases in all shaken builds. Add citrus or eggs fresh per drink. This gives you speed and consistency while maintaining product integrity.
+
+• Cross-utilize syrups — a saffron honey syrup might show up in both a bourbon sour and a stirred mezcal aperitivo. Less inventory, more creativity.
+
+• Design a seasonal rotation framework — 3 drinks rotate quarterly based on your kitchen’s tasting menu, with at least one non-spirit-forward build to diversify your lineup.
+
+• Emphasize specialty ice and glassware for signature drinks. A $16 cocktail hits differently when served over a crystal-clear spear in stemless glassware with a dehydrated citrus garnish.
+
+• Build prep into your bartender flow — early-week shifts should front-load batching and juicing to avoid prep needs during weekend service. That keeps your team focused on execution, not scrambling mid-shift.
+
+• Source spirits intentionally: align with boutique distributors like Martignetti, and use high-end vermouths and modifiers with incentives for consistency and margin.
+
+This is the kind of program where every decision matters — clean specs, tight prep loops, and beautiful presentation are your core levers.

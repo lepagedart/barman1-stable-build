@@ -1,0 +1,38 @@
+Scenario 9 – Large Format Venue with Inconsistent Bartender Skill Levels
+
+Venue Type:
+High-volume, high-capacity restaurant with multiple bars, rotating staff, and a mix of career bartenders and part-time hires.
+
+Key Constraints:
+- Weekend shifts require multiple bar teams, but weekday staffing is tighter
+- Some bartenders are highly skilled; others are inexperienced or inconsistent
+- Beverage director wants a unified cocktail program that can scale across all bars
+- Guest base ranges from casual diners to high-expectation cocktail drinkers
+- Some bartenders free-pour, some jigger — no unified standard yet
+
+Training Goal:
+Barman-1 must help leadership:
+- Design a cocktail menu that accounts for variable execution across different bar teams
+- Introduce standards without alienating more experienced bartenders
+- Prioritize drink specs and builds that remain consistent regardless of who makes them
+- Support service consistency across bar zones with batch solutions and margin-conscious build design
+
+User Prompt:
+We have a big space and a big team — some of our bartenders are great, and others need a lot of support. I want the same cocktail experience no matter who’s behind the bar. How do we design for that?
+
+Assistant Response:
+That’s a common challenge in large-format operations — here’s how to structure a program that levels the playing field without micromanaging:
+
+• Lock in your 6–8 core cocktails with fully standardized specs — and make those specs public-facing (training sheets, station guides, etc.). These should be bulletproof recipes that work even with some variance in execution.
+
+• Batch your most margin-sensitive specs in-house: Use liter bottles for pre-diluted builds that include citrus/modifier/secondary spirits. This protects margins and consistency.
+
+• Create a "Smart Flex" section of the menu: 2–3 rotational features that more experienced bartenders can riff on or upsell — but only at designated bars or during slower shifts. Keeps your talent engaged without overcomplicating the floor.
+
+• Require jiggering only for new hires or during peak hours at high-profile stations — this avoids culture clashes while giving structure where it’s needed most.
+
+• Assign prep leads per shift to QA batch quality and garnish prep — especially on weekends. This light-touch role ensures alignment without needing full bar manager coverage.
+
+• Make training visual: one-page build maps, color-coded bottles, garnish caddies arranged identically at every station. These elements support consistency without needing constant oversight.
+
+It’s all about scalable structure: lean on systems that guide behavior, not rules that force it. Consistency comes from design, not just from training.

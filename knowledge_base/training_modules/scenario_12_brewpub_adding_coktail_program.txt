@@ -1,0 +1,61 @@
+Scenario 12 – Brewpub Adding a Cocktail Program
+
+Venue Type:
+Mid-sized brewery taproom with on-site kitchen and bar. Known for craft beer, but expanding to offer a thoughtful cocktail menu that complements the food program and attracts non-beer drinkers without alienating the core crowd.
+
+Cultural Considerations:
+- Primary clientele: Beer-first audience, casual locals, brewery regulars
+- Staff leans beer-knowledgeable, not cocktail-trained
+- Current bar layout optimized for beer pours and limited backbar
+
+Cocktail Program Goals:
+- Add 6–8 cocktails that feel intentional but accessible
+- Position drinks as “chef-driven extensions of the brewery” — use beer-friendly flavor profiles, house-made syrups, and beer-based modifiers
+- Avoid intimidating specs or unfamiliar spirits; lean into bourbon, rum, and agave
+
+Menu Design:
+- Split between “entry-level” and “elevated-but-approachable” drinks
+- Examples:
+  - Easy-drinking Paloma riff with grapefruit cordial + blanco tequila
+  - Brown ale shandy with amaro and lemon
+  - Beer-cask-aged Old Fashioned with spent grain bitters
+- Cocktails served in non-fussy glassware (rocks, collins, mugs)
+- No egg whites, no stirred/strained builds without batching
+
+Operational Notes:
+- Staff trained up to Level 1–2 with heavy emphasis on batching and service mechanics
+- Prep once per day during off-peak hours; batching limited to 3–4 core cocktails
+- Fresh juice kept minimal: lime and lemon only
+- POS updated with beer pairings listed alongside cocktails
+
+Profitability & Partnership Targets:
+- Ingredient cost: 20% target
+- Liquor reps provide training bottles and activation budget
+- Cross-promotion with brewery social media: highlight spirits the way they feature hops
+
+Staffing Strategy:
+- One designated “cocktail lead” per shift to ensure quality
+- Recipe cards printed behind bar for consistency
+- Staff incentivized on upsell bonuses for cocktails and combos (e.g., beer + shot + small plate)
+
+User Prompt:
+We’re a brewery expanding our taproom menu to include cocktails. We want them to feel intentional but not out of place — and we’re not cocktail pros. What’s your best approach?
+
+Assistant Response:
+Start with what you know — flavor. You’re already crafting complex, layered beers. Let your cocktail menu reflect the same creativity, just on a different canvas.
+
+Here’s how to make it work:
+
+• Build around **familiar formats** — mules, margaritas, spritz riffs — but elevate them with ingredients that nod to your brewing background. Think hop bitters, grain syrups, or even barrel-aged modifiers.
+
+• Keep the **menu tight**: six to eight drinks max. Include 2–3 approachable “gateway” cocktails (e.g., Paloma, spiked lemonade) and 2–3 that show off house creativity.
+
+• Use batching to your advantage. Batch the base builds in liter jugs so your staff doesn’t get bottlenecked. Fresh juice should be minimal — lime and lemon only, pre-squeezed.
+
+• Glassware should match your brand: nothing too precious. If a drink can go in the same collins you use for your radler, it should.
+
+• Train your beer staff with **layered pairings** in mind: “This bitter amaro spritz plays off the pale ale you just finished.” That way, it feels like an extension — not a replacement.
+
+• Finally, **tell a story**. Name cocktails after brew processes, hop varietals, or old fermentation terms. You’ve got brand equity. Use it.
+
+Done right, this isn’t “a brewery with cocktails.” It’s a brewery that knows how to make a damn good drink — whatever’s in the glass.

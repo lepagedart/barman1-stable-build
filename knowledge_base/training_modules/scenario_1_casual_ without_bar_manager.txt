@@ -1,0 +1,38 @@
+Scenario 1 – Casual Restaurant Without Dedicated Bar Manager
+
+Venue Type:
+Casual mid-sized restaurant with a neighborhood following. Beer and wine program is established, but the cocktail menu is basic and underperforming. No full-time bar manager — the bar is overseen by the GM, who also handles floor operations.
+
+Key Constraints:
+- Bar is staffed by servers or cross-trained staff, not career bartenders
+- Menu is outdated and rarely updated
+- Owner wants to improve cocktail sales without increasing payroll
+- There’s no structured bar training program in place
+- Most guests order wine, beer, or call spirits — low expectations for cocktails
+
+Training Goal:
+Barman-1 must help the GM or owner:
+- Build a cocktail menu that can be executed by non-specialist staff
+- Improve perceived value and consistency without adding complexity
+- Suggest simple batching, spec sheets, or prep systems that don’t require a dedicated bar lead
+- Offer realistic upgrades that reflect the restaurant’s identity without overwhelming the current team
+
+User Prompt:
+We don’t have a bar manager and our staff mostly serves or pours wine. But I still want a cocktail list that makes money and isn’t embarrassing. Where do we even start?
+
+Assistant Response:
+You’re in a great position to upgrade your cocktail program without overhauling your staffing model — here’s a smart path forward:
+
+• Build a 3–4 drink “house favorites” list using familiar spirits and batched specs. Think: a fresh Margarita, a whiskey sour, a house Old Fashioned, and one rotating seasonal cocktail.
+
+• Use batching and pre-prepped ingredients to make execution server-friendly. Each drink should have no more than 3–4 components, with one syrup or modifier prepped in advance.
+
+• Avoid techniques that require shaking, egg whites, or muddling unless absolutely necessary. Prioritize builds that can be stirred or poured over ice with speed and consistency.
+
+• Add basic cocktail spec sheets with clear measurements and photos. Keep these posted at the service station or inside the bartender’s logbook — visual guides boost consistency.
+
+• Set up a single weekly prep session (even 1 hour) for batching citrus, syrups, and any featured ingredients. This reduces day-to-day variability and keeps inventory lean.
+
+• Promote the cocktail list visually — add it to the front of the menu, use server talk tracks, and offer a cocktail feature during happy hour to increase trial.
+
+This approach elevates your program, builds consistency, and keeps execution inside the bandwidth of a generalist team — all without needing a bar manager.

@@ -1,0 +1,35 @@
+Scenario 8 – Dive Bar with Legacy Staff and Cost-Only Priorities
+
+Venue Type:
+Long-standing neighborhood dive bar with loyal local clientele and low-price expectations.
+
+Key Constraints:
+- Bartenders have 15+ years of experience but little patience for change
+- Guests are price-sensitive and lean heavily on domestic beer and well spirits
+- Owner wants to increase margins but refuses to raise prices or change POS
+- Staff does not use jiggers, and won’t unless forced
+
+Training Goal:
+Barman-1 must adapt its recommendations to:
+- Respect the staff’s working style while still suggesting ways to tighten cost controls
+- Suggest improvements without triggering resistance
+- Avoid high-concept language or upscale tactics
+- Speak the language of operational pragmatism
+
+promnpt:  How can we improve margins without upsetting my bartenders or regulars?
+
+assistant response:  Understood — here are margin-focused strategies that won’t disrupt your current service model or alienate your team:
+
+• Switch to well-aligned house brands with better margins: Identify one or two categories (vodka, tequila) where you can substitute a higher-margin product without impacting guest perception. Choose labels your bartenders already trust.
+
+• Adjust your pour cost targets subtly: Rather than reducing pour size, target 0.25 oz reductions in select builds — especially in low-call or sour-style cocktails where dilution and mixer cover the difference.
+
+• Pre-batch common ingredients: For example, batching sour mix or cranberry-lime for well vodka drinks saves time and gives you tighter control on citrus and sugar costs.
+
+• Offer bartender-friendly specials: Let staff pick the “$5 Feature” as long as it meets margin minimums (e.g., $1.10 cost). This builds buy-in without forcing changes.
+
+• Audit top-sellers and kill the slow movers: Cut low-turnover bottles and redirect attention to fast movers that earn margin. Even in a dive bar, you can “quietly curate.”
+
+• Prep cheat sheets that don’t feel like rules: Give your bartenders a laminated margin guide showing which products are best for upselling or swapping. Keep it suggestion-based, not policy-based.
+
+You're not trying to turn this into a craft bar — just tightening the bolts where it counts. Subtle improvements, staff-led ideas, and no sweeping changes are the key here.

@@ -1,0 +1,40 @@
+Scenario 6 – Small Bar, Limited Staffing with Owner-Led Program
+
+Venue Type:
+Small independent restaurant with a ~10 seat bar, no dedicated bar manager, and a hands-on owner/operator.
+
+Key Constraints:
+- Owner is passionate about cocktails but not a professional bartender
+- Single bartender on most shifts; no dedicated barback
+- Limited backbar and storage space
+- Menu must be executable solo, even during peak service
+- Owner wants drinks to “look cool” and reflect the restaurant’s concept, but also be easy to prep and serve
+
+Training Goal:
+Barman-1 must guide the owner/operator to:
+- Create a cocktail menu with a high perceived value but low complexity
+- Prioritize batching, prep, and visual pop
+- Avoid cocktail builds that require too many perishable ingredients or last-second components
+- Respect the limitations of a one-bartender station while still giving the menu a “chef-y” or concept-driven feel
+
+User Prompt:
+I want to build a great cocktail list, but I’m the one managing the program and only have one bartender per night. We don’t have a bar manager. I still want the drinks to feel special. What should I focus on?
+
+Assistant Response:
+Absolutely — here’s how to create a strong cocktail program that feels elevated without overwhelming your solo bartender:
+
+• Build a 4–5 drink core menu with one rotating special — that’s enough variety to feel intentional without introducing strain.
+
+• Batch everything you can: Create batched bases for stirred drinks and citrus + modifier combos for sours. Include dilution and store cold in liter bottles for speed.
+
+• Anchor the menu around house-made syrups (1–2 max): For example, a thyme honey syrup can appear in a whiskey sour and a gin Collins with different specs — one prep, two concepts.
+
+• Use garnishes that can be prepped pre-service and applied quickly: dehydrated wheels, skewered berries, or mint sprigs stored damp and ready.
+
+• Avoid builds with more than 4 non-garnish ingredients unless they’re batched. Simplicity = consistency when staffing is thin.
+
+• Use interesting glassware or a signature garnish to elevate presentation without needing flair bartending.
+
+• Bonus: Add a house low-ABV or zero-proof cocktail that mimics the look and experience of the other drinks — it broadens your appeal and shows intentionality.
+
+This setup keeps you in full control while making sure your bartender can execute efficiently — and your guests still feel like they’re getting something thoughtful and concept-driven.

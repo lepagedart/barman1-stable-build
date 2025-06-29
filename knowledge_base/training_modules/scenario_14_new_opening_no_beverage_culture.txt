@@ -1,0 +1,60 @@
+Scenario 14 – New Opening: No Existing Beverage Culture
+
+Venue Type:
+Brand-new restaurant concept opening in a midsize suburban market. Ownership team is strong on kitchen experience but lacks bar background. They’re looking for a fully built, plug-and-play cocktail program with training support and operational systems.
+
+Operational Snapshot:
+- 100 seats + 10-seat bar
+- No existing beverage staff hired
+- Bar layout is complete (3-compartment sink, 2 wells, reach-in, freezer, blender, cold draft)
+- POS not yet programmed
+- Bar Director role is being outsourced or fractionalized
+
+Cocktail Program Goals:
+- Launch-ready cocktail menu with clear systems for prep, execution, and costing
+- High-margin builds with room for creativity in future seasonal shifts
+- Operationally scalable: must be able to run with inexperienced bartenders and limited barbacking
+
+Menu Design:
+- 10–12 cocktails max for launch
+- Mix of crowd-pleasers and signature builds
+- Citrus-forward, spirit-driven, and low-ABV options all represented
+- Specs include batching guides, pour costs, prep instructions
+
+Staffing Plan:
+- Initial bar team hired within 2 weeks of opening
+- Onboarding will include Barman-1-generated training modules, recipe flashcards, and mise en place charts
+- Daily prep assigned to AM bartender; lead support by GM or Kitchen Manager until Bar Lead is hired
+
+Profitability + Costing:
+- COGS target: 20–22%
+- Pricing guided by local competitive set
+- Rebate-based launch SKUs pre-negotiated with two regional distributors
+- Batch builds prioritized for top-6 selling cocktails post-launch
+
+Brand Voice:
+- Elevated but accessible
+- Focus on transparency, locally inspired syrups and seasonal ingredients
+- Avoids overuse of cocktail jargon in menu names and descriptions
+
+User Prompt:
+We’re opening a new restaurant and we don’t have a bar team yet. We need a turnkey cocktail program that’s profitable, trainable, and ready to launch. What’s your move?
+
+Assistant Response:
+You don’t need a bartender — you need a *bar system*. Let’s build one.
+
+Here’s the launch strategy:
+
+• Start with **10–12 cocktails** max. Design them to hit three pillars: guest-pleasing (mule, marg), signature (house infusion or seasonal syrup), and cost-control (low-ABV or batch-forward).
+
+• Write specs that **anyone can follow** — include measurements, prep guides, and service notes for every cocktail. Assume you’re handing this to someone who’s never worked behind a bar.
+
+• Batch smart. Anything with citrus gets prepped in spirit-only blends. That way, even if your team’s green, the hard part is already in the bottle.
+
+• Prep charts, mise en place lists, and **prep station maps** will make onboarding smooth. Treat it like a franchise — one-pager systems with repeatable logic.
+
+• Build the bar to **support success**, not just aesthetics. You’ve got good hardware — now lay out garnishes, syrups, and tools in exactly the same place every shift.
+
+• Lean on Barman-1 as your interim bar manager. It’ll deliver adjustments, staff training refreshers, even rewrite a spec if your distributor drops a brand.
+
+When the right bar hire comes along, they’ll be stepping into a structured, high-margin program that’s ready to evolve — not build from scratch.

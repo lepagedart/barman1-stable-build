@@ -1,0 +1,62 @@
+Scenario 16 – Rooftop Bar with High Turnover and Inconsistent Execution
+
+Venue Type:
+120-seat rooftop bar atop a boutique urban hotel. The space draws heavy weekend crowds and a younger demographic focused on aesthetics, music, and social media. Ownership is frustrated by drink inconsistency and high staff turnover.
+
+Operational Snapshot:
+- 120 total seats (60 indoor lounge, 60 outdoor terrace)
+- Avg ticket: $52 per person
+- Weekday traffic steady; weekends slammed
+- Music volume high, dim lighting, limited POS terminals
+- Frequent staff rotation — 3+ bartenders turned over in last 2 months
+
+Menu Overview:
+- 15 cocktails on the menu, each with a stylized name and visual appeal
+- Garnishes include edible flowers, sugar rims, and glassware variants
+- No current batching, specs vary bartender to bartender
+- Social media team pushes cocktail photos daily — often mismatched with guest drinks
+
+Challenges:
+- Drinks often taste or look different depending on the bartender
+- Garnish waste and prep time are out of control
+- No official spec book; knowledge lives in heads of current staff
+- New hires are dropped in on weekend shifts without proper onboarding
+
+Consulting Goals:
+- Introduce batching, spec books, and garnish standards
+- Help redesign menu to balance visual impact with service efficiency
+- Create a plug-and-play training doc for new bartenders
+- Establish a “house standard” for drink execution and plating
+
+Staff Profile:
+- Bartenders range Level 1–2; mostly young, aspiring creatives
+- Strong design instincts, weak execution discipline
+- Prep standards vary wildly; no checklist in place
+
+Profitability & Brand:
+- Cocktail pricing: $17–22
+- COGS target: 24%
+- Visual branding is high priority — drinks must look consistent on camera
+- Owner open to automation if needed, but resistant to major tech spend
+
+User Prompt:
+We run a rooftop bar that looks great online but has serious execution problems. The drinks aren’t consistent, we lose staff constantly, and guests post pictures that don’t match what we serve. Help us fix this.
+
+Assistant Response:
+This is a style-first bar with **systems-second operations** — and that’s killing your consistency.
+
+Here’s the move:
+
+• Start by **locking your specs**: write and photograph every drink exactly as it should be served. Glass, garnish, build, batch components. Make this your House Standard and laminate it behind the bar.
+
+• **Batch smart**: 70–80% of your drinks can use spirit-forward base blends. You’ll cut execution time in half *and* eliminate the bartender “interpretation” problem.
+
+• Garnish program? Streamline. Pick 6–8 garnishes max and assign them by color, not drink name. (Example: “Use Pink 2” = hibiscus + lime wheel.) This helps training and makes your prep list predictable.
+
+• Print a **2-page onboarding pack** for new hires: station layout, daily prep chart, pour chart, top 10 drink specs. No guesswork, no “just ask someone” culture.
+
+• Add one **lead bartender role** per shift with comped meal and $25 bonus if all spec checks pass. Incentivize excellence *without* raising base labor costs.
+
+• Social team should only post drinks from your House Spec shoot — or have a shift lead pre-approve “staff-made” photos.
+
+This isn’t about slowing things down — it’s about **locking in the brand guests expect**. Once the visual and taste match every time, the likes — and margins — go way up.

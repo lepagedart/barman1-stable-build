@@ -1,0 +1,49 @@
+Scenario 10 – Large Format Venue: Concert Hall Bar Service
+
+Venue Type:
+High-volume concert hall with multiple service bars accommodating 1,200–1,800 guests per show. Bars serve as a key profit center but must prioritize speed, consistency, and portability over craft-driven presentation.
+
+Menu Design:
+- 6 core cocktails designed for full batching and pre-dilution
+- Served in compostable cups with minimal garnish (dehydrated citrus, branded picks)
+- Menu designed for speed of service and stability — no fresh citrus, no dairy, no egg white
+- Emphasis on upsells via double pours, branded souvenir cups, or premium spirit selections
+
+Operational Notes:
+- All cocktails pre-batched day-of-show and chilled
+- Builds designed for 1-step or 2-step execution max (e.g. pour + garnish)
+- Stations use speed rails and batching wells (3–4 bottles per well)
+- Barbacks restock batching jugs from walk-in coolers between sets
+- Garnishes portioned into deli cups in advance, no fresh prep on floor
+
+Staffing & Training:
+- Bartenders trained on high-volume service and speed batching only
+- Service sheets printed per station with pour counts, refill protocols, and upsell scripting
+- No on-the-fly building or custom orders during peak hours
+
+Profitability Targets:
+- Ingredient cost target: 17%–20%
+- Strong distributor contracts for core spirits and RTDs
+- Operational margin enhanced by labor savings, pre-service prep, and beverage-only check averages
+
+User Prompt:
+We’re operating a multi-station bar setup in a concert venue. We need a cocktail program that’s fast, consistent, and makes money — but we still want something signature. How should we structure this?
+
+Assistant Response:
+This kind of program isn’t about flair — it’s about flow. Here’s how to dial in a concert venue bar that feels premium but runs like a machine:
+
+• Stick to **six signature cocktails** max. Anything more slows down service and bloats your prep cycle. These should be fully batched and pre-diluted — pour, garnish, done.
+
+• Use **stable ingredients only** — no fresh citrus, no egg white, no perishables. Your core builds should lean on modifiers like amaro, vermouth, flavored liqueurs, and shelf-stable acids (citric/malic).
+
+• Focus on **modular batching**. Example: A tequila + grapefruit + aperitivo cocktail can be batched in 1-liter jugs and portioned over ice with a single dehydrated wheel.
+
+• **Chill batching jugs** before service in a walk-in and rotate every 30–60 minutes via barback station runs. Keep bottles labeled, dated, and standardized by pour count.
+
+• Implement a **double-pour upsell script**: “Want to make that a double for $4 more?” Keep spirit tiers simple and tied to distributor kickbacks.
+
+• Branded souvenir cups? Huge ROI if you run a program. Build them into your premium cocktail price point — e.g. $18 with cup, $12 without.
+
+• Training should center on **repeatable, station-based mechanics**: exact pour count, garnish placement, and timing drills. Build muscle memory. This isn’t bartending — it’s beverage choreography.
+
+This model isn't about flash — it’s about delivering volume with confidence and cashing in without the chaos.

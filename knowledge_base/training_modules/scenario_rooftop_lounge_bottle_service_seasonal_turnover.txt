@@ -1,0 +1,40 @@
+Scenario 10 – Rooftop Lounge with Bottle Service and Seasonal Turnover
+
+Venue Type:
+Trendy rooftop cocktail lounge with indoor/outdoor seating, bottle service, and DJ programming on weekends.
+
+Key Constraints:
+- Staff turnover is high — seasonal hires and rotating bartenders from sister properties
+- Bottle service makes up ~40% of revenue; cocktails are a secondary but necessary program
+- Service speed and image matter more than nuance or cocktail complexity
+- Guest base includes hotel guests, event traffic, and influencers — high expectations for presentation
+- No dedicated cocktail prep team or full-time bar manager
+
+Training Goal:
+Barman-1 must help operators:
+- Create a cocktail program that fits the “elevated nightlife” feel but is easy to train and execute
+- Prioritize visual impact and speed over deep technique or rare ingredients
+- Balance cocktail offerings with bottle service culture — build cross-sell opportunities
+- Recommend prep and execution strategies that survive high turnover and low oversight
+
+User Prompt:
+We’re a rooftop lounge with heavy bottle service and fast turnover on staff. We still need a cocktail menu that looks elevated. What’s the best way to build this program without it falling apart?
+
+Assistant Response:
+This kind of venue needs a cocktail program built around visual impact, fast execution, and low onboarding time — here’s the framework:
+
+• Build a 5–6 drink signature list focused on vibrant color, easy prep, and popular spirits. Think tequila, vodka, and flavored rum bases with house-made syrups or fresh juices that batch well.
+
+• Each drink should have a photo-friendly garnish or glass — edible flowers, branded picks, metallic straws, or coupe glassware. Focus on *appearance-first design.*
+
+• Prebatch as much as possible, including dilution where appropriate. Label by color or spec (e.g. “Pink Prep – Watermelon Mezcal”); keep backup batches in reach-in fridge behind the bar.
+
+• Cross-sell between cocktail and bottle service: Offer a “Feature Cocktail Tray” add-on with any bottle service — 3 small-format signature drinks served with the bottle to encourage mixability and sharing.
+
+• Use training visuals — laminated build sheets with photos, QR code videos, and color-coded jigger lines. New hires should be able to learn the menu in under 15 minutes.
+
+• Skip any cocktail that requires shaking à la minute with egg whites, complex layering, or fragile garnishes. Keep your builds consistent and easily repeatable.
+
+• Reuse base ingredients across the menu: For example, one flavored syrup can appear in a vodka spritz, a rum punch, and a frozen drink — fewer SKUs, more flexibility.
+
+This is about repeatable glamor: cocktails that *look* expensive, *feel* elevated, and can be prepped and served under nightclub conditions.

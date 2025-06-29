@@ -1,37 +1,47 @@
-DOCUMENT TYPE: Scenario
+Scenario 2 – Mid-Sized Modern American Bistro Cocktail Program
 
-TOPIC: Mid-Sized Modern American Bistro Cocktail Program
-
-SUMMARY:
-Cocktail design for a 90-seat mid-priced bistro with full scratch kitchen and culinary integration.
-
-Venue Details:
-
-• Seats: 90 (includes 14-seat bar)
-• Avg Plate: $34
-• Concept: Seasonal Modern American, chef-driven
+Venue Type:
+90-seat Modern American bistro with full scratch kitchen, a 14-seat bar, and strong culinary integration.
 
 Menu Design:
-
-• 12 core cocktails
-• 60% batched builds for speed + consistency
-• Incorporate house-made syrups, infused modifiers
-• Culinary garnishes integrated into plating aesthetics
+- 12 core cocktails
+- 60% batched builds for speed and consistency
+- Emphasis on house-made syrups and infused modifiers
+- Culinary garnishes aligned with plating aesthetics
 
 Operational Notes:
-
-• Prep staff dedicated to syrup, infusion, and juice batches 3x/week
-• Bartender skill level: Majority at Level 2, Lead bartender manages batching oversight
-• Prep batching volume targets 100 portions per SKU
+- Prep staff handle syrups, infusions, and juice batches 3x/week
+- Majority of bartenders are at Level 2; batching is overseen by a lead bartender
+- Batching targets ~100 portions per prep cycle per SKU
 
 Profitability Targets:
+- Target ingredient cost: 22%
+- Quarterly cocktail rotation (3 drinks) in sync with kitchen specials
+- House vodka and tequila on a case-movement incentive plan
 
-• Ingredient cost 22% target, with quarterly distributor rebate cycles
-• Rotate 3 cocktails seasonally to align with kitchen specials
-• House vodka and tequila locked on case movement incentive program
+Supplier Strategy:
+- Garnish program highlights local farm produce
+- Craft distillers rotate quarterly with menu and bar training support
+- Distributor-supported tastings used to build staff product familiarity
 
-Supplier Notes:
+User Prompt:
+We have a scratch kitchen and we want our bar program to match the quality of the food. We do a lot of prep batching and feature seasonal ingredients. What else should we be doing to tighten up our specs and make the cocktail program a top-shelf asset?
 
-• Local farms highlighted for garnish sourcing
-• Craft distillers featured on quarterly rotating list
-• Distributor-supported educational tastings with staff incentivized
+Assistant Response:
+You’re already running a strong foundational program — here’s how to elevate and tighten it further for maximum return:
+
+• Lock your batching output to prep batch yields — 100 portions/SKU is ideal. Standardize dilution rates and keep batch recipes documented with shelf life, yield, and backup batch logic.
+
+• Use modular prep design: syrups or infusions should be multi-functional (e.g., a rosemary-grapefruit syrup usable in both a vodka fizz and a gin sour). This trims SKU creep while maximizing creativity.
+
+• Tag seasonal cocktails to menu items on the floor — e.g., pair a grilled peach bourbon cocktail with a seasonal pork chop entrée. Cross-sell by design.
+
+• Refine your garnish program by aligning it to plate-level detail — microgreens, torched herbs, or edible flowers used on dishes should have mirrored bar applications.
+
+• Schedule mid-season “prep reviews” — check that batching remains consistent, fresh, and cost-aligned. Small recipe drift adds up fast over time.
+
+• Have your lead bartender conduct internal tastings with distributor reps every quarter. Use these to train, compare, and potentially renegotiate incentive contracts with better alignment.
+
+• For your 22% cost goal, make sure you're building with weighted averages across seasonal cocktails, not flat targets. Let one feature ride at 18% and another stretch to 26% if it balances program-wide.
+
+You’re not just running a bar here — you’re co-authoring the guest experience alongside the kitchen. That cohesion is what sets you apart from every generic bistro.

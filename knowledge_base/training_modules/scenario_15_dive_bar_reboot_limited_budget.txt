@@ -1,0 +1,63 @@
+Scenario 15 – Dive Bar Reboot with a Limited Budget
+
+Venue Type:
+70-seat dive bar with strong local regular crowd. Known for cheap beer, basic cocktails, and an unpolished but authentic vibe. Ownership is interested in improving profitability and consistency — *without* alienating regulars or turning it into something it's not.
+
+Operational Constraints:
+- $3–5k budget max for improvements
+- Staff is experienced but old-school — mostly free-pourers
+- POS is basic and difficult to reprogram
+- No barback support on most nights
+- No prep space; limited refrigeration
+
+Goals:
+- Increase drink margins through smarter product selection and menu design
+- Reduce waste and eliminate comped drinks from inconsistency
+- Introduce minimal batching and pouring standards — without “fancy bar” vibes
+
+Current Program:
+- Vodka sodas, rum & cokes, Jack & gingers dominate
+- One cocktail list: 5 drinks taped to the wall (rarely ordered)
+- Garnishes: lime wedges only; no fresh juice
+- Inventory is inconsistent — whatever is on special or leftover from promos
+
+Consulting Scope:
+- Refresh the house cocktail list with 6 approachable, fast builds
+- Create prep-light batching ideas that work without citrus or cold storage
+- Recommend spirit swaps to improve margin without hurting pour taste
+- Help staff adopt jiggering or other consistency methods *without rebellion*
+
+Staff Profile:
+- 3 bartenders, all Level 1-2 experience, resistant to change
+- Very high guest rapport — “they know everyone’s name”
+- No standard pour chart, but decent instincts
+
+Profitability Targets:
+- Raise cocktail margin by 10–15% over 6 months
+- Shift house spirits to better margin items via quiet transition
+- Create visible value for guests without raising drink prices
+
+User Prompt:
+We own a dive bar with no cocktail culture and a limited budget. We don’t want to change the vibe, but we want better consistency and margins. What do you suggest?
+
+Assistant Response:
+You don’t need a mixologist — you need **a tighter playbook** that doesn’t mess with what makes the bar work.
+
+Here’s the no-BS upgrade plan:
+
+• Create a **simple 6-drink list**: all 3-ingredient builds max, using long shelf-life modifiers. Think: 
+  - Spicy bourbon lemonade (shelf-stable syrup + bourbon + sour mix)
+  - Black cherry rum & cola with Luxardo syrup
+  - Whiskey smash using mint extract + lemon cordial
+
+• Pick **one batch bottle** for speed and consistency — maybe a vodka-lime-cranberry blend you call “House Cape Cod”. It pours like a shot, drinks like a cocktail.
+
+• Swap your **house well spirits** to better-margin alternatives quietly. No need to tell regulars — if it mixes the same, they won’t notice. But your profit sheet will.
+
+• Bring in **jiggering by stealth**: say it’s a “promo pour standard” from your distributor. Frame it as helping *them* — not monitoring them.
+
+• Offer **low-effort garnishes**: dehydrate lemons, cherries, or lime wheels. Shelf-stable and zero waste, but adds visual polish.
+
+• If your POS is trash, print a laminated pour chart behind the bar. It’s not pretty — but it saves you hundreds in overpours per week.
+
+This is a pressure test, not a rebrand. Let Barman-1 help your staff shift in small, smart moves. That’s how you turn a dive into a money machine — without turning it into something it’s not.

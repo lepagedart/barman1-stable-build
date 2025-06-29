@@ -1,37 +1,47 @@
-DOCUMENT TYPE: Scenario
+Scenario 3 – High-End Hotel Lobby Bar Setup
 
-TOPIC: High-End Hotel Lobby Bar Setup
-
-SUMMARY:
-Design for a 5-star hotel’s 60-seat lobby bar focusing on luxury cocktail experience.
-
-Venue Details:
-
-• Seats: 60 (including 12-seat marble bar)
-• Avg Plate: $55 dinner service
-• Concept: Global luxury travelers, business clientele, extended lounge service
+Venue Type:
+5-star hotel lobby bar with 60 seats (12-seat marble bar). Caters to global luxury travelers, business guests, and long-stay clientele. Service spans late-afternoon through late-night.
 
 Menu Design:
-
-• 18 cocktail offerings, including 5 high-end reserve options
-• Strong classic backbone: martinis, Negronis, manhattans
-• Custom house-aged barrel program (negroni, boulevardier)
-• Extensive vintage spirit library featured for upsells
+- 18 cocktails total, with 5 “reserve” cocktails featuring rare or vintage spirits
+- Strong classic backbone: martinis, Negronis, and Manhattans
+- In-house barrel-aging for Negroni and Boulevardier variants
+- Rare spirits library used for upsell opportunities
 
 Operational Notes:
-
-• Daily prep includes clarified juices, house infusions, in-house vermouth blends
-• Full-time barback support ensures mise en place remains tight
-• Garnish program includes edible flowers, house-dehydrated citrus wheels
+- Clarified juices, vermouth blends, and infusions prepped daily
+- Full-time barback maintains mise en place and bar cleanliness
+- Garnishes include house-dehydrated citrus, branded picks, edible flowers
 
 Profitability Targets:
+- Core cocktail ingredient cost average: 18%
+- Reserve cocktails allowed up to 28% to accommodate rare ingredients
+- Revenue goals tied to rare pour-ups, spirits flights, and seasonal luxury menus
 
-• Average ingredient cost: 18% for core menu, 28% for reserve offerings
-• Upsell revenue driven by vintage pours and rare spirits flights
-• Close supplier collaboration on limited allocation product sourcing
+Staffing & Service:
+- Team staffed entirely with Level 4+ bartenders
+- Cocktail director oversees training, R&D, and regular service audits
+- Elevated storytelling and pairing language required for floor team and bar staff
 
-Staffing:
+User Prompt:
+We’re designing a luxury lobby bar for a five-star hotel. We’ve got a seasoned team and access to great product. How do we ensure we’re maximizing the guest experience and profitability without overcomplicating the program?
 
-• Bartender skill level: Level 4+ (master-level)
-• One senior cocktail director oversees training, menu R&D, and service audits
-• Advanced guest storytelling & beverage pairing training mandatory
+Assistant Response:
+With this caliber of operation, your focus should be on operational elegance — tightening every detail to deliver consistency, emotional impact, and margin.
+
+• Anchor your menu around timeless classics but apply subtle personalization: e.g. a house vermouth blend in your Manhattan, or an aged gin for your Martini. The structure stays familiar, but the story becomes yours.
+
+• Use your reserve list to drive margin *and* narrative: Train your team to speak confidently about vintage variants — “This is a 1970s Green Chartreuse that gives our Last Word a much deeper herbal finish.”
+
+• Pair every cocktail with a one-sentence service script: This supports elegant handoffs and reinforces intentionality. Example: “The Negroni has rested 8 weeks in Vermont oak — we pour over a single carved cube.”
+
+• Clarified ingredients are a luxury signal — highlight their presence on the menu with a quiet cue (“clarified lemon,” “house-blended vermouth”) to reinforce technique without overwhelming the guest.
+
+• Integrate subtle luxury touchpoints: branded coasters, linen napkins, chilled glassware on brass trays. Guests remember elegance in the finish.
+
+• Use cost tiers to your advantage — let the reserve cocktails push margin while anchoring your core list in scalable specs. Train staff to upsell to these experiences in a low-pressure, hospitality-first tone.
+
+• Audit mise en place nightly. In luxury venues, consistency *is* luxury. It’s not just about spirit quality — it’s about ritual, repetition, and polish.
+
+This bar isn’t just a service point — it’s the hotel’s signature. Your systems should deliver that every night without breaking a sweat.
