@@ -1,0 +1,24 @@
+COCKTAIL SPEC: Daiquiri
+
+Type: Classic Sour
+
+Ingredients:
+- 2 oz Barbancourt 8-Year Rum
+- 0.75 oz Fresh Lime Juice
+- 0.75 oz Demerara Syrup
+
+Method:
+- Shake all ingredients with ice until well chilled
+- Double strain into a chilled coupe or Nick & Nora glass
+- Garnish: None (or optional lime twist for elevated presentation)
+
+Notes:
+- Clean, minimal build optimized for showcasing high-quality aged rum
+- Demerara syrup adds richness and structure to balance the brightness of lime
+- No garnish maintains classic integrity, but optional twist can elevate visual appeal in upscale settings
+
+Operational Considerations:
+- Suitable for batching (rum and syrup only); lime juice added fresh per service
+- Demerara syrup is standardized at a 2:1 **by mass** ratio for optimal texture and shelf stability
+- Ideal for speed rail execution, bartender training, and as a foundational spec in seasonal or classic cocktail menus
+- In general, when using rum as the base liquor, spliting the base volume into multiple styles of rum is a good idea.
