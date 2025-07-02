@@ -3,7 +3,7 @@ COCKTAIL SPEC: Daiquiri
 Type: Classic Sour
 
 Ingredients:
-- 2 oz Barbancourt 8-Year Rum
+- 2 oz Barbancourt 8-Year Rum (or coparable oak aged rum)
 - 0.75 oz Fresh Lime Juice
 - 0.75 oz Demerara Syrup
 

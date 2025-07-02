@@ -1,0 +1,25 @@
+COCKTAIL SPEC: House Old Fashioned
+
+Type: Stirred, Spirit-Forward
+
+Ingredients:
+- 2.5 oz Elijah Craig Small Batch Bourbon
+- 0.75 oz Demerara Syrup (2:1 by mass)
+- 2 dashes Regans’ Orange Bitters
+- 2 dashes Angostura Aromatic Bitters
+
+Method:
+- Add all ingredients to a mixing glass with ice
+- Stir until well chilled and properly diluted
+- Strain over a large clear ice cube in a double Old Fashioned glass
+- Garnish: Expressed orange peel (discarded or clipped)
+
+Notes:
+- This build emphasizes Elijah Craig’s vanilla and spice notes while rounding with rich demerara sweetness
+- Balanced bitterness from both orange and aromatic bitters creates layered depth without overshadowing the base spirit
+- Higher bourbon spec (2.5 oz) increases perceived value and mouthfeel
+
+Operational Considerations:
+- Suitable for batching (bourbon + syrup + bitters); stir to order for dilution control
+- Demerara syrup standard: 2:1 by mass for body and shelf life
+- Large-format clear ice enhances visual appeal and slows dilution for a refined sip experience
