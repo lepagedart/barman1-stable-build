@@ -3,7 +3,9 @@ import hashlib
 import json
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
-from langchain_community.document_loaders import TextLoader, PyPDFLoader
+from langchain_community.document_loaders import (
+    TextLoader, PyPDFLoader, CSVLoader
+)
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # === CONFIGURATION ===
@@ -42,7 +44,7 @@ def create_vector_store(knowledge_dir=KNOWLEDGE_DIR):
 
     for root, _, files in os.walk(knowledge_dir):
         for file in files:
-            if not (file.endswith(".txt") or file.endswith(".pdf") or file.endswith(".md")):
+            if not (file.endswith(".txt") or file.endswith(".pdf") or file.endswith(".md") or file.endswith(".csv")):
                 continue
 
             path = os.path.join(root, file)
@@ -59,6 +61,11 @@ def create_vector_store(knowledge_dir=KNOWLEDGE_DIR):
                     loader = TextLoader(path)
                 elif file.endswith(".pdf"):
                     loader = PyPDFLoader(path)
+                elif file.endswith(".csv"):
+                    loader = CSVLoader(path)
+                else:
+                    continue
+
                 docs = loader.load()
                 for doc in docs:
                     doc.metadata["source"] = file
