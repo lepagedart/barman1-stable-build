@@ -1,7 +1,6 @@
 {
   "knowledge_base/codex/Cocktail_codex.txt": "c9de32d46d0df7f6d14988ab9564f5c9b79e9a0d0c8fb4b49b94b06536cf9477",
   "knowledge_base/codex/Cocktail Codex PDF.pdf": "293186c180dd03f2ec7433a16cc46f7263c1b0248fe0455bd48fed1879e4b965",
-  "knowledge_base/Portfolios/Martignetti_current.csv": "ab20c6e87276bf1db4765a9495ce7c74b1a0ca436d6dad1f11b2c1d2a2b0af16",
   "knowledge_base/Recipes/N/A/unimpaired_pear_soda.txt": "8a903bd39b53f927c37a89dec37eae5f653b38e809b9c233621c3cb7dc62a566",
   "knowledge_base/Recipes/Gin/Polaris.txt": "c485b2a80a3a8056d723173f695b4c3c8e145e54e0d9f98137ba9e23de664038",
   "knowledge_base/Recipes/Gin/Martini.txt": "9bc49797e1c7a1e7803230c832d37e3a6ece9c587e98637437f4c50bc95fdb58",
@@ -11,6 +10,8 @@
   "knowledge_base/Recipes/Whiskey/bourbon_old_fashioned.txt": "09f4a32d090a248db002a2637555c1c59ea034e48e9be57f52c8906d5ad4e519",
   "knowledge_base/Recipes/Whiskey/house_whiskey_sour.txt": "42a6adb30186b779a44e1d220ed5b18da49c0d821d718995357791c2734af9b7",
   "knowledge_base/liquid_intelligence/liquid_intelligence.txt": "fed7716ac17fd2a8e8ba8e98b710d7b5b3d61ab512b635bc9d90ae97658ad77d",
+  "knowledge_base/portfolios/martignetti_formatted.txt": "423f8d7ea9964702c1882071fb7b53961f0caa538c1ee7d885191e70bd46ea00",
+  "knowledge_base/portfolios/martignetti.csv": "5afd4e8f32e3bd047a916bf5c4a9c20a7f2507ac5fded4d5e0120d70f18c9963",
   "knowledge_base/training_modules/method_washing.txt": "9a61767329bb632f05677336a5883a828f7bee147c294ef25458139b3133b481",
   "knowledge_base/training_modules/scenario_4_small_high_end_bistro.txt": "de38abf760076aa90931f4f28325558f47e143073b43dfde9555a286fe6f6e39",
   "knowledge_base/training_modules/methods_clarifying_juice.txt": "703da28ac13776f91a903a5c1f7f46c7cdaa82769184de4107c256ca5eb13e7a",
