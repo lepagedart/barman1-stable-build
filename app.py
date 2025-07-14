@@ -2,6 +2,7 @@ import os
 import json
 import pickle
 import hashlib
+from datetime import datetime
 from flask import Flask, render_template, request, jsonify, session
 from openai import OpenAI
 from dotenv import load_dotenv
@@ -23,7 +24,6 @@ CONVERSATION_CACHE_DIR = "conversation_cache"
 os.makedirs(CONVERSATION_CACHE_DIR, exist_ok=True)
 
 def get_openai_client():
-    """Get OpenAI client with proper error handling for missing API key"""
     global client
     if client is None:
         api_key = os.environ.get("OPENAI_API_KEY")
@@ -33,25 +33,26 @@ def get_openai_client():
     return client
 
 def get_conversation_id():
-    """Generate or retrieve conversation ID for session"""
     if "conversation_id" not in session:
-        # Generate a unique conversation ID
         session["conversation_id"] = hashlib.md5(
             f"{session.get('_id', '')}{os.urandom(16).hex()}".encode()
         ).hexdigest()[:16]
     return session["conversation_id"]
 
 def save_conversation(conversation_id, conversation):
-    """Save conversation to disk to avoid session size limits"""
+    """Save conversation with a meaningful filename (based on first user prompt)"""
     try:
-        cache_file = os.path.join(CONVERSATION_CACHE_DIR, f"{conversation_id}.pkl")
+        first_prompt = next((msg["content"] for msg in conversation if msg["role"] == "user"), "untitled")
+        safe_name = first_prompt.strip().splitlines()[0][:50].replace(" ", "_").replace(":", "").replace("/", "-")
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+        cache_file = os.path.join(CONVERSATION_CACHE_DIR, f"{timestamp}_{safe_name}.pkl")
         with open(cache_file, 'wb') as f:
             pickle.dump(conversation, f)
+        print(f"💾 Conversation saved to: {cache_file}")
     except Exception as e:
         print(f"Warning: Could not save conversation: {e}")
 
 def load_conversation(conversation_id):
-    """Load conversation from disk"""
     try:
         cache_file = os.path.join(CONVERSATION_CACHE_DIR, f"{conversation_id}.pkl")
         if os.path.exists(cache_file):
@@ -62,7 +63,6 @@ def load_conversation(conversation_id):
     return []
 
 def load_system_prompt():
-    """Load system prompt with error handling"""
     try:
         with open("system_prompt.txt", "r") as f:
             return f.read()
@@ -73,8 +73,7 @@ def load_system_prompt():
 @app.route("/", methods=["GET", "POST"])
 def index():
     print(f"🔄 Processing {request.method} request...")
-    
-    # Get conversation ID and load conversation
+
     conversation_id = get_conversation_id()
     conversation = load_conversation(conversation_id)
 
@@ -83,38 +82,29 @@ def index():
         user_prompt = request.form.get("user_prompt", "")
         
         print(f"🔄 Processing request: venue='{venue}', prompt='{user_prompt}'")
-
-        # Add user message to conversation history
         conversation.append({"role": "user", "content": user_prompt})
 
         try:
-            # Retrieve RAG context (with error handling)
             print(f"🔄 Retrieving RAG context...")
             try:
                 rag_context = retrieve_codex_context(user_prompt, venue)
-                print(f"✅ RAG context retrieved: {len(rag_context)} characters")
+                print(f"✅ RAG context:\n{rag_context}")
             except Exception as e:
                 print(f"⚠️  RAG context failed, using fallback: {e}")
                 rag_context = "RAG context temporarily unavailable."
 
-            # Load system prompt
             system_prompt = load_system_prompt()
 
-            # Build messages for OpenAI
             messages = [
                 {"role": "system", "content": system_prompt},
                 {"role": "system", "content": f"Venue Type: {venue}\nRelevant knowledge base context:\n{rag_context}"}
             ]
-            
-            # Add only recent conversation history to avoid token limits
-            recent_conversation = conversation[-10:]  # Last 10 messages
+            recent_conversation = conversation[-10:]
             messages.extend(recent_conversation)
 
-            # Get response from OpenAI
             print(f"🔄 Getting OpenAI client...")
             openai_client = get_openai_client()
             print(f"✅ OpenAI client ready")
-            
             print(f"🔄 Making API call...")
             completion = openai_client.chat.completions.create(
                 model="gpt-3.5-turbo",
@@ -122,11 +112,10 @@ def index():
                 max_tokens=500,
                 temperature=0.7
             )
-            
+
             assistant_response = completion.choices[0].message.content.strip()
             print(f"✅ OpenAI response received: {len(assistant_response)} characters")
 
-            # Attempt to parse JSON if response is in JSON format
             try:
                 parsed = json.loads(assistant_response)
                 response_text = json.dumps(parsed, indent=2)
@@ -139,39 +128,20 @@ def index():
             print(f"❌ ERROR: {type(e).__name__}: {str(e)}")
             response_text = f"Error from AI: {str(e)}"
 
-        # Add assistant response to conversation history
         conversation.append({"role": "assistant", "content": response_text})
-        
-        # Save conversation to disk (not session)
         save_conversation(conversation_id, conversation)
-        
-        # Return JSON response for AJAX requests
         return jsonify({"response": response_text})
 
-    # For GET requests, render template with conversation
     return render_template("index.html", conversation=conversation)
 
 @app.route("/reset", methods=["POST"])
 def reset():
-    """Reset conversation and clear cache"""
-    conversation_id = get_conversation_id()
-    
-    # Remove cached conversation file
-    try:
-        cache_file = os.path.join(CONVERSATION_CACHE_DIR, f"{conversation_id}.pkl")
-        if os.path.exists(cache_file):
-            os.remove(cache_file)
-    except Exception as e:
-        print(f"Warning: Could not remove cache file: {e}")
-    
-    # Clear session
+    """Reset the session and clear server-side state"""
     session.clear()
-    
     return jsonify({"response": "Conversation reset."})
 
 @app.route("/health")
 def health():
-    """Health check endpoint"""
     return jsonify({
         "status": "healthy",
         "openai_configured": bool(os.environ.get("OPENAI_API_KEY")),

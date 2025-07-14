@@ -81,8 +81,9 @@ def retrieve_codex_context(user_prompt, venue_concept, max_results=3):
         # Combine document contents
         context_parts = []
         for i, doc in enumerate(docs):
+            print(f"\n📄 Retrieved Context {i+1}:\n{doc.page_content}\n")
             context_parts.append(f"[Context {i+1}]\n{doc.page_content}")
-        
+                    
         context = "\n\n".join(context_parts)
         print(f"✅ Retrieved {len(docs)} documents, {len(context)} characters total")
         
