@@ -14,28 +14,55 @@ VECTORSTORE_DIR = "codex_faiss_index"
 MANIFEST_FILE = "vectorstore_manifest.json"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 
-# === HELPER FUNCTIONS ===
-
 def load_manifest():
-    """Load the vectorstore manifest from disk."""
     if os.path.exists(MANIFEST_FILE):
         with open(MANIFEST_FILE, "r") as f:
             return json.load(f)
     return {}
 
 def save_manifest(manifest):
-    """Save updated manifest to disk."""
     with open(MANIFEST_FILE, "w") as f:
         json.dump(manifest, f, indent=2)
 
 def file_hash(path):
-    """Compute SHA256 hash of file contents."""
     hasher = hashlib.sha256()
     with open(path, "rb") as f:
         hasher.update(f.read())
     return hasher.hexdigest()
 
-# === MAIN VECTORSTORE BUILDER ===
+def extract_tags_from_content(text):
+    lines = text.splitlines()
+    for line in lines[:5]:
+        if "tags:" in line.lower():
+            tag_str = line.split(":", 1)[1]
+            return [t.strip() for t in tag_str.split(",")]
+    return None
+
+def fallback_tags(file, root):
+    tags = []
+    if "vodka" in root.lower() or "vodka" in file.lower():
+        tags.append("Vodka")
+    if "tequila" in root.lower() or "tequila" in file.lower():
+        tags.append("Tequila")
+    if "rum" in root.lower() or "rum" in file.lower():
+        tags.append("Rum")
+    if "gin" in root.lower() or "gin" in file.lower():
+        tags.append("Gin")
+    if "whiskey" in root.lower() or "bourbon" in root.lower():
+        tags.append("Whiskey")
+    if "brandy" in root.lower() or "brandy" in file.lower():
+        tags.append("Brandy")
+    if "mule" in file.lower() or "highball" in root.lower():
+        tags.append("Highball")
+    if "zero" in file.lower() or "non-alcoholic" in file.lower():
+        tags.append("Non-Alcoholic")
+    if "batch" in file.lower():
+        tags.append("Batchable")
+    if "classic" in file.lower():
+        tags.append("Classic")
+    if "house" in file.lower():
+        tags.append("House Build")
+    return tags
 
 def create_vector_store(knowledge_dir=KNOWLEDGE_DIR):
     manifest = load_manifest()
@@ -69,6 +96,14 @@ def create_vector_store(knowledge_dir=KNOWLEDGE_DIR):
                 docs = loader.load()
                 for doc in docs:
                     doc.metadata["source"] = file
+                    tags = extract_tags_from_content(doc.page_content)
+                    if tags:
+                        doc.metadata["tags"] = tags
+                        print(f"🏷️  Tags from file content: {tags}")
+                    else:
+                        doc.metadata["tags"] = fallback_tags(file, root)
+                        print(f"🔎 Tags from fallback: {doc.metadata['tags']}")
+
                 docs_to_embed.extend(docs)
             except Exception as e:
                 print(f"❌ Failed to load {file}: {e}")
@@ -85,8 +120,6 @@ def create_vector_store(knowledge_dir=KNOWLEDGE_DIR):
     vectorstore.save_local(VECTORSTORE_DIR)
     print("✅ Vectorstore updated successfully.")
     save_manifest(updated_manifest)
-
-# === ENTRY POINT ===
 
 if __name__ == "__main__":
     create_vector_store()
