@@ -10,7 +10,7 @@ from rag_retriever import retrieve_codex_context, check_and_update_vectorstore
 
 # Load environment variables
 load_dotenv()
-
+model_name = os.getenv("OPENAI_MODEL", "gpt-4o")
 # Flask setup
 app = Flask(__name__)
 app.secret_key = os.environ.get("FLASK_SECRET_KEY", "dev-secret-key-change-in-production")
@@ -24,12 +24,16 @@ CONVERSATION_CACHE_DIR = "conversation_cache"
 os.makedirs(CONVERSATION_CACHE_DIR, exist_ok=True)
 
 def get_openai_client():
+    """Get OpenAI client with proper error handling for missing API key"""
     global client
     if client is None:
         api_key = os.environ.get("OPENAI_API_KEY")
         if not api_key:
             raise ValueError("OPENAI_API_KEY is not set in the environment.")
+        
+        print(f"🔑 API Key format check: {api_key[:20]}...")
         client = OpenAI(api_key=api_key)
+        print("✅ OpenAI client initialized")
     return client
 
 def get_conversation_id():
@@ -88,7 +92,7 @@ def index():
             print(f"🔄 Retrieving RAG context...")
             try:
                 rag_context = retrieve_codex_context(user_prompt, venue)
-                print(f"✅ RAG context:\n{rag_context}")
+                print(f"✅ RAG context retrieved: {len(rag_context)} characters")
             except Exception as e:
                 print(f"⚠️  RAG context failed, using fallback: {e}")
                 rag_context = "RAG context temporarily unavailable."
@@ -105,9 +109,12 @@ def index():
             print(f"🔄 Getting OpenAI client...")
             openai_client = get_openai_client()
             print(f"✅ OpenAI client ready")
-            print(f"🔄 Making API call...")
+            
+            print(f"🔄 Making API call to {model_name}...")
+            print(f"📝 Message count: {len(messages)}")
+            
             completion = openai_client.chat.completions.create(
-                model="gpt-3.5-turbo",
+                model=model_name,
                 messages=messages,
                 max_tokens=500,
                 temperature=0.7
@@ -132,6 +139,7 @@ def index():
         save_conversation(conversation_id, conversation)
         return jsonify({"response": response_text})
 
+    # For GET requests, render template with conversation
     return render_template("index.html", conversation=conversation)
 
 @app.route("/reset", methods=["POST"])
@@ -153,4 +161,5 @@ if __name__ == "__main__":
     print(f"📁 Conversation cache directory: {CONVERSATION_CACHE_DIR}")
     print(f"🔑 OpenAI API key configured: {bool(os.environ.get('OPENAI_API_KEY'))}")
     print(f"📚 RAG index available: {os.path.exists('codex_faiss_index/index.faiss')}")
+    print(f"🧠 Using OpenAI model: {model_name}")
     app.run(debug=True, port=5000)

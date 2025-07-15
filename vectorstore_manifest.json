@@ -4,6 +4,7 @@
   "knowledge_base/Recipes/Highballs/house_moscow_mule.txt": "019f8756b5e7a9b41c5e14952afd9719f1bc04d0f37cdb66838e7ea2dd5841c5",
   "knowledge_base/Recipes/non alcoholic/A/unimpaired_pear_soda.txt": "8a903bd39b53f927c37a89dec37eae5f653b38e809b9c233621c3cb7dc62a566",
   "knowledge_base/Recipes/Gin/Polaris.txt": "c485b2a80a3a8056d723173f695b4c3c8e145e54e0d9f98137ba9e23de664038",
+  "knowledge_base/Recipes/Gin/tom_collins.txt": "06c5f1825388eadcf5ac76043b1e800bf5d5b56bdd5478876e61603d2012620f",
   "knowledge_base/Recipes/Gin/Martini.txt": "9bc49797e1c7a1e7803230c832d37e3a6ece9c587e98637437f4c50bc95fdb58",
   "knowledge_base/Recipes/Rum/daiquiri.txt": "dd4013cfaa51c739821eac9b8c75fac9aa21ecde145e4f5774ebb6f18cfc17fa",
   "knowledge_base/Recipes/Tequila/Smoke&Honey.txt": "80b9dc3d0fecd8b38bcb7243f4183dab5c9bdc7777af31e82254690da0ce578f",
@@ -52,8 +53,9 @@
   "knowledge_base/training_modules/framework_new_opening_checklist.txt": "08d91f3f99de0c8a4d114802aec41dbdf6f52cf5ac42a867c9e01052ab2edc9b",
   "knowledge_base/training_modules/scenario_dive_bar_legacy_staff.txt": "c21b190e4c285b07f1659e1f5d931f1d1e3e7fda865af153b4b8498a45da5402",
   "knowledge_base/training_modules/scenario_highend_hotel_lobby_bar.txt": "04d084caa62a5c1d59cff39e146c993dcfaaca64eb090d4b10cd7568e215c3fa",
+  "knowledge_base/training_modules/batching_guidelines.txt": "34281143a8e7aa1fe64212fe5065f3ff464dea4168d1d7d2be89360f4ddbaec5",
   "knowledge_base/training_modules/framework_brewery_cocktail_overlay.txt": "0a65f06408fbb2615cd6c541c37cf6fbe4f51bc1a6bac8e2bc06f378022feadb",
   "knowledge_base/General/cocktail_techniques.txt": "a121d5cbf8819f3713e8ec44dd4bca7d947ae4fb84f67ad53bb307e93ccdbe69",
-  "knowledge_base/General/knowledge_base_main.txt": "1731579698e1f4ffae0c6ea4e73ae6f23fd1c8e6f8d586a745a419f2ecd88dd6",
-  "knowledge_base/General/cocktail techniques.txt": "bb5dcea55f8b426e255f89eab89b25399989c713e5d70b5fa91138d12d5ab264"
+  "knowledge_base/General/cocktail techniques.txt": "bb5dcea55f8b426e255f89eab89b25399989c713e5d70b5fa91138d12d5ab264",
+  "knowledge_base/General/cocktail_history_main.txt": "1731579698e1f4ffae0c6ea4e73ae6f23fd1c8e6f8d586a745a419f2ecd88dd6"
 }
