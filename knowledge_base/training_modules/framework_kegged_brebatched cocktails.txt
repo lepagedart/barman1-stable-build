@@ -1,0 +1,60 @@
+Title: Fast Pickup Strategy – Kegged & Pre-Batched Cocktails
+Tags: batching, kegging, low-labor, prep-efficiency, small-format
+
+Overview:
+Cocktails that are kegged or pre-batched can drastically reduce pickup time for small teams. These builds shift complexity to the prep window and allow for near-instant service execution with just a pour and garnish.
+
+Use this strategy when:
+- The bar team is limited (1–2 bartenders).
+- Prep labor is available earlier in the day.
+- Consistency and speed are more critical than custom execution.
+
+Execution Considerations:
+- Use still kegged cocktails (no carbonation required) for most builds.
+- Clarify citrus with centrifuge or milk wash for stability.
+- Avoid dairy, egg whites, or fresh pulp unless stabilized.
+- Label each keg with date, batch number, and serving instructions.
+
+Example Cocktails:
+• Espresso Martini (vodka, cold brew, coffee liqueur, sugar)- compressed keg system (NO2)
+• Negroni (gin, Campari, sweet vermouth)-  Oak Barrel with pour spout
+• Daiquiri variation (rum, clarified lime, sugar)-  Compressed (CO2)
+• Dr. Julius (milk-washed vanilla rum, high-acid orange juice, demerara syrup)-  Oak barrel with pour spout
+
+Tap Systems:
+• Use Cornelius (Corny) kegs or Sankey kegs.
+• Gas line: CO₂ or nitrogen depending on texture goals.
+• Flush with inert gas (N₂ or CO₂) to preserve shelf life.
+• Oak barrelling is not flushed with inert gas so the barrels must be refridgerated and clariied juice is a more stable method if using juice in the barrel.  if at all possible you should try and add juice as the only ingredient to add on the build.  if the bar is busy enough it it may be feesable to use clarified juice in the barreling if they will sell fast enough.
+
+
+Guest Experience Notes:
+Even though these drinks are fast to serve, garnish carefully. Don’t skip the visual finish. Reinforce quality through service, not just production.
+
+Conclusion:
+This strategy doesn't sacrifice quality—it operationalizes it. If your bar has limited labor, kegging can be the backbone of high-end cocktail service.
+
+Core Benefits:
+	•	Speed of service: Nearly instant pickup; pour + garnish. Great for Espresso Martinis, Palomas, Daiquiris, etc.
+	•	Consistency: No variance between bartenders; dosing and dilution are controlled in advance.
+	•	Labor savings: Allows even novice or low-experience bartenders to serve high-quality cocktails during rush.
+	•	Pre-shift batching: Moves labor out of service windows, spreads workload across prep team.
+	•	Waste reduction: If managed properly, reduces overpouring, spoilage, and ingredient waste.
+
+    Caveats and Misconceptions:
+	•	Not always carbonated: Kegging ≠ forced carbonation. Still cocktails work just as well (Daiquiris, Manhattans, Margaritas, etc.).
+	•	Requires infrastructure: Cold storage, keg connectors (Corny or Sankey), and gas setup (CO₂ or nitrogen).
+	•	Flavor degradation: Not every cocktail ages well. Avoid fresh dairy, citrus (unless clarified), or unstable emulsifiers unless you’re confident in prep techniques (e.g., milk washes, acid adjusting).
+	•	Prep time tradeoff: Moves labor to prep shift, which is great for small service teams but requires disciplined mise.
+
+    Use Cases:
+	•	Small-format, high-volume venues (e.g., 40-seat bistro with one bartender).
+	•	Outdoor service or events with limited access to full bar tools.
+	•	Hotels, casinos, or lounges where speed and repeatability matter more than flair.
+	•	Signature menu anchors that see high demand and benefit from perfect execution every time (e.g., Espresso Martini, Negroni).
+
+    Advanced Techniques:
+	•	Clarification (centrifuge or agar) to stabilize juice-based or citrus cocktails.
+	•	Nitro-infused cocktails using nitrogen gas blends for smooth texture.
+	•	CO₂ for carbonation when needed (Spritz-style or Collins builds).
+	•	Milk-washing or fat-washing to stabilize ingredients like dairy or infusions.
