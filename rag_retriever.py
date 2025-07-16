@@ -50,7 +50,7 @@ def load_vectorstore():
     
     return _vectorstore_cache
 
-def retrieve_codex_context(user_prompt, venue_concept, max_results=3):
+def retrieve_codex_context(user_prompt, venue_concept, max_results=6):
     """
     Retrieve relevant context from the knowledge base
     
