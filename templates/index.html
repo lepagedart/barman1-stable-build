@@ -11,13 +11,16 @@
     <h1>Ask the Barman</h1>
 
     <form id="prompt-form">
-      <div id="venue-container">
-        <label for="venue_concept">Venue Concept:</label>
-        <input type="text" id="venue_concept" name="venue_concept" placeholder="e.g. Mid-Sized Modern American Bistro" required />
-      </div>
+      <label for="venue_concept">Venue Concept:</label>
+      <input type="text" id="venue_concept" name="venue_concept" placeholder="e.g. Mid-Sized Modern American Bistro" required />
 
       <label for="user_prompt">Ask the Bar Manager:</label>
       <textarea id="user_prompt" name="user_prompt" rows="4" placeholder="Enter your cocktail program question..." required></textarea>
+
+      <label>
+        <input type="checkbox" name="use_live_search" id="use_live_search" />
+        Include Live Internet Search
+      </label>
 
       <div class="button-group">
         <button type="submit">Ask</button>
@@ -41,43 +44,29 @@
     const form = document.getElementById("prompt-form");
     const log = document.getElementById("log");
     const resetBtn = document.getElementById("reset-btn");
-    const venueContainer = document.getElementById("venue-container");
-    const venueInput = document.getElementById("venue_concept");
-
-    // Hide venue input if already set in session
-    if (sessionStorage.getItem("venue_set") === "true") {
-      venueContainer.style.display = "none";
-      venueInput.required = false;
-    }
 
     form.addEventListener("submit", async (e) => {
       e.preventDefault();
 
-      const venue = venueInput.value;
+      const venue = document.getElementById("venue_concept").value;
       const prompt = document.getElementById("user_prompt").value;
+      const useLiveSearch = document.getElementById("use_live_search").checked;
 
-      // Add user message to UI immediately
       addMessage("user", prompt);
-
-      // Clear the textarea
       document.getElementById("user_prompt").value = "";
-
-      // Hide venue input after first use
-      if (!sessionStorage.getItem("venue_set")) {
-        sessionStorage.setItem("venue_set", "true");
-        venueContainer.style.display = "none";
-        venueInput.required = false;
-      }
 
       try {
         const res = await fetch("/", {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: new URLSearchParams({ venue_concept: venue, user_prompt: prompt })
+          body: new URLSearchParams({
+            venue_concept: venue,
+            user_prompt: prompt,
+            use_live_search: useLiveSearch ? "on" : ""
+          })
         });
 
         const data = await res.json();
-        
         if (data.response) {
           addMessage("assistant", data.response);
         } else {
@@ -91,13 +80,7 @@
 
     resetBtn.addEventListener("click", async () => {
       await fetch("/reset", { method: "POST" });
-      log.innerHTML = ""; // Clear the conversation log
-
-      // Show venue input again
-      venueContainer.style.display = "block";
-      venueInput.required = true;
-      venueInput.value = "";
-      sessionStorage.removeItem("venue_set");
+      log.innerHTML = "";
     });
 
     function addMessage(role, content) {
