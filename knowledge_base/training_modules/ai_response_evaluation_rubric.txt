@@ -1,0 +1,47 @@
+### 🧠 AI Response Evaluation Rubric (Scenario X)
+
+**1. Contextual Relevance:**  
+Did the AI understand and respond directly to the venue concept, seasonal theme, and staffing constraints?
+
+**2. Cocktail Design Intelligence:**  
+Were the cocktail builds creative, feasible, and aligned with the design principles (e.g., balance, batching limits, spirit-forward focus)?
+
+**3. Clarity and Format:**  
+Was the output easy to read and well-formatted, with clean spec layouts and consistent labeling?
+
+**4. Knowledge Base Alignment:**  
+Did the AI pull correct recipes, techniques, or batching rules from the RAG system when appropriate?
+
+**5. Guest Experience Framing:**  
+Did the assistant emphasize storytelling, service tone, and real-world guest experience cues?
+
+---
+
+**Rubric Marking Key:**  
+✅ = Excellent  
+⚠️ = Needs Improvement  
+❌ = Missed or Incorrect
+
+---
+
+**Example Grading Format to Paste in Notion:**
+
+### 🧠 AI Response Evaluation Rubric (Scenario 6)
+
+**1. Contextual Relevance:** ✅  
+Clearly tailored to the chef-driven, seasonal tasting menu prompt.
+
+**2. Cocktail Design Intelligence:** ✅  
+Seasonal builds were creative and balanced, aligned with premium bar expectations.
+
+**3. Clarity and Format:** ⚠️  
+Some spec formatting was inconsistent and overly verbose in the intro.
+
+**4. Knowledge Base Alignment:** ✅  
+Correct batching suggestions and RAG-pulled syrup recipes included.
+
+**5. Guest Experience Framing:** ✅  
+Highlighted elegance, garnish details, and storytelling.
+
+**Overall Notes:**  
+Minor verbosity, but the assistant shows solid alignment with premium service goals.
