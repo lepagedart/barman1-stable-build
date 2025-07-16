@@ -1,0 +1,14 @@
+Scenario Mod – Cocktail Costing for a Signature Build
+
+In this scenario, the venue is seeking expert-level guidance on how to cost out a new cocktail before launching it as a signature item. The AI should walk through a clear and teachable framework for calculating cost per drink, understanding margin targets, and identifying pricing strategy based on their venue and guest expectations.
+
+Instructions:
+
+- Emphasize a bar manager's mindset focused on both profitability and perceived value.
+- Break down ingredient costing step-by-step using a sample build.
+- Include cost per ounce or per unit where appropriate (e.g., cost per oz of spirit, per dash of bitters, etc.).
+- Show how to calculate total cost of the drink and discuss a reasonable pricing target using a desired pour cost (e.g., 18–22%).
+- Add optional recommendations on how to lower cost without sacrificing quality (e.g., batching modifiers, changing garnish).
+- Keep the tone educational but decisive — you’re teaching a manager how to do this independently going forward.
+
+Avoid vague generalities. Use real numbers and clear logic wherever possible.
