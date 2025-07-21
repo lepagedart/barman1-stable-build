@@ -11,16 +11,13 @@ from google_search import search_google
 # Load environment variables
 load_dotenv()
 
-# Flask setup
 app = Flask(__name__)
 app.secret_key = os.environ.get("FLASK_SECRET_KEY", "dev-secret-key-change-in-production")
 
-# OpenAI client setup
 client = None
 KB_FOLDER = "knowledge_base"
 CONVERSATION_CACHE_DIR = "conversation_cache"
 
-# Create cache directory if it doesn't exist
 os.makedirs(CONVERSATION_CACHE_DIR, exist_ok=True)
 
 def get_openai_client():
@@ -76,56 +73,56 @@ def index():
         user_prompt = request.form.get("user_prompt", "")
         use_live_search = request.form.get("use_live_search") == "on"
 
-        print(f"🔄 Processing request: venue='{venue}', prompt='{user_prompt}', live_search={use_live_search}")
-
+        print(f"🔄 Request: venue='{venue}', prompt='{user_prompt}', live_search={use_live_search}")
         conversation.append({"role": "user", "content": user_prompt})
 
         try:
-            print(f"🔄 Retrieving RAG context...")
+            print("🔄 Retrieving RAG context...")
             try:
                 rag_context = retrieve_codex_context(user_prompt, venue)
-                print(f"✅ RAG context retrieved: {len(rag_context)} characters")
+                print(f"✅ RAG context: {len(rag_context)} chars")
             except Exception as e:
                 print(f"⚠️  RAG context failed: {e}")
                 rag_context = "RAG context temporarily unavailable."
 
+            search_snippets = ""
             if use_live_search:
                 print("🔎 Performing live Google search...")
-                live_context = search_google(user_prompt)
-                rag_context += f"\n\n[Live Search Results]\n{live_context}"
+                search_snippets = search_google(user_prompt)
+
+            structured_context = (
+                f"[Knowledge Base Insights]\n{rag_context}\n\n"
+                f"[Live Internet Results]\n{search_snippets}"
+            )
 
             system_prompt = load_system_prompt()
 
             messages = [
                 {"role": "system", "content": system_prompt},
-                {"role": "system", "content": f"Venue Type: {venue}\nRelevant knowledge base context:\n{rag_context}"}
+                {"role": "system", "content": structured_context}
             ]
 
             recent_conversation = conversation[-10:]
             messages.extend(recent_conversation)
 
-            print(f"🔄 Getting OpenAI client...")
+            print("🔄 Calling OpenAI...")
             openai_client = get_openai_client()
-            print(f"✅ OpenAI client ready")
 
-            print(f"🔄 Making API call...")
             completion = openai_client.chat.completions.create(
                 model="gpt-4o",
                 messages=messages,
-                max_tokens=1000,
+                max_tokens=1200,
                 temperature=0.7
             )
 
             assistant_response = completion.choices[0].message.content.strip()
-            print(f"✅ OpenAI response received: {len(assistant_response)} characters")
+            print(f"✅ Response: {len(assistant_response)} chars")
 
             try:
                 parsed = json.loads(assistant_response)
                 response_text = json.dumps(parsed, indent=2)
-                print("📋 Response parsed as JSON")
             except json.JSONDecodeError:
                 response_text = assistant_response
-                print("📄 Response kept as plain text")
 
         except Exception as e:
             print(f"❌ ERROR: {type(e).__name__}: {str(e)}")
@@ -159,7 +156,7 @@ def health():
 
 if __name__ == "__main__":
     print("🚀 Starting Barman-1 AI Bar Director...")
-    print(f"📁 Conversation cache directory: {CONVERSATION_CACHE_DIR}")
-    print(f"🔑 OpenAI API key configured: {bool(os.environ.get('OPENAI_API_KEY'))}")
-    print(f"📚 RAG index available: {os.path.exists('codex_faiss_index/index.faiss')}")
+    print(f"📁 Cache dir: {CONVERSATION_CACHE_DIR}")
+    print(f"🔑 API key set: {bool(os.environ.get('OPENAI_API_KEY'))}")
+    print(f"📚 RAG index present: {os.path.exists('codex_faiss_index/index.faiss')}")
     app.run(debug=True, port=5000)
