@@ -67,6 +67,10 @@ def index():
     print(f"🔄 Processing {request.method} request...")
     conversation_id = get_conversation_id()
     conversation = load_conversation(conversation_id)
+    use_live_search = False  # Default to False unless POST sets it
+    venue = ""
+    user_prompt = ""
+    assistant_response = ""
 
     if request.method == "POST":
         venue = request.form.get("venue_concept", "")
@@ -76,38 +80,38 @@ def index():
         print(f"🔄 Request: venue='{venue}', prompt='{user_prompt}', live_search={use_live_search}")
         conversation.append({"role": "user", "content": user_prompt})
 
+        print("🔄 Retrieving RAG context...")
         try:
-            print("🔄 Retrieving RAG context...")
-            try:
-                rag_context = retrieve_codex_context(user_prompt, venue)
-                print(f"✅ RAG context: {len(rag_context)} chars")
-            except Exception as e:
-                print(f"⚠️  RAG context failed: {e}")
-                rag_context = "RAG context temporarily unavailable."
+            rag_context = retrieve_codex_context(user_prompt, venue, use_live_search=use_live_search)
+            print(f"✅ RAG context: {len(rag_context)} chars")
+        except Exception as e:
+            print(f"⚠️  RAG context failed: {e}")
+            rag_context = "RAG context temporarily unavailable."
 
-            search_snippets = ""
-            if use_live_search:
-                print("🔎 Performing live Google search...")
-                search_snippets = search_google(user_prompt)
+        search_snippets = ""
+        if use_live_search:
+            print("🔎 Performing live Google search...")
+            search_snippets = search_google(user_prompt)
 
-            structured_context = (
-                f"[Knowledge Base Insights]\n{rag_context}\n\n"
-                f"[Live Internet Results]\n{search_snippets}"
-            )
+        structured_context = (
+            f"[Knowledge Base Insights]\n{rag_context}\n\n"
+            f"[Live Internet Results]\n{search_snippets}"
+        )
 
-            system_prompt = load_system_prompt()
+        system_prompt = load_system_prompt()
 
-            messages = [
-                {"role": "system", "content": system_prompt},
-                {"role": "system", "content": structured_context}
-            ]
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "system", "content": structured_context}
+        ]
 
-            recent_conversation = conversation[-10:]
-            messages.extend(recent_conversation)
+        recent_conversation = conversation[-10:]
+        messages.extend(recent_conversation)
 
-            print("🔄 Calling OpenAI...")
-            openai_client = get_openai_client()
+        print("🔄 Calling OpenAI...")
+        openai_client = get_openai_client()
 
+        try:
             completion = openai_client.chat.completions.create(
                 model="gpt-4o",
                 messages=messages,
@@ -130,9 +134,15 @@ def index():
 
         conversation.append({"role": "assistant", "content": response_text})
         save_conversation(conversation_id, conversation)
-        return jsonify({"response": response_text})
 
-    return render_template("index.html", conversation=conversation)
+    return render_template(
+        "index.html",
+        conversation=conversation,
+        venue=venue,
+        user_prompt=user_prompt,
+        assistant_response=assistant_response,
+        use_live_search=use_live_search
+    )
 
 @app.route("/reset", methods=["POST"])
 def reset():

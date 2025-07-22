@@ -50,13 +50,13 @@ def load_vectorstore():
     
     return _vectorstore_cache
 
-def retrieve_codex_context(user_prompt, venue_concept, max_results=6):
+def retrieve_codex_context(user_prompt, venue_context, max_results=6, use_live_search=False):
     """
     Retrieve relevant context from the knowledge base
     
     Args:
         user_prompt (str): User's question
-        venue_concept (str): Venue type/concept
+        venue_context (str): Venue type/concept
         max_results (int): Maximum number of documents to retrieve
     
     Returns:
@@ -68,7 +68,7 @@ def retrieve_codex_context(user_prompt, venue_concept, max_results=6):
         vectordb = load_vectorstore()
         
         # Create enhanced query with venue context
-        enhanced_query = f"Venue Type: {venue_concept}. Question: {user_prompt}"
+        enhanced_query = f"Venue Type: {venue_context}. Question: {user_prompt}"
         
         # Retrieve relevant documents
         retriever = vectordb.as_retriever(search_kwargs={"k": max_results})
@@ -92,7 +92,7 @@ def retrieve_codex_context(user_prompt, venue_concept, max_results=6):
     except Exception as e:
         print(f"❌ Error retrieving context: {e}")
         # Return a fallback message instead of failing completely
-        return f"Knowledge base temporarily unavailable. Providing general bartending advice for {venue_concept}."
+        return f"Knowledge base temporarily unavailable. Providing general bartending advice for {venue_context}."
 
 def check_vectorstore_health():
     """Check if vectorstore is healthy and can be loaded"""

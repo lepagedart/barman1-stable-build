@@ -1,0 +1,12 @@
+Scenario 10 — Consistency Across Bartenders  
+Tags: training, consistency, jiggering, batching, service standards, operations
+
+[Scenario Context — Consistency Across Bartenders]
+
+This venue is experiencing noticeable variation in drink quality and presentation depending on which bartender is on duty. Your recommendations should focus on improving consistency through:
+- standardization of specs and technique
+- effective staff training and oversight
+- use of jiggering and visual standards
+- simple batching or prep solutions that reduce room for interpretation
+
+Offer practical steps the GM or bar manager can implement quickly. If applicable, suggest simple systems or signage that could help reinforce standards.
