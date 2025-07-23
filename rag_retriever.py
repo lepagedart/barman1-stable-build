@@ -3,17 +3,16 @@ import pickle
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
-# Embedding model - must match rag_loader.py
+# Embedding model - must match kb_loader.py
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 KB_FOLDER = "knowledge_base"
 VECTORSTORE_DIR = "codex_faiss_index"
 
-# Cache for embeddings and vectorstore to avoid reloading
+# Cache
 _embeddings_cache = None
 _vectorstore_cache = None
 
 def get_embeddings():
-    """Get embeddings with caching to avoid reloading"""
     global _embeddings_cache
     if _embeddings_cache is None:
         print(f"🔄 Loading embeddings model: {EMBEDDING_MODEL}")
@@ -21,113 +20,86 @@ def get_embeddings():
             model_name=EMBEDDING_MODEL,
             model_kwargs={"device": "cpu"}
         )
-        print("✅ Embeddings model loaded successfully")
+        print("✅ Embeddings model loaded")
     return _embeddings_cache
 
 def load_vectorstore():
-    """Load vectorstore with caching and error handling"""
     global _vectorstore_cache
-    
     if _vectorstore_cache is None:
         try:
             print(f"🔄 Loading FAISS vectorstore from {VECTORSTORE_DIR}")
-            
-            # Check if vectorstore files exist
             if not os.path.exists(f"{VECTORSTORE_DIR}/index.faiss"):
-                raise FileNotFoundError(f"FAISS index not found at {VECTORSTORE_DIR}/index.faiss")
-            
+                raise FileNotFoundError(f"Vectorstore missing at {VECTORSTORE_DIR}/index.faiss")
             embeddings = get_embeddings()
             _vectorstore_cache = FAISS.load_local(
-                VECTORSTORE_DIR, 
-                embeddings, 
+                VECTORSTORE_DIR,
+                embeddings,
                 allow_dangerous_deserialization=True
             )
-            print("✅ FAISS vectorstore loaded successfully")
-            
+            print("✅ Vectorstore loaded")
         except Exception as e:
             print(f"❌ Error loading vectorstore: {e}")
             raise
-    
     return _vectorstore_cache
 
 def retrieve_codex_context(user_prompt, venue_context, max_results=6, use_live_search=False):
     """
-    Retrieve relevant context from the knowledge base
-    
-    Args:
-        user_prompt (str): User's question
-        venue_context (str): Venue type/concept
-        max_results (int): Maximum number of documents to retrieve
-    
-    Returns:
-        str: Concatenated relevant context
+    Retrieve contextual documents from vectorstore with optional filter logic.
     """
     try:
-        print(f"🔄 Retrieving context for query: '{user_prompt[:50]}...'")
-        
+        print(f"🔍 RAG query: '{user_prompt[:50]}...' with venue '{venue_context}'")
         vectordb = load_vectorstore()
-        
-        # Create enhanced query with venue context
-        enhanced_query = f"Venue Type: {venue_context}. Question: {user_prompt}"
-        
-        # Retrieve relevant documents
+        query = f"Venue Type: {venue_context}. Question: {user_prompt}"
+
         retriever = vectordb.as_retriever(search_kwargs={"k": max_results})
-        docs = retriever.invoke(enhanced_query)  # Use invoke instead of deprecated method
-        
+        docs = retriever.invoke(query)
+
         if not docs:
-            print("⚠️  No relevant documents found")
+            print("⚠️ No relevant documents found")
             return "No relevant context found in knowledge base."
-        
-        # Combine document contents
+
         context_parts = []
         for i, doc in enumerate(docs):
-            print(f"\n📄 Retrieved Context {i+1}:\n{doc.page_content}\n")
-            context_parts.append(f"[Context {i+1}]\n{doc.page_content}")
-                    
+            meta = doc.metadata or {}
+            category = meta.get("category", "unspecified")
+            print(f"\n📄 Context {i+1} (Category: {category})\n{doc.page_content}\n")
+            context_parts.append(f"[Context {i+1} – {category}]\n{doc.page_content}")
+
         context = "\n\n".join(context_parts)
-        print(f"✅ Retrieved {len(docs)} documents, {len(context)} characters total")
-        
+        print(f"✅ {len(docs)} docs, {len(context)} characters total")
         return context
-        
+
     except Exception as e:
-        print(f"❌ Error retrieving context: {e}")
-        # Return a fallback message instead of failing completely
+        print(f"❌ Error retrieving RAG context: {e}")
         return f"Knowledge base temporarily unavailable. Providing general bartending advice for {venue_context}."
 
 def check_vectorstore_health():
-    """Check if vectorstore is healthy and can be loaded"""
     try:
         vectordb = load_vectorstore()
-        # Test a simple query
         test_docs = vectordb.similarity_search("cocktail", k=1)
-        return True, f"Vectorstore healthy, {len(test_docs)} test documents found"
+        return True, f"Vectorstore healthy – {len(test_docs)} test doc(s) retrieved"
     except Exception as e:
         return False, f"Vectorstore error: {str(e)}"
 
 def check_and_update_vectorstore(kb_folder):
-    """Check vectorstore health and optionally rebuild"""
     try:
-        health_ok, health_msg = check_vectorstore_health()
-        print(f"📊 Vectorstore health: {health_msg}")
-        
+        health_ok, msg = check_vectorstore_health()
+        print(f"📊 Vectorstore health check: {msg}")
         if not health_ok:
-            print("⚠️  Vectorstore issues detected, but continuing with degraded functionality")
-            
+            print("⚠️ Issues detected — fallback may apply")
     except Exception as e:
-        print(f"⚠️  Vectorstore check failed: {e}")
+        print(f"⚠️ Vectorstore check failed: {e}")
 
 def clear_cache():
-    """Clear cached embeddings and vectorstore (useful for memory management)"""
     global _embeddings_cache, _vectorstore_cache
     _embeddings_cache = None
     _vectorstore_cache = None
-    print("🗑️  Cleared vectorstore and embeddings cache")
+    print("🗑️ Cleared vectorstore and embedding cache")
 
 if __name__ == "__main__":
-    # Test the retriever
-    print("Testing RAG retriever...")
+    print("🧪 Testing RAG retriever...")
     try:
-        context = retrieve_codex_context("What is a martini?", "upscale cocktail bar")
-        print(f"Test successful: {len(context)} characters retrieved")
+        ctx = retrieve_codex_context("What is a martini?", "upscale cocktail bar")
+        print(f"✅ Success – {len(ctx)} characters retrieved")
     except Exception as e:
-        print(f"Test failed: {e}")
+        print(f"❌ Test failed: {e}")
