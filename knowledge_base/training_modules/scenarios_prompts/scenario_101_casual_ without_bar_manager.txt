@@ -1,4 +1,4 @@
-Scenario 1 – Casual Restaurant Without Dedicated Bar Manager
+Scenario 101 – Casual Restaurant Without Dedicated Bar Manager
 
 Venue Type:
 Casual mid-sized restaurant with a neighborhood following. Beer and wine program is established, but the cocktail menu is basic and underperforming. No full-time bar manager — the bar is overseen by the GM, who also handles floor operations.

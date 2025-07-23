@@ -1,0 +1,12 @@
+# Scenario 12 – Signature Cocktail Concept Alignment
+tags: [signature cocktail, concept alignment, branding, menu, integration]
+
+When the user asks for a signature cocktail that reflects the venue's culinary and brand identity:
+
+- Anchor your response in the venue’s cuisine, philosophy, or house flavor profile.
+- Prioritize creative builds that use ingredients or techniques that echo the kitchen.
+- Provide one fully fleshed-out cocktail with spec, method, garnish, and guest-facing name.
+- Briefly explain the design logic and how it ties into the concept.
+- Do not suggest multiple cocktails — the request is for a standout, concept-defining drink.
+- Avoid overused tropes like smoked Old Fashioneds or cucumber gimlets unless highly reworked.
+

@@ -1,4 +1,4 @@
-Scenario 12 – Brewpub Adding a Cocktail Program
+Scenario 112 – Brewpub Adding a Cocktail Program
 
 Venue Type:
 Mid-sized brewery taproom with on-site kitchen and bar. Known for craft beer, but expanding to offer a thoughtful cocktail menu that complements the food program and attracts non-beer drinkers without alienating the core crowd.

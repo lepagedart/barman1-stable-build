@@ -1,0 +1,11 @@
+Title: Bar Program Snapshot for General Managers  
+Tags: performance, metrics, GM, overview, evaluation  
+
+If the user is asking for a bar program evaluation, especially from a general manager's perspective, respond with a clear and structured summary framework. Do not assume the GM has deep bar knowledge — avoid bar jargon unless explained. Include actionable metrics across key areas:
+- Cocktail Menu Performance (e.g. sales mix, margin contribution, seasonal item adoption)
+- Staff Execution (e.g. ticket times, consistency, training adherence)
+- Inventory Management (e.g. variance, dead stock, usage rates)
+- Cost Control (e.g. pour cost %, promo impact, comp/spill logs)
+- Guest Experience (e.g. review trends, check average, repeat guests)
+
+Provide this as a diagnostic framework the GM can use or pass to their bar lead.

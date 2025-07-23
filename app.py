@@ -7,6 +7,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 from rag_retriever import retrieve_codex_context, check_and_update_vectorstore
 from google_search import search_google
+from utils import detect_scenario_prompt_mod  # ✅ NEW IMPORT
 
 # Load environment variables
 load_dotenv()
@@ -67,7 +68,7 @@ def index():
     print(f"🔄 Processing {request.method} request...")
     conversation_id = get_conversation_id()
     conversation = load_conversation(conversation_id)
-    use_live_search = False  # Default to False unless POST sets it
+    use_live_search = False
     venue = ""
     user_prompt = ""
     assistant_response = ""
@@ -80,6 +81,7 @@ def index():
         print(f"🔄 Request: venue='{venue}', prompt='{user_prompt}', live_search={use_live_search}")
         conversation.append({"role": "user", "content": user_prompt})
 
+        # 🔍 RAG Context
         print("🔄 Retrieving RAG context...")
         try:
             rag_context = retrieve_codex_context(user_prompt, venue, use_live_search=use_live_search)
@@ -88,6 +90,7 @@ def index():
             print(f"⚠️  RAG context failed: {e}")
             rag_context = "RAG context temporarily unavailable."
 
+        # 🌐 Live Search Context
         search_snippets = ""
         if use_live_search:
             print("🔎 Performing live Google search...")
@@ -98,10 +101,14 @@ def index():
             f"[Live Internet Results]\n{search_snippets}"
         )
 
-        system_prompt = load_system_prompt()
+        # 🧠 Build system prompt with scenario mod if available
+        base_prompt = load_system_prompt()
+        scenario_mod = detect_scenario_prompt_mod(user_prompt)
+        combined_prompt = base_prompt + "\n\n" + scenario_mod
 
+        # 🗨️ Assemble messages
         messages = [
-            {"role": "system", "content": system_prompt},
+            {"role": "system", "content": combined_prompt},
             {"role": "system", "content": structured_context}
         ]
 
@@ -134,6 +141,7 @@ def index():
 
         conversation.append({"role": "assistant", "content": response_text})
         save_conversation(conversation_id, conversation)
+        return jsonify({"response": response_text})
 
     return render_template(
         "index.html",
