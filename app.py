@@ -4,6 +4,7 @@ import pickle
 import hashlib
 from flask import Flask, render_template, request, jsonify, session
 from openai import OpenAI
+from openai.types.chat import ChatCompletionMessageParam
 from dotenv import load_dotenv
 from rag_retriever import retrieve_codex_context, check_and_update_vectorstore
 from google_search import search_google
@@ -32,9 +33,13 @@ def get_openai_client():
     return client
 
 def get_conversation_id():
+    # Ensure session has an ID first
+    if "_id" not in session:
+        session["_id"] = os.urandom(16).hex()
+    
     if "conversation_id" not in session:
         session["conversation_id"] = hashlib.md5(
-            f"{session.get('_id', '')}{os.urandom(16).hex()}".encode()
+            f"{session['_id']}{os.urandom(16).hex()}".encode()
         ).hexdigest()[:16]
     return session["conversation_id"]
 
@@ -66,9 +71,9 @@ def load_system_prompt():
 
 @app.route("/", methods=["GET", "POST"])
 def index():
-    # 🧠 Reload knowledge docs at runtime (optional — currently for diagnostics)
-    docs = load_knowledge_documents("knowledge_base")
-    print(f"📚 Loaded {len(docs)} KB docs")
+    # 🔥 REMOVED: This was loading ALL docs on EVERY request!
+    # docs = load_knowledge_documents() or []
+    # print(f"📚 Loaded {len(docs)} KB docs")
 
     print(f"🔄 Processing {request.method} request...")
     conversation_id = get_conversation_id()
@@ -109,24 +114,37 @@ def index():
         base_prompt = load_system_prompt()
         scenario_mod = detect_scenario_prompt_mod(user_prompt)
         combined_prompt = base_prompt + "\n\n" + scenario_mod
-
         # 🗨️ Assemble full message list
         messages = [
             {"role": "system", "content": combined_prompt},
             {"role": "system", "content": structured_context}
         ]
+        # Add recent conversation messages
         messages.extend(conversation[-10:])  # recent conversation only
+
+        # Convert message dicts to OpenAI message format (ChatCompletionMessageParam)
+        messages_param = []
+        for msg in messages:
+            if msg["role"] == "system":
+                messages_param.append({"role": "system", "content": msg["content"]})
+            elif msg["role"] == "user":
+                messages_param.append({"role": "user", "content": msg["content"]})
+            elif msg["role"] == "assistant":
+                messages_param.append({"role": "assistant", "content": msg["content"]})
+            else:
+                messages_param.append({"role": msg["role"], "content": msg["content"]})
 
         # 🚀 Send to OpenAI
         openai_client = get_openai_client()
         try:
             completion = openai_client.chat.completions.create(
                 model="gpt-4o",
-                messages=messages,
+                messages=messages_param,
                 max_tokens=1200,
                 temperature=0.7
             )
-            assistant_response = completion.choices[0].message.content.strip()
+            content = completion.choices[0].message.content
+            assistant_response = content.strip() if content is not None else ""
             print(f"✅ Assistant response: {len(assistant_response)} chars")
 
             try:

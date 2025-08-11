@@ -76,7 +76,7 @@ def load_knowledge_documents():
 
     if not docs_to_embed:
         print("✅ No new or updated documents found.")
-        return
+        return[]
 
     print(f"🔄 Embedding {len(docs_to_embed)} documents...")
     embeddings = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL)
@@ -89,3 +89,4 @@ def load_knowledge_documents():
 
 if __name__ == "__main__":
     load_knowledge_documents()
+    
