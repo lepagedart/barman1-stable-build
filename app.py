@@ -4,195 +4,241 @@ import pickle
 import hashlib
 from flask import Flask, render_template, request, jsonify, session
 from openai import OpenAI
-from openai.types.chat import ChatCompletionMessageParam
 from dotenv import load_dotenv
-from rag_retriever import retrieve_codex_context, check_and_update_vectorstore
+
+from rag_retriever import retrieve_codex_context
 from google_search import search_google
 from utils import detect_scenario_prompt_mod
-from kb_loader import load_knowledge_documents
+from kb_loader import load_knowledge_documents  # (kept import for parity, not used here)
 
-# Load environment variables
+# ---------------------------
+# Environment & App Setup
+# ---------------------------
 load_dotenv()
 
 app = Flask(__name__)
 app.secret_key = os.environ.get("FLASK_SECRET_KEY", "dev-secret-key-change-in-production")
 
-client = None
-KB_FOLDER = "knowledge_base"
 CONVERSATION_CACHE_DIR = "conversation_cache"
-
+KB_FOLDER = "knowledge_base"
 os.makedirs(CONVERSATION_CACHE_DIR, exist_ok=True)
 
+_client = None
+
+
 def get_openai_client():
-    global client
-    if client is None:
+    """Lazily instantiate OpenAI client with an explicit API key check."""
+    global _client
+    if _client is None:
         api_key = os.environ.get("OPENAI_API_KEY")
         if not api_key:
             raise ValueError("OPENAI_API_KEY is not set in the environment.")
-        client = OpenAI(api_key=api_key)
-    return client
+        _client = OpenAI(api_key=api_key)
+    return _client
+
 
 def get_conversation_id():
-    # Ensure session has an ID first
+    """Create a stable per-session conversation id."""
     if "_id" not in session:
         session["_id"] = os.urandom(16).hex()
-    
     if "conversation_id" not in session:
-        session["conversation_id"] = hashlib.md5(
-            f"{session['_id']}{os.urandom(16).hex()}".encode()
-        ).hexdigest()[:16]
+        seed = f"{session['_id']}{os.urandom(16).hex()}".encode()
+        session["conversation_id"] = hashlib.md5(seed).hexdigest()[:16]
     return session["conversation_id"]
+
+
+def _cache_path(conversation_id: str) -> str:
+    return os.path.join(CONVERSATION_CACHE_DIR, f"{conversation_id}.pkl")
+
 
 def save_conversation(conversation_id, conversation):
     try:
-        cache_file = os.path.join(CONVERSATION_CACHE_DIR, f"{conversation_id}.pkl")
-        with open(cache_file, 'wb') as f:
+        with open(_cache_path(conversation_id), "wb") as f:
             pickle.dump(conversation, f)
     except Exception as e:
-        print(f"⚠️ Could not save conversation: {e}")
+        app.logger.warning("Could not save conversation: %s", e)
+
 
 def load_conversation(conversation_id):
     try:
-        cache_file = os.path.join(CONVERSATION_CACHE_DIR, f"{conversation_id}.pkl")
-        if os.path.exists(cache_file):
-            with open(cache_file, 'rb') as f:
+        path = _cache_path(conversation_id)
+        if os.path.exists(path):
+            with open(path, "rb") as f:
                 return pickle.load(f)
     except Exception as e:
-        print(f"⚠️ Could not load conversation: {e}")
+        app.logger.warning("Could not load conversation: %s", e)
     return []
+
 
 def load_system_prompt():
     try:
         with open("system_prompt.txt", "r") as f:
             return f.read()
     except Exception as e:
-        print(f"⚠️ Could not load system prompt: {e}")
-        return "You are Barman-1, an AI-powered Bar Director providing expert bar program advice."
+        app.logger.warning("Could not load system prompt: %s", e)
+        return (
+            "You are Lloyd, an AI-powered Bar Director providing expert bar program advice."
+        )
 
+
+# ---------------------------
+# Routes
+# ---------------------------
 @app.route("/", methods=["GET", "POST"])
 def index():
-    # 🔥 REMOVED: This was loading ALL docs on EVERY request!
-    # docs = load_knowledge_documents() or []
-    # print(f"📚 Loaded {len(docs)} KB docs")
-
-    print(f"🔄 Processing {request.method} request...")
+    app.logger.info("🔄 Processing %s request...", request.method)
     conversation_id = get_conversation_id()
     conversation = load_conversation(conversation_id)
-    use_live_search = False
+
+    # Defaults so Jinja never gets None
     venue = ""
     user_prompt = ""
+    use_live_search = False
     assistant_response = ""
 
     if request.method == "POST":
-        venue = request.form.get("venue_concept", "")
-        user_prompt = request.form.get("user_prompt", "")
-        use_live_search = request.form.get("use_live_search") == "on"
+        # Accept either form-encoded or JSON requests defensively
+        payload = {}
+        if request.is_json:
+            try:
+                payload = request.get_json(silent=True) or {}
+            except Exception:
+                payload = {}
+        form = request.form or {}
 
-        print(f"🔄 User prompt received — venue='{venue}', live_search={use_live_search}")
-        conversation.append({"role": "user", "content": user_prompt})
-
-        # 🔍 Retrieve RAG context
-        try:
-            rag_context = retrieve_codex_context(user_prompt, venue, use_live_search=use_live_search)
-            print(f"✅ RAG context loaded: {len(rag_context)} chars")
-        except Exception as e:
-            print(f"⚠️ RAG context error: {e}")
-            rag_context = "RAG context temporarily unavailable."
-
-        # 🌐 Run live search if enabled
-        search_snippets = ""
-        if use_live_search:
-            print("🔎 Running Google search...")
-            search_snippets = search_google(user_prompt)
-
-        structured_context = (
-            f"[Knowledge Base Insights]\n{rag_context}\n\n"
-            f"[Live Internet Results]\n{search_snippets}"
+        venue = (payload.get("venue_concept") or form.get("venue_concept") or "").strip()
+        user_prompt = (payload.get("user_prompt") or form.get("user_prompt") or "").strip()
+        raw_use_live = payload.get("use_live_search", form.get("use_live_search"))
+        use_live_search = (
+            (str(raw_use_live).lower() in {"true", "1", "on", "yes"})
+            if raw_use_live is not None else False
         )
 
-        # 🧠 Add scenario-specific mod
+        app.logger.info("🧾 User prompt received — venue='%s', live_search=%s", venue, use_live_search)
+        if user_prompt:
+            conversation.append({"role": "user", "content": user_prompt})
+
+        # ---------- RAG context ----------
+        try:
+            rag_context = retrieve_codex_context(user_prompt, venue, use_live_search=use_live_search)
+            app.logger.info("📚 RAG context length: %d chars", len(rag_context or ""))
+        except Exception as e:
+            app.logger.warning("RAG context error: %s", e)
+            rag_context = "RAG context temporarily unavailable."
+
+        # ---------- Optional live search ----------
+        search_snippets = ""
+        if use_live_search:
+            try:
+                app.logger.info("🔎 Running Google search…")
+                search_snippets = search_google(user_prompt) or ""
+            except Exception as e:
+                app.logger.warning("Live search error: %s", e)
+                search_snippets = ""
+
+        structured_context = (
+            f"[Knowledge Base Insights]\n{rag_context or ''}\n\n"
+            f"[Live Internet Results]\n{search_snippets or ''}"
+        )
+
+        # ---------- Compose messages ----------
         base_prompt = load_system_prompt()
-        scenario_mod = detect_scenario_prompt_mod(user_prompt)
-        combined_prompt = base_prompt + "\n\n" + scenario_mod
-        # 🗨️ Assemble full message list
+        scenario_mod = detect_scenario_prompt_mod(user_prompt) or ""
+        combined_prompt = f"{base_prompt}\n\n{scenario_mod}".strip()
+
         messages = [
             {"role": "system", "content": combined_prompt},
-            {"role": "system", "content": structured_context}
+            {"role": "system", "content": structured_context},
         ]
-        # Add recent conversation messages
-        messages.extend(conversation[-10:])  # recent conversation only
+        # Append a small window of recent chat history
+        messages.extend(conversation[-10:])
 
-        # Convert message dicts to OpenAI message format (ChatCompletionMessageParam)
-        messages_param = []
-        for msg in messages:
-            if msg["role"] == "system":
-                messages_param.append({"role": "system", "content": msg["content"]})
-            elif msg["role"] == "user":
-                messages_param.append({"role": "user", "content": msg["content"]})
-            elif msg["role"] == "assistant":
-                messages_param.append({"role": "assistant", "content": msg["content"]})
-            else:
-                messages_param.append({"role": msg["role"], "content": msg["content"]})
-
-        # 🚀 Send to OpenAI
-        openai_client = get_openai_client()
+        # ---------- OpenAI call ----------
+        response_text = ""
         try:
-            completion = openai_client.chat.completions.create(
+            client = get_openai_client()
+            completion = client.chat.completions.create(
                 model="gpt-4o",
-                messages=messages_param,
+                messages=[{"role": m["role"], "content": m["content"]} for m in messages],
                 max_tokens=1200,
-                temperature=0.7
+                temperature=0.7,
             )
             content = completion.choices[0].message.content
-            assistant_response = content.strip() if content is not None else ""
-            print(f"✅ Assistant response: {len(assistant_response)} chars")
+            assistant_response = (content or "").strip()
 
+            # If model returned JSON, pretty print; otherwise keep as-is
             try:
                 parsed = json.loads(assistant_response)
                 response_text = json.dumps(parsed, indent=2)
             except json.JSONDecodeError:
                 response_text = assistant_response
 
+            app.logger.info("✅ Assistant response length: %d chars", len(response_text))
         except Exception as e:
-            print(f"❌ OpenAI error: {type(e).__name__}: {e}")
+            app.logger.error("❌ OpenAI error: %s: %s", type(e).__name__, e)
             response_text = f"Error from AI: {str(e)}"
 
-        # 💾 Save response and return
+        # ---------- Save + return ----------
         conversation.append({"role": "assistant", "content": response_text})
         save_conversation(conversation_id, conversation)
-        return jsonify({"response": response_text})
 
+        # ALWAYS return the same shape so the front-end never guesses
+        payload = {
+            "ok": True,
+            "assistant_response": str(response_text or ""),
+            "conversation_id": conversation_id,
+            "sources": [],  # populate later if you want to surface citations
+        }
+        app.logger.info("↩️ Returning assistant_response length: %d", len(payload["assistant_response"]))
+        return jsonify(payload), 200
+
+    # GET
     return render_template(
         "index.html",
         conversation=conversation,
         venue=venue,
         user_prompt=user_prompt,
         assistant_response=assistant_response,
-        use_live_search=use_live_search
+        use_live_search=use_live_search,
     )
+
+
+@app.route("/init", methods=["POST"])
+def init():
+    """Tiny pre-warm route to create a session/conversation id on page load."""
+    cid = get_conversation_id()
+    if not load_conversation(cid):
+        save_conversation(cid, [])
+    return jsonify({"ok": True, "conversation_id": cid}), 200
+
 
 @app.route("/reset", methods=["POST"])
 def reset():
-    conversation_id = get_conversation_id()
+    cid = get_conversation_id()
     try:
-        cache_file = os.path.join(CONVERSATION_CACHE_DIR, f"{conversation_id}.pkl")
-        if os.path.exists(cache_file):
-            os.remove(cache_file)
+        path = _cache_path(cid)
+        if os.path.exists(path):
+            os.remove(path)
     except Exception as e:
-        print(f"⚠️ Could not clear cache: {e}")
+        app.logger.warning("Could not clear cache: %s", e)
     session.clear()
-    return jsonify({"response": "Conversation reset."})
+    return jsonify({"ok": True, "assistant_response": "Conversation reset.", "conversation_id": None}), 200
+
 
 @app.route("/health")
 def health():
     return jsonify({
         "status": "healthy",
         "openai_configured": bool(os.environ.get("OPENAI_API_KEY")),
-        "rag_available": os.path.exists("codex_faiss_index/index.faiss")
-    })
+        "rag_available": os.path.exists("codex_faiss_index/index.faiss"),
+    }), 200
 
+
+# ---------------------------
+# Entrypoint
+# ---------------------------
 if __name__ == "__main__":
-    print("🚀 Starting Barman-1 AI Bar Director...")
+    print("🚀 Starting Barman-1 (Lloyd) …")
     print(f"📁 Cache dir: {CONVERSATION_CACHE_DIR}")
     print(f"🔑 API key set: {bool(os.environ.get('OPENAI_API_KEY'))}")
     print(f"📚 RAG index present: {os.path.exists('codex_faiss_index/index.faiss')}")

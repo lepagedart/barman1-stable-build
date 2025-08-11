@@ -26,6 +26,11 @@
         <button type="submit">Ask</button>
         <button type="button" id="reset-btn">Reset</button>
       </div>
+
+      <label style="margin-top:8px; display:inline-block;">
+        <input type="checkbox" id="showDebug" />
+        Show debug
+      </label>
     </form>
 
     <div id="conversation">
@@ -37,6 +42,7 @@
           </div>
         {% endfor %}
       </div>
+      <pre id="debugArea" style="display:none; white-space:pre-wrap; background:#f6f6f6; padding:8px; border-radius:6px; margin-top:10px;"></pre>
     </div>
   </div>
 
@@ -44,13 +50,46 @@
     const form = document.getElementById("prompt-form");
     const log = document.getElementById("log");
     const resetBtn = document.getElementById("reset-btn");
+    const showDebug = document.getElementById("showDebug");
+    const debugArea = document.getElementById("debugArea");
+
+    function setDebug(content) {
+      if (showDebug && showDebug.checked) {
+        debugArea.style.display = 'block';
+        debugArea.textContent = content;
+      } else {
+        debugArea.style.display = 'none';
+        debugArea.textContent = '';
+      }
+    }
+
+    function addMessage(role, content) {
+      const wrap = document.createElement("div");
+      wrap.className = `message ${role}`;
+
+      const strong = document.createElement("strong");
+      strong.textContent = role === "user" ? "User: " : "Assistant: ";
+      const text = document.createElement("span");
+      text.textContent = content; // safe text render
+
+      wrap.appendChild(strong);
+      wrap.appendChild(text);
+      log.appendChild(wrap);
+      log.scrollTop = log.scrollHeight;
+    }
+
+    async function prewarm() {
+      try { await fetch("/init", { method: "POST" }); } catch (_) {}
+    }
 
     form.addEventListener("submit", async (e) => {
       e.preventDefault();
 
-      const venue = document.getElementById("venue_concept").value;
-      const prompt = document.getElementById("user_prompt").value;
+      const venue = document.getElementById("venue_concept").value.trim();
+      const prompt = document.getElementById("user_prompt").value.trim();
       const useLiveSearch = document.getElementById("use_live_search").checked;
+
+      if (!prompt) return;
 
       addMessage("user", prompt);
       document.getElementById("user_prompt").value = "";
@@ -66,42 +105,50 @@
           })
         });
 
-        const data = await res.json();
-        if (data.response) {
-          addMessage("assistant", data.response);
+        const raw = await res.text();
+        setDebug("RAW RESPONSE:\n" + raw);
+
+        let data;
+        try { data = JSON.parse(raw); }
+        catch { data = {}; }
+
+        const msg =
+          (data && (data.assistant_response || data.response || data.message)) || "";
+
+        if (msg) {
+          addMessage("assistant", msg);
         } else {
           addMessage("assistant", "Error: No response received");
         }
       } catch (error) {
-        console.error("Error:", error);
         addMessage("assistant", "Error: Failed to get response");
       }
     });
 
     resetBtn.addEventListener("click", async () => {
-      await fetch("/reset", { method: "POST" });
+      try { await fetch("/reset", { method: "POST" }); } catch (_) {}
       log.innerHTML = "";
+      setDebug("");
     });
 
-    function addMessage(role, content) {
-      const messageDiv = document.createElement("div");
-      messageDiv.className = `message ${role}`;
-      messageDiv.innerHTML = `<strong>${role === 'user' ? 'User' : 'Assistant'}:</strong> ${content}`;
-      log.appendChild(messageDiv);
-      log.scrollTop = log.scrollHeight;
-    }
-
     async function updateLog() {
-      const res = await fetch("/");
-      const html = await res.text();
-      const tempDiv = document.createElement("div");
-      tempDiv.innerHTML = html;
-
-      const updatedLog = tempDiv.querySelector("#log");
-      log.innerHTML = updatedLog ? updatedLog.innerHTML : "";
+      // simple refresh of server-rendered conversation
+      try {
+        const res = await fetch("/");
+        const html = await res.text();
+        const tempDiv = document.createElement("div");
+        tempDiv.innerHTML = html;
+        const updatedLog = tempDiv.querySelector("#log");
+        log.innerHTML = updatedLog ? updatedLog.innerHTML : "";
+      } catch (_) {}
     }
 
-    window.onload = updateLog;
+    window.addEventListener("load", async () => {
+      await prewarm();
+      await updateLog();
+    });
+
+    showDebug.addEventListener("change", () => setDebug(debugArea.textContent));
   </script>
 </body>
 </html>
