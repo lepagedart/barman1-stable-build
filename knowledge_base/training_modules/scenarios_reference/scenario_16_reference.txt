@@ -1,0 +1,22 @@
+Title: Scenario 16 – Bar Team Development & Culture (Reference)  
+Tags: scenario_16, bartender_growth, team_cohesion, culture_building, peer_training, recognition_programs, skills_development
+
+## Scenario Description
+A bar manager or GM wants to build a more engaged, motivated, and professional bar team. They’re looking for ways to support bartender growth, team cohesion, and culture without formal training programs.
+
+## User Prompt
+I want my bar team to feel like they’re growing and working toward something — not just making drinks. Any ideas for supporting development and building a stronger culture behind the bar?
+
+## Final Post-Rubric Output
+1. **Pre-Shift Mini Masterclasses** – Rotating 10-min peer-led skills sessions, tracked on culture/skills scorecard.  
+2. **Cocktail of the Month** – Designed by staff, includes costing and NA variant.  
+3. **Quarterly Field Trip + R&D Session** – Bonding plus menu innovation.  
+4. **Peer Review Rounds** – Monthly observation & constructive feedback.  
+5. **Skill Swap Challenge** – Staff trade specialties for a shift to diversify skill sets.  
+6. **Off-Service Social Event** – Monthly casual gathering or volunteer project.  
+7. **Recognition Program** – Peer-nominated monthly award with small perk.
+
+## Notes
+- Most ideas cost little beyond time commitment.  
+- Coverage planning required for field trips & skill swaps.  
+- Adds measurement via scorecard for tracking engagement, skills, and retention trends.

@@ -1,0 +1,19 @@
+Title: Scenario 15 – Strategic Cocktail Promotions (Reference)  
+Tags: scenario_15, cocktail_promotions, guest_engagement, minimal_prep, existing_skus, program_calendar, operational_risk, marketing_kpis, na_inclusivity
+
+## Scenario Description
+A 75-seat neighborhood restaurant with a small craft cocktail program and a loyal but slow weekday crowd. Staff are cross-trained but prep space is limited; the venue wants to increase guest count and check averages during slower months without diluting brand or margins.
+
+## User Prompt
+We’re entering a slower month and want strategic cocktail promotions that drive guest engagement, repeat visits, or check averages — without diluting the brand or profit margins. Avoid coupon-style discounts. Assume we want to keep standards high while increasing guest count. Focus on ideas that can run weekly with minimal prep, using mostly existing SKUs. Flag any suggestions that require heavy new builds or rare ingredients.
+
+## Final Post-Rubric Output
+1. **Weekly Themed Cocktail Nights** – Includes NA mocktail variant and fixed cost/margin goal (≤ 22% pour cost).  
+2. **Chef Pairing Night** – Small plate & cocktail pairing, fixed monthly slot.  
+3. **Cocktail Passport Program** – 6-week stamp collection for trying unique cocktails, with guest reward.  
+4. **Mini-Flight Night** – 3 half-pour cocktails from existing menu presented as a tasting flight.
+
+## Notes
+- 6-week calendar rotation with themes distributed for operational balance.  
+- KPI tracking for repeat visits, social engagement, and check averages.  
+- All promotions use existing SKUs, require minimal prep, and have NA variants.

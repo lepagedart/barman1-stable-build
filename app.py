@@ -4,6 +4,7 @@ import pickle
 import hashlib
 from flask import Flask, render_template, request, jsonify, session
 from openai import OpenAI
+from openai.types.chat import ChatCompletionMessageParam
 from dotenv import load_dotenv
 
 from rag_retriever import retrieve_codex_context
@@ -153,13 +154,30 @@ def index():
         # Append a small window of recent chat history
         messages.extend(conversation[-10:])
 
+        # Convert messages to ChatCompletionMessageParam objects as required by OpenAI SDK
+        from openai.types.chat import ChatCompletionSystemMessageParam, ChatCompletionUserMessageParam, ChatCompletionAssistantMessageParam
+
+        def to_message_param(msg):
+            role = msg["role"]
+            content = msg["content"]
+            if role == "system":
+                return ChatCompletionSystemMessageParam(role=role, content=content)
+            elif role == "user":
+                return ChatCompletionUserMessageParam(role=role, content=content)
+            elif role == "assistant":
+                return ChatCompletionAssistantMessageParam(role=role, content=content)
+            else:
+                raise ValueError(f"Unknown role: {role}")
+
+        messages_param = [to_message_param(msg) for msg in messages]
+
         # ---------- OpenAI call ----------
         response_text = ""
         try:
             client = get_openai_client()
             completion = client.chat.completions.create(
-                model="gpt-4o",
-                messages=[{"role": m["role"], "content": m["content"]} for m in messages],
+                model="gpt-3.5-turbo",
+                messages=messages_param,
                 max_tokens=1200,
                 temperature=0.7,
             )
@@ -233,6 +251,19 @@ def health():
         "rag_available": os.path.exists("codex_faiss_index/index.faiss"),
     }), 200
 
+# app.py (add near other routes)
+@app.route("/reindex", methods=["POST"])
+def reindex():
+    try:
+        from kb_loader import rebuild_vectorstore  # add function below
+        n = rebuild_vectorstore()
+        # clear caches so the new index is used immediately
+        from rag_retriever import clear_cache
+        clear_cache()
+        return jsonify({"status": "ok", "docs_indexed": n})
+    except Exception as e:
+        return jsonify({"status": "error", "error": str(e)}), 500
+
 
 # ---------------------------
 # Entrypoint
@@ -242,4 +273,4 @@ if __name__ == "__main__":
     print(f"📁 Cache dir: {CONVERSATION_CACHE_DIR}")
     print(f"🔑 API key set: {bool(os.environ.get('OPENAI_API_KEY'))}")
     print(f"📚 RAG index present: {os.path.exists('codex_faiss_index/index.faiss')}")
-    app.run(debug=True, port=5000)
+    app.run(debug=True, use_reloader=False, port=5000)  # ← add use_reloader=False
