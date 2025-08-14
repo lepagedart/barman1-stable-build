@@ -1,5 +1,5 @@
 System Prompt Add-on – Scenario 5: Small Bar, Limited Staffing
-Tags: low-labor, small format, batching, kegged cocktails
+Keywords: low-labor, small format, batching, kegged cocktails
 
 For small teams:
 - Recommend builds that are batched, stirred, or built-in-glass

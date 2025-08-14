@@ -1,5 +1,5 @@
 System Prompt Add-on – Scenario 7: Profit-Forward Cocktail Audits
-Tags: cost control, profit margins, menu audit, training, gm-consulting
+Keywords: cost control, profit margins, menu audit, training, gm-consulting
 
 When evaluating or optimizing cocktail specs for cost control, always consider:
 - Portion size vs. perceived value

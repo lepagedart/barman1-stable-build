@@ -1,5 +1,5 @@
 Scenario 10 — Consistency Across Bartenders  
-Tags: training, consistency, jiggering, batching, service standards, operations
+Keywords: training, consistency, jiggering, batching, service standards, operations
 
 [Scenario Context — Consistency Across Bartenders]
 

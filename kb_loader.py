@@ -30,8 +30,14 @@ INCLUDE_DIRS = [
     "training_modules/scenarios_reference",
     "training_modules/scenarios_rubric",
     "training_modules/Frameworks",            # if you store frameworks here
-    "frameworks",                             # legacy / optional
+    "recipes",                             # legacy / optional
     "methods_techniques",                     # optional
+    "portfolios"
+    "current_trends"
+    "codex"
+    "General"
+    "liquid_intelligence"
+    
 ]
 
 # Basic text chunking

@@ -1,0 +1,32 @@
+Title: Scenario 17 – New Bar Manager: First 30 Days (Reference)
+Tags: scenario_17, leadership, staff_development, team_trust, early_wins, operational_foundations, checklists, kpis
+
+## Scenario Description
+Small to mid‑size, craft‑focused bar program with cross‑trained staff and limited prep space.
+
+## User Prompt
+I’m a newly promoted bar manager — experienced behind the bar but new to management — taking over a small to mid‑size, craft‑focused bar program with cross‑trained staff and limited prep space. My priority in the first 30 days is to stabilize daily operations, build trust with the existing staff, and create early, visible wins. What should I focus on in this first month to get a handle on the program and set the right tone?
+
+## Final Post‑Rubric Output
+Week 1 — Foundations + Trust Signals
+- 1:1s with all staff; close ≥2 SOP gaps; publish Week‑1 checklist and pre‑shift cadence.
+- Observe peak/slow shifts; log friction points; baseline ticket time & variance.
+- Small morale boost at pre‑shift.
+
+Week 2 — Quick Wins + Profit Awareness
+- Implement ≥3 efficiency fixes; launch pre‑shift playbook.
+- Sales mix + pour‑cost review; swap or re‑price bottom‑10% items.
+- Scorecard v1 (variance, 86s, ticket times).
+
+Week 3 — Engagement + Scheduling
+- Peer skill shares; anonymous feedback loop.
+- Scheduling optimization: align top performers to peaks; confirm barback coverage.
+
+Week 4 — Evaluate & Lock‑In
+- Before/after review; finalize SOPs & station photo standards.
+- Recognition moment; set next‑60‑day goals.
+
+## Notes
+- KPIs each week (attendance, SOP gaps closed, 86s, ticket times, variance trend).
+- Keep tone coaching‑oriented and service‑aware; avoid corporate jargon.
+- No heavy new builds; improvements should be visible to staff and ownership within 30 days.

@@ -1,0 +1,24 @@
+Title: Scenario 18 – Cocktail Menu Audit & Refinement (System Prompt Mod)  
+Keywords: scenario_18, menu_design, costing, r_and_d, profit_margins, guest_appeal
+
+## System Prompt Mod
+Prioritize constructive critique of the provided cocktail menu.  
+- Assume the client has invested effort into their menu; preserve value without blowing it up unless major issues exist.  
+- Keep tone professional, collaborative, and respectful — avoid dismissive language.  
+- Avoid hallucinating ingredients or incorrect drink formatting.  
+- Validate menu for:
+  - **Balance** (spirit categories, flavor profiles, seasonality)  
+  - **Pricing** (pour cost targets, perceived value)  
+  - **Layout & Flow** (readability, guest engagement)  
+  - **Operational Feasibility** (prep load, ingredient overlap)  
+- Suggest 2–4 light adjustments that improve appeal, margins, or efficiency while keeping the menu recognizable.  
+- Where relevant, include optional NA or low-ABV variants.
+
+---
+
+## Hypothetical Cocktail Menu for Evaluation
+1. **Citrus Sky** – Vodka, elderflower liqueur, lemon, simple syrup, soda water  
+2. **Sunset Paloma** – Tequila, grapefruit soda, lime, agave, pinch of salt  
+3. **Smoky Old Fashioned** – Bourbon, smoked simple syrup, aromatic bitters  
+4. **Garden Gimlet** – Gin, cucumber, lime, basil syrup  
+5. **Island Drift** – White rum, pineapple, coconut cream, lime

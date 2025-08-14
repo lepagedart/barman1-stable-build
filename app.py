@@ -2,9 +2,17 @@ import os
 import json
 import pickle
 import hashlib
+import threading
+import time
+from pathlib import Path
+
 from flask import Flask, render_template, request, jsonify, session
 from openai import OpenAI
-from openai.types.chat import ChatCompletionMessageParam
+from openai.types.chat import (
+    ChatCompletionSystemMessageParam,
+    ChatCompletionUserMessageParam,
+    ChatCompletionAssistantMessageParam,
+)
 from dotenv import load_dotenv
 
 from rag_retriever import retrieve_codex_context
@@ -22,7 +30,19 @@ app.secret_key = os.environ.get("FLASK_SECRET_KEY", "dev-secret-key-change-in-pr
 
 CONVERSATION_CACHE_DIR = "conversation_cache"
 KB_FOLDER = "knowledge_base"
+VECTORSTORE_DIR = "codex_faiss_index"
 os.makedirs(CONVERSATION_CACHE_DIR, exist_ok=True)
+
+# Model can be overridden via env
+OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o")
+
+# ---- Auto-reindex config ----
+AUTO_REINDEX = os.environ.get("AUTO_REINDEX", "1") != "0"
+_KB_CHECK_MIN_INTERVAL_SEC = 3.0
+_last_kb_check_ts = 0.0
+_last_kb_fingerprint = None
+_kb_lock = threading.Lock()
+KB_ROOT = Path(KB_FOLDER)
 
 _client = None
 
@@ -80,6 +100,65 @@ def load_system_prompt():
         return (
             "You are Lloyd, an AI-powered Bar Director providing expert bar program advice."
         )
+
+# ---------------------------
+# Auto-reindex helpers
+# ---------------------------
+def _kb_fingerprint() -> str:
+    """
+    Create a quick fingerprint of all *.txt under knowledge_base/.
+    Uses file paths + mtimes + sizes; fast and reliable enough.
+    """
+    import hashlib as _hashlib
+    h = _hashlib.md5()
+    if not KB_ROOT.exists():
+        return ""
+    for p in sorted(KB_ROOT.rglob("*.txt")):
+        try:
+            stat = p.stat()
+            h.update(str(p.relative_to(KB_ROOT)).encode("utf-8"))
+            h.update(str(int(stat.st_mtime)).encode("utf-8"))
+            h.update(str(stat.st_size).encode("utf-8"))
+        except Exception:
+            continue
+    return h.hexdigest()
+
+
+def _reindex_now() -> int:
+    """Rebuild FAISS and clear retriever caches."""
+    from kb_loader import rebuild_vectorstore
+    from rag_retriever import clear_cache
+    app.logger.info("🔁 Reindex: rebuilding vectorstore…")
+    n = rebuild_vectorstore()
+    clear_cache()
+    app.logger.info("✅ Reindex complete. Chunks indexed: %s", n)
+    return n
+
+
+def _maybe_reindex_on_change():
+    """
+    If AUTO_REINDEX is enabled, compare KB fingerprint and rebuild when changed.
+    Throttled to avoid multiple rebuilds within a few seconds.
+    """
+    global _last_kb_check_ts, _last_kb_fingerprint
+    if not AUTO_REINDEX:
+        return
+    now = time.time()
+    if (now - _last_kb_check_ts) < _KB_CHECK_MIN_INTERVAL_SEC:
+        return
+    with _kb_lock:
+        _last_kb_check_ts = now
+        fp = _kb_fingerprint()
+        if fp and fp != _last_kb_fingerprint:
+            app.logger.info("🧭 KB change detected, triggering reindex…")
+            _reindex_now()
+            _last_kb_fingerprint = fp
+
+
+@app.before_request
+def _auto_reindex_hook():
+    # Rebuild if KB changed since last request (cheap check + throttle)
+    _maybe_reindex_on_change()
 
 
 # ---------------------------
@@ -154,9 +233,7 @@ def index():
         # Append a small window of recent chat history
         messages.extend(conversation[-10:])
 
-        # Convert messages to ChatCompletionMessageParam objects as required by OpenAI SDK
-        from openai.types.chat import ChatCompletionSystemMessageParam, ChatCompletionUserMessageParam, ChatCompletionAssistantMessageParam
-
+        # Convert messages to OpenAI message params
         def to_message_param(msg):
             role = msg["role"]
             content = msg["content"]
@@ -176,7 +253,7 @@ def index():
         try:
             client = get_openai_client()
             completion = client.chat.completions.create(
-                model="gpt-3.5-turbo",
+                model=OPENAI_MODEL,
                 messages=messages_param,
                 max_tokens=1200,
                 temperature=0.7,
@@ -204,6 +281,7 @@ def index():
         payload = {
             "ok": True,
             "assistant_response": str(response_text or ""),
+            "response": str(response_text or ""),  # backward-compat if frontend used data.response
             "conversation_id": conversation_id,
             "sources": [],  # populate later if you want to surface citations
         }
@@ -248,19 +326,21 @@ def health():
     return jsonify({
         "status": "healthy",
         "openai_configured": bool(os.environ.get("OPENAI_API_KEY")),
-        "rag_available": os.path.exists("codex_faiss_index/index.faiss"),
+        "rag_available": os.path.exists(os.path.join(VECTORSTORE_DIR, "index.faiss")),
+        "auto_reindex": AUTO_REINDEX,
+        "model": OPENAI_MODEL,
     }), 200
 
-# app.py (add near other routes)
+
 @app.route("/reindex", methods=["POST"])
 def reindex():
     try:
-        from kb_loader import rebuild_vectorstore  # add function below
-        n = rebuild_vectorstore()
-        # clear caches so the new index is used immediately
-        from rag_retriever import clear_cache
-        clear_cache()
-        return jsonify({"status": "ok", "docs_indexed": n})
+        with _kb_lock:
+            n = _reindex_now()
+            # refresh stored fingerprint so we don't rebuild again on the next request
+            global _last_kb_fingerprint
+            _last_kb_fingerprint = _kb_fingerprint()
+        return jsonify({"status": "ok", "chunks_indexed": n})
     except Exception as e:
         return jsonify({"status": "error", "error": str(e)}), 500
 
@@ -272,5 +352,11 @@ if __name__ == "__main__":
     print("🚀 Starting Barman-1 (Lloyd) …")
     print(f"📁 Cache dir: {CONVERSATION_CACHE_DIR}")
     print(f"🔑 API key set: {bool(os.environ.get('OPENAI_API_KEY'))}")
-    print(f"📚 RAG index present: {os.path.exists('codex_faiss_index/index.faiss')}")
-    app.run(debug=True, use_reloader=False, port=5000)  # ← add use_reloader=False
+    print(f"📚 RAG index present: {os.path.exists(os.path.join(VECTORSTORE_DIR, 'index.faiss'))}")
+    # Initialize KB fingerprint so first request doesn’t always rebuild
+    try:
+        _last_kb_fingerprint = _kb_fingerprint()
+        print(f"🧾 KB fingerprint: {_last_kb_fingerprint[:8]}…")
+    except Exception as e:
+        print(f"⚠️ Could not compute KB fingerprint: {e}")
+    app.run(debug=True, use_reloader=False, port=5000)

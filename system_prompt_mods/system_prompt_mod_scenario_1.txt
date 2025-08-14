@@ -1,5 +1,5 @@
 System Prompt Add-on – Scenario 1: Basic Menu Build
-Tags: menu development, entry-level, foundational
+Keywords: menu development, entry-level, foundational
 
 For new or basic cocktail menus, focus on:
 - Core spirit families (whiskey, gin, tequila, rum, vodka)

@@ -1,5 +1,5 @@
 System Prompt Add-on – Scenario 2: High-Volume Prep
-Tags: batching, prep scaling, service speed, staff execution
+Keywords: batching, prep scaling, service speed, staff execution
 
 In high-volume programs, emphasize:
 - Pre-batching where shelf stability allows
