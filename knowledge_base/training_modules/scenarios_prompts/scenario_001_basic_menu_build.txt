@@ -1,0 +1,135 @@
+# Scenario 001 – Basic Menu Build
+
+## System Prompt Mod
+Focus on designing a streamlined, efficient cocktail menu for a new bar program. Balance guest appeal with ease of execution. Minimize prep while maintaining flavor and presentation. Provide clear specs, cost notes, rationale, and operational guidance.
+
+## Venue Prompt
+Casual neighborhood bar with moderate staffing (2 bartenders). Goal is to create an approachable, efficient 3–4 drink cocktail menu that sets the venue apart from beer/wine only spots. Prep time should be low, and service speed must stay high during peak hours.
+
+## User Prompt
+Design a basic cocktail menu (3–4 drinks) that balances guest appeal with efficiency. Include specs, glassware, garnish, cost notes, and operational notes on batching or prep.
+
+---
+
+## Lloyd’s Raw Output
+For a streamlined and efficient cocktail menu that balances guest appeal with ease of execution, here is a selection of three cocktails. These are designed to minimize prep without sacrificing flavor or presentation.
+
+### 1. Classic Whiskey Sour
+Spec:  
+- 2 oz Bourbon  
+- 0.75 oz Fresh lemon juice  
+- 0.5 oz Simple syrup  
+
+Ice / Glass / Garnish:  
+- Ice: Large cube  
+- Glass: Rocks  
+- Garnish: Lemon wheel  
+
+Method:  
+1. Combine all ingredients in a shaker with ice.  
+2. Shake well and strain into a rocks glass over fresh ice.  
+3. Garnish with a lemon wheel.  
+
+Cost Notes: Target pour cost ≤20%. Simple syrup can be easily made in-house.  
+Rationale: A classic favorite, easy to prepare quickly, and universally enjoyed.
+
+### 2. Gin & Tonic
+Spec:  
+- 2 oz Gin  
+- 4 oz Premium tonic water  
+
+Ice / Glass / Garnish:  
+- Ice: Cubes  
+- Glass: Highball  
+- Garnish: Lime wedge  
+
+Method:  
+1. Fill a highball glass with ice.  
+2. Add gin and top with tonic water.  
+3. Stir gently and garnish with a lime wedge.  
+
+Cost Notes: Target pour cost ≤22%. Opt for a house gin for cost control.  
+Rationale: Simple, refreshing, and easy to execute with minimal prep.
+
+### 3. Rum Punch
+Spec:  
+- 1.5 oz White rum  
+- 0.5 oz Dark rum  
+- 1 oz Orange juice  
+- 0.5 oz Lime juice  
+- 0.5 oz Grenadine  
+
+Ice / Glass / Garnish:  
+- Ice: Cubes  
+- Glass: Collins  
+- Garnish: Orange slice  
+
+Method:  
+1. Fill a shaker with all ingredients and ice.  
+2. Shake briefly and strain into a Collins glass over ice.  
+3. Garnish with an orange slice.  
+
+Cost Notes: Target pour cost ≤24%. Pre-batch juices if volume demands.  
+Rationale: Offers a bit of tropical flair while using ingredients that are easy to stock and manage.
+
+### Operational Notes
+- Syrups: Only simple syrup needed, made in-house to keep costs low.  
+- Batching: Consider pre-batching the Rum Punch juices for quick service during peak times.  
+- Efficiency: All cocktails require basic shaking or building techniques, ensuring speed and consistency during service.
+
+---
+
+## Rubric Evaluation
+**Relevance to Scenario Goals (Score: 4/5)**  
+✔ Menu is efficient and approachable.  
+✘ Could have included a fourth drink to balance variety.  
+
+**Operational Feasibility (Score: 4/5)**  
+✔ Builds are simple and execution-friendly.  
+✘ Juices in Rum Punch introduce some extra prep complexity.  
+
+**Creativity & Differentiation (Score: 3/5)**  
+✔ Balanced between classics and tropical flair.  
+✘ Gin & Tonic leans generic; could swap for a twist (e.g., flavored tonic or infused syrup).  
+
+**Cost Awareness (Score: 5/5)**  
+✔ Strong pour-cost notes with house spirit recommendations.  
+
+**Clarity of Specs (Score: 5/5)**  
+✔ Specs and methods are precise and well-structured.  
+
+**Overall Score: 21/25 – Pass with Minor Tweaks**
+
+---
+
+## Review Summary
+Lloyd delivered a strong base menu that meets efficiency and guest appeal goals. The Whiskey Sour and Rum Punch offer balance between classic and tropical profiles, while the Gin & Tonic keeps execution ultra-simple. Improvements could include:  
+- Adding a fourth option for variety.  
+- Giving the Gin & Tonic a signature twist to avoid being too generic.  
+- Considering a pre-batched cocktail for peak-hour consistency.  
+
+Overall, this is a solid “first pass” menu for a neighborhood bar.
+
+---
+
+## Corrected & Improved Version
+### Recommended Menu (4 Drinks)
+
+1. **Classic Whiskey Sour** – as above.  
+2. **Rum Punch** – as above, with pre-batched juice mix.  
+3. **Cucumber Collins**  
+   - 1.5 oz Gin  
+   - 1 oz Lemon juice  
+   - 0.5 oz Simple syrup  
+   - Top with soda water  
+   - Garnish: Cucumber slice  
+   → Adds a refreshing, signature twist while staying efficient.  
+4. **Pre-Batched Negroni**  
+   - Equal parts gin, Campari, and sweet vermouth, batched in advance.  
+   - Poured over ice with orange peel.  
+   → Provides a stirred, spirit-forward option that is 10-second service.  
+
+**Operational Notes (Revised):**  
+- Pre-batch Negroni and Rum Punch mix for consistency and speed.  
+- Only one house-made syrup (simple) required.  
+- Menu now spans sour, tropical, refreshing, and spirit-forward categories without overloading prep.  

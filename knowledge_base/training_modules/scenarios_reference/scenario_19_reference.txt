@@ -1,0 +1,47 @@
+## Improvement Plan
+1. Costing Guardrails
+   - Add pour-cost target (≤22% avg; ≤24% premium infusion).
+   - Estimate yields (1L = 10–12 serves).
+
+2. Operational Detail
+   - Pre-batch vodkas, cordials, syrups; label with yields & shelf life (4–7 days).
+   - Service goal: ≤3:00 ticket time.
+
+3. NA / Low-ABV Pairings
+   - Add NA twin per pairing (e.g., cucumber cordial + soda).
+   - Add fortified-wine option (sherry/vermouth-led).
+
+4. Prep & Efficiency
+   - Map overlapping ingredients (lemon juice in 3 builds, cordials reused).
+   - Sync garnish prep with kitchen mise.
+
+5. Chef Synergy
+   - Offer seasonal fallback swaps (e.g., apple for peach if OOS).
+   - Keep emphasis on supporting—not overshadowing—the dishes.
+
+---
+
+## Updated Plan (Post-Rubric)
+### Costing & Ops
+- Price guardrail: $13–15; pour cost ≤22%.
+- Batch yield: 1L = 10–12 serves; discard >7 days.
+
+### Per-Course Adjustments
+1. Corn & Basil Highball → Batch vodka & syrup; NA basil lemonade spritz.
+2. Cucumber Melon Spritz → Batch cordial; NA cordial + soda.
+3. Peach Bourbon Sour → Batch syrup & spirit; NA peach sour.
+4. Black Garlic Manhattan → Pre-infused vermouth; low-ABV garlic vermouth spritz.
+5. Blueberry Lemon Fizz → Egg white fizz; NA blueberry soda fizz.
+
+### Flow & Service
+- Sequence matches food pacing.
+- Ticket time: ≤3:00.
+- Pre-batch at least 2L each prep day.
+- Train staff: NA options available; emphasize flavor echo with dishes.
+
+### KPIs
+- COGS ≤22%.
+- Avg cocktail price ≥$13.50.
+- Ticket time ≤3:00.
+- NA/Low-ABV attach ≥5%.
+- Positive chef & guest feedback on balance/synergy.

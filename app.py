@@ -19,6 +19,12 @@ from rag_retriever import retrieve_codex_context
 from google_search import search_google
 from utils import detect_scenario_prompt_mod
 from kb_loader import load_knowledge_documents  # (kept import for parity, not used here)
+import threading
+
+from utils import (
+    detect_scenario_prompt_mod,
+    detect_scenario_prompt_mod_name,
+)
 
 # ---------------------------
 # Environment & App Setup
@@ -198,6 +204,18 @@ def index():
         if user_prompt:
             conversation.append({"role": "user", "content": user_prompt})
 
+            # ---- Scenario system-prompt mod detection (auto) ----
+            scenario_mod = detect_scenario_prompt_mod(user_prompt, venue) or ""
+            selected_mod_name = detect_scenario_prompt_mod_name(user_prompt, venue) or "none"
+            app.logger.info("🧩 Prompt mod selected: %s", selected_mod_name)
+
+# Compose the full system message
+            base_prompt = load_system_prompt()
+            if scenario_mod:
+                combined_prompt = f"{base_prompt}\n\n{scenario_mod}".strip()
+            else:
+                combined_prompt = base_prompt
+
         # ---------- RAG context ----------
         try:
             rag_context = retrieve_codex_context(user_prompt, venue, use_live_search=use_live_search)
@@ -331,6 +349,15 @@ def health():
         "model": OPENAI_MODEL,
     }), 200
 
+@app.route("/which-mod", methods=["POST"])
+def which_mod():
+    payload = request.get_json(silent=True) or {}
+    user_p = payload.get("user_prompt", "")
+    venue_p = payload.get("venue_prompt", "")
+    name = detect_scenario_prompt_mod_name(user_p, venue_p) or "none"
+    # in app.py inside which_mod()
+    print(f"🧩 /which-mod matched:", os.name)
+    return jsonify({"mod": name}), 200
 
 @app.route("/reindex", methods=["POST"])
 def reindex():
@@ -344,8 +371,15 @@ def reindex():
     except Exception as e:
         return jsonify({"status": "error", "error": str(e)}), 500
 
-
-# ---------------------------
+def _prewarm_backend():
+    try:
+        from rag_retriever import check_vectorstore_health
+        ok, msg = check_vectorstore_health()
+        app.logger.info("🔥 Prewarm vectorstore: %s", msg)
+        _ = get_openai_client()
+        app.logger.info("🔥 Prewarm OpenAI client: ready")
+    except Exception as e:
+        app.logger.warning("Prewarm failed (will recover on first request): %s", e)# ---------------------------
 # Entrypoint
 # ---------------------------
 if __name__ == "__main__":
@@ -353,7 +387,7 @@ if __name__ == "__main__":
     print(f"📁 Cache dir: {CONVERSATION_CACHE_DIR}")
     print(f"🔑 API key set: {bool(os.environ.get('OPENAI_API_KEY'))}")
     print(f"📚 RAG index present: {os.path.exists(os.path.join(VECTORSTORE_DIR, 'index.faiss'))}")
-    # Initialize KB fingerprint so first request doesn’t always rebuild
+    threading.Thread(target=_prewarm_backend, daemon=True).start()
     try:
         _last_kb_fingerprint = _kb_fingerprint()
         print(f"🧾 KB fingerprint: {_last_kb_fingerprint[:8]}…")

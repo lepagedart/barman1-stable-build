@@ -1,0 +1,31 @@
+Title: Scenario 18 – Cocktail Menu Audit & Refinement (Reference)
+Tags: scenario_18, menu_design, costing, profit_margins, guest_appeal, layout_flow, operational_feasibility, na_low_abv, batching_strategies
+
+## Scenario Description
+A mid-range, 120-seat contemporary American bistro wants its cocktail menu to feel tighter, more polished, and more profitable without alienating regulars.
+
+## User Prompt
+We’ve been running the following cocktail menu for three months. Could you audit it for balance, pricing, and operational efficiency, and suggest a few improvements? Please keep the structure intact and avoid a total overhaul.
+
+1. Citrus Sky – Vodka, elderflower liqueur, lemon, simple syrup, soda water  
+2. Sunset Paloma – Tequila, grapefruit soda, lime, agave, pinch of salt  
+3. Smoky Old Fashioned – Bourbon, smoked simple syrup, aromatic bitters  
+4. Garden Gimlet – Gin, cucumber, lime, basil syrup  
+5. Island Drift – White rum, pineapple, coconut cream, lime
+
+## Final Post-Rubric Output (Concise)
+- **Pricing Guardrails:** $13–$15, pour cost ≤22% (≤24% if premium flavors).  
+- **Per-Drink Updates:**  
+  1) *Citrus Sky* — cut elderflower to 0.25–0.5 oz; pre-batch vodka+elderflower+simple; consider house elderflower syrup.  
+  2) *Sunset Paloma* — replace canned soda with grapefruit cordial + soda; pre-batch tequila+agave; half salt rim.  
+  3) *Smoky Old Fashioned* — standardize smoked syrup (1:1); 0.25–0.35 oz per; optional 0.25 oz mezcal split.  
+  4) *Garden Gimlet* — swap muddle for cucumber-basil cordial; single leaf garnish; NA twin: Cucumber Basil Cooler.  
+  5) *Island Drift* — coconut cream to 0.5 oz; whip-shake; low-ABV swizzle with fino sherry.  
+- **Layout & Flow:** order light→spirit-forward; 7–10 word micro-descriptions; one icon max; “Staff Pick” badge on Gimlet.  
+- **Ops & Prep:** 1L batches (see above), shelf life 4–7 days, ticket time ≤3:30.  
+- **KPIs (2 weeks):** Avg price ≥ $13.75; COGS ≤ 22%; Top-2 ≥ 38% mix; NA/Low-ABV attach ≥ 6%.
+
+## Notes
+- Keep copy guest-friendly; avoid ingredient lists longer than 6 items.  
+- Track batch depletion daily to refine yields and reduce waste.  
+- Revisit pricing when vendor portfolio & true COGS are integrated.

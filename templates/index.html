@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Raise the Bar – AI Barman</title>
   <link rel="stylesheet" href="/static/styles.css"/>
+  <style>
+    .debug-panel { margin-top: 16px; padding: 12px; border: 1px dashed #aaa; border-radius: 8px; background:#fafafa; }
+    .debug-row { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+    .debug-result { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  </style>
 </head>
 <body>
   <div class="container">
@@ -12,14 +17,12 @@
 
     <form id="prompt-form">
       <label for="venue_concept">Venue Concept:</label>
-      <input type="text" id="venue_concept" name="venue_concept"
-             placeholder="e.g. Mid-Sized Modern American Bistro" required />
+      <input type="text" id="venue_concept" name="venue_concept" placeholder="e.g. Mid-Sized Modern American Bistro" required />
 
       <label for="user_prompt">Ask the Bar Manager:</label>
-      <textarea id="user_prompt" name="user_prompt" rows="4"
-                placeholder="Enter your cocktail program question..." required></textarea>
+      <textarea id="user_prompt" name="user_prompt" rows="4" placeholder="Enter your cocktail program question..." required></textarea>
 
-      <label>
+      <label style="display:block;margin-top:8px;">
         <input type="checkbox" name="use_live_search" id="use_live_search" />
         Include Live Internet Search
       </label>
@@ -28,14 +31,19 @@
         <button type="submit">Ask</button>
         <button type="button" id="reset-btn">Reset</button>
       </div>
-
-      <label style="margin-top:8px; display:inline-block;">
-        <input type="checkbox" id="showDebug" />
-        Show debug
-      </label>
     </form>
 
-    <div id="conversation">
+    <!-- Debug: Which Mod Detector -->
+    <div class="debug-panel">
+      <div class="debug-row">
+        <strong>Debug · Which system prompt mod?</strong>
+        <button type="button" id="which-mod-btn" title="Test which mod matches current inputs">Test Mod Match</button>
+        <span id="which-mod-result" class="debug-result"></span>
+      </div>
+      <pre id="which-mod-raw" style="margin-top:8px; white-space:pre-wrap;"></pre>
+    </div>
+
+    <div id="conversation" style="margin-top:16px;">
       <h2>Conversation Log</h2>
       <div id="log">
         {% for msg in conversation %}
@@ -44,7 +52,6 @@
           </div>
         {% endfor %}
       </div>
-      <pre id="debugArea" style="display:none; white-space:pre-wrap; background:#f6f6f6; padding:8px; border-radius:6px; margin-top:10px;"></pre>
     </div>
   </div>
 
@@ -52,110 +59,111 @@
     const form = document.getElementById("prompt-form");
     const log = document.getElementById("log");
     const resetBtn = document.getElementById("reset-btn");
-    const showDebug = document.getElementById("showDebug");
-    const debugArea = document.getElementById("debugArea");
-
-    function setDebug(content) {
-      if (showDebug && showDebug.checked) {
-        debugArea.style.display = 'block';
-        debugArea.textContent = content;
-      } else {
-        debugArea.style.display = 'none';
-        debugArea.textContent = '';
-      }
-    }
-
-    function addMessage(role, content) {
-      const messageDiv = document.createElement("div");
-      messageDiv.className = `message ${role}`;
-
-      const who = document.createElement("strong");
-      who.textContent = role === 'user' ? 'User: ' : 'Assistant: ';
-
-      const text = document.createElement("span");
-      text.textContent = content;
-
-      messageDiv.appendChild(who);
-      messageDiv.appendChild(text);
-      log.appendChild(messageDiv);
-      log.scrollTop = log.scrollHeight;
-    }
-
-    async function prewarm() {
-      try {
-        await fetch("/init", { method: "POST" });
-        const h = await fetch("/health");
-        // optional: you could disable the form until h.ok === true
-        console.log("Health:", h.status);
-      } catch (_) {}
-    }
+    const whichBtn = document.getElementById("which-mod-btn");
+    const whichResult = document.getElementById("which-mod-result");
+    const whichRaw = document.getElementById("which-mod-raw");
 
     form.addEventListener("submit", async (e) => {
       e.preventDefault();
 
-      const venue = document.getElementById("venue_concept").value.trim();
-      const prompt = document.getElementById("user_prompt").value.trim();
+      const venue = document.getElementById("venue_concept").value;
+      const prompt = document.getElementById("user_prompt").value;
       const useLiveSearch = document.getElementById("use_live_search").checked;
-
-      if (!prompt) return;
 
       addMessage("user", prompt);
       document.getElementById("user_prompt").value = "";
 
-      try {
-        const res = await fetch("/", {
-          method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: new URLSearchParams({
-            venue_concept: venue,
-            user_prompt: prompt,
-            use_live_search: useLiveSearch ? "on" : ""
-          })
-        });
+      async function askOnce() {
+  const res = await fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams({
+      venue_concept: venue,
+      user_prompt: prompt,
+      use_live_search: useLiveSearch ? "on" : ""
+    })
+  });
+  try {
+    return await res.json();
+  } catch {
+    const text = await res.text();       // handle HTML error or plain text
+    return { ok: res.ok, assistant_response: text || "" };
+  }
+}
 
-        const raw = await res.text();
-        setDebug("RAW RESPONSE:\n" + raw + `\nSTATUS: ${res.status}`);
+let data = await askOnce();
+if (!data || !data.assistant_response) {
+  await new Promise(r => setTimeout(r, 400));  // tiny backoff
+  data = await askOnce();
+}
 
-        if (!res.ok || !raw) {
-          addMessage("assistant", "Error: No response received");
-          return;
-        }
-
-        let data = {};
-        try { data = JSON.parse(raw); } catch {}
-        const msg = (data.assistant_response || data.response || data.message || "").toString();
-
-        if (msg) addMessage("assistant", msg);
-        else addMessage("assistant", "Error: No response received");
-      } catch (error) {
-        addMessage("assistant", "Error: Failed to get response");
-        setDebug((debugArea.textContent || "") + "\nFETCH ERROR: " + (error && error.message ? error.message : String(error)));
-      }
+// You likely want to add the assistant's response to the log here:
+if (data && data.assistant_response) {
+  addMessage("assistant", data.assistant_response);
+}
     });
 
     resetBtn.addEventListener("click", async () => {
-      try { await fetch("/reset", { method: "POST" }); } catch (_) {}
+      await fetch("/reset", { method: "POST" });
       log.innerHTML = "";
-      setDebug("");
+      whichResult.textContent = "";
+      whichRaw.textContent = "";
     });
 
-    async function updateLog() {
-      try {
-        const res = await fetch("/");
-        const html = await res.text();
-        const temp = document.createElement("div");
-        temp.innerHTML = html;
-        const updated = temp.querySelector("#log");
-        log.innerHTML = updated ? updated.innerHTML : "";
-      } catch (_) {}
+    function addMessage(role, content) {
+      const messageDiv = document.createElement("div");
+      messageDiv.className = `message ${role}`;
+      messageDiv.innerHTML = `<strong>${role === 'user' ? 'User' : 'Assistant'}:</strong> ${content}`;
+      log.appendChild(messageDiv);
+      log.scrollTop = log.scrollHeight;
     }
 
-    window.addEventListener("load", async () => {
-      await prewarm();
-      await updateLog();
-    });
+    async function updateLog() {
+      const res = await fetch("/");
+      const html = await res.text();
+      const tempDiv = document.createElement("div");
+      tempDiv.innerHTML = html;
 
-    showDebug.addEventListener("change", () => setDebug(debugArea.textContent));
+      const updatedLog = tempDiv.querySelector("#log");
+      log.innerHTML = updatedLog ? updatedLog.innerHTML : "";
+    }
+
+    window.onload = updateLog;
+
+    // ---- Debug: Which mod matches current inputs? ----
+    whichBtn.addEventListener("click", async () => {
+      const venue = document.getElementById("venue_concept").value || "";
+      const prompt = document.getElementById("user_prompt").value || "";
+
+      whichResult.textContent = " …checking";
+      whichRaw.textContent = "";
+
+      try {
+        const res = await fetch("/which-mod", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            user_prompt: prompt,
+            venue_prompt: venue
+          })
+        });
+        const data = await res.json();
+        whichResult.textContent = data.mod ? `Matched: ${data.mod}` : "Matched: none";
+        whichRaw.textContent = JSON.stringify(data, null, 2);
+      } catch (err) {
+        whichResult.textContent = "Error";
+        whichRaw.textContent = String(err);
+      }
+    });
+  </script>
+  <script>
+    async function prewarm() {
+      try {
+        await fetch("/init",  { method: "POST" }); // make session
+        await fetch("/health");                    // warm network/runtime
+      } catch (e) { console.warn("Prewarm (non-fatal):", e); }
+    }
+    window.addEventListener("load", prewarm);
   </script>
 </body>
 </html>

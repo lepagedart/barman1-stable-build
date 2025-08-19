@@ -1,5 +1,5 @@
 Title: Bar Program Snapshot for General Managers  
-Keywords: performance, metrics, GM, overview, evaluation  
+Keywords: menu, performance, metrics, GM, overview, evaluation  
 
 If the user is asking for a bar program evaluation, especially from a general manager's perspective, respond with a clear and structured summary framework. Do not assume the GM has deep bar knowledge — avoid bar jargon unless explained. Include actionable metrics across key areas:
 - Cocktail Menu Performance (e.g. sales mix, margin contribution, seasonal item adoption)

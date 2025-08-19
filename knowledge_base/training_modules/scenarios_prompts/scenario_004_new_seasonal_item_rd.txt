@@ -1,0 +1,143 @@
+
+### Scenario #
+4
+
+### Scenario Name
+New Seasonal Item R&D
+
+### Venue Prompt
+A cozy New England gastropub with a strong focus on local, seasonal ingredients. It’s mid-October, and the bar is preparing for the busy fall season with football crowds and leaf-peepers. The team wants to showcase autumn flavors while keeping execution streamlined for a small staff.
+
+### User Prompt
+We want to add one or two seasonal cocktails to the menu that highlight local New England ingredients and fit with our fall theme. Please provide complete builds, garnish ideas, and explain how these cocktails connect to our concept and seasonal appeal. Keep the prep practical for our small bar team.
+
+### System Mod
+Emphasize creating **1–2 seasonal cocktails** that highlight local or regional ingredients, showcase fall flavors, and balance creativity with operational feasibility. Prioritize builds that are realistic for a small team while still offering distinct seasonal appeal. Do not over-complicate prep or techniques.
+
+### Assistant Raw Output
+### 1. New England Harvest Mule
+
+**Spec:**
+- 1.5 oz Local Vodka (or New England Distilled Vodka)
+- 0.5 oz Fresh Lime Juice
+- 0.5 oz Cranberry Syrup (made with local cranberries)
+- Top with Ginger Beer
+
+**Ice / Glass / Garnish:**
+- Ice: Crushed
+- Glass: Copper Mug or Highball
+- Garnish: Lime wheel and a few whole cranberries
+
+**Method:**
+1. In a copper mug or highball glass, combine vodka, lime juice, and cranberry syrup.
+2. Fill with crushed ice and top with ginger beer.
+3. Stir gently and garnish with a lime wheel and whole cranberries.
+
+**Rationale:**
+This cocktail highlights local cranberries, a quintessential New England ingredient, offering a familiar yet seasonal twist on the classic Mule. The ginger beer adds warmth, perfect for fall.
+
+### 2. Maple Walnut Old Fashioned
+
+**Spec:**
+- 2 oz Bourbon (or locally sourced whiskey)
+- 0.25 oz Maple Syrup (preferably from a local producer)
+- 2 dashes Walnut Bitters
+- 1 dash Angostura Bitters
+
+**Ice / Glass / Garnish:**
+- Ice: Large cube
+- Glass: Rocks
+- Garnish: Orange peel and a toasted walnut
+
+**Method:**
+1. In a mixing glass, combine bourbon, maple syrup, walnut bitters, and Angostura bitters with ice.
+2. Stir until well-chilled and strain over a large ice cube in a rocks glass.
+3. Express an orange peel over the drink and garnish with a toasted walnut.
+
+**Rationale:**
+Maple syrup and walnut bitters showcase New England's autumn flavors, adding depth and richness to this Old Fashioned variation. The use of local syrup ties it to the region and enhances the drink's seasonal appeal.
+
+### Operational Notes:
+- **Cranberry Syrup Prep:** Simmer local cranberries with sugar and water until they burst, then strain. This can be batched and stored for several days.
+- **Maple Sourcing:** Use locally produced maple syrup to emphasize the regional connection.
+- **Staff Training:** Ensure the team is comfortable with syrup preparation and garnishing techniques to maintain consistency and speed.### 1. New England Harvest Mule
+
+**Spec:**
+- 1.5 oz Local Vodka (or New England Distilled Vodka)
+- 0.5 oz Fresh Lime Juice
+- 0.5 oz Cranberry Syrup (made with local cranberries)
+- Top with Ginger Beer
+
+**Ice / Glass / Garnish:**
+- Ice: Crushed
+- Glass: Copper Mug or Highball
+- Garnish: Lime wheel and a few whole cranberries
+
+**Method:**
+1. In a copper mug or highball glass, combine vodka, lime juice, and cranberry syrup.
+2. Fill with crushed ice and top with ginger beer.
+3. Stir gently and garnish with a lime wheel and whole cranberries.
+
+**Rationale:**
+This cocktail highlights local cranberries, a quintessential New England ingredient, offering a familiar yet seasonal twist on the classic Mule. The ginger beer adds warmth, perfect for fall.
+
+### 2. Maple Walnut Old Fashioned
+
+**Spec:**
+- 2 oz Bourbon (or locally sourced whiskey)
+- 0.25 oz Maple Syrup (preferably from a local producer)
+- 2 dashes Walnut Bitters
+- 1 dash Angostura Bitters
+
+**Ice / Glass / Garnish:**
+- Ice: Large cube
+- Glass: Rocks
+- Garnish: Orange peel and a toasted walnut
+
+**Method:**
+1. In a mixing glass, combine bourbon, maple syrup, walnut bitters, and Angostura bitters with ice.
+2. Stir until well-chilled and strain over a large ice cube in a rocks glass.
+3. Express an orange peel over the drink and garnish with a toasted walnut.
+
+**Rationale:**
+Maple syrup and walnut bitters showcase New England's autumn flavors, adding depth and richness to this Old Fashioned variation. The use of local syrup ties it to the region and enhances the drink's seasonal appeal.
+
+### Operational Notes:
+- **Cranberry Syrup Prep:** Simmer local cranberries with sugar and water until they burst, then strain. This can be batched and stored for several days.
+- **Maple Sourcing:** Use locally produced maple syrup to emphasize the regional connection.
+- **Staff Training:** Ensure the team is comfortable with syrup preparation and garnishing techniques to maintain consistency and speed.
+
+### Evaluation / Rubric Review
+- **Menu Alignment:** ✔ Strong use of local/seasonal flavors (cranberry, maple, walnut). Both drinks clearly fit a New England fall concept.  
+- **Operational Efficiency:** ✔ Prep is practical — one syrup, one special bitters, both manageable for a small team.  
+- **Diversity:** ✔ Covers a highball (Mule) and a stirred cocktail (Old Fashioned). Nice contrast in style and spirit base.  
+- **Guest Appeal:** ✔ Approachable yet interesting. Cranberry Mule offers mass appeal, Old Fashioned riff plays to whiskey drinkers.  
+- **Opportunities for Improvement:** Could offer one option that leans lighter/aperitif-style to broaden range. Training notes are solid but could include batching potential for cranberry syrup.  
+
+**Result:** PASS — clear, seasonal, efficient, and tied to venue identity.
+
+### Corrected / Standardized Write-Up
+**1. New England Harvest Mule**  
+- 1.5 oz New England Vodka  
+- 0.5 oz Fresh Lime Juice  
+- 0.5 oz House Cranberry Syrup (local cranberries)  
+- Top with Ginger Beer  
+Glass: Copper Mug / Highball  
+Ice: Crushed  
+Garnish: Lime wheel + 3 whole cranberries  
+**Rationale:** Seasonal twist on a classic Mule; cranberry adds New England identity, ginger spice complements fall weather.  
+
+**2. Maple Walnut Old Fashioned**  
+- 2 oz Bourbon or Local Whiskey  
+- 0.25 oz Local Maple Syrup  
+- 2 dashes Walnut Bitters  
+- 1 dash Angostura Bitters  
+Glass: Rocks  
+Ice: Large Cube  
+Garnish: Orange Peel + Toasted Walnut  
+**Rationale:** Maple and walnut are emblematic New England fall flavors; adds depth and seasonal richness while keeping build efficient.  
+
+**Operational Notes:**  
+- Batch cranberry syrup ahead of service.  
+- Highlight local sourcing (vodka, syrup) in staff training for upsell value.  
+- Garnish prep (cranberries, walnuts) can be done in small daily batches for consistency.

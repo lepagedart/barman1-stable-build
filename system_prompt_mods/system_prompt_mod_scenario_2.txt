@@ -8,4 +8,4 @@ In high-volume programs, emphasize:
 - Use of clarified citrus or shelf-stable acid blends
 - Limited garnish complexity
 
-Operational feasibility should drive every build recommendation.
+Operational feasibility should drive every build recommendation.  Emphasize speed and execution feasibility under high-volume conditions. Avoid service-slowing ideas like rare garnishes, multiple shake techniques, or staff-intensive builds. Prioritize batching, layout, and workflow improvements that maintain quality without slowing ticket flow.

@@ -1,0 +1,110 @@
+**Strengths:**  
+- Menu is lean, executable, and tightly aligned to kiosk space constraints.  
+- Clear operational thinking: batching, simplified garnishes, minimized glassware.  
+- Coverage of different guest preferences (citrusy, spiced, berry, bitter).  
+- Cost-conscious approach with consistent ≤20% targets.  
+
+**Weaknesses:**  
+- Creativity feels slightly “safe” — lacks a true differentiator cocktail that would give the kiosk a signature identity.  
+- Workflow section strong but could benefit from explicit sequencing to make throughput obvious.  
+- No nod to non-alcoholic or low-ABV, which might be useful in a kiosk setting with wide demographic.  
+
+**Final Verdict:**  
+A well-executed, kiosk-appropriate menu that respects space, staffing, and throughput. Passes the scenario with minor notes for differentiation and workflow clarity. A small creative stretch (without breaking constraints) would elevate this from solid to standout.  Title: Scenario 20 – Compact Kiosk-Style Cocktail Menu (Rubric Review)
+Keywords: scenario_20, kiosk_service, efficiency, batching, limited_space, guest_appeal, low_staffing, workflow, na_low_abv
+
+## Original Assistant Output (summary)
+Menu of 4 cocktails designed for a kiosk setup:  
+1. **Citrus Gin Fizz** – pre-batched citrus syrup, soda topper.  
+2. **Spiced Rum Punch** – spiced syrup + pineapple, high batching potential.  
+3. **Berry Spritz** – vodka + berry syrup, light & fast build.  
+4. **Pre-Batched Negroni** – classic equal-parts batch for speed and shelf life.  
+
+Ops strategy: pre-batched syrups and mixes, minimal garnish/glassware variety, under-60s build time, efficient fridge/storage layout.
+
+---
+
+## Rubric Evaluation
+- **Relevance / Tone (constructive, not dismissive):** Pass – Advice aligns to kiosk limitations; tone is collaborative.  
+- **Specificity (actionable, not generic):** Pass/Tweak – Clear specs and batching notes; could use shelf-life detail for each prep and tighter cost guardrails.  
+- **Balance Check (categories, flavor range):** Pass – Range covers bright, tropical, berry, and stirred spirit-forward. Good differentiation from beer/wine.  
+- **Pricing / Pour-Cost Targets:** Tweak – Mentions % targets but lacks explicit per-drink menu pricing or cost-band guidance.  
+- **Operational Feasibility:** Pass – Strong batching strategy, <60s build times, realistic glassware/garnish scope.  
+- **Layout & Flow (readability, grouping):** Pass/Tweak – Functional, but menu flow could be ordered (refreshing → tropical → spritz → stirred).  
+- **SKU/Prep Overlap (efficiency):** Pass – Syrup batching and overlap implied; could be clearer about shared base syrups.  
+- **NA / Low-ABV Coverage:** Tweak – No explicit NA/low-ABV alternative suggested.  
+- **Bias (egg whites / batching dogma):** Pass – Stayed within kiosk constraints, no overcomplication.  
+- **Deployability (what to do tomorrow):** Pass/Tweak – Staff could action immediately; needs rollout checklist.  
+
+**Score:** 21 / 25 (Pass)
+
+---
+
+## Improvement Plan
+1. **Add Pricing Guardrails**  
+   - Kiosk positioning: **$11–$13** pricing; **≤20% pour cost**.  
+   - Set clear menu-mix goals: top 2 cocktails should drive ≥40% of sales.  
+
+2. **Tighten Shelf-Life & Prep Notes**  
+   - Citrus & berry syrups: 3–4 days.  
+   - Spiced syrup: 5–7 days.  
+   - Pre-batched Negroni: up to 1 month refrigerated.  
+
+3. **Expand Efficiency**  
+   - Map overlap (citrus syrup covers Fizz + Spritz; berry could cross-utilize as NA soda).  
+   - Limit to **3 garnish SKUs** max (lemon wheel, mint sprig, orange peel).  
+
+4. **Add NA/Low-ABV Option**  
+   - NA Berry Spritz (berry syrup + soda).  
+   - Low-ABV tweak: Sherry Citrus Fizz instead of gin.  
+
+5. **Menu Layout & Flow**  
+   - Order: Citrus Gin Fizz → Berry Spritz → Spiced Rum Punch → Negroni.  
+   - Include short 6–8 word descriptors and one visual icon.  
+
+6. **Deployability**  
+   - 1-week rollout: batch recipes, label system, glassware reset, staff speed-test.  
+   - KPIs: Avg ticket time ≤60s, COGS ≤20%, NA/Low-ABV attach ≥5%.  
+
+---
+
+## Updated Plan (Post-Rubric)
+
+### Pricing Guardrails
+- Price band: **$11–$13**; target ≤20% pour cost.  
+- Track menu-mix: Top 2 cocktails = ≥40% sales volume.  
+
+### Per-Drink Adjustments
+1. **Citrus Gin Fizz** – *$12*  
+   - Vodka/Gin base; citrus syrup; soda top.  
+   - Pre-batch citrus syrup (shelf life 3 days).  
+   - Garnish: lemon wheel.  
+
+2. **Berry Spritz** – *$12*  
+   - Vodka + berry syrup; sparkling water top.  
+   - NA twin: berry syrup + soda.  
+   - Garnish: mint sprig.  
+
+3. **Spiced Rum Punch** – *$11*  
+   - Rum + spiced syrup + pineapple.  
+   - Shelf life 5–7 days; batch syrup.  
+   - Garnish: orange slice.  
+
+4. **Pre-Batched Negroni** – *$13*  
+   - Classic equal-parts batch; shelf life 1 month.  
+   - Garnish: orange peel.  
+
+### Layout & Flow
+- Order on menu: **Fizz → Spritz → Punch → Negroni**.  
+- Add 6–8 word micro-descriptions for each (e.g., “bright citrus, crisp and refreshing”).  
+
+### Ops & Prep
+- Limit garnishes to 3 SKUs (lemon, mint, orange).  
+- All builds ≤60s; syrups prepped 2x per week.  
+- Batch label system with prep dates visible.  
+
+### KPIs
+- Ticket time ≤60s.  
+- Cocktail COGS ≤20%.  
+- Avg price ≥$12.  
+- NA/Low-ABV attach ≥5%.  

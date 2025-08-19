@@ -1,0 +1,92 @@
+Title: Scenario 18 – Cocktail Menu Audit & Refinement (Rubric Review)
+Tags: scenario_18, menu_design, costing, r_and_d, profit_margins, guest_appeal, layout_flow, operational_feasibility, na_low_abv, batching_strategies
+
+## Original Assistant Output (summary)
+Per-drink bullets for **balance**, **pricing**, and **efficiency** across:
+1) Citrus Sky, 2) Sunset Paloma, 3) Smoky Old Fashioned, 4) Garden Gimlet, 5) Island Drift.  
+Global suggestions: add NA option, pre-batch where feasible, monitor supplier pricing (elderflower/smoked syrup), diversify flavor profile (add Negroni-style stirred), improve presentation.
+
+---
+
+## Rubric Evaluation
+- **Relevance / Tone (constructive, not dismissive):** Pass – Respectful, collaborative tone.
+- **Specificity (actionable, not generic):** Tweak – Good high-level ops notes; still light on concrete specs (ratios, prep yields, exact swaps).
+- **Balance Check (categories, flavor range):** Pass/Tweak – Notes variety; recommends adding a stirred bittered build; could call out acid/sugar balance per drink.
+- **Pricing / Pour-Cost Targets:** Fail – Mentions cost but gives no price points or explicit pour-cost targets; no menu-mix targets.
+- **Operational Feasibility:** Tweak – Suggests pre-batching; needs clearer station builds, batch sizes, and service time goals.
+- **Layout & Flow (readability, grouping):** Fail – No menu layout or ordering guidance (e.g., light→spirit-forward, icons, highlights).
+- **SKU/Prep Overlap (efficiency):** Tweak – References overlap implicitly; needs an explicit overlap map (shared syrups/citrus) and waste controls.
+- **NA / Low-ABV Coverage:** Tweak – One mocktail example; we want at least one NA and one low-ABV path.
+- **Bias (egg whites / batching dogma):** Pass – No over-indexing on eggs or batching.
+- **Deployability (what to do tomorrow):** Tweak – Lacks a simple 1-week rollout with tasks/KPIs.
+
+---
+
+## Improvement Plan
+1) **Set Pricing & Costing Guardrails**
+   - Mid-range bistro target: **menu price $13–$15**; **pour cost ≤ 22%** (≤ 24% acceptable for premium liqueurs).
+   - Add **menu-mix targets**: Top-2 items ≥ 35–40% of cocktail sales.
+
+2) **Give Concrete Adjustments Per Drink (spec-level)**
+   - Offer exact swaps (e.g., split soda + grapefruit cordial vs canned soda), ratio tweaks, and garnish simplifications.
+   - Provide **one NA** and **one low-ABV** option tied to current SKUs.
+
+3) **Ops & Prep**
+   - **Pre-batch plan** (what’s in the bottle, what stays a la minute), **1L yields**, shelf life, and **station build** notes.
+   - **Ticket-time goal**: ≤ 3:30 on average; identify any >2-touch builds.
+
+4) **Layout & Flow**
+   - Order: Bright/long → Citrus & Collins → Sours → Spirit-forward → Tropical/creamy.
+   - Use **5–8 word micro-descriptions**, one icon set (🌿 herbal / 🔥 smoky / 🧊 long / 🍋 citrus), and one **“Staff Pick”** badge.
+
+5) **KPI & Rollout**
+   - 1-week rollout: staff tasting + tools/batch prep + POS buttons + menu copy update.
+   - KPIs: Avg cocktail price, COGS %, ticket time, top-seller mix, NA/Low-ABV attach rate.
+
+---
+
+## Updated Plan (Post-Rubric)
+
+### Pricing Guardrails
+- Price band: **$13–$15**; aim **≤22% pour cost** (≤24% if elderflower/cream).
+- Track: item COGS, menu-mix %, voids/comps.
+
+### Per-Drink Adjustments
+1. **Citrus Sky (Vodka/Elderflower/Lemon/Soda)** – *$14*  
+   - Spec tweak: reduce elderflower to **0.25–0.5 oz**; add **expressed lemon oil** instead of extra liqueur.  
+   - Batch: vodka + elderflower + simple (**1L** @ 8–10% ABV), add lemon & soda a la minute.  
+   - Cost: consider **house elderflower syrup** (floral tea + sugar + citric) to cap liqueur usage.
+
+2. **Sunset Paloma (Tequila/Grapefruit Soda/Lime/Agave/Salt)** – *$13*  
+   - Swap: use **grapefruit cordial (peel-infused) + soda** (2:1 cordial:soda) to control cost/consistency.  
+   - Prep: pre-batch **tequila + agave**; half-rim salt only.  
+   - NA twin: **Grapefruit Cooler** (cordial + lime + soda).
+
+3. **Smoky Old Fashioned (Bourbon/Smoked Syrup/Bitters)** – *$15*  
+   - Syrup: standardize smoked syrup at **1:1** (smoke the water, not the sugar) for stability; **0.25–0.35 oz** per drink.  
+   - Option: **0.25 oz mezcal split** upsell; keep baseline bourbon for cost control.  
+   - Batch: keep bitters separate; pre-batch whiskey + syrup if ticket times climb.
+
+4. **Garden Gimlet (Gin/Cucumber/Lime/Basil)** – *$14*  
+   - Speed: replace muddle with **cucumber-basil cordial** (cucumber water + basil steep + sugar + acid).  
+   - Garnish: single **basil leaf**; skip cucumber wheel.  
+   - NA twin: **Cucumber Basil Cooler** (cordial + lime + soda).
+
+5. **Island Drift (Rum/Pineapple/Coconut Cream/Lime)** – *$14*  
+   - Balance: reduce coconut cream to **0.5 oz**; **whip-shake** for speed/texture.  
+   - Low-ABV variant: **Coconut-Pine Swizzle** with **fino sherry + coconut water**.
+
+### Layout & Flow (Menu)
+- Order: **Citrus Sky → Sunset Paloma → Garden Gimlet → Smoky Old Fashioned → Island Drift**.  
+- Micro-descriptions (7–10 words), one icon max per item; highlight **Staff Pick** (Gimlet) and **New** (Negroni-style add if you add it).  
+- Optional sixth slot: **“Bitter Bright” (Gin, amaro, orange oil)** stirred, $14.
+
+### Prep & Station
+- **Batches (1L):** Vodka-Elderflower-Simple; Tequila-Agave; Cucumber-Basil Cordial; Smoked Syrup.  
+- **Shelf life:** cordials/syrups **4–7 days** (label & date).  
+- **Ticket time target:** ≤ **3:30**; measure Fri peak every 30 min.
+
+### KPIs (first 2 weeks)
+- Cocktail COGS **≤ 22%**; Avg sell price **≥ $13.75**.  
+- Top-2 items **≥ 38%** of mix.  
+- Ticket time **≤ 3:30** avg; NA/Low-ABV attach **≥ 6%**.

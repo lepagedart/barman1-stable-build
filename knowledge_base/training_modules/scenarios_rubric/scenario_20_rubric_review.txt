@@ -1,0 +1,27 @@
+**Scenario #:** 20  
+**Scenario Title:** Kiosk-Style Cocktail Program  
+**Evaluation Date:** [August 18, 2025]
+
+**Rubric Categories**
+
+1. **Alignment with Scenario Constraints (Venue-Specific Strategy)**  
+   - **Score:** 4.5 / 5  
+   - **Notes:** Lloyd respected the kiosk limitations well: 4 drinks, compact builds, reliance on batching. No drift into full-service cocktail bar territory. Could tighten by clarifying *exact* space usage (e.g., number of syrups that fit in a mini fridge).  
+
+2. **Operational Feasibility (Workflow & Prep)**  
+   - **Score:** 4.5 / 5  
+   - **Notes:** Each drink is executable in under 60 seconds, batching is sensible, glassware minimized. Workflow outlined clearly. Could strengthen by explicitly mapping service flow (“bartender takes order → grabs pre-batch → pours/stirs → garnish”).  
+
+3. **Menu Design & Guest Appeal**  
+   - **Score:** 4 / 5  
+   - **Notes:** Nice spread across spirit categories (gin, rum, vodka, Negroni). Covers refreshing, fruit-forward, and spirit-driven profiles. Could enhance differentiation by including one *unexpected* but still kiosk-friendly drink (e.g., a low/no-alc option, or canned sparkling partner).  
+
+4. **Cost Awareness & Efficiency**  
+   - **Score:** 4.5 / 5  
+   - **Notes:** Cost notes present on every drink. Targeted ≤20% pour cost is realistic. Good emphasis on batching efficiencies. Slightly generic cost framing (no mention of specific brand levers or upsell opportunities).  
+
+5. **Creativity & Differentiation**  
+   - **Score:** 3.5 / 5  
+   - **Notes:** Solid but conservative. Citrus Fizz, Rum Punch, and Berry Spritz are approachable, but somewhat predictable. Negroni is smart for batching but not unique. Could use one signature twist to stand out in kiosk competition.  
+
+**Total Score:** 21 / 25 → **Pass**

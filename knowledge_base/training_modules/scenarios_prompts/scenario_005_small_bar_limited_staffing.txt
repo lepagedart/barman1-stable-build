@@ -1,0 +1,78 @@
+# Scenario 005 – Small Bar, Limited Staffing
+
+## Tags:
+Staffing, Batched Cocktails, Low Labor, Small Format, Menu Design, Prep Efficiency
+
+---
+
+## System Mod
+Emphasize batching and limited labor flexibility. Avoid high-concept builds unless they are fast to execute.  
+
+Test if AI assumes unrealistic prep steps. Validate tone is clear and actionable. Add an R&D workflow suggestion in future if missing.  
+
+---
+
+## Venue Prompt
+A 40-seat restaurant with a small L-shaped bar and only one bartender per shift. Menu needs to be prep-efficient, profitable, and executable without additional support.
+
+---
+
+## User Prompt
+“We’re looking to design a cocktail program for a 40-seat restaurant with one bartender per shift. The menu has to be simple, efficient, and profitable. How would you structure it?”
+
+---
+
+## Assistant Output
+### Cocktail Program Overview
+Focus on simplicity and efficiency while ensuring each drink feels curated and special. The goal is to keep the menu compact, interesting, and aligned with your operational limits.
+
+#### Menu Design (4–6 Cocktails)
+1. **Spicy Paloma**  
+   - **Spec:** 1.5 oz tequila, 0.5 oz jalapeño simple syrup, 1 oz grapefruit juice, 0.5 oz lime juice, topped with soda water  
+   - **Ice / Glass / Garnish:** Collins glass, ice, grapefruit wedge  
+   - **Method:** Shake all ingredients except soda water with ice, strain over fresh ice, top with soda water  
+   - **Cost Notes:** Target 20% pour cost; substitute jalapeño syrup with habanero if needed  
+   - **Service Notes:** Jalapeño simple syrup can be batched weekly; grapefruit juice should be pre-squeezed daily  
+
+2. **Basil Gimlet**  
+   - **Spec:** 2 oz gin, 0.75 oz basil syrup, 0.75 oz lime juice  
+   - **Ice / Glass / Garnish:** Coupe glass, no ice, basil leaf  
+   - **Method:** Shake all ingredients with ice, strain into a coupe  
+   - **Cost Notes:** Target 18% pour cost; substitute basil syrup with mint syrup for variation  
+   - **Service Notes:** Basil syrup has a shelf life of one week; squeeze lime juice daily  
+
+3. **Rum Old Fashioned**  
+   - **Spec:** 2 oz aged rum, 0.25 oz demerara syrup, 2 dashes Angostura bitters  
+   - **Ice / Glass / Garnish:** Rocks glass, large ice cube, orange twist  
+   - **Method:** Stir all ingredients with ice, strain over a large ice cube  
+   - **Cost Notes:** Target 22% pour cost; use bourbon if rum is unavailable  
+   - **Service Notes:** Demerara syrup can be batched bi-weekly  
+
+4. **Cucumber Collins**  
+   - **Spec:** 1.5 oz vodka, 0.5 oz cucumber syrup, 0.75 oz lemon juice, topped with soda water  
+   - **Ice / Glass / Garnish:** Collins glass, ice, cucumber slice  
+   - **Method:** Shake all ingredients except soda water with ice, strain over fresh ice, top with soda water  
+   - **Cost Notes:** Target 19% pour cost; switch to gin for a botanical twist  
+   - **Service Notes:** Cucumber syrup should be made weekly  
+
+5. **Seasonal Spritz (rotating)**  
+   - **Spec:** 1.5 oz aperitif, 0.5 oz seasonal syrup (e.g., berry or stone fruit), topped with prosecco  
+   - **Ice / Glass / Garnish:** Wine glass, ice, seasonal fruit slice  
+   - **Method:** Build directly in the glass, stir gently  
+   - **Cost Notes:** Target 20% pour cost  
+   - **Service Notes:** Choose a syrup that complements the season; batch for two weeks  
+
+---
+
+### Operational Plan
+- **Batching Strategy:** Focus on batching non-perishable ingredients like syrups and bitters. Keep juices fresh by juicing daily, but only use what you need for service.  
+- **Prep Schedule:** Front-load weekly syrup prep (e.g., jalapeño, basil, demerara) on slow days.  
+- **Station Setup:** Arrange the bar to keep frequently used ingredients within easy reach, optimizing for speed.  
+- **Inventory Management:** Regularly check and manage inventory to prevent overstocking, particularly with fresh items.  
+- **Profitability:** Maintain a pour cost between 18–22% per cocktail. Adjust specs slightly if ingredient prices fluctuate.  
+
+---
+
+## Evaluation
+✅ **Pass** – Response balances efficiency, prep reality, and profitability.  
+⚠️ Future Improvement: Could add more emphasis on high-volume service dynamics (e.g., glassware/ice constraints).  

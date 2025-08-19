@@ -1,0 +1,120 @@
+# Scenario 003 – Upselling Bar Staff
+
+## Scenario Prompt
+**Objective:** Train bar staff to upsell effectively while maintaining guest trust and hospitality.  
+**Constraints:** Guidance must balance authenticity with efficiency. Avoid pushiness; emphasize rapport, product knowledge, and genuine suggestions.  
+
+---
+
+## Raw Output (from Lloyd)
+To design an effective upselling training plan for bar staff, focus on fostering genuine interactions, educating staff on product knowledge, and equipping them with the confidence to make personalized recommendations. Here's a structured plan:
+
+### Training Plan Overview
+**Objective:** Increase average check through upselling, while enhancing guest experience and maintaining hospitality standards.
+
+**Key Components:**
+1. **Product Knowledge**
+   - Conduct a tasting session covering premium spirits and signature cocktails.
+   - Share unique stories or fun facts about each product to help staff weave these into conversations naturally.
+
+2. **Rapport Building**
+   - Encourage staff to engage guests with open-ended questions to understand preferences (e.g., "What flavors do you usually enjoy?").
+   - Train staff to listen actively and tailor recommendations based on guest responses.
+
+3. **Upselling Techniques**
+   - Teach subtle suggestion methods, using phrases like "Many guests love to enhance their experience with..." or "Our signature cocktail pairs wonderfully with...".
+   - Practice "add-on" pitches, such as suggesting a premium spirit upgrade or a flavor enhancer (e.g., a flavored bitters or unique syrup).
+
+### Coaching Prompts and Example Dialogues
+**Coaching Prompts:**
+- "Always start by asking guests about their preferences or if they're celebrating something special."
+- "Introduce premium options by highlighting unique features or flavors."
+- "When suggesting an upgrade, focus on how it enhances the overall experience."
+
+**Example Dialogues:**
+1. **Premium Spirit Upsell**
+   - Staff: "Would you like to try your classic gin and tonic with our house-infused botanical gin? It adds a refreshing twist that's been quite popular."
+   - Guest: "Sure, that sounds interesting!"
+
+2. **Signature Cocktail Recommendation**
+   - Staff: "If you’re looking to try something new, our signature 'Sunset Spritz' has a delightful balance of citrus and floral notes. It's a guest favorite for a reason."
+   - Guest: "I’d love to try that!"
+
+3. **Add-On Suggestion**
+   - Staff: "May I suggest adding a splash of our house-made ginger syrup to your whiskey sour? It brings out the spice notes beautifully."
+   - Guest: "That sounds great, let's do it."
+
+### Strategies to Enhance Effectiveness
+- **Role-Playing:** Conduct role-playing sessions where staff practice upselling techniques in various scenarios.
+- **Incentives:** Offer small incentives for successful upselling, such as recognition in team meetings or small prizes for the highest sales.
+- **Feedback Loop:** Encourage staff to share successful interactions during pre-shift meetings to foster continuous learning.
+
+**Conclusion:** Equip your team with knowledge and practice to make them feel comfortable and authentic in their upselling efforts. This approach not only boosts sales but also enriches the guest experience, making them feel valued and understood.
+
+---
+
+## Rubric Evaluation
+
+**Relevance to Prompt:** ✅ Fully addresses upselling staff training.  
+**Clarity of Structure:** ✅ Clear breakdown into components, coaching prompts, dialogues, strategies.  
+**Authenticity & Hospitality:** ✅ Good focus on rapport and guest-first approach.  
+**Operational Practicality:** ⚠️ Lacks concrete integration into bar workflow (timing, scripting during peak hours).  
+**Creativity/Examples:** ✅ Strong roleplay examples, natural phrasing.  
+**Efficiency:** ⚠️ Could better address quick-sell tactics that don’t slow down high-volume service.  
+
+**Score:** 8.5 / 10  
+
+---
+
+## Corrected & Enriched Writeup (KB-Ready)
+
+### Scenario 003 – Upselling Bar Staff (Finalized)
+
+**Objective:** Train staff to upsell authentically, increasing check averages without sacrificing hospitality or slowing down service.  
+
+### Key Training Modules
+1. **Product Knowledge**
+   - Regular tastings of premium spirits and signature cocktails.
+   - Equip staff with 1–2 “soundbite” facts per product (origin story, unique ingredient, pairing suggestion).
+
+2. **Rapport & Guest Engagement**
+   - Use **open-ended questions**: "Do you usually go for citrus or spirit-forward drinks?"  
+   - Teach staff to listen actively and adapt suggestions quickly.  
+   - Anchor upsells to guest intent (celebration, adventurous mood, comfort drink).
+
+3. **Upsell Techniques**
+   - **Premium Upgrade**: Suggest top-shelf alternatives casually (e.g., “For a smoother finish, many guests upgrade to…”).  
+   - **Signature Feature**: Recommend house cocktails as “must-try” items.  
+   - **Add-On Enhancer**: Suggest quick modifications (e.g., bitters, syrup, float) that add value without slowing down service.  
+
+### Coaching Prompts
+- Always start by asking about preferences or mood.  
+- Introduce premium options by emphasizing guest benefit.  
+- Upselling should **feel like elevating the experience, not increasing the bill**.  
+
+### Roleplay Dialogues
+1. **Premium Spirit Upgrade**  
+   Staff: “Would you like to try your margarita with our small-batch tequila? It’s smoother and really enhances the lime.”  
+   Guest: “Yes, let’s do that.”  
+
+2. **Signature Highlight**  
+   Staff: “If you’re in the mood for something refreshing, our ‘Garden Spritz’ has cucumber and basil—guests love it this time of year.”  
+   Guest: “That sounds perfect.”  
+
+3. **Add-On Suggestion**  
+   Staff: “We can add a splash of house ginger syrup to your whiskey sour—it brings out the spice notes beautifully.”  
+   Guest: “Great, I’ll try it.”  
+
+### Operational Integration
+- **Pre-Shift Tasting:** 10-minute product rundown at lineup.  
+- **Quick Prompts Card:** Small laminated cheat-sheet with upsell lines at each station.  
+- **Peak Service Adjustment:** Train staff to lean on signature cocktails during busy hours for speed-friendly upsells.  
+- **Recognition System:** Acknowledge staff who successfully upsell without guest pushback.  
+
+---
+
+## Notes for Training Database
+- Focuses on authentic dialogue and fast upsells.  
+- Emphasizes hospitality-first framing.  
+- Adds operational elements missing in Lloyd’s raw output.  
+- Suitable for roleplay and coaching modules.  

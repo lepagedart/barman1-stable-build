@@ -1,0 +1,75 @@
+Scenario 002: High-Volume Prep
+
+Description
+A busy venue with a large bar and fast-paced service wants to improve bar efficiency without sacrificing quality. The focus is on batching, layout, and ticket flow.
+
+KB Tags
+High Volume, Prep Efficiency, Service Speed, Batching, Juice, Bar Layout, Bottles (Cheaters), Speed
+
+⸻
+
+System Prompt Mod
+
+Emphasize speed and execution feasibility under high-volume conditions. Avoid service-slowing ideas like rare garnishes, multiple shake techniques, or staff-intensive builds. Prioritize batching, layout, and workflow improvements that maintain quality without slowing ticket flow.
+
+Venue Prompt
+
+A busy venue with a large bar and fast-paced service wants to improve bar efficiency without sacrificing cocktail quality. Staff size is sufficient for batching and support roles. Focus: speed, prep efficiency, and throughput.
+
+User Prompt
+
+Design an operational plan and cocktail framework for a high-volume venue. Highlight batching strategies, layout/cheater bottle usage, and staff workflow improvements that maintain drink quality while cutting ticket times.
+
+⸻
+
+Raw Output (from Lloyd)
+
+(verbatim copy of what you pasted)
+[kept exactly as you gave it — Operational Plan + Cocktail Framework Examples + Rationale]
+
+⸻
+
+Rubric Evaluation
+
+Strengths
+	•	✅ Correctly prioritized batching and pre-dilution → matches “efficiency under load” intent.
+	•	✅ Operational plan is well-structured (menu, batching, layout, workflow, service speed).
+	•	✅ Cocktail examples lean on classics (Manhattan, Margarita) → appropriate for batching.
+	•	✅ Explicit staff workflow roles included → reflects consulting-style guidance.
+
+Weaknesses
+	•	⚠️ Cocktail builds lack cost notes (no pour cost targets).
+	•	⚠️ Garnish prep good, but missing efficiency checks (e.g., shelf-life validation for juices).
+	•	⚠️ Drinks could risk over-simplification → system mod note about not diluting menu into “house only” needs reinforcement.
+	•	⚠️ Missing “flag” mechanism: AI should caution when layout advice may not apply to small teams.
+
+Score: Pass with Revisions
+	•	✅ Scenario goal (speed/efficiency) achieved.
+	•	🔄 Needs refinement on cost-awareness, scaling cautions, and slightly deeper build examples.
+
+⸻
+
+Corrected / Improved Write-up (KB Ready)
+
+Operational Plan (Refined)
+	•	Menu Design: Limit to 6–8 cocktails. Ensure balance of spirit families. Keep specs approachable for green staff.
+	•	Batching: Batch with measured dilution when shelf-life allows. Liquor-only batching = safe for multiple days. Juice-inclusive batching = daily rotation.
+	•	Layout: Duplicate speed rail setups per station. Prioritize high-use batched cocktails in cheater bottles.
+	•	Staff Workflow: Assign roles (bartender = service, barback = batching/restock). Reinforce standardized station setup for interchangeability.
+	•	Service Speed: Build should never exceed two steps. Training should include time trials and stress testing.
+
+Cocktail Framework (Refined)
+	1.	Batch Manhattan
+	•	Rye, vermouth, bitters, water (pre-diluted)
+	•	Rocks glass / large ice / cherry
+	•	Cost target ≤20%
+	2.	Pre-Diluted Margarita
+	•	Tequila, triple sec, lime, simple, water (pre-diluted)
+	•	Rocks / salted rim / lime wheel
+	•	Cost target ≤22%
+	3.	Gin & Tonic (Batchable Variant)
+	•	Gin, tonic syrup, water (pre-diluted)
+	•	Highball / cubes / lime wedge
+	•	Cost target ≤20%
+
+Operational Note: Add a seasonal high-volume friendly special (e.g., batched Paloma or spritz). Keep rotating slot for guest engagement without slowing throughput.

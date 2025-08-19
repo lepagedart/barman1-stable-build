@@ -1,0 +1,65 @@
+Title: Scenario 6 – High-End Seasonal Menu (Late Summer → Early Fall)  
+Tags: Seasonal, Menu design, High-end, Culinary driven, House specials  
+Scenario Type: Menu Development  
+
+System Mod:  
+Elevate tone and culinary vocabulary slightly. Avoid gimmicky drinks or overuse of obscure modifiers. Assume jiggering and guest storytelling are expected. Validate whether the AI offers distinct concepts without getting too esoteric. Flag if prep suggestions require unrealistic time or labor.  
+
+Venue Prompt:  
+A chef-driven venue with a high-touch guest experience wants a seasonal cocktail menu that feels curated and refined. They have a strong backbar and expect premium pricing.  
+
+User Prompt:  
+We’re heading into late summer and early fall, and we want to launch a new seasonal cocktail menu that feels refined but approachable. Please build us a 5–6 cocktail lineup that highlights late-summer produce (berries, melon, stone fruit) while also bridging into fall flavors like apple, pear, spice, and warm botanicals. The drinks should feel balanced, elegant, and culinary-driven, without gimmicks or overcomplication. Each cocktail should include full specs, prep guidance, and service notes, with pour cost considerations.  
+
+Assistant Output:  
+### 1. Summer's Farewell  
+**Story:** Captures the essence of summer's last berries with a hint of fall spice.  
+- **Spec:** 1.5 oz Gin, 0.75 oz Lemon juice, 0.5 oz Blackberry syrup, 0.25 oz Allspice dram  
+- **Glass/Garnish:** Coupe, lemon twist  
+- **Method:** Shake, strain  
+- **Prep Notes:** Blackberry syrup (1:1 puree:sugar, simmer; 1-week shelf life)  
+- **Cost Notes:** ~20% pour cost, priced $18  
+
+### 2. Orchard Breeze  
+**Story:** A refreshing nod to the first harvest of apples and pears.  
+- **Spec:** 1.5 oz Apple brandy, 0.5 oz Pear liqueur, 0.5 oz Lime juice, 0.5 oz Simple  
+- **Glass/Garnish:** Highball, apple slice & cinnamon dust  
+- **Method:** Shake, strain over fresh ice  
+- **Cost Notes:** ~22% pour cost, priced $19  
+
+### 3. Melon & Mint Spritz  
+**Story:** Last of summer’s melons with refreshing mint.  
+- **Spec:** 1 oz Vodka, 0.5 oz Melon liqueur, 0.75 oz Lime juice, topped with soda water  
+- **Glass/Garnish:** Collins, mint sprig & melon ball  
+- **Method:** Build in glass  
+- **Cost Notes:** ~18% pour cost, priced $16  
+
+### 4. Spiced Stone Fruit Old Fashioned  
+**Story:** Spirit-forward ode to stone fruits and warm spices.  
+- **Spec:** 2 oz Bourbon, 0.5 oz Stone fruit syrup, 2 dashes Angostura  
+- **Glass/Garnish:** Rocks, large cube, orange peel express  
+- **Method:** Stir, strain over large cube  
+- **Prep Notes:** Stone fruit syrup (1:1 puree:sugar, simmer; 1-week shelf life)  
+- **Cost Notes:** ~20% pour cost, priced $20  
+
+### 5. Autumn's Arrival (NA)  
+**Story:** A non-alcoholic cocktail highlighting fall flavors.  
+- **Spec:** 2 oz Apple cider, 0.5 oz Ginger syrup, 0.5 oz Lemon juice, topped with tonic  
+- **Glass/Garnish:** Highball, lemon wheel  
+- **Method:** Build in glass  
+- **Cost Notes:** Priced $10  
+
+### Mise & Workflow  
+- **Daily Prep:** Fresh fruit syrups, daily juice.  
+- **Weekly Prep:** Syrup batching, yield checks.  
+- **Par Levels:** Maintain stock of spirits and syrups.  
+- **QA Ritual:** Daily tasting of prep for consistency.  
+
+Evaluation:  
+✔ Menu balances summer → fall transition well.  
+✔ Mix of shaken, built, and spirit-forward drinks.  
+✔ Strong inclusion of seasonal produce (berries, melon, stone fruit, apple).  
+⚠ Consider whether pear liqueur is widely available enough for operational ease.  
+⚠ Monitor prep labor load on syrups (blackberry + stone fruit + ginger).  
+
+Summary Evaluation: Pass – Concept refined, seasonal balance achieved, minor operational checks required.  
