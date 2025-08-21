@@ -1,0 +1,8 @@
+{
+  "scenario_number": 102,
+  "title": "Cocktail Consistency Across Multiple Bartenders",
+  "tags": ["Training", "Staff Development", "Recipe Adjustments", "Service"],
+  "system_mod": "Prioritize language that empowers bartenders instead of policing them. Recommend systems and tools, not blame.",
+  "venue_context": "Small gastropub with multiple bartenders at 15 seat bar with one bartender on service well along with 4 seats with the other bartender serving the other 11 seats.",
+  "prompt": "Our bartenders are making the same drinks a little differently: different shake strength, garnish, even slightly off specs. How can we tighten consistency across the team without killing creativity?"
+}

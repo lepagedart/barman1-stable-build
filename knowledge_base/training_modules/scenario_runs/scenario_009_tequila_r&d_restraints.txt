@@ -1,0 +1,53 @@
+Title: Scenario 9 – Tequila-Focused Menu Development  
+Tags: Tequila, Agave, Menu design, Latin-American, Cohesion, Pitch to ownership  
+Scenario Type: Menu Development  
+
+System Mod:  
+Encourage diversity within tequila builds beyond Margarita/Paloma. Keep prep simple but not boring. Balance across cocktail families (stirred, shaken, long). Flag if any classic families are missing key structural elements (e.g., sours without egg white). Require at least one detailed spec with prep + service notes.  
+
+Venue Prompt:  
+Modern Latin-American restaurant building first cocktail list. Tequila and agave-based spirits are the mainstay of the cocktail program.  
+
+User Prompt:  
+1. Can you propose 4–5 tequila-based cocktails that go beyond the obvious Margarita/Paloma templates?  
+2. How do we keep the list cohesive while still offering variety across styles (stirred, shaken, long, etc.)?  
+3. Could you give one full detailed spec — with garnish, glassware, and prep notes — so we understand the level of execution required?  
+4. Which flavor directions or modifiers will help the drinks stand apart without driving up costs or complicating prep?  
+5. How would you pitch this menu draft to ownership to get buy-in?  
+
+Assistant Output:  
+### Concepts Proposed  
+1. **Tequila Negroni** – Stirred, bitter-sweet, orange twist garnish  
+2. **Tequila & Tonic with Jalapeño** – Highball, refreshing with spice, lime + jalapeño garnish  
+3. **Autumn Tequila Sour** – Pear + agave sour (⚠ missing egg white, corrected spec below)  
+4. **Smoky Tequila Old Fashioned** – Añejo, agave, bitters, smoked sea salt, grapefruit twist  
+5. **Tequila Spritz** – Aperol + sparkling, brunch-friendly  
+
+### Full Detailed Spec (Autumn Tequila Sour – Corrected)  
+- **Spec:**  
+  - 1.5 oz Blanco Tequila  
+  - 1 oz Fresh Pear Juice  
+  - 0.5 oz Lemon Juice  
+  - 0.5 oz Agave Syrup  
+  - 1 Egg White  
+- **Method:** Dry shake (no ice) to emulsify → add ice, hard shake → fine strain into coupe  
+- **Ice / Glass / Garnish:** Coupe; pear slice fan; light grated nutmeg  
+- **Prep Notes:** Pear juice prepped daily (oxidizes quickly), agave syrup batched (2–3 week shelf), egg whites separated at shift start and kept chilled  
+- **Cost Notes:** Target ~20–22% pour cost; elevated perception with foam justifies $16–18 price point  
+- **Station Placement:** Sour builds at main well; garnish prepped into small deli with pear slices  
+
+### Cohesive Strategy & Pitch  
+- **Variety:** Covers stirred, shaken, highball, spritz.  
+- **Flavor Modifiers:** Jalapeño, smoked salt, pear, Aperol.  
+- **Operational Simplicity:** All builds straightforward, low SKU bloat.  
+- **Ownership Pitch:** Sophisticated takes on tequila beyond templates, balance of guest appeal and speed of service.  
+
+Evaluation:  
+✔ Solid range of agave-forward cocktails.  
+✔ Good variety across families (stirred, shaken, long, spritz).  
+✔ Pitch rationale for ownership is clear and usable.  
+⚠ Original Autumn Tequila Sour missed egg white; corrected with dry shake method.  
+⚠ No NA/low-ABV option offered.  
+⚠ Limited garnish/visual intrigue; menu could use one “wow” drink for differentiation.  
+
+Summary Evaluation: **Pass with Revisions** – Menu is well-balanced and feasible but requires the corrected sour build (egg white), plus addition of one NA/low-ABV option to round out the lineup.  

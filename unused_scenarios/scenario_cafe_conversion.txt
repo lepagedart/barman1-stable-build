@@ -1,7 +1,6 @@
 Assistant:
 
-Venue: A coffee shop that becomes a bar after 4pm using the same counter and staff. No dedicated bar setup or ice machine.
-
+Venue:
 Client Prompt (Owner):
 > We’re running evening cocktail service out of our café. The transition is bumpy and we’re not profitable yet.
 > I need a drink menu that makes sense for this space and workflow. What should I change?

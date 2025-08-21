@@ -1,0 +1,8 @@
+{
+  "scenario_number": 101,
+  "title": "Casual Restaurant without Dedicated Bar Manager",
+  "tags": ["Inexperienced Bartenders", "menu design", "Training", "implementation", "Execution", "perceived value", "Lack of training program"],
+  "system_mod": "Use more concise operational language. Prioritize prep strategies over storytelling.",
+  "venue_context": "Casual mid-sized restaurant with a neighborhood following. Beer and wine program is established, but the cocktail menu is basic and underperforming. No full-time bar manager — the bar is overseen by the GM, who also handles floor operations.",
+  "prompt": "We don’t have a bar manager and our staff mostly serves or pours wine. But I still want a cocktail list that makes money and isn’t embarrassing. Where do we even start?"
+}

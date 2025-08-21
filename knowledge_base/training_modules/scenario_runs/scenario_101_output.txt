@@ -1,0 +1,39 @@
+Title: Casual Restaurant without Dedicated Bar Manager
+
+Tags: Inexperienced Bartenders, menu design, Training, implementation, Execution, perceived value, Lack of training program
+
+Scenario Type: Training
+
+System Mod: Use more concise operational language. Prioritize prep strategies over storytelling.
+
+Venue Context: Casual mid-sized restaurant with a neighborhood following. Beer and wine program is established, but the cocktail menu is basic and underperforming. No full-time bar manager — the bar is overseen by the GM, who also handles floor operations.
+
+Prompt: We don’t have a bar manager and our staff mostly serves or pours wine. But I still want a cocktail list that makes money and isn’t embarrassing. Where do we even start?
+
+Lloyd's Response:
+
+You’re in a great position to enhance your cocktail program without needing to overhaul your staffing model. Here’s a straightforward approach to get started:
+
+**1. Streamlined Cocktail Menu**
+   - **House Favorites List:** Focus on a small, curated list of 3–4 cocktails using familiar spirits. Consider a fresh Margarita, a classic Whiskey Sour, a house Old Fashioned, and a rotating seasonal cocktail.
+   - **Batching:** Use batching to simplify execution. Each cocktail should have no more than 3–4 ingredients, with one syrup or modifier prepped in advance.
+
+**2. Operational Simplicity**
+   - **Execution by Servers:** Prioritize cocktails that can be stirred or built over ice to keep things simple. Avoid techniques that require shaking, use of egg whites, or muddling unless absolutely necessary.
+   - **Spec Sheets:** Create clear cocktail spec sheets with measurements and photos. Post these at the service station to ensure consistency and ease of use for servers.
+
+**3. Efficient Prep**
+   - **Weekly Prep Session:** Dedicate a single hour each week for batching citrus, syrups, and featured ingredients. This reduces day-to-day variability and ensures consistency.
+
+**Cost and Feasibility**
+   - **Cost Control:** Aim for a target pour cost of around 20-25% to maintain profitability. Use readily available spirits and ingredients to minimize costs.
+   - **Substitutions:** Offer viable substitutions for any components that might be out of stock, ensuring flexibility.
+
+By starting with these manageable steps, you'll be able to elevate your cocktail offerings without overwhelming your staff or complicating operations.
+
+
+What Lloyd Should Have Done:
+Lloyd should have started with a clear distinction between what makes a profitable cocktail list operationally achievable in a venue without a bar manager. The response needed to emphasize simplicity in execution, minimal prep time, and repeatability across shifts. Suggested drinks should reflect house specs that are foolproof and easy to build by a wine-focused staff. Finally, it should have flagged the GM’s bandwidth limitations and proposed systems for staff accountability or seasonal updates.
+
+
+(Generated on 2025-08-21 19:05:34)

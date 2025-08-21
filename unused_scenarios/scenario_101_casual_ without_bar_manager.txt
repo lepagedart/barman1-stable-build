@@ -11,11 +11,12 @@ Key Constraints:
 - Most guests order wine, beer, or call spirits — low expectations for cocktails
 
 Training Goal:
-Barman-1 must help the GM or owner:
+Lloyd must help the GM or owner:
 - Build a cocktail menu that can be executed by non-specialist staff
 - Improve perceived value and consistency without adding complexity
 - Suggest simple batching, spec sheets, or prep systems that don’t require a dedicated bar lead
 - Offer realistic upgrades that reflect the restaurant’s identity without overwhelming the current team
+
 
 User Prompt:
 We don’t have a bar manager and our staff mostly serves or pours wine. But I still want a cocktail list that makes money and isn’t embarrassing. Where do we even start?

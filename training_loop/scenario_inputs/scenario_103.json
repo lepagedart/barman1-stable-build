@@ -1,0 +1,8 @@
+{
+  "scenario_number": 103,
+  "title": "Cafe to Bar Conversion",
+  "tags": ["Efficiency", "setup constraints", "Menu design", "venue alignment", "batching"],
+  "system_mod": "Use more concise operational language. Prioritize prep strategies over storytelling.",
+  "venue_context": "A coffee shop that becomes a bar after 4pm using the same counter and staff. No dedicated bar setup or ice machine.",
+  "prompt": "We’re running evening cocktail service out of our café. The transition is bumpy and we’re not profitable yet. I need a drink menu that makes sense for this space and workflow. What should I change?"
+}

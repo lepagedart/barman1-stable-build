@@ -1,7 +1,7 @@
 # Scenario 005 – Small Bar, Limited Staffing
 
 ## Tags:
-Staffing, Batched Cocktails, Low Labor, Small Format, Menu Design, Prep Efficiency
+Staffing, Batched Cocktails, Low Labor, Small Format, Menu Design, Efficiency, training ops, 
 
 ---
 
@@ -76,3 +76,13 @@ Focus on simplicity and efficiency while ensuring each drink feels curated and s
 ## Evaluation
 ✅ **Pass** – Response balances efficiency, prep reality, and profitability.  
 ⚠️ Future Improvement: Could add more emphasis on high-volume service dynamics (e.g., glassware/ice constraints).  
+
+Evaluation:
+	•	Strengths: The assistant correctly identified operational choke points for a small bar (limited prep capacity, staffing pressure, speed of service). It proposed batching spirits and syrups, simplifying garnish builds, and using high-yield ingredients to reduce labor strain. Recommendations were realistic for a bar with 1–2 staff and focused on keeping builds short without compromising flavor.
+	•	Gaps: Some suggestions were generic (e.g., batching without considering specific shelf-life risks). It could have gone deeper into service flow logistics (who does what in a two-person team) and offered role-specific coaching (bartender vs. server crossover).
+	•	Opportunities: Adding more specificity about storage constraints (lowboy, ice well size, single garnish station) would make recommendations sharper.
+
+Top 3 Quick Wins:
+	1.	Batch base spirits + syrups together for house cocktails to cut ticket times by 30–40%.
+	2.	Pre-garnish prep trays (lemon wheels, mint sprigs) before service to reduce mid-shift labor spikes.
+	3.	Cross-train FOH staff to run simple highballs during peak hours, keeping bartenders focused on cocktails.

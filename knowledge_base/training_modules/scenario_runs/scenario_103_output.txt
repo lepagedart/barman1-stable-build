@@ -1,0 +1,48 @@
+Title: Cafe to Bar Conversion
+
+Tags: Efficiency, setup constraints, Menu design, venue alignment, batching
+
+Scenario Type: Training
+
+System Mod: Use more concise operational language. Prioritize prep strategies over storytelling.
+
+Venue Context: A coffee shop that becomes a bar after 4pm using the same counter and staff. No dedicated bar setup or ice machine.
+
+Prompt: We’re running evening cocktail service out of our café. The transition is bumpy and we’re not profitable yet. I need a drink menu that makes sense for this space and workflow. What should I change?
+
+Lloyd's Response:
+
+To streamline your evening cocktail service and improve profitability, let's focus on a menu that leverages your existing café setup and utilizes cross-functional ingredients. Here's a practical approach:
+
+### Menu Design Strategy
+1. **Cross-Utilization of Ingredients**: Use ingredients that are common in both your café and bar operations. This includes syrups, teas, and citrus that are likely already in use during the day.
+
+2. **Pre-Batched Cocktails**: Consider cocktails that can be pre-batched and stored in your café fridge. This minimizes service time and reduces strain on your limited setup. Focus on spirit-forward drinks that can be pre-batched without losing quality.
+
+3. **No-Shake Specs**: Opt for cocktails that don't require shaking to fit seamlessly into your workflow. Stirred or built drinks in the glass are ideal.
+
+### Sample Cocktail Ideas
+- **Cold Brew Negroni**
+  - **Spec:** 1 oz gin, 1 oz Campari, 1 oz sweet vermouth, 0.5 oz cold brew concentrate
+  - **Ice / Glass / Garnish:** Large ice cube / Rocks glass / Orange twist
+  - **Method:** Stir all ingredients over ice in the glass.
+  - **Cost Notes:** Target pour cost around 20-25%. Use a well gin to manage costs.
+
+- **Iced Matcha Mojito**
+  - **Spec:** 1.5 oz white rum, 0.5 oz matcha syrup, 0.75 oz lime juice, mint leaves
+  - **Ice / Glass / Garnish:** Crushed ice / Collins glass / Mint sprig
+  - **Method:** Muddle mint in lime juice, add other ingredients, and stir with ice.
+  - **Cost Notes:** Matcha syrup can be made in-house using café matcha.
+
+### Operational Adjustments
+- **Batching**: Batch spirit-forward components and keep them refrigerated for quick service. Ensure any batched drinks are labeled with prep and expiration dates.
+- **Service Workflow**: Use your existing café counter space efficiently by organizing ingredients and tools for dual use. Keep garnishes and frequently used ingredients prepped and ready.
+- **Staff Training**: Train staff on quick builds and the importance of consistency in pours to maintain quality and control costs.
+
+By integrating these strategies, you can create a cocktail program that aligns with your café's constraints while enhancing guest experience and profitability.
+
+
+What Lloyd Should Have Done:
+Lloyd’s suggestions should have been grounded in spatial constraints. The response missed an opportunity to highlight batching, room-temp ingredient usage, or modular builds designed for espresso stations. Drinks in this venue must function with no dump sink, low ice availability, and limited storage. A sample 3–4 drink menu that aligned with those realities would’ve been stronger than conceptual ideas. Also needed: prep-before-4pm strategy to eliminate transition chaos.
+
+(Generated on 2025-08-21 19:05:26)

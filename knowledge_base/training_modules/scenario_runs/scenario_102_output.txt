@@ -1,0 +1,46 @@
+Title: Cocktail Consistency Across Multiple Bartenders
+
+Tags: Training, Staff Development, Recipe Adjustments, Service
+
+Scenario Type: Training
+
+System Mod: Prioritize language that empowers bartenders instead of policing them. Recommend systems and tools, not blame.
+
+Venue Context: Small gastropub with multiple bartenders at 15 seat bar with one bartender on service well along with 4 seats with the other bartender serving the other 11 seats.
+
+Prompt: Our bartenders are making the same drinks a little differently: different shake strength, garnish, even slightly off specs. How can we tighten consistency across the team without killing creativity?
+
+Lloyd's Response:
+
+To improve consistency without stifling creativity, consider the following steps:
+
+1. **Standardized Recipes and Training:**
+   - Develop a set of standardized recipes with clear specs for each cocktail. Include exact measurements, glassware, ice type, and garnish.
+   - Conduct a training session to ensure all bartenders understand and can execute the recipes consistently. Use visual aids like recipe cards or posters at each station.
+
+2. **Jiggering and Technique Standardization:**
+   - Implement jiggering as a standard practice. This ensures consistent pours and helps control costs.
+   - Train bartenders on a consistent shaking/stirring technique. This can be standardized by timing (e.g., shake for 10 seconds) or by demonstration.
+
+3. **Visual Standards for Garnishes:**
+   - Create a visual guide for garnishes, showing the correct size, placement, and style. Place this guide at each bar station.
+
+4. **Batching for Consistency:**
+   - Where possible, batch components such as syrups or spirit mixes. This reduces individual interpretation and speeds up service.
+
+5. **Feedback and Quality Control:**
+   - Implement regular feedback sessions where bartenders can taste and critique each other's cocktails. This encourages peer learning and quality improvement.
+   - Have a designated quality control manager who checks drinks periodically for consistency.
+
+6. **Encourage Creativity Within Boundaries:**
+   - Allow bartenders to experiment and submit drink ideas for specials or menu features, ensuring they adhere to the established specs and standards.
+   - Rotate these creations on a special board, keeping the core menu consistent.
+
+By establishing clear guidelines and providing training, you can elevate consistency while maintaining the team’s enthusiasm for creativity.
+
+
+What Lloyd Should Have Done:
+Lloyd needed to recommend clear, standardized tools first—things like unified jigger specs, pre-dilution tests, or a laminated build sheet for each shift. The tone was right in avoiding blame, but the response lacked specific, low-friction systems that can be put in place without slowing down service. Bonus points if he had suggested a peer coaching model or low-lift quarterly tastings to align palates. The missing link was a system that preserves creativity within constraints.
+
+
+(Generated on 2025-08-21 19:05:45)
