@@ -1,0 +1,15 @@
+{
+  "scenario_number": 13,
+  "title": "New Restaurant Opening: Bar Program From Scratch",
+  "tags": [
+    "menu_design",
+    "training",
+    "prep_efficiency",
+    "launch_strategy",
+    "batching",
+    "staff_onboarding"
+  ],
+  "system_mod": "Prioritize urgency and clarity. Avoid deep dives into cocktail theory. Focus on clean, strategic planning.",
+  "venue_context": "An ownership group is opening a new concept and needs to build a complete bar program from scratch. They’re looking for guidance on menu structure, batching, staff prep, and go-live strategy.",
+  "prompt": "We’re opening in six weeks and need to build our bar program from scratch. Can you walk us through how to structure the menu, batching, and training so we’re ready for opening day?"
+}

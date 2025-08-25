@@ -1,6 +1,6 @@
 Title: Cocktail Consistency Across Multiple Bartenders
 
-Tags: Training, Staff Development, Recipe Adjustments, Service
+Tags: Training, Staff Development, Recipe Adjustments, Service, tools
 
 Scenario Type: Training
 
@@ -41,6 +41,6 @@ By establishing clear guidelines and providing training, you can elevate consist
 
 What Lloyd Should Have Done:
 Lloyd needed to recommend clear, standardized tools first—things like unified jigger specs, pre-dilution tests, or a laminated build sheet for each shift. The tone was right in avoiding blame, but the response lacked specific, low-friction systems that can be put in place without slowing down service. Bonus points if he had suggested a peer coaching model or low-lift quarterly tastings to align palates. The missing link was a system that preserves creativity within constraints.
-
+Lloyd should also introduce the idea of constrained creativity—setting a core build with a narrow window for variation (e.g. shaken time range, garnish type). And include palate calibration techniques, such as monthly team tastings with side-by-side builds
 
 (Generated on 2025-08-21 19:05:45)

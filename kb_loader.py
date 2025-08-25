@@ -26,7 +26,7 @@ EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 
 # Which folders to include (relative to KB_ROOT). Add/adjust as you expand.
 INCLUDE_DIRS = [
-    "training_modules/scenarios_prompts",
+    "training_modules/scenario_runs",
     "training_modules/scenarios_reference",
     "training_modules/scenarios_rubric",
     "training_modules/Frameworks",            # if you store frameworks here

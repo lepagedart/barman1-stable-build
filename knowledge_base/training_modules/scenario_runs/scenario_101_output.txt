@@ -1,6 +1,6 @@
 Title: Casual Restaurant without Dedicated Bar Manager
 
-Tags: Inexperienced Bartenders, menu design, Training, implementation, Execution, perceived value, Lack of training program
+Tags: dont have bar manager, Inexperienced Bartenders, menu design, Training, implementation, Execution, perceived value, Lack of training program
 
 Scenario Type: Training
 

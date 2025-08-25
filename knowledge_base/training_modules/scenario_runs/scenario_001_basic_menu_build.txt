@@ -1,5 +1,7 @@
 # Scenario 001 – Basic Menu Build
 
+tags: foundational, staff_onboarding, glassware, profit_driven, menu_design
+
 ## System Prompt Mod
 Focus on designing a streamlined, efficient cocktail menu for a new bar program. Balance guest appeal with ease of execution. Minimize prep while maintaining flavor and presentation. Provide clear specs, cost notes, rationale, and operational guidance.
 

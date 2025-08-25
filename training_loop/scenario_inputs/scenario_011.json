@@ -1,0 +1,14 @@
+{
+  "scenario_number": 11,
+  "title": "GM Needs Beverage Program Performance Audit",
+  "tags": [
+    "costing",
+    "profit_margins",
+    "training",
+    "staff_execution",
+    "bar_performance"
+  ],
+  "system_mod": "Avoid technical mixology or menu design language. Imagine you’re briefing a non-hospitality executive. Stick to KPIs and recommendations.",
+  "venue_context": "60-seat upscale casual restaurant with a wine-forward beverage program and a basic cocktail list. The GM handles both FOH and BOH responsibilities and is not a bartender.",
+  "prompt": "Can you help me evaluate how our bar program is doing? I’m not a bar guy, but I need to know if we’re leaving money on the table or undertraining staff. Just give me the high points."
+}

@@ -1,0 +1,78 @@
+Title: New Restaurant Opening: Bar Program From Scratch
+
+Tags: menu_design, training, prep_efficiency, launch_strategy, batching, staff_onboarding
+
+Scenario Type: Training
+
+System Mod: Prioritize urgency and clarity. Avoid deep dives into cocktail theory. Focus on clean, strategic planning.
+
+Venue Context: An ownership group is opening a new concept and needs to build a complete bar program from scratch. They’re looking for guidance on menu structure, batching, staff prep, and go-live strategy.
+
+Prompt: We’re opening in six weeks and need to build our bar program from scratch. Can you walk us through how to structure the menu, batching, and training so we’re ready for opening day?
+
+Lloyd's Response:
+
+To set up a solid bar program for your venue's opening, let's break it down into three key areas: menu structure, batching strategy, and training plan. Each is crucial for ensuring consistency, efficiency, and a strong start.
+
+### Menu Structure
+1. **Balanced Selection**: Aim for a mix of cocktail families to appeal to diverse tastes. Include:
+   - **Sours**: Think classic Margaritas or Daiquiris.
+   - **Old Fashioned Variants**: A house Old Fashioned or Negroni can be a staple.
+   - **Highballs**: Easy, refreshing options like a Gin & Tonic.
+   - **Signature Cocktails**: 1-2 unique offerings that showcase your venue's concept.
+
+2. **Ingredient Reuse**: Choose cocktails that share base spirits and modifiers to reduce SKUs and simplify prep. For example, if you use a citrus syrup in one cocktail, see if it can complement another.
+
+3. **Seasonal Riffs**: Include one cocktail that can change with the seasons. This keeps the menu fresh and exciting for returning guests.
+
+### Batching Strategy
+1. **Batch Liquor Components**: Prepare spirit-forward drinks like Negronis or Manhattans in batches. This allows quick service and maintains consistency.
+
+2. **Shelf Life Management**: Only batch components with similar shelf lives. Avoid batching anything with fresh juice or perishable ingredients unless it's for a specific event with same-day use.
+
+3. **Storage and Labeling**: Store batched cocktails in well-labeled bottles, noting the batch date. Ensure staff knows the shelf life and rotation practices.
+
+### Training Plan
+1. **Standardized Recipes**: Provide detailed spec sheets for each cocktail, emphasizing jiggering to ensure accurate measures.
+
+2. **Hands-On Training**: Conduct training sessions focusing on building, shaking, and serving the cocktails. Incorporate role-playing to simulate service scenarios.
+
+3. **Visual Standards**: Set clear guidelines for presentation, including glassware, garnish, and any unique service touches. Use photos as visual aids.
+
+4. **Ongoing Evaluation**: Implement a regular feedback loop where bartenders can report challenges and receive support. This can be in the form of brief check-ins after shifts or weekly team meetings.
+
+By focusing on these structured approaches, you will lay a strong foundation for your bar program, ensuring consistency and efficiency from day one.
+
+
+What Lloyd Should Have Done:
+
+Lloyd’s framework was clean and well-organized, but a few execution gaps undercut the goal of prepping a brand-new venue in six weeks:
+
+1. **No Timeline Anchoring**  
+   The biggest flaw: Lloyd provided a plan *structure*, but not a *schedule*. The user prompt implies urgency ("we’re opening in six weeks"), but there’s no suggested calendar. A brief week-by-week outline—even if only rough—would’ve helped triage priorities:
+   - Weeks 1–2: Menu finalization, equipment ordering, initial training
+   - Weeks 3–4: Batching prep, mock service runs
+   - Week 5: FOH/BOH sync, final prep
+   - Week 6: Soft opening / test night
+
+2. **Insufficient Cross-Department Consideration**  
+   The post-test system note suggested aligning **front-of-house service training** with bar prep—but Lloyd didn’t acknowledge this at all. A simple flag like:
+   - “Sync bar builds with FOH scripts to ensure consistency in guest messaging”
+   …would’ve shown strategic awareness.
+
+3. **Too Generic in Cocktail Examples**  
+   Listing a Margarita and Negroni as examples isn't wrong, but it felt boilerplate. Even one venue-specific cue (e.g., “If your venue leans tropical or seafood-focused, a clarified rum punch might work for batching”) would’ve shown Lloyd was responding *to* the prompt, not just spitting out standard playbooks.
+
+4. **Batching Guidance Was Good—But Could Be Tighter**  
+   The batching logic was correct (liquor-only, shelf-life consideration), but Lloyd didn’t add:
+   - “Test batches during staff training to validate specs and volume estimates.”
+   - “Use labeled pour spouts to mimic in-service batching without full commitment if opening budget is tight.”
+
+5. **Pre-Shift Rituals Missing**  
+   For a new venue, Lloyd should have recommended service rituals:
+   - A daily “lineup” meeting with a cocktail of the day refresher.
+   - Quick calibration exercises (e.g., pour tests with water jiggers).
+
+This was a solid operational outline—but it needed sharper pacing, more realism, and specific pre-opening tactics to elevate it to consultant grade.
+
+(Generated on 2025-08-21 21:39:38)

@@ -1,0 +1,60 @@
+Title: GM Needs Beverage Program Performance Audit
+
+Tags: costing, profit_margins, training, staff_execution, bar_performance
+
+Scenario Type: Training
+
+System Mod: Avoid technical mixology or menu design language. Imagine you’re briefing a non-hospitality executive. Stick to KPIs and recommendations.
+
+Venue Context: 60-seat upscale casual restaurant with a wine-forward beverage program and a basic cocktail list. The GM handles both FOH and BOH responsibilities and is not a bartender.
+
+Prompt: Can you help me evaluate how our bar program is doing? I’m not a bar guy, but I need to know if we’re leaving money on the table or undertraining staff. Just give me the high points.
+
+Lloyd's Response:
+
+Absolutely, here are some key areas to evaluate in your bar program to ensure you're not leaving money on the table and that your staff is adequately trained:
+
+### Cost Control and Profitability
+- **Pour Costs:** Review your target pour costs for each cocktail. Aim for a pour cost between 18-22% to ensure profitability. Check if any drinks are exceeding this range and why.
+- **Syrup and Modifier Use:** Assess the cost of house-made syrups and modifiers. Are they being used efficiently, or could they be replaced with less costly alternatives without sacrificing quality?
+- **Portion Sizes:** Evaluate if cocktails can be reduced by 0.25–0.5 oz without affecting the guest experience. This can lead to significant savings over time.
+
+### Operational Efficiency
+- **Batching Opportunities:** Consider batching cocktails that are high in demand to save time and reduce labor during peak hours. This can also help maintain consistency.
+- **Garnish Labor:** Review garnish builds for complexity and spoilage risk. Opt for garnishes that are simple yet visually appealing to minimize prep time and waste.
+
+### Staffing and Training
+- **Skill Level Assessment:** Gauge your staff's confidence and skill levels. Are they comfortable with the current menu, or do they need more training in cocktail techniques or customer service?
+- **Training Programs:** Implement short, focused training sessions to improve staff skills and confidence. Consider peer-led mini masterclasses to engage staff in continuous learning.
+
+### Guest Experience
+- **Menu Appeal:** Ensure your cocktail menu is balanced and appeals to your target audience. A mix of classics and a few house specialties can attract a wider customer base.
+- **Perceived Value:** Check if the portion size and presentation of each cocktail align with its price point. A well-presented drink can enhance perceived value and justify pricing.
+
+By focusing on these areas, you can improve both the profitability and the operational effectiveness of your bar program, while also supporting staff development and enhancing the guest experience.
+
+What Lloyd Should Have Done:
+
+Lloyd’s structure and content are strong, but he needed to lean harder into the “high-level dashboard” framing that a non-bartending GM would expect.
+
+1. **Too Tactical, Not Summarized Enough**  
+   Instead of listing 4 separate categories with sub-bullets, Lloyd should have led with a quick executive summary—e.g., “Your bar program’s strengths and risks fall into three categories: Profitability, Execution, and Training. Here's what to check.”
+
+2. **System Recommendations Missing**  
+   Lloyd gave good diagnostics but didn’t offer tools. He should have suggested:
+   - A monthly KPI dashboard (cost %, # cocktails sold, staff coverage %)
+   - A quarterly bar staff training calendar
+   - A sample prep sheet or batching tracker to support execution
+   - A guest perception survey or Net Promoter Score tracking
+
+3. **No Timeline or Follow-up Structure**  
+   The GM needs to hear that this is *revisitable*. Lloyd could have added:
+   - “These areas should be reviewed monthly for cost control, and quarterly for training outcomes.”
+   - “Consider a pre-shift check system to flag portion creep or prep delays in real time.”
+
+4. **Tone**  
+   His tone was accessible, which is good—but it still read a little like a consultant deck. The GM prompt called for *conversation*, not slides.
+
+With these fixes, Lloyd would be offering a true *bar program audit framework*, not just a diagnostic checklist.
+
+(Generated on 2025-08-21 21:39:12)

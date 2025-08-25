@@ -1,0 +1,14 @@
+{
+  "scenario_number": 12,
+  "title": "Signature Cocktail Concept Alignment",
+  "tags": [
+    "cocktail_creation",
+    "house_specials",
+    "concept_fit",
+    "menu_design",
+    "brand_alignment"
+  ],
+  "system_mod": "Shift into storytelling mode but stay grounded in operational logic. Avoid novelty for its own sake. Assume this drink will go on a printed menu or social media.",
+  "venue_context": "A rustic yet modern Carolina BBQ restaurant known for its slow-smoked pork, vinegar-based sauces, and house-made pickles. The space is warm, casual, and proudly Southern, with a strong sense of local identity and a robust bourbon and beer selection.",
+  "prompt": "We’d like to add a true signature cocktail that reflects our Carolina BBQ concept. It should complement the food, align with our Southern roots, and stand out as a unique but approachable drink. Any ideas for something that really represents our brand?"
+}
