@@ -1,0 +1,4 @@
+When answering, link guidance to POS, inventory, and analytics systems. 
+Emphasize integration, data-driven decision making, and automation of routine tasks. 
+Provide a short example of how metrics or reports would look in practice. 
+Finish with a “tech action checklist” for managers.

@@ -4,6 +4,7 @@ import pickle
 import hashlib
 import threading
 import time
+import re
 from pathlib import Path
 
 from flask import Flask, render_template, request, jsonify, session
@@ -18,14 +19,6 @@ from dotenv import load_dotenv
 from rag_retriever import retrieve_codex_context
 from google_search import search_google
 from kb_loader import load_knowledge_documents  # retained for parity, not used
-
-# 👇 NEW: unified helpers for scenario mods + lenses
-from utils import (
-    detect_scenario_prompt_mod,
-    detect_scenario_prompt_mod_name,
-    detect_lens_mods,             # returns (lens_names, lens_blocks_text)
-    lens_preamble_for,            # builds preamble text for the matched lenses
-)
 
 # ---------------------------
 # Environment & App Setup
@@ -51,6 +44,109 @@ _kb_lock = threading.Lock()
 KB_ROOT = Path(KB_FOLDER)
 
 _client = None
+
+# =============================================================================
+#                 LENS / PREAMBLE LOADERS & REGEX TRIGGER HELPERS
+# =============================================================================
+LENS_DIR = Path("system_prompt_mods") / "lenses"
+TRIGGERS_DIR = Path("system_prompt_mods") / "triggers"
+PREAMBLES_DIR = Path("system_prompt_mods") / "preambles"
+
+def _load_text(path: Path, fallback: str) -> str:
+    try:
+        return path.read_text(encoding="utf-8").strip()
+    except Exception:
+        return fallback.strip()
+
+def _load_triggers(path: Path) -> re.Pattern:
+    """
+    Load line-separated regex OR literal tokens (joined by '|').
+    Lines beginning with '#' are comments. Empty lines ignored.
+    """
+    try:
+        lines = path.read_text(encoding="utf-8").splitlines()
+        pats = [ln.strip() for ln in lines if ln.strip() and not ln.strip().startswith("#")]
+        return re.compile("|".join(pats), re.IGNORECASE) if pats else re.compile("$^")
+    except Exception as e:
+        app.logger.warning("⚠️ Could not load triggers from %s: %s", path, e)
+        return re.compile("$^")
+
+# --------- Load lens blocks (system addenda) ----------
+PORTFOLIO_LENS_BLOCK   = _load_text(LENS_DIR / "portfolio_lens.txt",   "--- Portfolio Lens (fallback) ---")
+LAYOUT_LENS_BLOCK      = _load_text(LENS_DIR / "layout_lens.txt",      "--- Layout Lens (fallback) ---")
+EVENT_LENS_BLOCK       = _load_text(LENS_DIR / "event_setup_lens.txt", "--- Event Lens (fallback) ---")
+
+GUEST_EXP_LENS_BLOCK   = _load_text(LENS_DIR / "guest_experience_lens.txt",   "--- Guest Experience Lens (fallback) ---")
+FINANCIALS_LENS_BLOCK  = _load_text(LENS_DIR / "financials_lens.txt",         "--- Financials Lens (fallback) ---")
+WOW_FACTOR_LENS_BLOCK  = _load_text(LENS_DIR / "wow_factor_lens.txt",         "--- Wow Factor Lens (fallback) ---")
+COMPLIANCE_LENS_BLOCK  = _load_text(LENS_DIR / "compliance_lens.txt",         "--- Compliance Lens (fallback) ---")
+TECH_LENS_BLOCK        = _load_text(LENS_DIR / "technology_lens.txt",         "--- Technology Lens (fallback) ---")
+
+# --------- Load preambles (appended to user prompt) ----------
+LAYOUT_PREAMBLE   = _load_text(PREAMBLES_DIR / "layout_preamble.txt",   "Provide ASCII map, reach zones, rail loadout, build path, KPIs.")
+EVENT_PREAMBLE    = _load_text(PREAMBLES_DIR / "event_preamble.txt",    "Provide throughput targets, batching math, ice/mixer totals, 5-step checklist.")
+GUEST_PREAMBLE    = _load_text(PREAMBLES_DIR / "guest_experience_preamble.txt", "Add recovery gestures, consistency checks, staff phrasing.")
+FIN_PREAMBLE      = _load_text(PREAMBLES_DIR / "financials_preamble.txt",       "Add pour-cost table, margin math, waste controls, price bands.")
+WOW_PREAMBLE      = _load_text(PREAMBLES_DIR / "wow_factor_preamble.txt",       "Design a single memorable moment with fast garnishes + script.")
+COMP_PREAMBLE     = _load_text(PREAMBLES_DIR / "compliance_preamble.txt",       "Add ID workflow, refusal protocol, allergy labeling, incident log.")
+TECH_PREAMBLE     = _load_text(PREAMBLES_DIR / "technology_preamble.txt",       "Map POS/inventory integrations, dashboards, and forecasting cadence.")
+
+# --------- Load regex triggers ----------
+PORTFOLIO_RE   = _load_triggers(TRIGGERS_DIR / "portfolio_triggers.txt")
+LAYOUT_RE      = _load_triggers(TRIGGERS_DIR / "layout_triggers.txt")
+EVENT_RE       = _load_triggers(TRIGGERS_DIR / "event_triggers.txt")
+GUEST_EXP_RE   = _load_triggers(TRIGGERS_DIR / "guest_experience_triggers.txt")
+FINANCIALS_RE  = _load_triggers(TRIGGERS_DIR / "financials_triggers.txt")
+WOW_FACTOR_RE  = _load_triggers(TRIGGERS_DIR / "wow_factor_triggers.txt")
+COMPLIANCE_RE  = _load_triggers(TRIGGERS_DIR / "compliance_triggers.txt")
+TECH_RE        = _load_triggers(TRIGGERS_DIR / "technology_triggers.txt")
+
+def _any_match(regex: re.Pattern, user_prompt: str, venue: str) -> bool:
+    text = f"{user_prompt or ''} {venue or ''}"
+    return bool(regex.search(text))
+
+def detect_scenario_prompt_mod(user_prompt: str, venue: str) -> str | None:
+    """Return concatenated lens blocks when multiple lenses apply."""
+    blocks = []
+    if _any_match(PORTFOLIO_RE, user_prompt, venue):  blocks.append(PORTFOLIO_LENS_BLOCK)
+    if _any_match(LAYOUT_RE, user_prompt, venue):     blocks.append(LAYOUT_LENS_BLOCK)
+    if _any_match(EVENT_RE, user_prompt, venue):      blocks.append(EVENT_LENS_BLOCK)
+    if _any_match(GUEST_EXP_RE, user_prompt, venue):  blocks.append(GUEST_EXP_LENS_BLOCK)
+    if _any_match(FINANCIALS_RE, user_prompt, venue): blocks.append(FINANCIALS_LENS_BLOCK)
+    if _any_match(WOW_FACTOR_RE, user_prompt, venue): blocks.append(WOW_FACTOR_LENS_BLOCK)
+    if _any_match(COMPLIANCE_RE, user_prompt, venue): blocks.append(COMPLIANCE_LENS_BLOCK)
+    if _any_match(TECH_RE, user_prompt, venue):       blocks.append(TECH_LENS_BLOCK)
+    return "\n\n".join(blocks) if blocks else None
+
+def detect_scenario_prompt_mod_name(user_prompt: str, venue: str) -> str:
+    names = []
+    if _any_match(PORTFOLIO_RE, user_prompt, venue):  names.append("portfolio_lens")
+    if _any_match(LAYOUT_RE, user_prompt, venue):     names.append("layout_lens")
+    if _any_match(EVENT_RE, user_prompt, venue):      names.append("event_lens")
+    if _any_match(GUEST_EXP_RE, user_prompt, venue):  names.append("guest_experience_lens")
+    if _any_match(FINANCIALS_RE, user_prompt, venue): names.append("financials_lens")
+    if _any_match(WOW_FACTOR_RE, user_prompt, venue): names.append("wow_factor_lens")
+    if _any_match(COMPLIANCE_RE, user_prompt, venue): names.append("compliance_lens")
+    if _any_match(TECH_RE, user_prompt, venue):       names.append("technology_lens")
+    return "+".join(names) if names else "none"
+
+def _preambles_for(names: str) -> list[tuple[str, str]]:
+    """Return [(name, text), ...] for preambles implied by lens names."""
+    mapping = {
+        "layout_lens": ( "layout_preamble", LAYOUT_PREAMBLE ),
+        "event_lens": ( "event_preamble", EVENT_PREAMBLE ),
+        "guest_experience_lens": ( "guest_experience_preamble", GUEST_PREAMBLE ),
+        "financials_lens": ( "financials_preamble", FIN_PREAMBLE ),
+        "wow_factor_lens": ( "wow_factor_preamble", WOW_PREAMBLE ),
+        "compliance_lens": ( "compliance_preamble", COMP_PREAMBLE ),
+        "technology_lens": ( "technology_preamble", TECH_PREAMBLE ),
+    }
+    out = []
+    if names and names != "none":
+        for key, val in mapping.items():
+            if key in names:
+                out.append(val)
+    return out
 
 # =============================================================================
 #                               OpenAI Client
@@ -109,8 +205,7 @@ def _kb_fingerprint() -> str:
     import hashlib as _hashlib
     h = _hashlib.md5()
     root = KB_ROOT
-    if not root.exists():
-        return ""
+    if not root.exists(): return ""
     for p in sorted(root.rglob("*.txt")):
         try:
             stat = p.stat()
@@ -181,21 +276,16 @@ def index():
         if user_prompt:
             conversation.append({"role": "user", "content": user_prompt})
 
-            # ---- Scenario mod (from KB/system_prompt_mods) ----
+            # ---- Lens detection ----
             scenario_mod = detect_scenario_prompt_mod(user_prompt, venue) or ""
-            selected_scenario_mod_name = detect_scenario_prompt_mod_name(user_prompt, venue) or "none"
-            if selected_scenario_mod_name != "none":
-                app.logger.info("🧩 Scenario mod selected: %s", selected_scenario_mod_name)
+            selected_mod_name = detect_scenario_prompt_mod_name(user_prompt, venue) or "none"
+            app.logger.info("🧩 Prompt mod selected: %s", selected_mod_name)
 
-            # ---- Lenses (file-backed triggers; multiple can fire) ----
-            lens_names, lens_blocks = detect_lens_mods(user_prompt, venue)
-            if lens_names:
-                app.logger.info("🔎 Lenses matched: %s", ", ".join(lens_names))
-                # Append lens preambles to the *user* prompt
-                preambles = lens_preamble_for(lens_names)
-                if preambles:
-                    user_prompt = f"{user_prompt}\n\n{preambles}"
-                    app.logger.info("🧱 Lens preamble(s) injected into user prompt")
+            # ---- Auto-append preambles to the user prompt based on active lenses ----
+            preambles = _preambles_for(selected_mod_name)
+            for pre_name, pre_text in preambles:
+                user_prompt = f"{user_prompt}\n\n{pre_text}"
+                app.logger.info("📝 Preamble injected: %s", pre_name)
 
             # ---------- RAG context ----------
             try:
@@ -222,12 +312,7 @@ def index():
 
             # ---------- Compose messages ----------
             base_prompt = load_system_prompt()
-            blocks = []
-            if scenario_mod:
-                blocks.append(scenario_mod)
-            if lens_blocks:
-                blocks.append(lens_blocks)
-            combined_prompt = f"{base_prompt}\n\n{'\n\n'.join(blocks)}".strip() if blocks else base_prompt
+            combined_prompt = f"{base_prompt}\n\n{scenario_mod}".strip() if scenario_mod else base_prompt
 
             messages = [
                 {"role": "system", "content": combined_prompt},
@@ -297,6 +382,23 @@ def index():
         use_live_search=use_live_search,
     )
 
+# ------------------ Debug: which lenses fired ------------------
+@app.route("/which-lenses", methods=["POST"])
+def which_lenses():
+    payload = request.get_json(silent=True) or {}
+    user_p = (payload.get("user_prompt") or "").strip()
+    venue_p = (payload.get("venue_prompt") or "").strip()
+
+    names = detect_scenario_prompt_mod_name(user_p, venue_p)
+    mod_block = detect_scenario_prompt_mod(user_p, venue_p) or ""
+    preambles = _preambles_for(names)
+    return jsonify({
+        "mods": names.split("+") if names and names != "none" else [],
+        "mod_text": mod_block,
+        "preambles": [n for (n, _t) in preambles],
+        "preamble_texts": [t for (_n, t) in preambles],
+    }), 200
+
 @app.route("/init", methods=["POST"])
 def init():
     cid = get_conversation_id()
@@ -326,14 +428,11 @@ def health():
         "model": OPENAI_MODEL,
     }), 200
 
-@app.route("/which-mod", methods=["POST"])
-def which_mod():
-    payload = request.get_json(silent=True) or {}
-    user_p = payload.get("user_prompt", "") or ""
-    venue_p = payload.get("venue_prompt", "") or ""
-    name = detect_scenario_prompt_mod_name(user_p, venue_p) or "none"
-    app.logger.info("🧩 /which-mod matched: %s", name)
-    return jsonify({"mod": name}), 200
+@app.route("/_routes")
+def _routes():
+    rules = [str(r) for r in app.url_map.iter_rules()]
+    app.logger.info("📜 Routes: %s", rules)
+    return jsonify({"routes": rules})
 
 @app.route("/reindex", methods=["POST"])
 def reindex():
@@ -346,46 +445,6 @@ def reindex():
     except Exception as e:
         return jsonify({"status": "error", "error": str(e)}), 500
 
-# ---------------------------
-# Debug: which lenses/preambles would fire?
-# ---------------------------
-import re
-
-PORTFOLIO_RE = re.compile(r"\bportfolio\b", re.IGNORECASE)
-LAYOUT_RE = re.compile(r"\blayout\b", re.IGNORECASE)
-EVENT_RE = re.compile(r"\bevent\b", re.IGNORECASE)
-
-@app.route("/which-lenses", methods=["POST"])
-def which_lenses():
-    """Quick QA endpoint: given a prompt, show which lenses & preambles will trigger."""
-    payload = request.get_json(silent=True) or {}
-    user_p = (payload.get("user_prompt") or "").strip()
-    venue_p = (payload.get("venue_prompt") or "").strip()
-    text = f"{user_p} {venue_p}"
-
-    mods = []
-    if PORTFOLIO_RE.search(text):
-        mods.append("portfolio_lens")
-    if LAYOUT_RE.search(text):
-        mods.append("layout_lens")
-    if EVENT_RE.search(text):
-        mods.append("event_lens")
-
-    preambles = []
-    if "layout_lens" in mods:
-        preambles.append("layout_preamble")
-    if "event_lens" in mods:
-        preambles.append("event_preamble")
-
-    combined_block = detect_scenario_prompt_mod(user_p, venue_p) or ""
-
-    app.logger.info("🧪 /which-lenses fired → mods=%s, preambles=%s", mods, preambles)
-    return jsonify({
-        "mods": mods,
-        "preambles": preambles,
-        "combined_block": combined_block
-    }), 200
-
 def _prewarm_backend():
     try:
         from rag_retriever import check_vectorstore_health
@@ -395,11 +454,6 @@ def _prewarm_backend():
         app.logger.info("🔥 Prewarm OpenAI client: ready")
     except Exception as e:
         app.logger.warning("Prewarm failed (will recover on first request): %s", e)
-@app.route("/_routes")
-def _routes():
-    rules = [str(r) for r in app.url_map.iter_rules()]
-    app.logger.info("📜 Routes: %s", rules)
-    return jsonify({"routes": rules})
 
 # ---------------------------
 # Entrypoint

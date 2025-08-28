@@ -1,3 +1,4 @@
+# utils.py  (patched for subfolders: lenses/ triggers/ preambles/)
 from __future__ import annotations
 import os
 import re
@@ -11,7 +12,9 @@ from email.message import EmailMessage
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 
-# Load environment variables from .env
+# ------------------------------------------------------------
+# Env
+# ------------------------------------------------------------
 load_dotenv()
 
 # =========================
@@ -63,37 +66,46 @@ def send_email(recipient, subject, body, attachment_path="static/cocktail_respon
 # =========================
 # Scenario Prompt Mods (KB)
 # =========================
-MODS_DIR = "system_prompt_mods"
+# New folder layout
+MODS_ROOT       = Path("system_prompt_mods")
+MODS_DIR_LENSES = MODS_ROOT / "lenses"      # lens blocks + scenario-specific prompt mods live here
+TRIGGERS_DIR    = MODS_ROOT / "triggers"    # one text file per lens family
+PREAMBLES_DIR   = MODS_ROOT / "preambles"   # per-lens preambles
+
+# Patterns for scenario-specific files
+_SCEN_FILE_PATTERNS = (
+    re.compile(r"^scenario_\d{1,3}_prompt_mod\.txt$", re.IGNORECASE),
+    re.compile(r"^system_prompt_mod_scenario_\d{1,3}\.txt$", re.IGNORECASE),
+)
 
 _SCEN_NUM_RE      = re.compile(r"\bscenario[_\s-]*#?\s*(\d{1,3})\b", re.IGNORECASE)
 _HEADER_TITLE_RE  = re.compile(r"^\s*title\s*:\s*(.+)$", re.IGNORECASE)
 _HEADER_KEYS_RE   = re.compile(r"^\s*keywords\s*:\s*(.+)$", re.IGNORECASE)
 _HEADER_TAGS_RE   = re.compile(r"^\s*tags\s*:\s*(.+)$", re.IGNORECASE)
 
-def _parse_mod_file(path: str) -> tuple[str, list[str], str]:
+def _parse_mod_file(path: Path) -> tuple[str, list[str], str]:
     """
     Returns (title, keywords, content). Accepts 'Keywords:' or 'Tags:' headers.
     """
     try:
-        with open(path, "r", encoding="utf-8", errors="ignore") as f:
-            lines = f.readlines()
-        title, keys = "", []
-        for raw in lines[:5]:
-            line = raw.strip()
-            if not title:
-                m = _HEADER_TITLE_RE.match(line)
-                if m: title = m.group(1).strip()
-            m = _HEADER_KEYS_RE.match(line)
-            if m:
-                keys = [k.strip().lower() for k in m.group(1).split(",") if k.strip()]
-            if not keys:
-                m = _HEADER_TAGS_RE.match(line)
-                if m:
-                    keys = [k.strip().lower() for k in m.group(1).replace(",", " ").split() if k.strip()]
-        content = "".join(lines)
-        return title, keys, content
+        lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
     except Exception:
         return "", [], ""
+    title, keys = "", []
+    for raw in lines[:6]:
+        line = raw.strip()
+        if not title:
+            m = _HEADER_TITLE_RE.match(line)
+            if m: title = m.group(1).strip()
+        m = _HEADER_KEYS_RE.match(line)
+        if m:
+            keys = [k.strip().lower() for k in m.group(1).split(",") if k.strip()]
+        if not keys:
+            m = _HEADER_TAGS_RE.match(line)
+            if m:
+                keys = [k.strip().lower() for k in m.group(1).replace(",", " ").split() if k.strip()]
+    content = "\n".join(lines)
+    return title, keys, content
 
 def _score_keywords(keys: list[str], haystack: str) -> int:
     if not keys: return 0
@@ -105,11 +117,14 @@ def _score_keywords(keys: list[str], haystack: str) -> int:
             score += 1
     return score
 
+def _is_scenario_mod_filename(name: str) -> bool:
+    return any(pat.match(name) for pat in _SCEN_FILE_PATTERNS)
+
 def detect_scenario_prompt_mod(user_prompt: str, venue_prompt: str = "") -> str:
     """
-    Auto-select a scenario system prompt mod.
+    Auto-select a scenario system prompt mod from /lenses.
     1) If user/venue mentions 'scenario N', load scenario_N file if present.
-    2) Else, score all files by Keywords/Tags and pick the best (≥1 hit).
+    2) Else, score scenario-* files by Keywords/Tags and pick the best (≥1 hit).
     Returns the file content or '' if none matched.
     """
     text = f"{user_prompt or ''} {venue_prompt or ''}"
@@ -119,28 +134,29 @@ def detect_scenario_prompt_mod(user_prompt: str, venue_prompt: str = "") -> str:
     if m:
         scen = m.group(1)
         for fn in (f"scenario_{scen}_prompt_mod.txt", f"system_prompt_mod_scenario_{scen}.txt"):
-            path = os.path.join(MODS_DIR, fn)
-            if os.path.exists(path):
+            path = MODS_DIR_LENSES / fn
+            if path.exists():
                 _, _, content = _parse_mod_file(path)
                 if content:
                     return content
 
-    # 2) Keyword-based selection
-    if not os.path.isdir(MODS_DIR):
+    # 2) Keyword-based selection across scenario-* files in /lenses
+    if not MODS_DIR_LENSES.is_dir():
         return ""
-    best = ("", -1, "")
-    for fn in os.listdir(MODS_DIR):
+    best_path, best_score, best_content = "", -1, ""
+    for fn in os.listdir(MODS_DIR_LENSES):
         if not fn.lower().endswith(".txt"):
             continue
-        if fn.startswith("layout_") or fn.startswith("event_") or fn.endswith("_lens.txt"):
-            # lens/preamble files live here too; skip for scenario selection
+        if not _is_scenario_mod_filename(fn):
+            # ignore general lens blocks here
             continue
-        path = os.path.join(MODS_DIR, fn)
+        path = MODS_DIR_LENSES / fn
         title, keys, content = _parse_mod_file(path)
         score = _score_keywords(keys, text)
-        if score > best[1]:
-            best = (path, score, content)
-    return best[2] if best[1] > 0 else ""
+        if score > best_score:
+            best_path, best_score, best_content = str(path), score, content
+
+    return best_content if best_score > 0 else ""
 
 def detect_scenario_prompt_mod_name(user_prompt: str, venue_prompt: str = "") -> str:
     text = f"{user_prompt or ''} {venue_prompt or ''}"
@@ -148,45 +164,45 @@ def detect_scenario_prompt_mod_name(user_prompt: str, venue_prompt: str = "") ->
     if m:
         scen = m.group(1)
         for fn in (f"scenario_{scen}_prompt_mod.txt", f"system_prompt_mod_scenario_{scen}.txt"):
-            if os.path.exists(os.path.join(MODS_DIR, fn)):
+            if (MODS_DIR_LENSES / fn).exists():
                 return fn
-    if not os.path.isdir(MODS_DIR):
+    if not MODS_DIR_LENSES.is_dir():
         return ""
-    best = ("", -1)
-    for fn in os.listdir(MODS_DIR):
+    best_fn, best_score = "", -1
+    for fn in os.listdir(MODS_DIR_LENSES):
         if not fn.lower().endswith(".txt"):
             continue
-        if fn.startswith("layout_") or fn.startswith("event_") or fn.endswith("_lens.txt"):
+        if not _is_scenario_mod_filename(fn):
             continue
-        path = os.path.join(MODS_DIR, fn)
+        path = MODS_DIR_LENSES / fn
         _, keys, _ = _parse_mod_file(path)
         score = _score_keywords(keys, text)
-        if score > best[1]:
-            best = (fn, score)
-    return best[0] if best[1] > 0 else ""
+        if score > best_score:
+            best_fn, best_score = fn, score
+    return best_fn if best_score > 0 else ""
 
 # =========================
 # Lens triggers + preambles
 # =========================
-TRIGGERS_DIR = Path(MODS_DIR) / "triggers"
 
 @lru_cache(maxsize=1)
 def _load_trigger_patterns() -> dict[str, re.Pattern]:
     """
     Load trigger files from system_prompt_mods/triggers/*.txt.
     Returns dict like {"portfolio": compiled_regex, "layout": compiled_regex, ...}
+    (The key is based on filename stem.)
     """
     patterns: dict[str, re.Pattern] = {}
     if not TRIGGERS_DIR.exists():
         return patterns
     for p in TRIGGERS_DIR.glob("*.txt"):
-        key = p.stem.lower().strip()  # e.g. "portfolio", "layout", "event_setup"
+        key = p.stem.lower().strip()  # e.g. "portfolio", "layout", "event", "guest_experience"
         terms = []
         for raw in p.read_text(encoding="utf-8").splitlines():
             s = raw.strip()
             if not s or s.startswith("#"):
                 continue
-            # Treat each line as a literal term unless it looks like a regex
+            # If it looks like a regex, keep it; else treat as literal
             if s.startswith("(?") or s.endswith("$") or ("|" in s):
                 terms.append(s)
             else:
@@ -200,36 +216,40 @@ def _load_trigger_patterns() -> dict[str, re.Pattern]:
             patterns[key] = re.compile("|".join(terms), re.IGNORECASE)
     return patterns
 
-def _read_mod_text(name: str) -> Optional[str]:
-    path = Path(MODS_DIR) / f"{name}.txt"
-    return path.read_text(encoding="utf-8").strip() if path.exists() else None
+def _read_lens_text(name: str) -> Optional[str]:
+    """
+    Read a lens block from /lenses given a base name (e.g., 'layout_lens').
+    """
+    p = MODS_DIR_LENSES / f"{name}.txt"
+    return p.read_text(encoding="utf-8").strip() if p.exists() else None
+
+def _read_preamble_text(name: str) -> Optional[str]:
+    """
+    Read a preamble from /preambles given a base name (e.g., 'layout_preamble').
+    """
+    p = PREAMBLES_DIR / f"{name}.txt"
+    return p.read_text(encoding="utf-8").strip() if p.exists() else None
 
 def detect_lens_mods(user_prompt: str, venue_prompt: str = "") -> Tuple[List[str], str]:
     """
     Returns (lens_names, concatenated_lens_blocks_text).
-    Lens names map to files:
-      portfolio -> portfolio_lens.txt
-      layout    -> layout_lens.txt
-      event_setup -> event_setup_lens.txt
-    Multiple lenses may fire; we join blocks with blank lines.
+    Lens names map to lens files in /lenses. Multiple may fire.
+    The mapping from trigger filename stem -> lens txt filename is 1:1 with '_lens' suffix.
+      e.g., 'layout' trigger => 'layout_lens.txt'
     """
-    text = f"{user_prompt or ''}\n{venue_prompt or ''}".lower()
+    text = f"{user_prompt or ''}\n{venue_prompt or ''}"
     if not text:
         return ([], "")
 
     patterns = _load_trigger_patterns()
-    key_to_block = {
-        "portfolio": "portfolio_lens",
-        "layout": "layout_lens",
-        "event_setup": "event_setup_lens",
-    }
-
     lens_names: List[str] = []
     blocks: List[str] = []
+
     for key, rx in patterns.items():
-        if key in key_to_block and rx.search(text):
+        if rx.search(text):
             lens_names.append(key)
-            block = _read_mod_text(key_to_block[key])
+            lens_file_basename = f"{key}_lens"
+            block = _read_lens_text(lens_file_basename)
             if block:
                 blocks.append(block)
 
@@ -237,21 +257,13 @@ def detect_lens_mods(user_prompt: str, venue_prompt: str = "") -> Tuple[List[str
 
 def lens_preamble_for(lens_names: List[str]) -> str:
     """
-    Given matched lens keys (e.g., ["layout","event_setup"]), return the concatenated
-    preamble text to append to the *user* prompt.
+    Given matched lens keys (e.g., ["layout","event","guest_experience"]), return the concatenated
+    preamble text to append to the *user* prompt. We look up '{key}_preamble.txt' in /preambles.
     """
-    key_to_preamble = {
-        "layout": "layout_preamble",
-        "event_setup": "event_preamble",
-        # portfolio typically does not need a preamble, but you can add one:
-        # "portfolio": "portfolio_preamble",
-    }
     pieces: List[str] = []
     for key in lens_names:
-        name = key_to_preamble.get(key)
-        if not name:
-            continue
-        txt = _read_mod_text(name)
+        preamble_name = f"{key}_preamble"
+        txt = _read_preamble_text(preamble_name)
         if txt:
             pieces.append(txt)
     return "\n\n".join(pieces).strip()

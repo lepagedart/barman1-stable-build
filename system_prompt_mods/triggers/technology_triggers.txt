@@ -1,0 +1,25 @@
+# Tech / POS / inventory / forecasting
+POS
+pos integration
+api
+integration
+webhook
+inventory
+real-time inventory
+barcode
+scanner
+variance report
+dashboard
+analytics
+forecast
+forecasting
+sales mix
+sku mapping
+recipe mapping
+theoretical pours
+kds
+qr code
+multi-location
+data pipeline
+etl
+par forecasting

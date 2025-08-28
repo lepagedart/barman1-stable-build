@@ -1,0 +1,3 @@
+When answering, ensure recommendations protect against legal or reputational risk. 
+Include concrete refusal-of-service protocols, ID verification, and documentation steps. 
+End with a compliance checklist for staff and managers to follow in live service.
