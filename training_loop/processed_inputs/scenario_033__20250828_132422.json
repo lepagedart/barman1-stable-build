@@ -1,0 +1,8 @@
+{
+  "scenario_number": 33,
+  "title": "Distributor-Aligned Seasonal Refresh",
+  "tags": ["portfolio_matching", "cost_control", "profit_margins", "menu_design", "supplier_relationships"],
+  "system_mod": "Frame ideas through supplier alignment. Tie each cocktail to a portfolio product, note incentive assumptions, and include a simple cost/price table with target pour %.",
+  "venue_context": "Downtown bistro that buys through a single distributor; rep is pushing a set of seasonal SKUs (aperitivo, amaro, rye whiskey, orange liqueur).",
+  "prompt": "We want a small seasonal refresh that uses our distributor’s priority SKUs so we can negotiate better pricing. Give us 4 builds that won’t slow service and still feel on-brand."
+}

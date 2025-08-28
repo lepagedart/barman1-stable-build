@@ -1,0 +1,22 @@
+{
+  "scenario_number": null,
+  "scores": {
+    "Alignment": 4,
+    "Operational_Feasibility": 4,
+    "Profit_Protection": 4,
+    "Menu_Cohesion": 4,
+    "Service_Speed": 4,
+    "Training_Clarity": 4,
+    "Brand_Fit": 4,
+    "Specificity": 3
+  },
+  "overall": {
+    "score": 4,
+    "rationale": "Solid operational advice, but lacks feedback loops, update processes, and clear boundaries for creativity."
+  },
+  "flags": [
+    "no feedback loop",
+    "recipe update process missing",
+    "glassware flexibility risk"
+  ]
+}

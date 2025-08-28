@@ -1,0 +1,53 @@
+Title: Basic Menu Build
+
+Tags: menu_design, foundational, profit_focus, staff_onboarding, house_specials
+
+Scenario Type: Training
+
+System Mod: Assume the bar team is green. Avoid overly advanced prep or obscure modifiers. Prioritize training simplicity.
+
+Venue Context: A venue without a strong cocktail identity needs a foundational cocktail menu. The goal is to launch a versatile, profitable, and staff-friendly bar program with broad guest appeal.
+
+Prompt: We need to create a basic cocktail menu that is profitable, approachable, and easy for new staff to execute. Where do we start?
+
+Lloyd's Response:
+
+To build a profitable and approachable cocktail menu that is easy for new staff to execute, focus on simplicity, popular flavors, and operational efficiency. Here's a straightforward plan:
+
+### Menu Strategy
+
+1. **Core Classics**: Select 3–4 well-loved classics that have broad appeal and are simple to make. These should be familiar enough to guests and easy for staff to execute without extensive training:
+   - **Margarita**: A popular choice that is easy to prepare and always in demand.
+   - **Whiskey Sour**: Offers a balance of sweet and sour, appealing to whiskey lovers.
+   - **Moscow Mule**: Refreshing and easy to assemble with vodka, lime, and ginger beer.
+   - **Negroni**: A spirit-forward drink that adds a touch of sophistication.
+
+### Execution and Operational Notes
+
+- **Specs and Glassware**: Provide clear measurements for each cocktail and specify the glassware. For example:
+   - **Margarita**
+     - Spec: 2 oz Tequila, 1 oz Lime juice, 0.5 oz Triple sec
+     - Glass/Ice/Garnish: Rocks glass, salt rim, lime wheel
+     - Method: Shake ingredients with ice, strain into glass
+     - Cost Notes: Keep pour costs around 20-25%, use house tequila for value
+
+- **Batching**: Consider batching where possible to streamline service. For instance, pre-batch the Negroni in small batches to manage shelf life and maintain freshness.
+
+- **Training and Setup**: Ensure staff have a quick training session to familiarize themselves with each cocktail's build. Set up the bar with all necessary ingredients and tools within easy reach to maintain service speed.
+
+By focusing on these classics, you provide a menu that's both cost-effective and appealing, while ensuring your staff can deliver consistent quality with minimal prep and training.
+
+
+What Lloyd Should Have Done:
+What Lloyd Should Have Done:
+- Missing: No mention of how to select classics based on venue concept, guest profile, or brand fit—menu cohesion and alignment are assumed, not justified.
+- Overreach: Suggests batching Negronis without addressing shelf-life, dilution, or batching logistics for other drinks; lacks operational feasibility analysis.
+- System/Process: Should include a standardized recipe card template, a batching protocol, and a brief training checklist for onboarding.
+- Menu Structure: Needs a rationale for the number of drinks (why 3–4?), and a process for periodic menu review based on sales and feedback.
+- Tone/Structure: Use bullet points for operational steps and training, separate menu design from execution notes for clarity.
+- Specificity: Should specify which ingredients can be prepped in advance, and outline steps for cost control beyond pour cost (e.g., portioning, waste tracking).
+
+
+(Generated on 2025-08-27 16:21:40)
+
+(Evaluated on 2025-08-27 19:01:51)

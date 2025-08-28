@@ -1,0 +1,22 @@
+{
+  "scenario_number": null,
+  "scores": {
+    "Alignment": 2,
+    "Operational_Feasibility": 4,
+    "Profit_Protection": 3,
+    "Menu_Cohesion": 3,
+    "Service_Speed": 4,
+    "Training_Clarity": 3,
+    "Brand_Fit": 2,
+    "Specificity": 3
+  },
+  "overall": {
+    "score": 3,
+    "rationale": "Solid operational basics but lacks venue alignment, brand fit, and actionable process systems."
+  },
+  "flags": [
+    "missing context",
+    "no pricing guidance",
+    "generic advice"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "scenario_number": 27,
+  "title": "Limited Prep Time Before Large Banquet",
+  "tags": ["event_setup", "batching_strategies", "prep_efficiency", "workflow"],
+  "system_mod": "Prioritize fast prep, smart batching, and event-day logistics. Skip long-term program design.",
+  "venue_context": "Hotel bar staff have only 2 hours to prep before a 200-person banquet with a limited drink menu.",
+  "prompt": "We’ve only got 2 hours to set up for a 200-person banquet. How do we prioritize batching and prep so we can execute cleanly with minimal staff?"
+}

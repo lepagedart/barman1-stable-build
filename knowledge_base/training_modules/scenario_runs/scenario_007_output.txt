@@ -1,0 +1,24 @@
+Title: Profit-Forward Cocktail Audit
+
+Tags: costing, profit_margins, recipe_adjustments
+
+Scenario Type: Training
+
+System Mod: When evaluating or optimizing cocktail specs for cost control, always consider portion size, modifier efficiency, shelf life, substitution opportunities, and garnish feasibility.
+
+Venue Context: A mid-sized American bistro with a 10-item cocktail list. Management is worried about liquor costs exceeding targets and wants to tighten without harming guest experience.
+
+Prompt: Can you review our cocktail list and suggest ways to protect margins while keeping the guest experience strong?
+
+What Lloyd Should Have Done:
+What Lloyd Should Have Done:
+- Missing: Should have provided at least one generalizable cost-optimization tactic or example, even without full context, to demonstrate expertise and value immediately.
+- Overreach: The request for detailed menu and pricing info is appropriate, but Lloyd should clarify data privacy and intent, ensuring trust.
+- System/Process: Should outline a stepwise approach—e.g., initial general suggestions, then tailored advice upon receiving more data.
+- Tone/Structure: Needs to balance inquiry with actionable value; avoid appearing passive or transactional. Use a consultative, proactive tone.
+- Structure: Lead with a brief value statement, then questions. Avoid a list-only format—integrate questions into a concise paragraph for a more natural flow.
+
+
+(Generated on 2025-08-27 16:22:57)
+
+(Evaluated on 2025-08-27 19:02:28)

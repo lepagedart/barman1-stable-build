@@ -1,0 +1,8 @@
+{
+  "scenario_number": 3,
+  "title": "Upselling Bar Staff",
+  "tags": ["training", "service", "upselling", "staff_development", "guest_experience", "language_coaching", "high_margin_builds"],
+  "system_mod": "Emphasize behavioral training strategies that improve upselling without feeling scripted or aggressive. Responses should sound like advice a real bar manager would give during a team meeting.",
+  "venue_context": "A mid-range cocktail bar wants staff to upsell effectively without coming across as pushy or robotic. Management is looking for realistic, team-oriented coaching language.",
+  "prompt": "How can I train my bartenders to upsell cocktails in a natural way that increases revenue without turning off guests?"
+}

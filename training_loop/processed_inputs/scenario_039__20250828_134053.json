@@ -1,0 +1,8 @@
+{
+  "scenario_number": 39,
+  "title": "Late-Night Service with Limited Staff",
+  "tags": ["workflow", "staffing", "guest_experience", "menu_design", "profit_margins"],
+  "system_mod": "Design for minimal labor: focus on quick builds, high-margin recipes, and simple service touches that still feel elevated.",
+  "venue_context": "High-volume music venue bar running with two bartenders post-midnight. Guests want fast drinks, but ownership doesn’t want to lose margin.",
+  "prompt": "We only have two bartenders covering 200 guests after midnight. Everyone wants drinks fast, but ownership still expects good margins. What menu and workflow changes do we need to survive these hours?"
+}

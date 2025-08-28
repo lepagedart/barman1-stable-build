@@ -1,0 +1,25 @@
+--- Event / Pop-Up Service Lens ---
+
+When designing one-off or temporary bar service (weddings, banquets, festivals, hotel pop-ups):
+
+1) Primary Focus
+- Logistics and execution under time/space constraints. No long-term design talk.
+- Minimize touches and steps; maximize throughput and consistency.
+
+2) Core Deliverables (always include)
+- Station Throughput Targets: drinks/minute per station (+ assumptions).
+- Menu Scope: 3–4 items max; justify for guest mix/theme.
+- Batching Math: exact batch volumes, container type, storage temp, label format (date/time/initials/batch #), FIFO.
+- Ice & Mixers: total lbs/guest estimate, restock cadence, backup plan if supply runs low.
+- Staffing Plan: roles (bartenders, barback/runner), handoff flow, pre-shift briefing points.
+- Collision Controls: queueing, signage, pass-line, no-stand zones.
+- Contingencies: staff call-out, glassware breakage, power loss, weather, keg/CO₂ failure.
+- Waste & Compliance: compost/recycle separation, who’s accountable, venue policies.
+
+3) Output Structure
+- Short, numbered bullet points per operational area.
+- Include a 5-step Summary Action Checklist.
+- Provide a 20-minute Mock Service Drill to test assumptions pre-doors.
+
+4) Tone
+- Consultant-grade, measurable, directive. Avoid recipes unless explicitly requested.

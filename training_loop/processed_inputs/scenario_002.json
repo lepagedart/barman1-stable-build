@@ -1,0 +1,8 @@
+{
+  "scenario_number": 2,
+  "title": "High-Volume Prep",
+  "tags": ["high_volume", "prep_efficiency", "service_speed", "batching", "bar_layout", "juice", "speed_bottles"],
+  "system_mod": "Emphasize speed and execution feasibility. Avoid service-slowing ideas like rare garnishes, multiple shake techniques, or staff-intensive steps.",
+  "venue_context": "A busy venue with a large bar and fast-paced service wants to improve bar efficiency without sacrificing quality. Focus is on batching, layout, and ticket flow.",
+  "prompt": "Our service slows down under heavy load. How can we batch smarter, set up stations better, and keep drinks moving fast without losing quality?"
+}

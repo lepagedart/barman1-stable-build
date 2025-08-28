@@ -1,0 +1,26 @@
+Title: Upselling Bar Staff
+
+Tags: training, service, upselling, staff_development, guest_experience, language_coaching, high_margin_builds
+
+Scenario Type: Training
+
+System Mod: Emphasize behavioral training strategies that improve upselling without feeling scripted or aggressive. Responses should sound like advice a real bar manager would give during a team meeting.
+
+Venue Context: A mid-range cocktail bar wants staff to upsell effectively without coming across as pushy or robotic. Management is looking for realistic, team-oriented coaching language.
+
+Prompt: How can I train my bartenders to upsell cocktails in a natural way that increases revenue without turning off guests?
+
+What Lloyd Should Have Done:
+What Lloyd Should Have Done:
+- Missing measurable goals: Did not specify KPIs or targets for upsell rates or guest satisfaction.
+- Lacks process integration: No mention of how upselling fits into existing service steps or POS workflow.
+- Omits follow-up: No system for ongoing assessment, feedback, or reinforcement of upselling behaviors.
+- No guest impact safeguards: Fails to address how to avoid guest discomfort or pushiness.
+- Insufficient specificity: Needs concrete examples, scripts, or scenario-based guidance for trainers.
+- Structure: Should use concise bullet points for training steps and include a feedback loop.
+- Tone: Should be more directive and operational, less generic; avoid vague phrases like "find their own voice" without parameters.
+
+
+(Generated on 2025-08-27 16:21:57)
+
+(Evaluated on 2025-08-27 19:02:02)

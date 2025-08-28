@@ -1,0 +1,22 @@
+{
+  "scenario_number": null,
+  "scores": {
+    "Alignment": 3,
+    "Operational_Feasibility": 4,
+    "Profit_Protection": 3,
+    "Menu_Cohesion": 3,
+    "Service_Speed": 2,
+    "Training_Clarity": 2,
+    "Brand_Fit": 3,
+    "Specificity": 2
+  },
+  "overall": {
+    "score": 3,
+    "rationale": "Response is professional and seeks key info, but lacks immediate actionable value and misses an opportunity to demonstrate expertise up front."
+  },
+  "flags": [
+    "no actionable advice",
+    "tone too passive",
+    "structure too interrogative"
+  ]
+}

@@ -1,0 +1,41 @@
+Title: Cocktail Consistency Across Multiple Bartenders
+
+Tags: Training, Staff Development, Recipe Adjustments, Service
+
+Scenario Type: Training
+
+System Mod: Prioritize language that empowers bartenders instead of policing them. Recommend systems and tools, not blame.
+
+Venue Context: Small gastropub with multiple bartenders at 15 seat bar with one bartender on service well along with 4 seats with the other bartender serving the other 11 seats.
+
+Prompt: Our bartenders are making the same drinks a little differently: different shake strength, garnish, even slightly off specs. How can we tighten consistency across the team without killing creativity?
+
+Lloyd's Response:
+
+To enhance consistency across your bartending team while preserving their creative flair, consider implementing the following strategies:
+
+1. **Standardized Recipes and Training:**
+   - Develop a clear set of standardized recipes with exact measurements, glassware, ice type, and garnish for each cocktail. Ensure these are easily accessible at each bar station with visual aids such as recipe cards or posters.
+   - Conduct a training session to walk through each cocktail, focusing on areas where discrepancies often occur, like shaking technique and garnish application. Encourage questions to ensure understanding.
+
+2. **Jiggering and Technique Standardization:**
+   - Mandate jiggering for all cocktails to ensure precise measurements and consistent pours. This minimizes variance in alcohol content and flavor profile.
+   - Standardize shaking technique by demonstrating the desired shake strength and rhythm in training; this ensures consistent dilution and texture.
+
+3. **Visual and Service Standards:**
+   - Create a visual reference guide for garnishes and final cocktail presentation. This can be a simple photo album or digital display showing the ideal look of each drink.
+   - Encourage staff to add personal touches in ways that do not alter the core specs, such as offering a choice of glassware for certain drinks where appropriate.
+
+Operational Notes:
+- Regularly review and update recipes as needed based on guest feedback or ingredient availability.
+- Implement periodic audits or mystery shopper visits to ensure adherence to standards.
+- Empower bartenders by inviting them to suggest improvements or seasonal variations that stay within the established framework. This maintains their engagement and sense of ownership.
+
+By creating clear standards and providing thorough training, you can achieve consistency without stifling the creativity and individuality that contribute to a vibrant bar atmosphere.
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-08-27 16:29:52)

@@ -1,0 +1,30 @@
+Title: High-Volume Prep
+
+Tags: high_volume, prep_efficiency, service_speed, batching, bar_layout, juice, speed_bottles
+
+Scenario Type: Training
+
+System Mod: Emphasize speed and execution feasibility. Avoid service-slowing ideas like rare garnishes, multiple shake techniques, or staff-intensive steps.
+
+Venue Context: A busy venue with a large bar and fast-paced service wants to improve bar efficiency without sacrificing quality. Focus is on batching, layout, and ticket flow.
+
+Prompt: Our service slows down under heavy load. How can we batch smarter, set up stations better, and keep drinks moving fast without losing quality?
+
+What Lloyd Should Have Done:
+What Lloyd Should Have Done:
+- Missing: No explicit mention of compliance with local health/safety regulations for batching and storage; this is critical for operational feasibility and risk management.
+- Overreach: Suggesting batching for all "popular" cocktails may not fit every venue’s menu or guest expectations; should recommend a menu analysis to determine batching candidates.
+- System/Process Solutions:
+  - Add a batching log system for tracking batch usage, waste, and shelf life.
+  - Recommend a standardized prep checklist and closing checklist for batching and station setup.
+  - Suggest a feedback loop for staff to report bottlenecks or quality issues.
+- Tone/Structure Guidance:
+  - Use more directive, stepwise instructions (e.g., "Step 1: Identify batchable cocktails via sales data").
+  - Avoid generic statements like "implement these strategies"—specify next actions and responsible roles.
+  - Include a brief risk note about over-batching and potential waste.
+  - Provide a sample batching SOP or reference template for clarity.
+
+
+(Generated on 2025-08-27 16:21:48)
+
+(Evaluated on 2025-08-27 19:01:56)

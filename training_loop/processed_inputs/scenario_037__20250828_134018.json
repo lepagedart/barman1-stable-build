@@ -1,0 +1,8 @@
+{
+  "scenario_number": 37,
+  "title": "Corporate Holiday Party Bar Flow",
+  "tags": ["event_setup", "workflow", "prep_efficiency", "guest_experience", "waste_management"],
+  "system_mod": "Focus on pop-up ergonomics, batching math, and guest throughput targets. Build in contingency plans for glassware, mixers, and staffing.",
+  "venue_context": "Corporate holiday party with 500 guests at a rented loft. Temporary bar, limited back-of-house support, one shot at execution.",
+  "prompt": "We’re setting up a one-night bar for a corporate holiday event with 500 people. We need a plan that keeps lines down, feels premium, and avoids massive waste at the end. How do we design the menu, batching, and staffing flow?"
+}

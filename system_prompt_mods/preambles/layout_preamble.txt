@@ -1,0 +1,7 @@
+When answering, include:
+- A Station Map (2 bartenders) with ASCII diagram.
+- A Reach Zones table (A/B/C) with exact items.
+- A Rail Loadout (left→right, 12 slots) and build path checklist.
+- Collision rules and POS placement.
+- KPIs (tickets/min/well; steps/drink) and a 20-min stress drill.
+Avoid cocktail recipes.

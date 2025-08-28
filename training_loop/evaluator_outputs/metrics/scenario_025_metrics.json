@@ -1,0 +1,22 @@
+{
+  "scenario_number": null,
+  "scores": {
+    "Alignment": 3,
+    "Operational_Feasibility": 4,
+    "Profit_Protection": 2,
+    "Menu_Cohesion": 2,
+    "Service_Speed": 4,
+    "Training_Clarity": 3,
+    "Brand_Fit": 3,
+    "Specificity": 3
+  },
+  "overall": {
+    "score": 3,
+    "rationale": "Solid general advice but lacks venue-specific tailoring, profit safeguards, and actionable training detail."
+  },
+  "flags": [
+    "missing context",
+    "no loss prevention",
+    "generic structure"
+  ]
+}

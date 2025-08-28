@@ -1,0 +1,8 @@
+{
+  "scenario_number": 23,
+  "title": "Designing a Temporary Bar for Large Event",
+  "tags": ["event_setup", "batching_strategies", "workflow", "speed_of_service"],
+  "system_mod": "Focus on logistical prep and execution for one-off events. No long-term design talk.",
+  "venue_context": "A hotel hosting a 300-person wedding wants a temporary outdoor bar setup. Limited power, ice storage, and only 3 bartenders available.",
+  "prompt": "We need a pop-up bar for a 300-person wedding. What’s the most efficient setup for stations, batching, and service flow to keep lines down and quality up?"
+}

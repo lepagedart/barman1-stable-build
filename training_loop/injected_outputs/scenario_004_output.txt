@@ -1,0 +1,70 @@
+Title: New Seasonal Item R&D
+
+Tags: menu_design, seasonal, r_and_d, cocktail_creation
+
+Scenario Type: Training
+
+System Mod: Approach cocktail development as a collaborative R&D process, balancing creativity with service feasibility.
+
+Venue Context: A full-service restaurant wants to add a seasonal cocktail to their menu. Recipes should be original but executable by a professional bar team within a seasonal prep window.
+
+Prompt: We need to design a new seasonal cocktail that balances creativity with operational feasibility. What would you suggest?
+
+Lloyd's Response:
+
+Let's craft a cocktail that captures the transition from late summer into early fall, highlighting seasonal ingredients while maintaining operational efficiency.
+
+### Autumn Equinox
+**Story:** This cocktail embodies the shift from summer's warmth to autumn's crispness, featuring ripe stone fruits and subtle fall spices.
+
+**Spec:**
+- 1.5 oz Rye Whiskey
+- 0.5 oz Apricot Liqueur
+- 0.5 oz Spiced Honey Syrup (recipe below)
+- 0.75 oz Fresh Lemon Juice
+- 2 dashes Angostura Bitters
+
+**Ice / Glass / Garnish:**
+- Ice: Large cube
+- Glass: Double Old Fashioned
+- Garnish: Thin slice of apricot and a light dusting of cinnamon
+
+**Method:**
+1. Combine all ingredients in a shaker with ice.
+2. Shake well and strain into a double old fashioned glass over a large cube.
+3. Garnish with a thin apricot slice and a dusting of cinnamon.
+
+**Prep Notes:**
+- **Spiced Honey Syrup:** Combine 2 parts honey with 1 part water, and infuse with cinnamon sticks and cloves for 30 minutes. Strain and store. Yields 1L, shelf life 2 weeks refrigerated.
+
+**Cost Notes & Price:**
+- Target pour cost: 20%
+- Pricing: $18
+- Premium driver: Rye Whiskey and Apricot Liqueur
+
+**Rationale:** Rye's warm spice notes pair beautifully with apricot's sweetness, making it perfect for the seasonal shift. The spiced honey syrup adds depth without complicating prep.
+
+### Mise & Workflow
+- **Daily Prep:** Prepare fresh apricot slices, stock spiced honey syrup, and check bitters levels.
+- **Weekly Prep:** Batch spiced honey syrup, ensure all glassware is polished and ready.
+- **Par Levels:** Maintain a minimum of 1L spiced honey syrup on hand.
+- **Tasting/QA:** Confirm balance daily, focusing on the harmony between the whiskey's spice and the apricot's sweetness.
+
+This cocktail is designed to be both elegant and efficient, ensuring your bar team can execute it smoothly while delivering a refined experience to guests.
+
+
+What Lloyd Should Have Done:
+What Lloyd Should Have Done:
+- Missing: Guest profile and venue context—without these, it's unclear if the drink fits the target demographic or brand ethos.
+- Overreach: "Premium driver" claim is unsupported; no comparison to other menu items or guest willingness to pay $18.
+- System: Specify backup plan for apricot availability (fresh and liqueur), and clarify if/when to switch garnish (e.g., dried apricot) for consistency.
+- Process: Add explicit allergen and dietary flagging for honey and possible cross-contamination (cloves/cinnamon).
+- Menu Cohesion: Reference how this drink complements or contrasts with existing menu items.
+- Service Speed: Large cube and garnish may slow service; suggest batching or pre-slicing apricots, and clarify if cinnamon dusting is prepped or à la minute.
+- Training: Provide a brief, stepwise training script for staff (e.g., key talking points, troubleshooting balance).
+- Tone/Structure: Use more bullet points for prep/workflow; separate cost/pricing rationale from storytelling for clarity.
+
+
+(Generated on 2025-08-27 16:22:16)
+
+(Evaluated on 2025-08-27 19:02:10)

@@ -1,0 +1,8 @@
+{
+  "scenario_number": 8,
+  "title": "Cocktail Costing for Margin Protection",
+  "tags": ["costing", "pricing", "recipe_adjustments", "profit_margins"],
+  "system_mod": "Provide clear, numbers-based costing guidance using standard formulas. Balance financial advice with practical service considerations.",
+  "venue_context": "A mid-tier restaurant with a cocktail-forward bar program. Management wants stronger margins without alienating guests.",
+  "prompt": "How should we evaluate and adjust cocktail pricing and specs so that margins are protected while guests still feel good about value?"
+}

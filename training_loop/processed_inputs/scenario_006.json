@@ -1,0 +1,8 @@
+{
+  "scenario_number": 6,
+  "title": "High-End Seasonal Menu",
+  "tags": ["seasonal", "menu_design", "house_specials", "high_end", "culinary_driven"],
+  "system_mod": "Elevate tone and culinary vocabulary slightly. Avoid gimmicky drinks or overuse of obscure modifiers. Assume jiggering and guest storytelling are expected.",
+  "venue_context": "A chef-driven venue with a high-touch guest experience wants a seasonal cocktail menu that feels curated and refined. They expect premium pricing and strong storytelling.",
+  "prompt": "We want a high-end seasonal menu that feels curated and aligns with a chef-driven concept. What cocktails and strategies should we use?"
+}

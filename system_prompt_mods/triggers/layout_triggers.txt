@@ -1,0 +1,17 @@
+# Triggers for Layout / Ergonomics Lens
+layout
+ergonomic(s)?
+speed[-\s]?rail(s)?
+(well|wells|service well|guest well)
+station(s)?
+glassware
+back\s*bar
+workflow
+collision(s)?
+throughput
+POS
+pass(\s|-)line
+handoff
+prep station
+par(s)?
+line of sight

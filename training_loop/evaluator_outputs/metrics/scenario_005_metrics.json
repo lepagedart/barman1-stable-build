@@ -1,0 +1,22 @@
+{
+  "scenario_number": null,
+  "scores": {
+    "Alignment": 4,
+    "Operational_Feasibility": 4,
+    "Profit_Protection": 4,
+    "Menu_Cohesion": 4,
+    "Service_Speed": 4,
+    "Training_Clarity": 4,
+    "Brand_Fit": 3,
+    "Specificity": 4
+  },
+  "overall": {
+    "score": 4,
+    "rationale": "Solid, actionable menu with good operational notes, but missing some critical system and menu breadth considerations."
+  },
+  "flags": [
+    "no N/A options",
+    "no pricing guidance",
+    "no glassware minimization"
+  ]
+}

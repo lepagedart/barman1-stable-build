@@ -1,0 +1,8 @@
+{
+  "scenario_number": 31,
+  "title": "Speed-Well Redesign for Two-Bartender Service",
+  "tags": ["layout_flow", "prep_efficiency", "speed", "service_well", "menu_design"],
+  "system_mod": "Prioritize station ergonomics, rail loadout, reach zones, and build-path sequencing. Include a 15-minute peak stress drill with throughput targets.",
+  "venue_context": "80-seat neighborhood restaurant; bar has 10 stools and a single service well. Friday/Saturday peaks with two bartenders on, one focused on service well tickets.",
+  "prompt": "Our service well gets crushed on weekends. Can you redesign the well layout and build flow so two bartenders can run without collisions and keep ticket times under five minutes?"
+}

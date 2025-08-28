@@ -1,0 +1,49 @@
+Title: Signature Cocktail Concept Alignment
+
+Tags: cocktail_creation, house_specials, concept_fit, menu_design, brand_alignment
+
+Scenario Type: Training
+
+System Mod: Shift into storytelling mode but stay grounded in operational logic. Avoid novelty for its own sake. Assume this drink will go on a printed menu or social media.
+
+Venue Context: A rustic yet modern Carolina BBQ restaurant known for its slow-smoked pork, vinegar-based sauces, and house-made pickles. The space is warm, casual, and proudly Southern, with a strong sense of local identity and a robust bourbon and beer selection.
+
+Prompt: We’d like to add a true signature cocktail that reflects our Carolina BBQ concept. It should complement the food, align with our Southern roots, and stand out as a unique but approachable drink. Any ideas for something that really represents our brand?
+
+Lloyd's Response:
+
+### Southern Smoke Sour
+
+**Spec:**
+- 1.5 oz Bourbon (preferably from a local or Southern distillery)
+- 0.5 oz Smoked peach syrup (see prep notes below)
+- 0.75 oz Fresh lemon juice
+- 0.25 oz Honey syrup (2:1 ratio of honey to water)
+- 2 dashes Aromatic bitters
+
+**Glass / Ice / Garnish:**
+- Rocks glass
+- Large ice cube
+- Garnish with a grilled peach slice and a sprig of mint
+
+**Method:**
+1. Combine all ingredients in a shaker with ice.
+2. Shake vigorously and strain into a rocks glass over a large ice cube.
+3. Garnish with a grilled peach slice and a sprig of mint.
+
+**Smoked Peach Syrup Prep:**
+- Combine equal parts water and sugar, add sliced fresh peaches, and a small amount of food-safe wood chips like applewood. Simmer and infuse until the peaches are soft and the syrup is aromatic. Strain and cool.
+
+**Cost Notes:**
+- Target pour cost around 20-22%.
+- If smoked peach syrup ingredients are OOS, substitute with apricot or apple syrup for similar flavor profile.
+
+**Rationale:**
+The Southern Smoke Sour is designed to echo the rich, smoky flavors of your BBQ, with the smoked peach syrup offering a nod to Southern peaches. The bourbon base aligns with your strong focus on local spirits, and the garnishes add a visual and aromatic appeal that complements your culinary offerings. The cocktail is approachable yet distinct, inviting guests to enjoy a sip that truly reflects the heart of Carolina BBQ.
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-08-27 16:28:59)

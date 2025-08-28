@@ -1,0 +1,8 @@
+{
+  "scenario_number": 40,
+  "title": "Supplier Showcase Menu",
+  "tags": ["portfolio_matching", "menu_design", "supplier_relationships", "marketing_kpis"],
+  "system_mod": "Frame menu through supplier partnership—each drink showcases a product. Include KPIs for measuring guest engagement and upsell strategies.",
+  "venue_context": "Downtown cocktail bar collaborating with a distributor for a one-month showcase. They want cocktails highlighting specific spirits while still appealing to guests.",
+  "prompt": "Our distributor is sponsoring a one-month menu. Each cocktail must feature a different spirit they supply. How do we design the menu so it feels authentic, drives guest engagement, and keeps our margins safe?"
+}

@@ -1,0 +1,8 @@
+{
+  "scenario_number": 36,
+  "title": "Hotel Pool Bar High-Volume Afternoon",
+  "tags": ["event_setup", "workflow", "speed_of_service", "batching", "guest_experience"],
+  "system_mod": "Prioritize throughput, heat/ice constraints, and drink durability. Avoid fussy builds—opt for scalable recipes and garnish discipline.",
+  "venue_context": "Resort pool bar serving 200 guests in afternoon peak. Hot weather, limited cold storage, and a single ice machine shared with banquets.",
+  "prompt": "Our pool bar melts down every weekend when 200+ guests hit at once. Drinks take forever, ice runs out, and garnishes spoil. How do we fix menu and setup so service flies and drinks hold up in the heat?"
+}

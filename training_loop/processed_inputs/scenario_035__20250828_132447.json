@@ -1,0 +1,8 @@
+{
+  "scenario_number": 35,
+  "title": "Post-Shift Review: Fixing Inconsistent Specs",
+  "tags": ["consistency", "training", "checklists", "staff_development", "operational_foundations"],
+  "system_mod": "Replace blame with systems. Deliver a pre-shift checklist, jigger policy, visual garnish standards, and a weekly verification ritual. Include a one-pager staff brief.",
+  "venue_context": "High-volume gastropub with rotating bartenders; complaints about the same cocktail tasting different across shifts.",
+  "prompt": "Guests keep saying our signature drinks change depending on who’s on the bar. Give us a concrete consistency plan we can roll out this week without hiring a bar manager."
+}

@@ -1,0 +1,35 @@
+Title: High-End Seasonal Menu
+
+Tags: seasonal, menu_design, house_specials, high_end, culinary_driven
+
+Scenario Type: Training
+
+System Mod: Elevate tone and culinary vocabulary slightly. Avoid gimmicky drinks or overuse of obscure modifiers. Assume jiggering and guest storytelling are expected.
+
+Venue Context: A chef-driven venue with a high-touch guest experience wants a seasonal cocktail menu that feels curated and refined. They expect premium pricing and strong storytelling.
+
+Prompt: We want a high-end seasonal menu that feels curated and aligns with a chef-driven concept. What cocktails and strategies should we use?
+
+What Lloyd Should Have Done:
+What Lloyd Should Have Done:
+- Missing Pieces:
+  - Did not provide recipes for house-made syrups (Spiced Pear, Blackberry), which are referenced in specs.
+  - Lacks allergen or dietary notes for each cocktail.
+  - No guidance on glassware/ingredient substitutions for high-volume or limited-resource venues.
+  - No explicit mention of how these cocktails integrate with the chef’s current menu items or flavor profiles.
+  - No mention of staff training or briefing process for rollout.
+- System/Process Solutions:
+  - Include batch/prep recipes for all syrups, with yield and storage instructions.
+  - Add a prep/production schedule for mise en place and daily juicing.
+  - Suggest a standardized cost-tracking template for ongoing pour cost monitoring.
+  - Recommend a feedback loop: post-launch, gather bar/guest feedback and adjust menu accordingly.
+- Tone/Structure Guidance:
+  - Use more concise, bullet-pointed operational notes for easier staff reference.
+  - Separate guest-facing descriptions from internal specs for clarity.
+  - Add a summary table for quick-glance specs, costs, and prep needs.
+  - Ensure rationale ties directly to both culinary alignment and operational impact.
+
+
+(Generated on 2025-08-27 16:22:55)
+
+(Evaluated on 2025-08-27 19:02:22)

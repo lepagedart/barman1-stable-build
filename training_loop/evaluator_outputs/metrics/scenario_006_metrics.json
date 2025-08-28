@@ -1,0 +1,22 @@
+{
+  "scenario_number": null,
+  "scores": {
+    "Alignment": 4,
+    "Operational_Feasibility": 3,
+    "Profit_Protection": 4,
+    "Menu_Cohesion": 4,
+    "Service_Speed": 3,
+    "Training_Clarity": 2,
+    "Brand_Fit": 4,
+    "Specificity": 3
+  },
+  "overall": {
+    "score": 3,
+    "rationale": "Strong culinary alignment and creativity, but lacks prep details, training clarity, and some operational specifics."
+  },
+  "flags": [
+    "missing syrup recipes",
+    "no training plan",
+    "needs prep/production details"
+  ]
+}

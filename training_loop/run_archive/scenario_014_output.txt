@@ -1,0 +1,51 @@
+Title: Creating a 'Wow Factor' Moment on the Cocktail Menu
+
+Tags: cocktail_creation, guest_experience, house_specials, shareable, memorable_moments
+
+Scenario Type: Training
+
+System Mod: Encourage creativity with boundaries. Avoid ideas that would slow service or require constant hand-holding. Prioritize delight and operational fit.
+
+Venue Context: A restaurant or bar wants to include one cocktail that surprises guests—either through flavor, presentation, or experience—to elevate guest perception and encourage word-of-mouth.
+
+Prompt: We want to include a cocktail that creates a real 'wow' moment — something memorable, aligned with our brand, and worth sharing. What would that look like without slowing service or needing constant babysitting?
+
+Lloyd's Response:
+
+To create a memorable cocktail that aligns with your brand and enhances guest experience without bogging down service, we'll focus on a visually striking presentation combined with a flavor profile that resonates with your establishment's identity.
+
+### The Ember Blossom
+**Spec:**
+- 1.5 oz Gin (preferably a local or botanically rich option)
+- 0.5 oz Elderflower Liqueur
+- 0.75 oz Fresh Lemon Juice
+- 0.5 oz Hibiscus Syrup (simple prep, see below)
+- Top with Sparkling Rosé
+
+**Ice / Glass / Garnish:**
+- Ice: None (served up)
+- Glass: Coupe
+- Garnish: Edible flower and a light mist of rose water (optional, table-side)
+
+**Method:**
+1. Shake gin, elderflower liqueur, lemon juice, and hibiscus syrup with ice.
+2. Fine strain into a chilled coupe glass.
+3. Top with sparkling rosé.
+4. Garnish with an edible flower and mist with rose water at the table for aroma.
+
+**Hibiscus Syrup Prep:**
+- Combine equal parts sugar and water, bring to a boil, remove from heat, and steep hibiscus flowers for 15 minutes. Strain and cool. Shelf life: 1 week refrigerated.
+
+**Cost Notes:**
+- Target pour cost: 20-25%. The use of sparkling rosé as a topper adds a luxurious feel without excessive cost.
+- Substitutions: If elderflower liqueur is unavailable, consider using a floral vermouth.
+
+**Rationale:**
+This cocktail combines the floral and botanical notes that align with a sophisticated, nature-inspired brand. The table-side misting with rose water adds a sensory element that enhances the guest experience without slowing service. The vivid color and edible flower make it highly shareable on social media, driving word-of-mouth.
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-08-27 16:29:24)

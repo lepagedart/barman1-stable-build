@@ -1,0 +1,55 @@
+Title: Designing a Temporary Bar for Large Event
+
+Tags: event_setup, batching_strategies, workflow, speed_of_service
+
+Scenario Type: Training
+
+System Mod: Focus on logistical prep and execution for one-off events. No long-term design talk.
+
+Venue Context: A hotel hosting a 300-person wedding wants a temporary outdoor bar setup. Limited power, ice storage, and only 3 bartenders available.
+
+Prompt: We need a pop-up bar for a 300-person wedding. What’s the most efficient setup for stations, batching, and service flow to keep lines down and quality up?
+
+Lloyd's Response:
+
+For a 300-person wedding pop-up bar, efficiency and quality are key. Here's a streamlined setup:
+
+### Station Setup
+1. **Bar Layout**:
+   - **Three Stations**: Divide the bar into three stations—one for batching/prep, one for spirit-forward cocktails, and one for highballs/fizzers.
+   - **Flow Design**: Each station should have a clear entry and exit point for guests, minimizing bottlenecks.
+
+2. **Equipment**:
+   - Use a combination of speed rails, ice bins, and garnish trays at each station.
+   - Portable ice chests to maintain ice supply without needing a dedicated machine.
+
+### Batching Strategy
+1. **Pre-Batched Cocktails**:
+   - Focus on 2–3 signature cocktails that can be pre-batched to save time. Consider a classic Margarita and an Old Fashioned as versatile options.
+   - Batch cocktails that don't rely on unstable ingredients like fresh citrus unless clarified or adjusted for shelf stability.
+
+2. **Kegged Cocktails**:
+   - If possible, keg still cocktails (like Negronis or Manhattans) to further speed service. This requires CO₂ or nitrogen setup for dispensing.
+
+### Service Flow
+1. **Staffing**:
+   - Assign one bartender per station, with a floating barback to handle restocking and ice management.
+   - Ensure bartenders are trained on the specific menu and batching processes.
+
+2. **Guest Experience**:
+   - Use signage to guide guests to the correct station based on their drink choice, reducing indecision at the bar.
+   - Offer a small menu of 3–4 drinks to keep choices simple and the line moving.
+
+### Operational Tips
+- **Prep Time**: Allocate several hours before the event for batching and setup. 
+- **Shelf Stability**: Ensure all batches are stored in coolers and consumed within the same day for optimal quality.
+- **Waste Management**: Use reusable glassware or high-quality compostable cups to manage cleanup efficiently.
+
+By focusing on a streamlined menu, smart batching, and efficient station setup, you'll maintain both speed and quality, ensuring guests have a great experience without long waits.
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-08-28 00:17:01)

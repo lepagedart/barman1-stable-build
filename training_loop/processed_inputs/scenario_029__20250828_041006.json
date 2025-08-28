@@ -1,0 +1,8 @@
+{
+  "scenario_number": 29,
+  "title": "Improving Speed of Service at High-Volume Concert Venue",
+  "tags": ["workflow", "layout_flow", "event_setup", "speed_of_service"],
+  "system_mod": "Recommend ergonomic layouts, batching, and staffing strategies specific to live events.",
+  "venue_context": "Concert hall with 1,500 guests and multiple lobby bars. Guests often miss music sets waiting in long lines for drinks.",
+  "prompt": "During concerts, lines for drinks are insane and guests miss the show. How should we design bar setups and menus to maximize speed without sacrificing margins?"
+}

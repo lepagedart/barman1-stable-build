@@ -1,0 +1,8 @@
+{
+  "scenario_number": 4,
+  "title": "New Seasonal Item R&D",
+  "tags": ["menu_design", "seasonal", "r_and_d", "cocktail_creation"],
+  "system_mod": "Approach cocktail development as a collaborative R&D process, balancing creativity with service feasibility.",
+  "venue_context": "A full-service restaurant wants to add a seasonal cocktail to their menu. Recipes should be original but executable by a professional bar team within a seasonal prep window.",
+  "prompt": "We need to design a new seasonal cocktail that balances creativity with operational feasibility. What would you suggest?"
+}

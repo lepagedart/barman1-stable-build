@@ -1,0 +1,22 @@
+{
+  "scenario_number": null,
+  "scores": {
+    "Alignment": 3,
+    "Operational_Feasibility": 3,
+    "Profit_Protection": 4,
+    "Menu_Cohesion": 3,
+    "Service_Speed": 2,
+    "Training_Clarity": 3,
+    "Brand_Fit": 3,
+    "Specificity": 3
+  },
+  "overall": {
+    "score": 3,
+    "rationale": "Solid creative concept, but lacks operational detail, venue alignment, and actionable training/process guidance."
+  },
+  "flags": [
+    "missing context",
+    "service speed risk",
+    "needs batching/process notes"
+  ]
+}

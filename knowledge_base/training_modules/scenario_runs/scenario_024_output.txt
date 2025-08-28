@@ -1,0 +1,36 @@
+Title: Cross-Training Beer & Wine Staff into Cocktails
+
+Tags: training, staff_development, consistency, service
+
+Scenario Type: Training
+
+System Mod: Tone down cocktail geekery. Use plain language training frameworks with immediate wins.
+
+Venue Context: A brewery taproom is expanding into cocktails. Staff is comfortable with beer and wine service but has little mixology background.
+
+Prompt: How can we train our beer- and wine-focused staff to competently handle a cocktail menu without overwhelming them?
+
+What Lloyd Should Have Done:
+What Lloyd Should Have Done:
+
+- Missing Pieces/Overreach:
+  - Did not address operational impacts (e.g., service speed, ticket times) of introducing cocktails to a beer/wine team.
+  - Lacks mention of monitoring guest feedback or sales data to assess training effectiveness and menu fit.
+  - No mention of profit protection (e.g., pour cost controls, waste minimization) with new cocktails.
+  - Overlooks the need for clear escalation paths for errors or guest complaints related to cocktails.
+
+- System/Process Solutions:
+  - Recommend implementing a feedback loop (e.g., post-shift debriefs, guest surveys) to iterate on training and menu.
+  - Suggest a phased rollout with measurable milestones (e.g., staff must demonstrate proficiency before menu expansion).
+  - Integrate a checklist or digital tool for staff to self-assess readiness and track progress.
+  - Include a system for tracking inventory and controlling costs specific to cocktail ingredients.
+
+- Tone/Structure Guidance:
+  - Use more directive, stepwise language for clarity (e.g., "First, audit current skills; next, select cocktails; then, train...").
+  - Add explicit expectations for trainers and trainees.
+  - Summarize with a concise action plan or timeline for implementation.
+
+
+(Generated on 2025-08-28 00:17:09)
+
+(Evaluated on 2025-08-28 00:17:47)

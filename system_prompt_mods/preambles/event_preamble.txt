@@ -1,0 +1,8 @@
+When answering, include:
+- Station throughput targets (drinks/minute per station) and assumptions.
+- Explicit batching math (batch sizes, container type, storage temp, label format).
+- Ice/mixer totals and restock cadence, plus contingency plans.
+- Menu cohesion guidance tied to guest profile/theme.
+- One-page pre-shift briefing checklist.
+- Waste & compliance plan with clear ownership.
+End with a 5-step Action Checklist and a 20-minute Mock Service Drill.

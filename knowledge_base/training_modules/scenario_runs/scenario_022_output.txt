@@ -1,0 +1,87 @@
+Title: Aligning Menu with Distributor Portfolio
+
+Tags: portfolio_matching, cost_control, menu_design, supplier_relationships
+
+Scenario Type: Training
+
+System Mod: Frame recommendations through supplier alignment. Call out profit and partnership benefits.
+
+Venue Context: A mid-size restaurant group that exclusively purchases from Martignetti. They want their cocktail list to highlight products the distributor wants to push.
+
+Prompt: How can we design a cocktail list that uses Martignetti’s portfolio strategically, so we get better pricing support and brand incentives while still offering a strong guest experience?
+
+Lloyd's Response:
+
+To design a cocktail list that leverages Martignetti’s portfolio for better pricing support and brand incentives, while maintaining a strong guest experience, consider the following strategies:
+
+### Strategic Use of Martignetti's Portfolio
+
+1. **Core Spirit Selections**: 
+   - Identify key brands within Martignetti's portfolio that offer competitive pricing and incentives. Incorporate these as the base spirits across your cocktail menu to maximize volume discounts and promotional support.
+   - Focus on versatile, high-quality spirits that can be used in multiple cocktails to limit SKU proliferation and streamline inventory.
+
+2. **Signature Cocktails**:
+   - Design 2–3 signature cocktails that highlight premium spirits from the portfolio. These can be positioned at the higher end of your pricing band ($22+) to enhance perceived value and justify the use of premium ingredients.
+   - Example: Create a "Reserve Manhattan" using a featured whiskey from the portfolio, adding unique bitters and a bespoke vermouth blend.
+
+3. **Brand Alignment**:
+   - Work with Martignetti to understand any upcoming promotions or featured brands. Align your cocktail offerings with these promotions to capitalize on co-marketing opportunities.
+   - Consider incorporating lesser-known brands that Martignetti is looking to push, offering guests something new while benefiting from potential introductory pricing.
+
+4. **Guest Experience Enhancements**:
+   - Ensure that every cocktail has a story or seasonal hook that can be conveyed by the staff, enhancing the guest experience.
+   - Use quality modifiers and fresh ingredients to elevate the overall profile of each drink, ensuring guest satisfaction and repeat business.
+
+### Sample Cocktail Concepts
+
+1. **The Autumn Orchard**:
+   - **Spec**: 2 oz apple brandy (featured product), 0.5 oz fresh lemon juice, 0.5 oz cinnamon syrup, 2 dashes aromatic bitters.
+   - **Ice / Glass / Garnish**: Large cube / Old Fashioned / Dehydrated apple slice.
+   - **Cost Notes**: Balance high-cost brandy with house-made syrup to stay within a 20% pour cost. Price at $18.
+
+2. **Bourbon Harvest**:
+   - **Spec**: 2 oz featured bourbon, 0.75 oz maple syrup, 0.5 oz fresh lemon juice, 1 dash Angostura bitters.
+   - **Ice / Glass / Garnish**: Large cube / Rocks / Orange twist.
+   - **Cost Notes**: Target pour cost around 22%; showcase bourbon to highlight Martignetti's portfolio. Price at $20.
+
+3. **Low-ABV Spritz**:
+   - **Spec**: 1 oz featured aperitif, 3 oz prosecco, 1 oz soda water, 0.5 oz fresh grapefruit juice.
+   - **Ice / Glass / Garnish**: Cubed ice / Wine glass / Grapefruit wheel.
+   - **Cost Notes**: Lower alcohol content ensures broad appeal and aligns with health-conscious trends. Price at $16.
+
+### Mise & Workflow
+
+- **Prep List**: Batch syrups weekly; ensure fresh citrus is prepped daily. Par levels for spirits should align with forecasted sales and promotional activities.
+- **Tasting/QA**: Implement a daily tasting ritual before service to ensure consistency and quality.
+- **Station Setup**: Organize stations by cocktail family to streamline service; ensure featured spirits are prominently displayed and easy to access.
+
+By strategically selecting spirits from Martignetti's portfolio and aligning with their promotional strategy, you can enhance both your bottom line and guest experience.
+
+
+What Lloyd Should Have Done:
+What Lloyd Should Have Done:
+
+- Missing Pieces/Overreach:
+  - Did not specify a process for ongoing portfolio review or how to adapt the menu as Martignetti’s incentives change.
+  - Lacked explicit guidance on tracking and reporting the financial impact of portfolio-driven selections.
+  - Overlooked potential guest perception issues if the menu is too obviously driven by supplier incentives.
+  - Did not address training needs for staff to communicate brand stories and upsell effectively.
+  - No mention of compliance with brand contracts or legal restrictions on promotions.
+
+- System/Process Solutions:
+  - Establish a quarterly review process with Martignetti reps to update incentives and identify new opportunities.
+  - Implement a SKU rationalization protocol to ensure inventory efficiency and minimize dead stock.
+  - Create a feedback loop with bartenders and guests to monitor acceptance of new brands or cocktails.
+  - Develop a standardized cost-tracking template for each cocktail to ensure ongoing profit protection.
+  - Integrate a staff training module focused on brand education and storytelling.
+
+- Tone/Structure Guidance:
+  - Use more concise, bullet-pointed recommendations for operational clarity.
+  - Separate financial, operational, and guest experience strategies for easier implementation.
+  - Provide a summary action checklist at the end for quick reference.
+  - Avoid overuse of marketing language; focus on actionable, measurable steps.
+
+
+(Generated on 2025-08-28 00:16:52)
+
+(Evaluated on 2025-08-28 00:17:29)

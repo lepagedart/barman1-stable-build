@@ -1,0 +1,59 @@
+Title: NA & Low-ABV Menu That Doesn’t Tank Throughput
+
+Tags: na_low_abv, guest_appeal, prep_efficiency, menu_design, profit_margins
+
+Scenario Type: Training
+
+System Mod: Emphasize quick-build specs, shared prep, and clear pricing strategy. Include guidance for staff language to sell NA/low-ABV without sounding apologetic.
+
+Venue Context: Busy modern American spot; leadership wants 3 NA and 2 low-ABV options that sell, look premium, and don’t clog the service well.
+
+Prompt: How do we create NA/low-ABV options that feel intentional and profitable while keeping service fast? We need specs, pricing guidance, and a short staff script.
+
+Lloyd's Response:
+
+Creating intentional and profitable NA/low-ABV options that align with your gastropub's cocktail menu can enhance guest experience while maintaining service speed. Here’s a structured approach:
+
+### NA/Low-ABV Cocktails
+
+1. **Cucumber Mule (NA)**
+   - **Spec**:
+     - 4 oz Ginger beer
+     - 1 oz Lime juice
+     - 0.5 oz Cucumber syrup
+     - Top with soda water
+   - **Glass/Ice/Garnish**: Highball glass, ice, cucumber slice
+   - **Method**: Build directly in the glass over ice, stir gently, garnish
+   - **Cost Notes**: Target pour cost ~10%; Cucumber syrup can be made in-house to manage costs
+   - **Service Notes**: Pre-batch cucumber syrup weekly; can be scaled for busier nights
+
+2. **Light & Spritz (Low-ABV)**
+   - **Spec**:
+     - 2 oz Aperol
+     - 3 oz Prosecco
+     - 1 oz Soda water
+   - **Glass/Ice/Garnish**: Wine glass, ice, orange wheel
+   - **Method**: Build in the glass over ice, garnish
+   - **Cost Notes**: Target pour cost ~18%; Consider house Prosecco to optimize cost
+   - **Service Notes**: Ensure Prosecco is chilled and ready to pour; requires minimal setup
+
+### Pricing Guidance
+- **NA Options**: Price at $7–$9 to cover ingredient costs and align with perceived value.
+- **Low-ABV Options**: Price at $10–$12, slightly lower than full-strength cocktails but still reflecting the craft elements.
+
+### Staff Script
+- **Introduction**: "We have a couple of refreshing options for those looking for a lighter experience today. Our Cucumber Mule offers a crisp, non-alcoholic refreshment, while the Light & Spritz gives you a gentle, bubbly treat with a hint of Aperol."
+- **Upsell**: "Both drinks are crafted to keep you refreshed and are perfect pairings with our seasonal dishes."
+
+### Rollout Strategy
+- **Pre-Shift Training**: Ensure staff understand the specs and can prepare these drinks quickly.
+- **Batch Prep**: Make syrups and prep garnishes ahead of service to speed up execution.
+
+By integrating these options into your menu, you provide guests with thoughtful choices without complicating service or inventory.
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-08-28 13:24:35)

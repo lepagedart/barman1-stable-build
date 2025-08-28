@@ -1,0 +1,12 @@
+# Triggers for Event / Pop-Up Lens
+event(s)?
+pop-?up
+wedding
+banquet
+festival
+temporary
+outdoor bar
+batching(_| )strategies?
+speed[_\s-]?of[_\s-]?service
+gala
+trade show

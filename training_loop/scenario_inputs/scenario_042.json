@@ -1,0 +1,8 @@
+{
+  "scenario_number": 42,
+  "title": "Maximizing Cocktail Profit Margins",
+  "tags": ["financials", "menu_engineering", "waste_reduction", "profitability"],
+  "system_mod": "Focus on recipe costing, pour control, waste tracking, and menu pricing strategy.",
+  "venue_context": "Upscale restaurant with tight margins struggling to hit beverage cost targets.",
+  "prompt": "We need to get beverage costs under control without cheapening the guest experience. What strategies should we use for menu design, waste tracking, and staff accountability?"
+}

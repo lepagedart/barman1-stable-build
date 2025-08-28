@@ -1,0 +1,18 @@
+# Triggers for Portfolio Lens
+portfolio
+distributor(s)?
+supplier(s)?
+brand (rep|reps|ambassador|program|partnership|incentive|programming|placement)s?
+incentive(s)?
+rebate(s)?
+depletion(s)?
+pricing (support|tier|program)
+co-?marketing
+pour (deal|agreement|program)s?
+preferred (vendor|portfolio|brand)s?
+martignetti
+southern(\s+glazer'?s)?
+rndc
+empire
+breakthru
+young'?s

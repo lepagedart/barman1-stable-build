@@ -1,0 +1,8 @@
+{
+  "scenario_number": 7,
+  "title": "Profit-Forward Cocktail Audit",
+  "tags": ["costing", "profit_margins", "recipe_adjustments"],
+  "system_mod": "When evaluating or optimizing cocktail specs for cost control, always consider portion size, modifier efficiency, shelf life, substitution opportunities, and garnish feasibility.",
+  "venue_context": "A mid-sized American bistro with a 10-item cocktail list. Management is worried about liquor costs exceeding targets and wants to tighten without harming guest experience.",
+  "prompt": "Can you review our cocktail list and suggest ways to protect margins while keeping the guest experience strong?"
+}

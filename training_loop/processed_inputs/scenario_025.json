@@ -1,0 +1,8 @@
+{
+  "scenario_number": 25,
+  "title": "Speed Rail & Prep Station Optimization",
+  "tags": ["speed_rail", "workflow", "efficiency", "prep_efficiency"],
+  "system_mod": "Stay tactical. Think like a bar manager setting wells and rails for a high-volume night.",
+  "venue_context": "A nightclub with 500+ covers per night. Two wells with multiple bartenders working side by side. Guests expect quick service and simple cocktails.",
+  "prompt": "We want to optimize our speed rails and prep stations for maximum speed. What bottles and tools should live in the first rail, and what batching or pre-prep makes sense?"
+}

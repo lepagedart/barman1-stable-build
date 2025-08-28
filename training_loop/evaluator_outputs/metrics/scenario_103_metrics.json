@@ -1,0 +1,22 @@
+{
+  "scenario_number": null,
+  "scores": {
+    "Alignment": 4,
+    "Operational_Feasibility": 4,
+    "Profit_Protection": 4,
+    "Menu_Cohesion": 5,
+    "Service_Speed": 4,
+    "Training_Clarity": 3,
+    "Brand_Fit": 4,
+    "Specificity": 4
+  },
+  "overall": {
+    "score": 4,
+    "rationale": "Solid, practical advice with good menu cohesion and operational feasibility, but lacks some critical system/process details and training clarity."
+  },
+  "flags": [
+    "missing compliance",
+    "no inventory tracking",
+    "training process vague"
+  ]
+}

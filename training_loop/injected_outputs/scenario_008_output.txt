@@ -1,0 +1,61 @@
+Title: Cocktail Costing for Margin Protection
+
+Tags: costing, pricing, recipe_adjustments, profit_margins
+
+Scenario Type: Training
+
+System Mod: Provide clear, numbers-based costing guidance using standard formulas. Balance financial advice with practical service considerations.
+
+Venue Context: A mid-tier restaurant with a cocktail-forward bar program. Management wants stronger margins without alienating guests.
+
+Prompt: How should we evaluate and adjust cocktail pricing and specs so that margins are protected while guests still feel good about value?
+
+Lloyd's Response:
+
+To effectively evaluate and adjust your cocktail pricing and specs, ensuring that margins are protected while maintaining perceived guest value, follow these steps:
+
+### Evaluation and Identification
+1. **Pour Cost Analysis:**
+   - Calculate the pour cost for each cocktail using the formula: (ingredient cost per unit) × (volume used).
+   - Aim for a target pour cost between 18-22%. Identify cocktails exceeding this range.
+
+2. **Identify High-Cost Components:**
+   - Review drinks with premium spirits, house-made syrups, or complex garnishes. Flag these for potential adjustments.
+
+3. **Portion Size and Perceived Value:**
+   - Assess whether portion sizes can be reduced by 0.25–0.5 oz without negatively impacting guest perception. Look for opportunities to maintain or enhance perceived value through presentation or garnish upgrades.
+
+### Adjustments and Recommendations
+1. **Recipe Adjustments:**
+   - Substitute high-cost ingredients with more cost-effective options that provide similar flavors.
+   - Simplify garnishes to reduce prep time and waste, while ensuring they still enhance the drink visually.
+
+2. **Price Adjustment Opportunities:**
+   - Consider minor price increases for cocktails with strong demand or unique ingredients. Ensure the increase aligns with market tolerance.
+
+3. **Operational Efficiency:**
+   - Streamline prep by focusing on shared ingredients across cocktails to reduce SKU load and speed up service.
+
+### Implementation Plan
+- **Pre-Shift Training:** Conduct training sessions to familiarize staff with any recipe changes and pricing adjustments. This will ensure consistency in execution and service.
+- **Menu Updates:** Clearly communicate any changes to the menu, highlighting any new or improved offerings to maintain guest excitement.
+- **Monitor Feedback:** Gather guest feedback on any changes to ensure that perceived value remains high and adjust as necessary.
+
+These steps will help protect your margins while ensuring your guests continue to enjoy a high-quality experience.
+
+
+What Lloyd Should Have Done:
+What Lloyd Should Have Done:
+- Missing: No reference to specific venue context, guest profile, or brand positioning—recommend tailoring recommendations to venue type and target demographic.
+- Overreach: “Reduce portion size” and “substitute ingredients” can risk guest dissatisfaction and brand dilution—should include guest impact assessment and test batches before rollout.
+- System/Process: Should formalize a recurring margin review process (e.g., quarterly pour cost audits, scheduled menu engineering meetings).
+- Menu Cohesion: Lacks guidance on maintaining overall menu balance when making changes (e.g., ensuring flavor profiles and spirit categories remain diverse).
+- Training: Pre-shift training is mentioned, but lacks detail—should specify training materials, tasting sessions, and feedback loops.
+- Communication: Menu updates should include scripting for staff to explain changes to guests, preserving perceived value.
+- Structure: Use bullet points for clarity and actionability; avoid long paragraphs and generic language.
+- Tone: Should be more directive and concise; avoid passive phrasing (“Consider,” “Look for opportunities”).
+
+
+(Generated on 2025-08-27 16:23:11)
+
+(Evaluated on 2025-08-27 19:02:36)

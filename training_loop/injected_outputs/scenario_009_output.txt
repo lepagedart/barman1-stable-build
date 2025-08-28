@@ -1,0 +1,77 @@
+Title: M&D Constraints (Single Spirit Focus)
+
+Tags: training, staff_onboarding, bar_basics, communication
+
+Scenario Type: Training
+
+System Mod: When the user is building a new menu around one spirit (e.g., tequila), avoid common riffs unless requested. Suggest bold, original builds and ensure cohesion across the menu.
+
+Venue Context: A modern Latin American restaurant is launching a cocktail menu built primarily around tequila and related agave spirits. They want creative but practical builds for their launch.
+
+Prompt: We want to build a tequila-forward cocktail menu that avoids clichés and shows off originality while still being practical. What would you suggest?
+
+Lloyd's Response:
+
+To build a tequila-forward cocktail menu that showcases originality while remaining practical, consider the following approach:
+
+### Cocktail Concepts
+1. **Tequila Negroni**  
+   - **Spec:** 1 oz Tequila Reposado, 1 oz Sweet Vermouth, 1 oz Campari  
+   - **Ice / Glass / Garnish:** Large cube / Rocks glass / Orange twist  
+   - **Method:** Stir ingredients with ice, strain over fresh ice in a rocks glass, garnish with an orange twist.  
+   - **Cost Notes:** Approx. 20% pour cost, leveraging classic cocktail appeal with a tequila twist.
+
+2. **Spicy Tequila Collins**  
+   - **Spec:** 1.5 oz Tequila Blanco, 0.5 oz Lime juice, 0.5 oz Jalapeño-infused simple syrup, Top with soda water  
+   - **Ice / Glass / Garnish:** Collins glass / Lime wheel, jalapeño slice  
+   - **Method:** Shake tequila, lime juice, and syrup with ice, strain into glass filled with ice, top with soda, garnish.  
+   - **Flavor Note:** Jalapeño adds heat without complicating prep; can be batched.
+
+3. **Smoky Tequila Old Fashioned**  
+   - **Spec:** 2 oz Tequila Añejo, 0.25 oz Agave syrup, 2 dashes Angostura bitters, 1 dash smoked salt  
+   - **Ice / Glass / Garnish:** Large cube / Rocks glass / Grapefruit peel  
+   - **Method:** Stir ingredients with ice, strain over a large cube in a rocks glass, garnish with grapefruit peel.  
+   - **Cost Notes:** Higher-end due to Añejo, but justified by unique smoked profile.
+
+4. **Tequila & Pear Sour**  
+   - **Spec:** 1.5 oz Tequila Blanco, 0.5 oz Pear nectar, 0.5 oz Lemon juice, 0.5 oz Honey syrup, 1 egg white  
+   - **Ice / Glass / Garnish:** Coupe glass / Pear slice  
+   - **Method:** Dry shake ingredients, add ice and shake again, fine strain into a coupe, garnish with a pear slice.  
+   - **Service Note:** Station pear garnish prepped, dry shake for texture.
+
+5. **Tequila Spritz**  
+   - **Spec:** 1 oz Tequila Blanco, 0.5 oz Aperol, 0.5 oz Elderflower liqueur, Top with Prosecco  
+   - **Ice / Glass / Garnish:** Wine glass / Orange wheel  
+   - **Method:** Build in glass over ice, top with Prosecco, gently stir, garnish with orange wheel.  
+   - **Flavor Note:** Light and floral, ideal for daytime or brunch.
+
+### Strategy & Pitch
+- **Variety & Balance:** The menu spans cocktail families (stirred, shaken, highball, spritz), ensuring diverse guest appeal.
+- **Flavor Modifiers:** Jalapeño, smoked salt, elderflower, and pear bring originality without overcomplicating prep.
+- **Operational Simplicity:** Recipes are straightforward; batching is possible for Collins and Sours to aid service speed.
+- **Ownership Pitch:** This menu elevates tequila beyond clichés, delivering a sophisticated guest experience while maintaining operational feasibility. The unique flavors and balanced styles promise to attract both tequila enthusiasts and casual drinkers.
+
+
+What Lloyd Should Have Done:
+What Lloyd Should Have Done:
+- Missing Pieces:
+  - Did not address venue context, target demographic, or brand alignment—menu may not fit all venues.
+  - No explicit cost breakdowns or margin analysis for each drink; only vague cost notes.
+  - Lacks batching/prep instructions or estimated service times for each cocktail.
+  - No mention of allergen or dietary considerations (egg white in Sour).
+  - No guidance on staff training or rollout process.
+- System/Process Solutions:
+  - Add a standardized template for each cocktail: spec, prep steps, batchability, cost/margin, allergen notes.
+  - Include a section on staff training: tasting notes, talking points, and troubleshooting.
+  - Provide a batching/prep guide and par levels for high-volume service.
+  - Suggest a feedback loop for post-launch menu adjustments.
+- Tone/Structure Guidance:
+  - Use concise, bullet-pointed summaries for each cocktail and strategy point.
+  - Clearly separate operational notes from guest-facing descriptions.
+  - Avoid overreliance on subjective terms ("sophisticated guest experience"); ground in measurable outcomes.
+  - Ensure all recommendations are actionable and venue-specific.
+
+
+(Generated on 2025-08-27 16:23:28)
+
+(Evaluated on 2025-08-27 19:02:43)

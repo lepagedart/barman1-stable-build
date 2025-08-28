@@ -1,0 +1,8 @@
+{
+  "scenario_number": 22,
+  "title": "Aligning Menu with Distributor Portfolio",
+  "tags": ["portfolio_matching", "cost_control", "menu_design", "supplier_relationships"],
+  "system_mod": "Frame recommendations through supplier alignment. Call out profit and partnership benefits.",
+  "venue_context": "A mid-size restaurant group that exclusively purchases from Martignetti. They want their cocktail list to highlight products the distributor wants to push.",
+  "prompt": "How can we design a cocktail list that uses Martignetti’s portfolio strategically, so we get better pricing support and brand incentives while still offering a strong guest experience?"
+}

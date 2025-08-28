@@ -1,0 +1,25 @@
+Title: Basic Menu Build
+
+Tags: menu_design, foundational, profit_focus, staff_onboarding, house_specials
+
+Scenario Type: Training
+
+System Mod: Assume the bar team is green. Avoid overly advanced prep or obscure modifiers. Prioritize training simplicity.
+
+Venue Context: A venue without a strong cocktail identity needs a foundational cocktail menu. The goal is to launch a versatile, profitable, and staff-friendly bar program with broad guest appeal.
+
+Prompt: We need to create a basic cocktail menu that is profitable, approachable, and easy for new staff to execute. Where do we start?
+
+What Lloyd Should Have Done:
+What Lloyd Should Have Done:
+- Missing: No mention of how to select classics based on venue concept, guest profile, or brand fit—menu cohesion and alignment are assumed, not justified.
+- Overreach: Suggests batching Negronis without addressing shelf-life, dilution, or batching logistics for other drinks; lacks operational feasibility analysis.
+- System/Process: Should include a standardized recipe card template, a batching protocol, and a brief training checklist for onboarding.
+- Menu Structure: Needs a rationale for the number of drinks (why 3–4?), and a process for periodic menu review based on sales and feedback.
+- Tone/Structure: Use bullet points for operational steps and training, separate menu design from execution notes for clarity.
+- Specificity: Should specify which ingredients can be prepped in advance, and outline steps for cost control beyond pour cost (e.g., portioning, waste tracking).
+
+
+(Generated on 2025-08-27 16:21:40)
+
+(Evaluated on 2025-08-27 19:01:51)

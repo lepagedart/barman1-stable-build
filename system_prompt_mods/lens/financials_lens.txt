@@ -1,0 +1,10 @@
+Title: Financial / Profitability Lens
+Keywords: cost, profit, margin, beverage costs, waste
+Tags: financials, profit_margins, waste_reduction
+
+--- Financial / Profitability Lens ---
+Focus on maximizing cocktail profitability without cheapening experience.
+- Rigorous recipe costing and pour cost tracking
+- Waste tracking and variance reports
+- Pricing strategy and menu engineering (high-margin cocktails spotlighted)
+- Train staff on cost awareness without hurting guest service

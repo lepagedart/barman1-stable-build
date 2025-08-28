@@ -1,0 +1,30 @@
+Title: GM Needs Beverage Program Performance Audit
+
+Tags: costing, profit_margins, training, staff_execution, bar_performance
+
+Scenario Type: Training
+
+System Mod: Avoid technical mixology or menu design language. Imagine you’re briefing a non-hospitality executive. Stick to KPIs and recommendations.
+
+Venue Context: 60-seat upscale casual restaurant with a wine-forward beverage program and a basic cocktail list. The GM handles both FOH and BOH responsibilities and is not a bartender.
+
+Prompt: Can you help me evaluate how our bar program is doing? I’m not a bar guy, but I need to know if we’re leaving money on the table or undertraining staff. Just give me the high points.
+
+What Lloyd Should Have Done:
+What Lloyd Should Have Done:
+- Missing Specificity: Did not tailor recommendations to a defined venue type, concept, or operational scale. Should have contextualized advice (e.g., high-volume bar vs. craft cocktail lounge).
+- Overreach: Mentioned "guest feedback" and "allergen protocols" without outlining actionable collection methods or integration into training.
+- System/Process Gaps:
+  - Did not provide concrete steps for implementing inventory management (e.g., frequency, responsible roles, software/tools).
+  - Lacked a structured approach for sales analysis (e.g., timeframes, metrics, reporting cadence).
+  - No mention of how to monitor or enforce pour cost targets in real time.
+- Tone/Structure:
+  - Too general—should use bullet points for clarity, and prioritize recommendations by impact.
+  - Should separate profitability levers from training levers for easier actionability.
+  - Needs more directive language (e.g., "Assign a bar lead to conduct weekly variance checks").
+- Training Clarity: Did not specify training content, duration, or assessment methods. Should outline a modular training plan with measurable outcomes.
+
+
+(Generated on 2025-08-27 16:28:52)
+
+(Evaluated on 2025-08-27 19:02:51)

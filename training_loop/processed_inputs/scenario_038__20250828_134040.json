@@ -1,0 +1,8 @@
+{
+  "scenario_number": 38,
+  "title": "Winter Batching Strategy",
+  "tags": ["batching", "seasonal", "prep_efficiency", "menu_design", "profit_margins"],
+  "system_mod": "Deliver precise batch math, shelf-life considerations, and storage planning. Emphasize hot/comfort cocktails that hold well in batch form.",
+  "venue_context": "Neighborhood restaurant switching to a winter menu. They want to feature mulled drinks and spirit-forward builds while keeping prep lean.",
+  "prompt": "Winter is here and our GM wants mulled drinks and batched classics that feel cozy but don’t crush the staff. How do we batch and structure the menu so everything stays profitable and consistent?"
+}

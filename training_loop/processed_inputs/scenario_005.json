@@ -1,0 +1,8 @@
+{
+  "scenario_number": 5,
+  "title": "Small Bar, Limited Staffing",
+  "tags": ["staffing", "batched_cocktails", "low_labor", "small_format", "menu_design", "prep_efficiency"],
+  "system_mod": "Emphasize batching and limited labor feasibility. Avoid high-concept builds unless they are fast to execute.",
+  "venue_context": "A 40-seat restaurant with a small L-shaped bar and only one bartender per shift. Menu needs to be prep-efficient, profitable, and executable without additional support.",
+  "prompt": "How do we build a profitable cocktail menu for a one-bartender bar while keeping execution simple and fast?"
+}

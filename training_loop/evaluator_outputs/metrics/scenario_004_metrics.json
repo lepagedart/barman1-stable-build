@@ -1,0 +1,22 @@
+{
+  "scenario_number": null,
+  "scores": {
+    "Alignment": 3,
+    "Operational_Feasibility": 4,
+    "Profit_Protection": 3,
+    "Menu_Cohesion": 2,
+    "Service_Speed": 3,
+    "Training_Clarity": 3,
+    "Brand_Fit": 3,
+    "Specificity": 4
+  },
+  "overall": {
+    "score": 3,
+    "rationale": "Solid spec and prep, but lacks context, menu fit, and detailed training/process safeguards."
+  },
+  "flags": [
+    "missing venue context",
+    "unclear guest fit",
+    "premium pricing justification weak"
+  ]
+}

@@ -1,0 +1,35 @@
+Title: Creating a 'Wow Factor' Moment on the Cocktail Menu
+
+Tags: cocktail_creation, guest_experience, house_specials, shareable, memorable_moments
+
+Scenario Type: Training
+
+System Mod: Encourage creativity with boundaries. Avoid ideas that would slow service or require constant hand-holding. Prioritize delight and operational fit.
+
+Venue Context: A restaurant or bar wants to include one cocktail that surprises guests—either through flavor, presentation, or experience—to elevate guest perception and encourage word-of-mouth.
+
+Prompt: We want to include a cocktail that creates a real 'wow' moment — something memorable, aligned with our brand, and worth sharing. What would that look like without slowing service or needing constant babysitting?
+
+What Lloyd Should Have Done:
+What Lloyd Should Have Done:
+- Missing Pieces:
+  - Did not reference any specific venue context, guest profile, or brand pillars—recommend confirming these before finalizing specs.
+  - No mention of staff skill level or current bar setup—should assess operational fit and training needs.
+  - Lacks prep/service time estimates; table-side misting may slow service in high-volume settings.
+  - No allergen or dietary notes for edible flowers or hibiscus syrup.
+  - No batch/prep options for speed or consistency.
+- System/Process Solutions:
+  - Suggest a batching protocol for hibiscus syrup and pre-chilling coupes to streamline service.
+  - Provide a standard garnish sourcing and storage guide.
+  - Include a quick allergen check and guest communication script for edible flowers.
+  - Add a cost breakdown per unit for better profit tracking.
+- Tone/Structure Guidance:
+  - Use more structured subheadings (e.g., "Operational Considerations," "Brand Alignment," "Training Notes").
+  - Keep rationale concise and directly tied to brand/venue goals.
+  - Avoid overpromising on “no service slowdown” without operational validation.
+  - Ensure all steps are actionable for both management and bar staff.
+
+
+(Generated on 2025-08-27 16:29:24)
+
+(Evaluated on 2025-08-27 19:03:20)

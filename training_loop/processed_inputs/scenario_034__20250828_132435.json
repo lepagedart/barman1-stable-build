@@ -1,0 +1,8 @@
+{
+  "scenario_number": 34,
+  "title": "NA & Low-ABV Menu That Doesn’t Tank Throughput",
+  "tags": ["na_low_abv", "guest_appeal", "prep_efficiency", "menu_design", "profit_margins"],
+  "system_mod": "Emphasize quick-build specs, shared prep, and clear pricing strategy. Include guidance for staff language to sell NA/low-ABV without sounding apologetic.",
+  "venue_context": "Busy modern American spot; leadership wants 3 NA and 2 low-ABV options that sell, look premium, and don’t clog the service well.",
+  "prompt": "How do we create NA/low-ABV options that feel intentional and profitable while keeping service fast? We need specs, pricing guidance, and a short staff script."
+}

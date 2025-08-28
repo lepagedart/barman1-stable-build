@@ -1,0 +1,77 @@
+Title: Distributor-Aligned Seasonal Refresh
+
+Tags: portfolio_matching, cost_control, profit_margins, menu_design, supplier_relationships
+
+Scenario Type: Training
+
+System Mod: Frame ideas through supplier alignment. Tie each cocktail to a portfolio product, note incentive assumptions, and include a simple cost/price table with target pour %.
+
+Venue Context: Downtown bistro that buys through a single distributor; rep is pushing a set of seasonal SKUs (aperitivo, amaro, rye whiskey, orange liqueur).
+
+Prompt: We want a small seasonal refresh that uses our distributor’s priority SKUs so we can negotiate better pricing. Give us 4 builds that won’t slow service and still feel on-brand.
+
+Lloyd's Response:
+
+To help you refresh your seasonal cocktail menu while prioritizing your distributor's SKUs for better pricing, I'll suggest four builds that maintain quality and efficiency. These cocktails will align with your venue's high-touch, chef-driven approach, without compromising service speed.
+
+### 1. Pear & Spice Highball
+**Story:** A refreshing nod to early fall, marrying ripe pears with warming spices.
+- **Spec:** 
+  - 1.5 oz pear vodka (priority SKU)
+  - 0.75 oz ginger syrup
+  - 0.5 oz fresh lime juice
+  - Top with soda water
+- **Ice / Glass / Garnish:** Collins glass, large ice cubes, thin pear slice
+- **Method:** Build in glass; add ice, pour ingredients, top with soda, gently stir.
+- **Prep Notes:** Batch ginger syrup weekly (yields 1L, shelf life 7 days); station in reach Zone A.
+- **Cost Notes:** Target pour cost around 20%; ginger syrup is cost-effective.
+
+### 2. Autumn Stone Sour
+**Story:** A balanced sour that bridges late summer and early fall with stone fruit and apple notes.
+- **Spec:** 
+  - 1.5 oz bourbon (priority SKU)
+  - 0.75 oz apricot liqueur (priority SKU)
+  - 0.75 oz apple cider
+  - 0.5 oz fresh lemon juice
+- **Ice / Glass / Garnish:** Rocks glass, large ice cube, apple fan
+- **Method:** Shake all ingredients with ice, strain into glass over fresh ice.
+- **Prep Notes:** Fresh apple cider sourced in, restock as needed; lemon juice prepped daily.
+- **Cost Notes:** Pour cost target 22%; bourbon and apricot liqueur as key premium drivers.
+
+### 3. Melon & Herb Spritz
+**Story:** A light and herbaceous spritz with the last of summer's melon, perfect for a sunny afternoon.
+- **Spec:** 
+  - 1 oz melon liqueur (priority SKU)
+  - 0.5 oz elderflower liqueur
+  - 0.5 oz fresh lime juice
+  - Top with prosecco
+- **Ice / Glass / Garnish:** Wine glass, large ice cubes, mint sprig
+- **Method:** Build in glass; add ice, pour ingredients, top with prosecco, lightly stir.
+- **Prep Notes:** Lime juice prepped daily; prosecco stored in reach Zone B.
+- **Cost Notes:** Pour cost targeted at 20%; prosecco keeps it light and profitable.
+
+### 4. Botanical Boulevardier
+**Story:** A rich, spirit-forward cocktail with warm botanicals for the early fall chill.
+- **Spec:** 
+  - 1 oz rye whiskey (priority SKU)
+  - 1 oz bitter herbal liqueur (priority SKU)
+  - 1 oz sweet vermouth
+- **Ice / Glass / Garnish:** Coupe glass, express orange peel
+- **Method:** Stir all ingredients with ice, strain into glass.
+- **Prep Notes:** Keep all spirits in reach Zone A; vermouth may be batched and stored in the fridge.
+- **Cost Notes:** Pour cost around 22%; herbal liqueur offers depth and focus.
+
+### Mise & Workflow
+- **Daily Prep:** Fresh juices, slice garnishes, batch ginger syrup.
+- **Weekly Prep:** Batch vermouth, restock spirits and produce.
+- **Par Levels:** Adjust based on sales trends; maintain sufficient backstock of priority SKUs.
+- **QA Ritual:** Taste-batching syrups and prepped juices for consistency.
+
+These builds leverage priority SKUs effectively while maintaining service speed and quality aligned with your venue’s standards.
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-08-28 13:24:22)

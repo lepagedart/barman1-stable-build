@@ -1,0 +1,8 @@
+{
+  "scenario_number": 1,
+  "title": "Basic Menu Build",
+  "tags": ["menu_design", "foundational", "profit_focus", "staff_onboarding", "house_specials"],
+  "system_mod": "Assume the bar team is green. Avoid overly advanced prep or obscure modifiers. Prioritize training simplicity.",
+  "venue_context": "A venue without a strong cocktail identity needs a foundational cocktail menu. The goal is to launch a versatile, profitable, and staff-friendly bar program with broad guest appeal.",
+  "prompt": "We need to create a basic cocktail menu that is profitable, approachable, and easy for new staff to execute. Where do we start?"
+}

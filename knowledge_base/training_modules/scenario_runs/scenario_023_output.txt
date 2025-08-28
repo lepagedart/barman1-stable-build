@@ -1,0 +1,27 @@
+Title: Designing a Temporary Bar for Large Event
+
+Tags: event_setup, batching_strategies, workflow, speed_of_service
+
+Scenario Type: Training
+
+System Mod: Focus on logistical prep and execution for one-off events. No long-term design talk.
+
+Venue Context: A hotel hosting a 300-person wedding wants a temporary outdoor bar setup. Limited power, ice storage, and only 3 bartenders available.
+
+Prompt: We need a pop-up bar for a 300-person wedding. What’s the most efficient setup for stations, batching, and service flow to keep lines down and quality up?
+
+What Lloyd Should Have Done:
+What Lloyd Should Have Done:
+- Missing: No mention of backup plans for ice/mixer shortages, glassware breakage, or staff call-outs—add contingency protocols.
+- Overreach: Assumes availability of kegging equipment and CO₂/nitrogen without confirming feasibility for a pop-up; clarify equipment constraints and alternatives.
+- Batching: Should specify exact batch sizes, storage containers, and labeling procedures to avoid confusion and errors.
+- Menu Cohesion: Signature cocktail choices (Margarita, Old Fashioned) may not suit all palates or event themes; recommend aligning menu with couple’s preferences or wedding theme.
+- Service Flow: Needs explicit guest throughput targets (e.g., drinks/minute per station) and a plan for peak demand periods.
+- Training: Lacks a concise, stepwise training module/checklist for staff—add a one-pager for pre-shift briefing.
+- Waste Management: Should detail a system for separating compostables/recyclables and designate responsible staff.
+- Tone/Structure: Use bullet points for each operational area, and add a summary action checklist for quick reference.
+
+
+(Generated on 2025-08-28 00:17:01)
+
+(Evaluated on 2025-08-28 00:17:39)

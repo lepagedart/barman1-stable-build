@@ -1,0 +1,22 @@
+{
+  "scenario_number": null,
+  "scores": {
+    "Alignment": 5,
+    "Operational_Feasibility": 3,
+    "Profit_Protection": 4,
+    "Menu_Cohesion": 4,
+    "Service_Speed": 3,
+    "Training_Clarity": 3,
+    "Brand_Fit": 5,
+    "Specificity": 4
+  },
+  "overall": {
+    "score": 4,
+    "rationale": "Strong brand fit and alignment, but lacks operational detail and training clarity for consistent execution."
+  },
+  "flags": [
+    "batching detail missing",
+    "prep workflow unclear",
+    "garnish scalability"
+  ]
+}

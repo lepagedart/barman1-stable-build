@@ -1,0 +1,66 @@
+Title: Hotel Pool Bar High-Volume Afternoon
+
+Tags: event_setup, workflow, speed_of_service, batching, guest_experience
+
+Scenario Type: Training
+
+System Mod: Prioritize throughput, heat/ice constraints, and drink durability. Avoid fussy builds—opt for scalable recipes and garnish discipline.
+
+Venue Context: Resort pool bar serving 200 guests in afternoon peak. Hot weather, limited cold storage, and a single ice machine shared with banquets.
+
+Prompt: Our pool bar melts down every weekend when 200+ guests hit at once. Drinks take forever, ice runs out, and garnishes spoil. How do we fix menu and setup so service flies and drinks hold up in the heat?
+
+Lloyd's Response:
+
+To streamline your pool bar operation and handle the weekend rush efficiently, focus on simplifying the menu, optimizing your setup, and ensuring drink ingredients are heat-resistant. Here’s a targeted plan:
+
+### Menu Simplification
+
+1. **Highball & Spritz Focus**:
+   - Prioritize refreshing, simple builds like spritzes and highballs that require minimal steps.
+   - Example: Aperol Spritz (Aperol, Prosecco, splash of soda) or Vodka Soda with a lime wedge.
+
+2. **Pre-Batched Cocktails**:
+   - Pre-batch popular cocktails like Margaritas or Mojitos, keeping them in chilled dispensers to reduce ice dependency.
+   - Use shelf-stable ingredients where possible to avoid spoilage.
+
+3. **Garnish Efficiency**:
+   - Use hardy garnishes like citrus wheels, which hold up in the heat better than herbs or delicate fruit.
+   - Pre-cut and store garnishes in chilled containers with lids.
+
+### Setup Optimization
+
+1. **Ice Management**:
+   - Invest in portable ice bins and schedule regular ice refills throughout the day to prevent shortages.
+   - Consider using larger ice cubes for slower melting in drinks.
+
+2. **Station Layout**:
+   - Set up multiple prep stations to divide tasks (e.g., one for batching, one for garnishing).
+   - Ensure well-organized speed rails with frequently used spirits in reach.
+
+3. **Storage Solutions**:
+   - Use insulated beverage dispensers and coolers to maintain ingredient temperature.
+   - Label and rotate stock to manage spoilage and access quickly.
+
+### Operational Notes
+
+- **Staff Training**: Brief your team on streamlined service techniques and efficient station use. Encourage quick, consistent builds.
+- **Prep Routine**: Implement a robust prep schedule to ensure all ingredients and batches are ready before peak hours.
+- **Monitor and Adjust**: Track sales and stock levels to adjust menu offerings and prep needs dynamically.
+
+### Action Checklist
+
+1. Simplify the menu focusing on highballs and spritzes.
+2. Implement a pre-batching system for key cocktails.
+3. Optimize the station layout for quick access and minimal motion.
+4. Upgrade ice storage solutions and schedule refills.
+5. Train staff on efficient prep and service techniques.
+
+By focusing on these areas, you can improve service speed and maintain quality, even under high volume and heat conditions.
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-08-28 13:40:07)

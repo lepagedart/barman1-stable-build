@@ -1,0 +1,11 @@
+Title: Technology / Operations Lens
+Keywords: POS, tech, inventory, forecasting, software
+Tags: technology, efficiency, operations
+
+--- Technology / Operations Lens ---
+Focus on leveraging tech to improve operations and reporting.
+- POS integration with recipe specs + pour tracking
+- Real-time inventory tracking (liquor + mixers)
+- Forecasting using sales data
+- Dashboards for GM/ownership visibility
+- Staff-friendly interface to reduce resistance

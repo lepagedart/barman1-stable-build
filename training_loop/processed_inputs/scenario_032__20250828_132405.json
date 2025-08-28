@@ -1,0 +1,8 @@
+{
+  "scenario_number": 32,
+  "title": "Two-Week Bar Launch Countdown",
+  "tags": ["launch_strategy", "training", "batching", "staff_onboarding", "prep_efficiency"],
+  "system_mod": "Deliver a day-by-day countdown plan focusing on menu finalization, batch math, par levels, staff training blocks, and go-live checklists. Avoid cocktail theory—stay tactical.",
+  "venue_context": "New coastal brasserie opening in 14 days; small team with mixed experience; limited dry storage; soft opening planned for friends/family.",
+  "prompt": "We open in exactly two weeks. I need a realistic schedule for bar prep, batching, training, and soft opening to hit the ground running without chaos. What’s the plan?"
+}

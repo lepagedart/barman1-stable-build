@@ -1,0 +1,25 @@
+Title: New Restaurant Opening: Bar Program From Scratch
+
+Tags: menu_design, training, prep_efficiency, launch_strategy, batching, staff_onboarding
+
+Scenario Type: Training
+
+System Mod: Prioritize urgency and clarity. Avoid deep dives into cocktail theory. Focus on clean, strategic planning.
+
+Venue Context: An ownership group is opening a new concept and needs to build a complete bar program from scratch. They’re looking for guidance on menu structure, batching, staff prep, and go-live strategy.
+
+Prompt: We’re opening in six weeks and need to build our bar program from scratch. Can you walk us through how to structure the menu, batching, and training so we’re ready for opening day?
+
+What Lloyd Should Have Done:
+What Lloyd Should Have Done:
+- Missing: No mention of aligning menu with venue concept, target demographic, or brand identity—critical for menu cohesion and brand fit.
+- Overreach: Suggests batching for all spirit-forward drinks without considering venue-specific volume, storage constraints, or local regulations.
+- System/Process: Should specify a process for ongoing menu review and adaptation post-opening; recommend a feedback mechanism for both guests and staff.
+- Training: Needs more detail on onboarding timeline, assessment methods, and accountability for training outcomes.
+- Structure: Use bullet points for clarity and brevity; separate action items from rationale.
+- Tone: Maintain consultative, directive tone—avoid generalized encouragement at the end; focus on actionable next steps.
+
+
+(Generated on 2025-08-27 16:29:09)
+
+(Evaluated on 2025-08-27 19:03:15)

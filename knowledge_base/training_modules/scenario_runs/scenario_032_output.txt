@@ -1,0 +1,98 @@
+Title: Two-Week Bar Launch Countdown
+
+Tags: launch_strategy, training, batching, staff_onboarding, prep_efficiency
+
+Scenario Type: Training
+
+System Mod: Deliver a day-by-day countdown plan focusing on menu finalization, batch math, par levels, staff training blocks, and go-live checklists. Avoid cocktail theory—stay tactical.
+
+Venue Context: New coastal brasserie opening in 14 days; small team with mixed experience; limited dry storage; soft opening planned for friends/family.
+
+Prompt: We open in exactly two weeks. I need a realistic schedule for bar prep, batching, training, and soft opening to hit the ground running without chaos. What’s the plan?
+
+Lloyd's Response:
+
+To ensure your bar is ready for a smooth opening in two weeks, let's break down the timeline into key focus areas: bar prep, batching, training, and soft opening. Here’s a structured plan to follow:
+
+### Week 1: Foundation Setup
+
+**Day 1-2: Bar Prep & Inventory**
+- Organize and finalize your inventory list. Ensure all necessary spirits, mixers, glassware, and tools are in place.
+- Set up bar stations according to planned layout. Confirm all equipment is functional.
+
+**Day 3-4: Batching & Recipe Standardization**
+- Identify which cocktails can be pre-batched (consider spirit-forward options).
+- Prepare and label batches, ensuring compliance with local regulations. Create a logbook for tracking batch usage and shelf life.
+- Standardize cocktail specs for consistency. Ensure all bartenders have access to these specs.
+
+**Day 5: Staff Training - Part 1**
+- Conduct a training session focusing on standard recipes, jiggering techniques, and service flow.
+- Include a practical session where bartenders make each cocktail on the menu to ensure consistency.
+
+### Week 2: Refinement and Soft Opening
+
+**Day 6-7: Staff Training - Part 2**
+- Run mock service drills to simulate real service conditions. Focus on speed, accuracy, and teamwork.
+- Provide feedback and adjust based on performance. Reinforce the importance of consistent presentation and taste.
+
+**Day 8: Final Bar Setup**
+- Fine-tune station setups based on feedback from mock services. Adjust bottle placement and tool accessibility to minimize bartender movement.
+- Ensure all batching preparations are restocked and ready for service.
+
+**Day 9-10: Soft Opening Preparation**
+- Conduct a soft opening for staff, friends, or a limited guest list to stress-test the system.
+- Gather feedback from guests and staff to identify any last-minute adjustments needed.
+
+**Day 11-12: Final Adjustments and Restock**
+- Implement any necessary changes based on soft opening feedback.
+- Conduct a restock of all essentials to ensure readiness for opening day.
+
+**Day 13: Final Training and Team Briefing**
+- Hold a final team meeting to review any new changes, answer questions, and ensure everyone is aligned on expectations.
+- Emphasize team communication and support to handle any unexpected issues smoothly.
+
+**Day 14: Soft Launch**
+- Open to a limited guest list to manage any unforeseen challenges without the pressure of a full house.
+- Continue to gather feedback and make incremental improvements.
+
+### Summary Checklist
+- [ ] Inventory and bar setup completed
+- [ ] Batching and recipe standardization finalized
+- [ ] Two-part staff training conducted
+- [ ] Mock service and soft opening executed
+- [ ] Final adjustments based on feedback implemented
+
+This schedule should provide a structured approach to ensure your team is well-prepared, minimizing chaos and maximizing readiness for a successful opening.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - Include a contingency plan for potential delays or issues (e.g., supply chain disruptions, staff shortages).
+  - Address health and safety protocols, especially in light of ongoing public health concerns.
+  - Specify roles and responsibilities for each team member during the preparation and opening phases.
+
+- **Overreach:**
+  - Avoid assuming all venues have the same resources; tailor the plan to different venue sizes and staff capabilities.
+  - Refrain from suggesting a "one-size-fits-all" approach for batching; some cocktails may not be suitable for pre-batching.
+
+- **System/Process Solutions:**
+  - Implement a digital inventory management system to track stock levels and reorder needs in real-time.
+  - Use a project management tool to assign tasks, set deadlines, and monitor progress throughout the preparation period.
+  - Establish a feedback loop with staff for continuous improvement, not just during the soft opening.
+
+- **Tone/Structure Guidance:**
+  - Use a more collaborative tone, inviting feedback and suggestions from the team.
+  - Break down tasks into smaller, more manageable steps with clear deadlines and responsible parties.
+  - Provide more context or examples for each step to ensure clarity and understanding.
+
+- **Conciseness and Clarity:**
+  - Eliminate redundant phrases and focus on action-oriented language.
+  - Use bullet points consistently for easy reading and quick reference.
+  - Ensure each section has a clear purpose and outcome, avoiding unnecessary detail.
+
+
+(Generated on 2025-08-28 13:24:05)
+
+(Evaluated on 2025-08-28 13:41:22)

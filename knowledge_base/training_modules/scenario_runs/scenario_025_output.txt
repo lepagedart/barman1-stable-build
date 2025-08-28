@@ -1,0 +1,27 @@
+Title: Speed Rail & Prep Station Optimization
+
+Tags: speed_rail, workflow, efficiency, prep_efficiency
+
+Scenario Type: Training
+
+System Mod: Stay tactical. Think like a bar manager setting wells and rails for a high-volume night.
+
+Venue Context: A nightclub with 500+ covers per night. Two wells with multiple bartenders working side by side. Guests expect quick service and simple cocktails.
+
+Prompt: We want to optimize our speed rails and prep stations for maximum speed. What bottles and tools should live in the first rail, and what batching or pre-prep makes sense?
+
+What Lloyd Should Have Done:
+What Lloyd Should Have Done:
+- Missing venue context: Did not tailor recommendations to specific bar size, concept, or menu—should clarify assumptions or request details.
+- Overreach: Suggested batching without addressing legal/compliance considerations or storage limitations.
+- System/process: Should specify a clear labeling system (date, batch, allergen info), and outline a restocking cadence for peak/off-peak shifts.
+- Menu cohesion: Did not reference how the speed rail setup aligns with the venue’s actual menu or signature drinks.
+- Training clarity: Should provide a visual diagram or stepwise setup instructions for new staff.
+- Tone/structure: Use more direct, stepwise language; avoid generic advice—focus on actionable, context-driven steps.
+- Profit protection: Did not mention portion control tools or loss prevention strategies (e.g., jigger use, bottle locks).
+- Service speed: Could recommend periodic workflow audits or timed setup drills to ensure ongoing efficiency.
+
+
+(Generated on 2025-08-28 00:17:18)
+
+(Evaluated on 2025-08-28 00:17:51)

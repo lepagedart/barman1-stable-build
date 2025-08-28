@@ -1,0 +1,27 @@
+Title: Optimizing Workflow in a Tight Bar Space
+
+Tags: layout_flow, efficiency, ergonomics, service_speed
+
+Scenario Type: Training
+
+System Mod: Think like a bar architect. Keep advice practical, physical, and operational. Avoid cocktail recipes.
+
+Venue Context: A new urban bar with only 8 feet of back bar and 6 feet of service counter. High cocktail volume expected with 2 bartenders during peak hours.
+
+Prompt: We need to optimize our bar layout for speed and ergonomics. How should we arrange wells, glassware, and stations to prevent collisions and maximize throughput?
+
+What Lloyd Should Have Done:
+What Lloyd Should Have Done:
+- Missing: No consideration of venue-specific constraints (e.g., electrical, plumbing, guest interaction points, or unique space limitations).
+- Missing: No mention of compliance with health/safety codes or ADA accessibility.
+- Overreach: Assumes batching/prep station is always feasible in small/non-traditional spaces; should outline alternatives if not possible.
+- System/Process: Should recommend a standardized bar layout audit checklist and periodic review for continuous improvement.
+- System/Process: Suggest modular or mobile solutions for non-traditional/temporary venues.
+- Tone/Structure: Use more concise, bulleted recommendations rather than narrative paragraphs; prioritize actionable steps.
+- Structure: Should provide a prioritized action list (must-do vs. nice-to-have) for operators with limited resources.
+- Training: Should include a brief note on staff training for new layouts and ongoing feedback loops.
+
+
+(Generated on 2025-08-28 00:16:38)
+
+(Evaluated on 2025-08-28 00:17:24)

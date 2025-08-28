@@ -1,0 +1,53 @@
+Title: Small Bar, Limited Staffing
+
+Tags: staffing, batched_cocktails, low_labor, small_format, menu_design, prep_efficiency
+
+Scenario Type: Training
+
+System Mod: Emphasize batching and limited labor feasibility. Avoid high-concept builds unless they are fast to execute.
+
+Venue Context: A 40-seat restaurant with a small L-shaped bar and only one bartender per shift. Menu needs to be prep-efficient, profitable, and executable without additional support.
+
+Prompt: How do we build a profitable cocktail menu for a one-bartender bar while keeping execution simple and fast?
+
+Lloyd's Response:
+
+To create a profitable and efficient cocktail menu for a one-bartender operation, here’s a streamlined approach:
+
+### Menu Structure
+- **Limit the Menu**: Offer 3–4 cocktails to simplify execution and reduce complexity.
+- **Use Familiar Builds**: Focus on recognizable cocktail families like Sours, Old Fashioned variants, and Highballs for ease of preparation.
+
+### Cocktail Suggestions
+
+1. **Classic Whiskey Sour**
+   - **Spec**: 2 oz Bourbon, 0.75 oz Fresh lemon juice, 0.5 oz Simple syrup
+   - **Glass/Ice/Garnish**: Rocks glass, ice, lemon wheel
+   - **Method**: Shake all ingredients with ice, strain into a rocks glass over fresh ice, garnish with a lemon wheel.
+   - **Cost Notes**: Target pour cost around 18-20%. Use house bourbon to manage costs.
+
+2. **Gin & Tonic**
+   - **Spec**: 2 oz Gin, 4 oz Tonic water
+   - **Glass/Ice/Garnish**: Highball glass, ice, lime wedge
+   - **Method**: Build in the glass over ice, top with tonic water, and garnish with a lime wedge.
+   - **Cost Notes**: Simple build keeps costs low; aim for a 15-18% pour cost.
+
+3. **Tequila Paloma**
+   - **Spec**: 2 oz Blanco Tequila, 0.5 oz Lime juice, 2 oz Grapefruit soda
+   - **Glass/Ice/Garnish**: Highball glass, ice, salted rim, grapefruit slice
+   - **Method**: Rim the glass with salt, fill with ice, add tequila and lime juice, top with grapefruit soda, garnish with a grapefruit slice.
+   - **Cost Notes**: Affordable with house tequila, target pour cost of 18-20%.
+
+### Operational Notes
+- **Batching Consideration**: Batch the sour mix (lemon juice and simple syrup) for the Whiskey Sour to save time. Store in the fridge with a shelf life of 1-2 days.
+- **Station Layout**: Ensure all necessary tools and ingredients are within easy reach to optimize speed.
+- **Training**: Ensure the bartender is comfortable with these builds to maintain speed and consistency.
+
+This approach keeps the menu focused and manageable for one bartender while maximizing profitability and guest satisfaction.
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-08-27 16:22:27)

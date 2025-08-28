@@ -1,0 +1,8 @@
+{
+  "scenario_number": 28,
+  "title": "Aligning Cocktail Menu with Seasonal Food Program",
+  "tags": ["menu_design", "seasonal", "culinary_driven", "guest_experience"],
+  "system_mod": "Emphasize food-beverage synergy, seasonal appeal, and kitchen coordination.",
+  "venue_context": "Farm-to-table restaurant with a rotating food menu every season. Ownership wants cocktails that match the kitchen’s focus without overcomplicating bar operations.",
+  "prompt": "Our chef changes the menu every three months. How do we design cocktails that highlight seasonal ingredients and align with the food program without creating chaos for the bar team?"
+}

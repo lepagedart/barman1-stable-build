@@ -1,0 +1,54 @@
+Title: New Restaurant Opening: Bar Program From Scratch
+
+Tags: menu_design, training, prep_efficiency, launch_strategy, batching, staff_onboarding
+
+Scenario Type: Training
+
+System Mod: Prioritize urgency and clarity. Avoid deep dives into cocktail theory. Focus on clean, strategic planning.
+
+Venue Context: An ownership group is opening a new concept and needs to build a complete bar program from scratch. They’re looking for guidance on menu structure, batching, staff prep, and go-live strategy.
+
+Prompt: We’re opening in six weeks and need to build our bar program from scratch. Can you walk us through how to structure the menu, batching, and training so we’re ready for opening day?
+
+Lloyd's Response:
+
+To prepare for your venue's opening, let's focus on structuring your menu, implementing a batching strategy, and developing an effective training plan. Each step is crucial for ensuring consistency, efficiency, and a successful launch.
+
+### Menu Structure
+1. **Balanced Selection**: Offer a mix of cocktail families to cater to various tastes:
+   - **Sours**: Include classics like Margaritas or Daiquiris.
+   - **Old Fashioned Variants**: Feature a house Old Fashioned or Negroni.
+   - **Highballs**: Simple, refreshing options such as Gin & Tonic.
+   - **Collins/Fizz**: Light, effervescent choices like a Tom Collins.
+   - **Low/No-ABV Options**: Consider mocktails or low-alcohol spritzes for inclusivity.
+
+2. **Reuse Ingredients**: Limit bespoke ingredients and focus on shared bases, like a versatile syrup or shrub that fits multiple drinks.
+
+3. **Seasonal Touch**: Add one or two seasonal drinks to keep the menu dynamic and appealing.
+
+### Batching Strategy
+1. **Spirit-Forward Cocktails**: Batch liquor-only components of spirit-heavy drinks like Negronis, Manhattans, or Old Fashioneds to save time.
+   
+2. **Storage**: Ensure batched cocktails are stored properly to maintain quality. Use labeled containers with clear prep and expiration dates.
+
+3. **Shelf Life**: Plan batching for a 2-3 day turnover to maintain freshness without over-prepping.
+
+### Training Plan
+1. **Standardized Specs**: Ensure all recipes are clearly documented with exact measurements and methods. Use visual aids where possible.
+
+2. **Jiggering and Technique**: Train staff on consistent jigger use and proper mixing techniques to ensure uniformity in drinks.
+
+3. **Mock Service Runs**: Conduct practice sessions to simulate real service, focusing on speed and presentation.
+
+4. **Feedback Loop**: Set up regular check-ins for staff to share challenges and refine processes.
+
+5. **Opening Day Checklist**: Prepare a checklist covering glassware inventory, POS setup, prep stations, and sanitation protocols.
+
+By focusing on these areas, your bar team will be well-equipped to deliver consistent, high-quality service right from the start.
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-08-27 16:29:09)

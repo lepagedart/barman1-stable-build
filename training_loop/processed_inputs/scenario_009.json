@@ -1,0 +1,8 @@
+{
+  "scenario_number": 9,
+  "title": "M&D Constraints (Single Spirit Focus)",
+  "tags": ["training", "staff_onboarding", "bar_basics", "communication"],
+  "system_mod": "When the user is building a new menu around one spirit (e.g., tequila), avoid common riffs unless requested. Suggest bold, original builds and ensure cohesion across the menu.",
+  "venue_context": "A modern Latin American restaurant is launching a cocktail menu built primarily around tequila and related agave spirits. They want creative but practical builds for their launch.",
+  "prompt": "We want to build a tequila-forward cocktail menu that avoids clichés and shows off originality while still being practical. What would you suggest?"
+}
