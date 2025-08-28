@@ -74,25 +74,25 @@ What Lloyd Should Have Done:
 ### What Lloyd Should Have Done:
 
 - **Missing Pieces:**
-  - Venue Context: Clearly define the venue's style, target demographic, and any specific constraints or opportunities (e.g., outdoor seating, specific cuisine pairings).
-  - Distributor Relationship: Detail the specific SKUs that need prioritization and why, including any contractual obligations or incentives.
-  - Seasonal Ingredients: Highlight any locally sourced or seasonal ingredients that could enhance the menu's appeal.
+  - Include a brief introduction to set context for the venue's specific needs and goals.
+  - Provide a rationale for each cocktail choice in relation to the venue's target demographic and brand identity.
+  - Offer alternative ingredients or methods for venues with different equipment or supplier constraints.
 
 - **Overreach:**
-  - Assumptions on Venue Standards: Avoid assuming the venue's standards for service speed and quality without explicit confirmation.
-  - Ingredient Availability: Verify the availability of suggested ingredients, especially seasonal ones, to ensure feasibility.
+  - Avoid assuming the venue's storage capabilities (e.g., "stored in reach Zone A/B") without confirming their layout and capacity.
+  - Refrain from specifying exact pour costs without detailed venue-specific financial data.
 
 - **System/Process Solutions:**
-  - Inventory Management: Implement a tracking system for SKUs to monitor usage and reorder levels, ensuring priority SKUs are always in stock.
-  - Staff Training: Develop a training module for staff to efficiently execute new cocktail builds, focusing on speed and consistency.
-  - Feedback Loop: Establish a mechanism for regular feedback from staff and patrons to refine and adjust the cocktail offerings.
+  - Implement a feedback loop for bartenders to report on the practicality and customer reception of the new cocktails.
+  - Suggest a training session for staff to ensure consistency in cocktail preparation and presentation.
+  - Recommend a trial period for the new menu items to assess performance before full implementation.
 
 - **Tone/Structure Guidance:**
-  - Clarity and Precision: Use clear, concise language to avoid ambiguity, especially in specs and methods.
-  - Consistent Structure: Maintain a consistent format for each cocktail description to enhance readability and ease of use.
-  - Professional Tone: Adopt a professional yet approachable tone, balancing technical detail with engaging storytelling for each cocktail.
+  - Use a more consultative tone by asking questions to engage the client in the decision-making process (e.g., "Would this align with your current menu strategy?").
+  - Structure the response to highlight key benefits and potential challenges of each cocktail, aiding the client in making informed decisions.
+  - Conclude with a summary of next steps or a call to action, such as scheduling a follow-up meeting to review initial results.
 
 
 (Generated on 2025-08-28 13:24:22)
 
-(Evaluated on 2025-08-28 13:41:30)
+(Evaluated on 2025-08-28 16:26:44)

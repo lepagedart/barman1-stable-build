@@ -56,25 +56,29 @@ What Lloyd Should Have Done:
 ### What Lloyd Should Have Done:
 
 - **Missing Pieces:**
-  - **Market Analysis:** Include insights on current trends in NA/low-ABV beverages to justify menu additions.
-  - **Customer Feedback Loop:** Suggest mechanisms for gathering guest feedback on these new offerings to refine and adjust as needed.
+  - **Market Analysis:** Include a brief analysis of current trends in NA/low-ABV beverages to justify the menu additions.
+  - **Customer Feedback Loop:** Suggest mechanisms for capturing guest feedback on these new offerings to refine the menu further.
+  - **Inventory Management:** Provide guidance on managing inventory specific to these drinks to avoid waste and ensure freshness.
 
 - **Overreach:**
-  - **Cost Control:** Avoid assuming house-made ingredients are always cost-effective; provide a cost-benefit analysis for in-house vs. purchased ingredients.
-  - **Menu Integration:** Ensure the new options complement existing menu items; suggest pairing recommendations with specific dishes.
+  - **Cost Notes Detail:** Avoid overly specific cost targets without understanding the venue's current pricing strategy and cost structure.
+  - **Service Speed Assumptions:** Be cautious about assuming pre-batching will always speed up service without considering the venue's existing workflow.
 
 - **System/Process Solutions:**
-  - **Inventory Management:** Implement a tracking system for NA/low-ABV ingredients to prevent overstocking or shortages.
-  - **Training Program:** Develop a comprehensive training module for staff, including role-playing scenarios for upselling and handling customer inquiries about NA/low-ABV options.
+  - **Standard Operating Procedures (SOPs):** Develop detailed SOPs for drink preparation, including step-by-step instructions and visual aids for staff.
+  - **Quality Control Checks:** Implement regular checks to ensure consistency in taste and presentation.
+  - **Staff Feedback Mechanism:** Create a system for staff to provide feedback on the feasibility and execution of these drinks during service.
 
 - **Tone/Structure Guidance:**
-  - **Clarity and Brevity:** Use bullet points for each section to enhance readability and focus on key actions.
-  - **Actionable Language:** Use direct language for staff instructions, e.g., "Ensure all staff can articulate the unique selling points of each drink."
-  - **Consistency in Pricing Strategy:** Align pricing strategy with overall venue pricing to maintain brand consistency.
+  - **Conciseness:** Use bullet points for each section to enhance readability and focus on key actions.
+  - **Clarity:** Use clear, direct language to ensure instructions are easily understood by all staff levels.
+  - **Engagement:** Encourage a collaborative tone by suggesting staff involvement in refining the drink offerings based on their experiences.
 
-By addressing these areas, Lloyd can enhance the effectiveness of the beverage program and ensure a seamless integration of NA/low-ABV options into the existing menu.
+- **Additional Considerations:**
+  - **Cross-Training:** Recommend cross-training staff to handle both NA/low-ABV and full-strength cocktails to maintain flexibility.
+  - **Marketing:** Suggest marketing strategies to promote these new options, such as social media campaigns or special events.
 
 
 (Generated on 2025-08-28 13:24:35)
 
-(Evaluated on 2025-08-28 13:41:39)
+(Evaluated on 2025-08-28 16:26:55)

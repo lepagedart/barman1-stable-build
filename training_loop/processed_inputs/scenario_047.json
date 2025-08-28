@@ -1,0 +1,9 @@
+{
+  "scenario_number": 47,
+  "title": "Tech Integration for Beverage Program",
+  "tags": ["technology", "POS", "menu_design", "efficiency"],
+  "scenario_type": "Training",
+  "system_mod": "Call out tech stack alignment. Show how Lloyd would integrate with POS or ordering platforms.",
+  "venue_context": "A 4-location restaurant group wants to sync cocktail menu updates with Toast POS and use QR codes for seasonal specials.",
+  "prompt": "How should we structure our bar program updates so they integrate smoothly with Toast and QR-based menus, keeping staff and guests aligned?"
+}

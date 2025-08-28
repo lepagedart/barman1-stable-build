@@ -1,0 +1,9 @@
+{
+  "scenario_number": 48,
+  "title": "High-Volume Patio Bar Workflow",
+  "tags": ["layout", "workflow", "speed_of_service", "staffing"],
+  "scenario_type": "Training",
+  "system_mod": "Force ergonomic detail—stations, reach zones, collision rules.",
+  "venue_context": "A brewery with a 200-seat patio is adding an outdoor cocktail bar. Staff need to handle both walk-up guests and server drink tickets.",
+  "prompt": "What’s the best way to set up the layout and workflow for our patio cocktail bar so three bartenders can handle high volume without collisions?"
+}

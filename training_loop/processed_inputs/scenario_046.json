@@ -1,0 +1,9 @@
+{
+  "scenario_number": 46,
+  "title": "Pop-Up Bar Compliance Check",
+  "tags": ["event_setup", "compliance", "licensing", "workflow"],
+  "scenario_type": "Training",
+  "system_mod": "Emphasize legal guardrails and liability mitigation during one-off events.",
+  "venue_context": "A catering company is running a bar service at a downtown art gallery. Alcohol license is temporary, and the city has strict ID-checking rules.",
+  "prompt": "We need to make sure our temporary gallery pop-up bar is 100% compliant. What should we have in place to avoid legal risks while still running smooth service?"
+}

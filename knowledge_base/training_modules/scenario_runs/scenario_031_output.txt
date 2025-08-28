@@ -58,29 +58,25 @@ What Lloyd Should Have Done:
 ### What Lloyd Should Have Done:
 
 - **Missing Pieces:**
-  - **Venue Context**: Provide specific details about the venue layout and constraints to tailor the advice more precisely.
-  - **Customization**: Offer options for different bar sizes or configurations (e.g., U-shaped, L-shaped) to ensure applicability across various setups.
-  - **Technology Integration**: Mention potential use of technology (e.g., automated inventory systems) to support the proposed processes.
+  - Include a section on staff training for new layout and processes to ensure smooth implementation.
+  - Address potential customer interaction improvements, such as visibility and accessibility of bartenders to guests.
+  - Consider safety measures for handling spills and broken glassware.
 
 - **Overreach:**
-  - **Assumptions on Bartender Roles**: Avoid assuming the venue has a strict division of roles without understanding staff capabilities and preferences.
-  - **Batching Advice**: Clarify that batching should comply with local regulations and consider the impact on cocktail quality.
+  - Avoid overly prescriptive instructions on tool placement without considering venue-specific needs and bartender preferences.
+  - Limit assumptions about cocktail popularity and batching without data from the venue.
 
 - **System/Process Solutions:**
-  - **Feedback Loop**: Implement a regular feedback mechanism for bartenders to suggest improvements to the layout and processes.
-  - **Training Module**: Develop a training module for new staff to quickly adapt to the optimized layout and processes.
-  - **Continuous Improvement**: Schedule periodic reviews of the layout and processes to adapt to changing service demands or menu updates.
+  - Implement a feedback loop post-implementation to gather bartender insights and adjust the layout as needed.
+  - Develop a checklist for daily setup and closing procedures to maintain consistency.
+  - Introduce a digital inventory system to track stock levels and reduce manual errors.
 
 - **Tone/Structure Guidance:**
-  - **Conciseness**: Use bullet points for each section to enhance readability and quick reference.
-  - **Clarity**: Ensure each section has a clear, actionable outcome, avoiding overly technical jargon.
-  - **Engagement**: Encourage staff involvement by suggesting they participate in the mock service drill and provide feedback.
-
-- **Additional Considerations:**
-  - **Safety Protocols**: Include safety protocols to prevent accidents, especially in high-traffic areas.
-  - **Sustainability**: Suggest eco-friendly practices, like minimizing waste during batching and restocking.
+  - Use a more collaborative tone, inviting feedback and suggestions from the venue staff.
+  - Structure the response with a clear introduction and conclusion to frame the detailed recommendations.
+  - Break down complex processes into simpler, actionable steps for clarity and ease of understanding.
 
 
 (Generated on 2025-08-28 13:23:49)
 
-(Evaluated on 2025-08-28 13:41:13)
+(Evaluated on 2025-08-28 16:26:27)

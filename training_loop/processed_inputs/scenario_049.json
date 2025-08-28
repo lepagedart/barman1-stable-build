@@ -1,0 +1,9 @@
+{
+  "scenario_number": 49,
+  "title": "Sustainable Bar Program",
+  "tags": ["sustainability", "waste_reduction", "menu_design", "cost_control"],
+  "scenario_type": "Training",
+  "system_mod": "Highlight sustainability practices and cost savings together.",
+  "venue_context": "A farm-to-table restaurant wants its bar program to reflect its zero-waste ethos while staying profitable.",
+  "prompt": "What sustainable cocktail practices and menu design choices can we implement to reduce waste while protecting margins?"
+}

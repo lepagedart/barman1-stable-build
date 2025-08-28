@@ -69,30 +69,25 @@ What Lloyd Should Have Done:
 ### What Lloyd Should Have Done:
 
 - **Missing Pieces:**
-  - Include a contingency plan for potential delays or issues (e.g., supply chain disruptions, staff shortages).
-  - Address health and safety protocols, especially in light of ongoing public health concerns.
-  - Specify roles and responsibilities for each team member during the preparation and opening phases.
+  - Include a detailed risk assessment for potential issues (e.g., supplier delays, equipment failures) and contingency plans.
+  - Address regulatory compliance checks beyond batching (e.g., health and safety inspections).
+  - Incorporate customer service training to ensure staff are prepared for guest interactions.
 
 - **Overreach:**
-  - Avoid assuming all venues have the same resources; tailor the plan to different venue sizes and staff capabilities.
-  - Refrain from suggesting a "one-size-fits-all" approach for batching; some cocktails may not be suitable for pre-batching.
+  - Avoid assuming all venues can batch cocktails; suggest assessing venue-specific capabilities and local regulations first.
+  - Do not presume all staff are at the same skill level; propose tailored training sessions based on individual assessments.
 
 - **System/Process Solutions:**
-  - Implement a digital inventory management system to track stock levels and reorder needs in real-time.
-  - Use a project management tool to assign tasks, set deadlines, and monitor progress throughout the preparation period.
-  - Establish a feedback loop with staff for continuous improvement, not just during the soft opening.
+  - Implement a feedback loop system where staff can continuously report issues or improvements post-opening.
+  - Introduce a digital inventory management system to streamline stock tracking and ordering processes.
+  - Suggest a post-opening review meeting to evaluate the launch and plan for ongoing operations.
 
 - **Tone/Structure Guidance:**
-  - Use a more collaborative tone, inviting feedback and suggestions from the team.
-  - Break down tasks into smaller, more manageable steps with clear deadlines and responsible parties.
-  - Provide more context or examples for each step to ensure clarity and understanding.
-
-- **Conciseness and Clarity:**
-  - Eliminate redundant phrases and focus on action-oriented language.
-  - Use bullet points consistently for easy reading and quick reference.
-  - Ensure each section has a clear purpose and outcome, avoiding unnecessary detail.
+  - Use more direct language for action items (e.g., "Ensure" instead of "Confirm").
+  - Structure the plan with clear, actionable steps and responsible parties for each task.
+  - Maintain a professional yet approachable tone to encourage engagement and adherence to the plan.
 
 
 (Generated on 2025-08-28 13:24:05)
 
-(Evaluated on 2025-08-28 13:41:22)
+(Evaluated on 2025-08-28 16:26:36)

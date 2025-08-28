@@ -1,0 +1,9 @@
+{
+  "scenario_number": 50,
+  "title": "Distributor Portfolio Audit",
+  "tags": ["portfolio_matching", "financials", "supplier_relationships"],
+  "scenario_type": "Training",
+  "system_mod": "Call out quarterly review systems and supplier incentive tracking.",
+  "venue_context": "A regional hotel group is reviewing its liquor contracts and wants to maximize distributor incentives across five properties.",
+  "prompt": "How should we audit and align our cocktail menu with our distributors’ portfolios so we maximize rebates and incentives at scale?"
+}
