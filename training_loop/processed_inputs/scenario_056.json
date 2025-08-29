@@ -1,0 +1,8 @@
+{
+  "scenario_number": 56,
+  "title": "Profitability Tune-Up on a Popular But Low-Margin Menu",
+  "tags": ["profitability", "cost_control", "menu_design", "operational_feasibility", "batching"],
+  "system_mod": "Activate Profitability Lens. Prioritize cost deltas, swap suggestions, and SKU consolidation. Provide a 4-week action plan with measurable targets (pour cost, velocity, waste).",
+  "venue_context": "High-volume neighborhood restaurant doing 900 covers Fri/Sat. Cocktail menu of 12 drinks sells well but margins are thin; fresh citrus and premium modifiers driving cost creep.",
+  "prompt": "Our cocktail program is busy but profit is lagging. Where can we claw back margin without killing guest satisfaction? Be specific—what to swap, batch, or cut—and show the math."
+}

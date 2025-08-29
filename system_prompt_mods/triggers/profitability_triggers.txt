@@ -1,0 +1,13 @@
+# Trigger terms for profitability lens
+profit
+margin
+pour cost
+cost control
+pricing
+roi
+return on investment
+yield
+waste
+variance
+overpour
+overhead

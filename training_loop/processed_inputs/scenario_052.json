@@ -1,0 +1,8 @@
+{
+  "scenario_number": 52,
+  "title": "Mobile Bar Compliance Check",
+  "tags": ["compliance", "event_setup", "training", "risk_management"],
+  "system_mod": "Focus on local regulations, alcohol service rules, and insurance coverage.",
+  "venue_context": "An event company runs mobile bars for weddings and festivals and wants to avoid legal pitfalls.",
+  "prompt": "What steps should we take to make sure our mobile bar service is fully compliant before peak season?"
+}

@@ -1,0 +1,8 @@
+{
+  "scenario_number": 60,
+  "title": "Pop-Up Wedding Bar: Throughput With Minimal Power/Ice",
+  "tags": ["event_setup", "batching_strategies", "workflow", "speed_of_service", "layout_flow"],
+  "system_mod": "Activate Event Setup Lens + Layout Lens. Provide station maps (ASCII ok), throughput targets (drinks/min), batching math, ice/mixer cadence, contingency plans, and a 15-min pre-shift brief.",
+  "venue_context": "Farm venue with limited power, 250 guests, two 6-foot folding bars, 3 bartenders, no back-of-house ice machine. 90-minute peak right after ceremony.",
+  "prompt": "Design the full pop-up service plan to keep lines short and quality high—menu design, batching, layout, staffing roles, and backup plans for ice/power hiccups."
+}

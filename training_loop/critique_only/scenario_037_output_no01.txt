@@ -1,0 +1,74 @@
+Title: Corporate Holiday Party Bar Flow
+
+Tags: event_setup, workflow, prep_efficiency, guest_experience, waste_management
+
+Scenario Type: Training
+
+System Mod: Focus on pop-up ergonomics, batching math, and guest throughput targets. Build in contingency plans for glassware, mixers, and staffing.
+
+Venue Context: Corporate holiday party with 500 guests at a rented loft. Temporary bar, limited back-of-house support, one shot at execution.
+
+Prompt: We’re setting up a one-night bar for a corporate holiday event with 500 people. We need a plan that keeps lines down, feels premium, and avoids massive waste at the end. How do we design the menu, batching, and staffing flow?
+
+Lloyd's Response:
+
+For your corporate holiday event, the key is a streamlined bar operation that ensures quick service, premium feel, and minimal waste. Here's a tactical plan:
+
+### Menu Design
+1. **Focused Selection**: Limit the menu to 3-4 crowd-pleasers to keep service efficient.
+   - **Classic Highball**: Whiskey Ginger or Vodka Soda with a premium touch such as an artisanal syrup or fresh herb garnish.
+   - **Pre-Batched Sour**: A seasonal choice like a Cranberry Margarita or Winter Spiced Daiquiri.
+   - **Signature Cocktail**: Create one themed drink that aligns with the event (e.g., "Holiday Sparkler" with prosecco and a berry liqueur).
+   - **Non-Alcoholic Option**: Include a festive mocktail, such as a Spiced Apple Punch.
+
+### Batching Strategy
+- **Batch in Advance**: Prepare large batches of spirit-forward cocktails and sours. Store in labeled dispensers for quick service.
+- **Portion Control**: Use consistent measurement tools (jiggers) to ensure portion control and minimize waste.
+- **Shelf Stability**: Choose recipes with ingredients that maintain quality over a few hours (avoid fresh citrus in batch).
+
+### Staffing and Flow
+1. **Staff Allocation**: 
+   - Assign a minimum of 4 bartenders to handle volume, depending on the venue layout.
+   - 2-3 bartenders dedicated to pouring from pre-batched dispensers.
+   - 1 bartender dedicated to non-alcoholic drinks and garnishing.
+
+2. **Service Speed**:
+   - Use a two-station setup for high-volume service.
+   - Implement a clear FIFO (first-in, first-out) strategy for guests to maintain order.
+
+3. **Guest Touchpoints**:
+   - Include one or two roaming staff members to offer guests refills or take orders, reducing line congestion at the bar.
+
+### Operational Considerations
+- **Setup**: Ensure clear signage for drink options to expedite decision-making.
+- **Inventory Management**: Monitor pour levels throughout the event to adjust batch amounts and keep waste minimal.
+- **Feedback Loop**: Have a quick debrief with staff at midpoint to make necessary adjustments based on flow and guest feedback.
+
+By implementing this plan, you can ensure a smooth, premium experience for your guests while keeping operations efficient and waste to a minimum.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces**:
+  - **Venue Context**: Specify the venue size and layout to tailor staffing and setup recommendations.
+  - **Guest Demographics**: Consider guest preferences and dietary restrictions to refine drink options.
+  - **Event Duration**: Include timing to adjust batching and staffing needs accordingly.
+
+- **Overreach**:
+  - **Staffing Recommendations**: Suggest a range based on guest count rather than a fixed number of bartenders.
+  - **Batching Strategy**: Avoid assuming all cocktails can be pre-batched; some may require on-the-spot preparation for quality.
+
+- **System/Process Solutions**:
+  - **Inventory Tracking**: Implement a digital system for real-time inventory tracking to prevent shortages.
+  - **Feedback Mechanism**: Use digital surveys or a quick feedback form for guests to streamline the feedback loop.
+
+- **Tone/Structure Guidance**:
+  - **Conciseness**: Use bullet points for each section to enhance readability and quick reference.
+  - **Actionable Steps**: Clearly outline steps for each recommendation to facilitate implementation.
+  - **Professional Tone**: Maintain a formal tone suitable for corporate settings, avoiding overly casual language.
+
+
+(Generated on 2025-08-28 13:40:18)
+
+(Evaluated on 2025-08-28 16:27:20)

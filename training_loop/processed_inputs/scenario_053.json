@@ -1,0 +1,8 @@
+{
+  "scenario_number": 53,
+  "title": "High-Throughput Poolside Bar Layout",
+  "tags": ["layout", "workflow", "speed_of_service", "ergonomics"],
+  "system_mod": "Stress-test station setup for ergonomic efficiency and speed.",
+  "venue_context": "A luxury hotel wants to reconfigure its poolside bar to serve 250+ guests quickly on hot afternoons.",
+  "prompt": "How should we set up our poolside bar stations to keep service fast, staff efficient, and lines short?"
+}

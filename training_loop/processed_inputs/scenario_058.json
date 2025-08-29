@@ -1,0 +1,8 @@
+{
+  "scenario_number": 58,
+  "title": "Compliance Check for a Seasonal Patio Program",
+  "tags": ["compliance", "event_setup", "training", "operational_risk", "service"],
+  "system_mod": "Activate Compliance Lens. List specific do/don’ts for outdoor service: ID checks, batching rules, open-container boundaries, signage, allergy & ABV disclosures. Provide a pre-shift compliance checklist.",
+  "venue_context": "Waterfront restaurant opening a seasonal patio bar with two service points and a roving server. Local regulators are strict about outdoor alcohol service zones and allergen labeling.",
+  "prompt": "Before we launch the patio bar, what are the critical compliance steps we must implement? Include training, signage, batching/transport rules, and a shift-opening checklist."
+}
