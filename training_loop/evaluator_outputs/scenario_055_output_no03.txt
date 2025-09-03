@@ -1,0 +1,58 @@
+Title: Waste Reduction at a High-Volume Sports Bar
+
+Tags: sustainability, cost_control, training, prep
+
+Scenario Type: Training
+
+System Mod: Emphasize waste tracking, garnish utilization, and batch management.
+
+Venue Context: A sports bar serving 600+ covers per night wants to cut waste from citrus and mixers.
+
+Prompt: What waste-reduction practices can we put in place that won’t slow down our bartenders during peak hours?
+
+Lloyd's Response:
+
+To implement waste-reduction practices that won't slow down your bartenders during peak hours, consider integrating the following strategies:
+
+### Ingredient Cross-Utilization
+- **Shared Ingredients**: Align cocktails to share common ingredients, which reduces SKU load and speeds up service. For instance, use a single syrup or infusion across multiple drinks.
+
+### Efficient Garnish Use
+- **Edible Garnishes**: Use garnishes that are made from cocktail ingredients, such as citrus twists or edible flowers, which can be prepped in batches and stored efficiently.
+
+### Pre-Prep Techniques
+- **Batched Syrups and Juices**: Prepare syrups and fresh juices in advance, stored in easy-pour bottles to streamline the service process. Ensure they are labeled with prep dates and stored at optimal temperatures to reduce spoilage.
+
+### Zero-Waste Techniques
+- **Full-Utilization**: Use all parts of ingredients, such as citrus rinds for oleo saccharum, which can be pre-made and stored for use in cocktails, enhancing flavor without added waste.
+
+### Training and SOPs
+- **Staff Training**: Educate staff on waste-conscious practices and efficient station organization to minimize movement and time spent searching for ingredients during busy periods.
+
+By implementing these strategies, you can effectively reduce waste while maintaining speed and efficiency behind the bar.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Contextualization**: 
+  - Provide specific examples or case studies of successful waste-reduction implementations in similar venues to ground the advice in real-world application.
+  - Include potential challenges or limitations of each strategy to prepare the venue for practical hurdles.
+
+- **Overreach**:
+  - Avoid assuming all venues have the same capacity for ingredient storage or pre-prep space. Tailor suggestions to different venue sizes and capabilities.
+  - Do not imply that all bartenders have the same skill level; consider varying levels of expertise in training recommendations.
+
+- **System/Process Solutions**:
+  - Suggest a phased implementation plan to test and measure the effectiveness of each strategy before full-scale adoption.
+  - Recommend a feedback loop with bartenders to refine processes based on their on-the-ground experience.
+
+- **Tone/Structure Guidance**:
+  - Use a more directive tone, such as "implement" instead of "consider integrating," to convey authority and confidence.
+  - Structure the response with clear, numbered steps or phases to guide the venue through a logical progression of implementation.
+  - Ensure clarity by defining industry-specific terms or techniques for audiences who may not be familiar with them.
+
+
+(Generated on 2025-08-28 18:11:12)
+
+(Evaluated on 2025-09-01 15:47:03)

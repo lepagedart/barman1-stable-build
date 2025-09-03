@@ -1,0 +1,9 @@
+{
+  "scenario_number": 70,
+  "title": "Back Bar Layout for Speed in High-Volume Venue",
+  "tags": ["layout", "workflow", "ergonomics", "speed_of_service"],
+  "scenario_type": "Training",
+  "system_mod": "Layout Lens",
+  "venue_context": "A 500-capacity nightclub is redesigning its back bar. They want bartenders to serve quickly during rushes without collisions or wasted motion.",
+  "prompt": "What’s the most efficient back bar layout for a high-volume nightclub where bartenders need to move fast and avoid collisions?"
+}

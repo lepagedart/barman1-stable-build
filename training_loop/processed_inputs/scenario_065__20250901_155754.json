@@ -1,0 +1,9 @@
+{
+  "scenario_number": 65,
+  "title": "Bar Layout Redesign for Speed",
+  "tags": ["layout", "ergonomics", "workflow", "speed_of_service"],
+  "scenario_type": "Training",
+  "system_mod": "Layout Lens",
+  "venue_context": "A busy nightclub with high cocktail volume needs a bar redesign to improve throughput without compromising quality.",
+  "prompt": "What’s the most effective bar layout and rail loadout for a nightclub pushing high volumes? Provide ergonomic details and build path optimization."
+}

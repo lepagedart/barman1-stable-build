@@ -1,0 +1,78 @@
+Title: Improving Speed of Service at High-Volume Concert Venue
+
+Tags: workflow, layout_flow, event_setup, speed_of_service
+
+Scenario Type: Training
+
+System Mod: Recommend ergonomic layouts, batching, and staffing strategies specific to live events.
+
+Venue Context: Concert hall with 1,500 guests and multiple lobby bars. Guests often miss music sets waiting in long lines for drinks.
+
+Prompt: During concerts, lines for drinks are insane and guests miss the show. How should we design bar setups and menus to maximize speed without sacrificing margins?
+
+Lloyd's Response:
+
+To enhance service speed during concerts while maintaining margins, here's a strategic approach focusing on bar setup and menu design:
+
+### Bar Setup Optimization
+
+1. **Station Map & Layout**:
+   - **Service Well vs Guest Well**: Designate specific wells for service (taking orders) and guest interaction. This prevents congestion and allows bartenders to specialize.
+   - **Reach Zones**: Arrange tools and ingredients in three zones: A (0–18"), B (18–30"), C (>30"). Keep frequently used items like speed pour bottles and jiggers in Zone A.
+   - **Rail Loadout**: Organize bottles L→R by frequency of use. Place dump sink and ice bin centrally for easy access.
+
+2. **Traffic Flow & Collision Controls**:
+   - Implement one-way traffic lanes and define clear handoff points for completed drinks.
+   - Place POS systems away from high-traffic areas to reduce bottlenecks.
+   - Establish “no stand” zones near entry and exit points to keep pathways clear.
+
+### Menu Design for Speed
+
+1. **Streamlined Drink Options**:
+   - Focus on highballs, spritzes, and batched cocktails that require minimal preparation.
+   - Use pre-batched spirit and modifier mixes for complex cocktails to reduce shake/stir time.
+
+2. **Batching and Pre-Prep**:
+   - Pre-batch popular cocktails and store them in speed pour bottles for quick service. Ensure compliance with health regulations regarding batch storage and shelf life.
+   - Prepare garnishes in advance and have them neatly organized within easy reach.
+
+3. **Cost and Margin Control**:
+   - Price drinks with a target pour cost of 20–25% to maintain healthy margins. Use mid-tier spirits that balance quality and cost.
+   - Offer upsell options like premium spirits or specialty garnishes to increase check averages without slowing service.
+
+### Action Checklist
+
+- **Set Up Bar Stations**: Map out station zones and test the layout during a mock service drill to identify potential bottlenecks.
+- **Train Staff on Workflow**: Conduct a training session focusing on efficient drink assembly and role specialization.
+- **Review and Adjust**: After initial implementation, gather feedback from staff and guests to make necessary adjustments for continuous improvement.
+
+By optimizing the physical setup and simplifying the menu, you can significantly reduce wait times, allowing guests to enjoy more of the concert while still driving profitable beverage sales.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces**:
+  - **Staffing Strategy**: Include a plan for staffing levels and roles during peak times to ensure the setup is adequately supported.
+  - **Technology Integration**: Suggest using technology like mobile ordering or self-service kiosks to further reduce wait times.
+  - **Guest Experience**: Address how to maintain a high-quality guest experience despite the focus on speed.
+
+- **Overreach**:
+  - **Complexity of Setup**: Simplify the bar setup recommendations. Avoid overly detailed zoning that might confuse staff or be impractical in a concert setting.
+  - **Menu Design Specificity**: Avoid prescribing specific drink types (e.g., highballs, spritzes) without considering the venue's audience preferences.
+
+- **System/Process Solutions**:
+  - **Feedback Loop**: Implement a structured feedback loop post-event to evaluate the effectiveness of changes and identify further improvements.
+  - **Standard Operating Procedures (SOPs)**: Develop clear SOPs for bar setup and service flow to ensure consistency and efficiency.
+
+- **Tone/Structure Guidance**:
+  - **Conciseness**: Use bullet points for clarity and brevity. Focus on high-impact changes.
+  - **Actionable Language**: Use direct, actionable language to ensure recommendations are clear and implementable.
+  - **Prioritization**: Highlight the most critical changes first to guide immediate action.
+
+By refining the approach with these adjustments, Lloyd can create a more effective and practical strategy for enhancing service speed and maintaining profitability during concerts.
+
+
+(Generated on 2025-08-28 04:10:06)
+
+(Evaluated on 2025-08-28 04:10:45)

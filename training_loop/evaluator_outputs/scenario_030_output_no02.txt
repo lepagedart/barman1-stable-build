@@ -1,0 +1,63 @@
+Title: Upselling Opportunities in Casual Dining
+
+Tags: staff_development, upselling, guest_engagement, training
+
+Scenario Type: Training
+
+System Mod: Focus on practical upselling tactics, staff scripts, and guest engagement strategies.
+
+Venue Context: Family-style casual dining restaurant with a full bar but staff rarely suggest cocktails or higher-margin items.
+
+Prompt: Our servers and bartenders aren’t upselling cocktails or premium spirits. How can we train staff to upsell without being pushy and improve our check averages?
+
+Lloyd's Response:
+
+To effectively train your staff to upsell cocktails and premium spirits without appearing pushy, focus on education, engagement techniques, and goal-setting. Here’s a step-by-step approach:
+
+### Staff Training and Education
+- **Product Knowledge:** Ensure your staff understands the flavor profiles, stories, and unique selling points of premium spirits and featured cocktails. Use brief, engaging sessions to cover key points.
+- **Tasting Sessions:** Organize regular tastings so staff can personally experience the products they're recommending. This builds confidence and authenticity in their suggestions.
+
+### Engagement Techniques
+- **Conversational Upselling:** Train staff to engage guests by asking open-ended questions like, "Are you in the mood for something refreshing or bold?" This approach helps guide the guest's decision without pressure.
+- **Storytelling:** Encourage staff to share interesting anecdotes about the cocktail's ingredients or the history of a particular spirit. This creates a narrative that captivates guests.
+- **Suggestive Pairing:** Teach staff to suggest cocktail pairings that enhance the dining experience, such as recommending a specific spirit that complements a guest's entrée.
+
+### Setting Goals and Incentives
+- **Check Average Targets:** Set realistic targets for check averages and communicate these goals clearly. Provide individual and team incentives for meeting targets, such as bonuses or recognition.
+- **Role-Playing Exercises:** Use role-playing sessions where staff practice upselling scenarios. Provide feedback and highlight successful techniques.
+- **Regular Feedback:** Hold brief, regular meetings to discuss upselling successes and areas for improvement. Use these sessions to share tips and celebrate achievements.
+
+### Summary Checklist
+1. Conduct product knowledge and tasting sessions regularly.
+2. Train staff on conversational upselling and storytelling techniques.
+3. Set clear check average targets with corresponding incentives.
+4. Implement role-playing exercises to practice upselling.
+5. Provide ongoing feedback and celebrate upselling successes.
+
+By focusing on these strategies, you can empower your staff to upsell effectively, enhancing guest satisfaction and increasing your venue's check averages.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Guest-Centric Approach:** Emphasize understanding guest preferences and tailoring suggestions accordingly. This ensures recommendations are personalized and relevant.
+  - **Feedback Loop:** Implement a system for collecting guest feedback on upselling experiences to refine techniques and address any negative perceptions.
+  
+- **Overreach:**
+  - **Overemphasis on Incentives:** Balance incentives with intrinsic motivation by fostering a culture of genuine hospitality rather than purely sales-driven interactions.
+  
+- **System/Process Solutions:**
+  - **Training Schedule:** Establish a structured, ongoing training schedule with clear timelines and objectives to ensure consistency and thoroughness.
+  - **Performance Metrics:** Develop a system to track individual and team performance in upselling, using data to identify trends and areas for improvement.
+  
+- **Tone/Structure Guidance:**
+  - **Conciseness:** Streamline sections to avoid redundancy, ensuring each point is distinct and actionable.
+  - **Clarity:** Use clear, direct language to outline steps, avoiding jargon that might confuse staff.
+  - **Engagement:** Incorporate interactive elements in training, such as quizzes or group discussions, to maintain engagement and reinforce learning.
+
+
+(Generated on 2025-08-29 17:19:55)
+
+(Evaluated on 2025-09-01 15:45:52)

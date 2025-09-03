@@ -1,0 +1,9 @@
+{
+  "scenario_number": 63,
+  "title": "Pop-Up Event: Limited Power Supply",
+  "tags": ["event_setup", "workflow", "contingency_planning", "efficiency"],
+  "scenario_type": "Training",
+  "system_mod": "Event Setup Lens",
+  "venue_context": "A brewery is hosting a pop-up cocktail bar for a 200-person event but only has limited access to power and refrigeration.",
+  "prompt": "What’s the most efficient service strategy under limited power supply? Address batching, storage, and contingency planning."
+}

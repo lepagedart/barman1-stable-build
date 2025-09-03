@@ -1,0 +1,72 @@
+Title: Distributor-Aligned Menu That Still Feels On-Brand
+
+Tags: portfolio_matching, supplier_relationships, menu_design, guest_appeal, costing
+
+Scenario Type: Training
+
+System Mod: Activate Portfolio Lens. Map 3 tiers of brand placement (core, feature, experimental) with incentives and co-marketing. Include a 90-day review cadence and a staff brief for brand storytelling.
+
+Venue Context: Modern brasserie buying primarily through Breakthru. They want deeper incentives and marketing support but are wary of a menu that reads like an ad.
+
+Prompt: Help us align the cocktail list with Breakthru’s portfolio targets without cheapening the guest experience. Propose placements, guardrails, and how we’ll track value from the partnership.
+
+Lloyd's Response:
+
+To align your cocktail list with Breakthru’s portfolio targets while maintaining a premium guest experience, you should focus on strategic placements, operational guardrails, and value tracking. Here’s a concise plan to achieve this:
+
+### Financial Impact
+- **Pour Cost Targets**: Set a target pour cost percentage for Breakthru products, ideally between 18-22% to ensure profitability while meeting portfolio goals.
+- **SKU Rationalization**: Focus on a core selection of Breakthru’s best-selling or most promoted spirits. Limit unique SKUs to avoid overstock and simplify inventory management.
+- **Incentive Tracking**: Establish a quarterly review process with Breakthru to assess incentives and adjust placements based on performance.
+
+### Supplier Integration
+- **Quarterly Reviews**: Schedule regular meetings with Breakthru representatives to discuss performance metrics, explore new product launches, and align on promotional strategies.
+- **Menu Adaptations**: Be prepared to adjust the cocktail list in response to incentive changes, ensuring that new placements align with both guest expectations and financial goals.
+
+### Operational Processes
+- **SKU Mapping**: Clearly map Breakthru products to their corresponding cocktails, ensuring staff can easily identify and upsell these items.
+- **Par Level Management**: Maintain optimal stock levels for Breakthru products to prevent outages and over-purchasing.
+- **Substitution Protocols**: Develop a list of approved substitutes for Breakthru products to ensure consistency and availability.
+
+### Staff Training
+- **Brand Education Modules**: Implement training sessions focused on Breakthru’s portfolio, highlighting key selling points and brand stories to enhance guest interactions.
+- **Upselling Scripts**: Provide staff with scripts and techniques for effectively recommending Breakthru-based cocktails.
+
+### Guest Perception
+- **Premium Feel**: Ensure that the use of Breakthru products does not come off as a sales push. Highlight quality and craftsmanship in cocktail descriptions and presentations.
+- **Feedback Loop**: Use guest feedback to refine the menu and service approach, ensuring that portfolio-driven choices remain guest-centric.
+
+### Summary Checklist
+1. Set pour cost targets and rationalize SKUs for Breakthru products.
+2. Schedule quarterly reviews with Breakthru for performance and incentive tracking.
+3. Implement SKU mapping and substitution protocols for operational consistency.
+4. Conduct staff training on Breakthru’s portfolio and upselling techniques.
+5. Monitor guest feedback to ensure a premium experience remains at the forefront.
+
+By following these steps, you can effectively integrate Breakthru’s portfolio into your cocktail program without compromising the guest experience.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Guest-Centric Approach:** The response lacks specific strategies for tailoring the cocktail list to guest preferences and local trends, which could enhance guest satisfaction and loyalty.
+  - **Data-Driven Decisions:** There is no mention of utilizing sales data and guest feedback to continuously refine the cocktail offerings and ensure alignment with both guest expectations and financial objectives.
+
+- **Overreach:**
+  - **Incentive Tracking Complexity:** The suggestion to establish a quarterly review process with Breakthru may be overly complex for venues with limited resources. Simplifying this to bi-annual reviews could be more feasible.
+  - **Staff Training Depth:** The proposed brand education modules and upselling scripts might be too extensive for venues with high staff turnover. Consider more concise, focused training sessions.
+
+- **System/Process Solutions:**
+  - **Feedback Integration:** Implement a system for collecting and analyzing guest feedback regularly to inform menu adjustments and ensure alignment with guest preferences.
+  - **Simplified Inventory Management:** Introduce a streamlined inventory management system that integrates with POS data to automatically track SKU performance and adjust stock levels accordingly.
+
+- **Tone/Structure Guidance:**
+  - **Clarity and Brevity:** Use bullet points for each section to enhance readability and ensure key actions are easily identifiable.
+  - **Action-Oriented Language:** Use more direct language to specify actions, such as "implement," "schedule," and "train," to clearly define responsibilities and expectations.
+  - **Balanced Focus:** Ensure equal emphasis on financial goals and guest experience to convey a holistic approach to cocktail program management.
+
+
+(Generated on 2025-08-29 16:35:28)
+
+(Evaluated on 2025-09-01 16:00:10)

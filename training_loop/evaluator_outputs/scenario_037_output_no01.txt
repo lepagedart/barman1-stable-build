@@ -1,0 +1,77 @@
+Title: Corporate Holiday Party Bar Flow
+
+Tags: event_setup, workflow, prep_efficiency, guest_experience, waste_management
+
+Scenario Type: Training
+
+System Mod: Focus on pop-up ergonomics, batching math, and guest throughput targets. Build in contingency plans for glassware, mixers, and staffing.
+
+Venue Context: Corporate holiday party with 500 guests at a rented loft. Temporary bar, limited back-of-house support, one shot at execution.
+
+Prompt: We’re setting up a one-night bar for a corporate holiday event with 500 people. We need a plan that keeps lines down, feels premium, and avoids massive waste at the end. How do we design the menu, batching, and staffing flow?
+
+Lloyd's Response:
+
+For a corporate holiday event serving 500 guests, efficiency and premium service are key. Here's a streamlined plan focusing on menu design, batching, and staffing flow to ensure smooth service without excess waste.
+
+### Menu Design
+- **Limited Selection**: Choose 3–4 signature cocktails that balance classic appeal and ease of batching.
+  - **Signature Cocktail**: A festive take on a classic, such as a Cranberry Moscow Mule.
+  - **Whiskey-Based Option**: Consider a simple Old Fashioned or a Whiskey Sour.
+  - **Sparkling Option**: A Champagne cocktail, like a Kir Royale, for a festive touch.
+  - **Non-Alcoholic Option**: Offer a mocktail like a Ginger Lemon Fizz.
+
+### Batching Strategy
+- **Pre-Batch Cocktails**: Prepare liquor-only batches for each cocktail to streamline service.
+  - **Shelf Life**: Ensure pre-batched cocktails are used within 24-48 hours for optimal freshness.
+  - **Storage**: Use large dispensers or pitchers for quick access and refills.
+- **Glassware**: Use uniform glassware to simplify service and avoid shortages.
+
+### Staffing Flow
+- **Bar Setup**: Establish multiple stations to reduce wait times.
+  - **Station 1**: Highball and Sparkling Cocktails.
+  - **Station 2**: Whiskey and Signature Cocktails.
+  - **Station 3**: Non-Alcoholic and Beer/Wine.
+- **Staffing**: Allocate 1 bartender per 75-100 guests, with additional support staff for glassware and restocking.
+- **Service Flow**: Implement a one-way traffic pattern to minimize congestion and ensure smooth guest flow.
+
+### Operational Notes
+- **Prep Time**: Allocate 2-3 hours for batching, setup, and staff briefing before the event.
+- **Waste Management**: Use jiggers for precise pours to control liquor usage and minimize waste.
+- **Mock Service Drill**: Conduct a 20-minute run-through before guests arrive to identify potential bottlenecks.
+
+### Action Checklist
+1. Finalize and test cocktail recipes for batching.
+2. Coordinate staff roles and conduct a pre-event briefing.
+3. Set up bar stations with clear signage and access to pre-batched cocktails.
+4. Execute a mock service to ensure preparedness.
+5. Implement precise inventory tracking to monitor consumption and prevent shortages.
+
+By focusing on a limited, crowd-pleasing menu and optimizing your batching and staffing strategy, you'll provide a premium experience while maintaining efficiency and minimizing waste.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Guest Preferences & Dietary Restrictions:** Include a section to gather and incorporate guest preferences or dietary restrictions to ensure inclusivity.
+  - **Backup Plan:** Develop a contingency plan for potential issues such as equipment failure or unexpected guest numbers.
+  - **Post-Event Review:** Outline a process for post-event feedback and inventory assessment to improve future events.
+
+- **Overreach:**
+  - **Service Flow Complexity:** Simplify the service flow section; too many stations can confuse guests and staff. Consider combining similar drink types to streamline operations.
+
+- **System/Process Solutions:**
+  - **Inventory Management:** Implement a digital inventory tracking system to provide real-time updates and reduce manual errors.
+  - **Staff Training:** Schedule a dedicated training session for staff on batching techniques and service flow to ensure consistency and confidence.
+  - **Technology Utilization:** Use mobile ordering or drink tokens to manage high-volume orders efficiently and reduce wait times.
+
+- **Tone/Structure Guidance:**
+  - **Clarity and Precision:** Use bullet points for each section to enhance readability and ensure key points are easily digestible.
+  - **Action-Oriented Language:** Employ more direct language for action items, e.g., "Test and finalize cocktail recipes" instead of "Finalize and test."
+  - **Consistency in Formatting:** Ensure uniformity in formatting, such as bullet points or numbered lists, for all sections to maintain a professional presentation.
+
+
+(Generated on 2025-08-29 17:20:23)
+
+(Evaluated on 2025-08-29 17:22:03)

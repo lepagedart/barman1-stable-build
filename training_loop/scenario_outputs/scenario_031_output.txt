@@ -1,0 +1,60 @@
+Title: Speed-Well Redesign for Two-Bartender Service
+
+Tags: layout_flow, prep_efficiency, speed, service_well, menu_design
+
+Scenario Type: Training
+
+System Mod: Prioritize station ergonomics, rail loadout, reach zones, and build-path sequencing. Include a 15-minute peak stress drill with throughput targets.
+
+Venue Context: 80-seat neighborhood restaurant; bar has 10 stools and a single service well. Friday/Saturday peaks with two bartenders on, one focused on service well tickets.
+
+Prompt: Our service well gets crushed on weekends. Can you redesign the well layout and build flow so two bartenders can run without collisions and keep ticket times under five minutes?
+
+Lloyd's Response:
+
+To optimize your service well for efficient operation with two bartenders during peak times, focus on minimizing movement, preventing collisions, and ensuring a streamlined build flow. Here's a practical approach:
+
+### Station Map
+- **Role Designation**: Assign one bartender to the service well for server tickets and the other to the guest-facing well to handle direct customers. This separation helps reduce the need for crossover and potential collisions.
+- **Traffic Lanes**: Implement a one-way flow behind the bar to avoid collisions. Depending on your layout, choose a left-to-right or right-to-left movement pattern. Mark lanes with floor tape if needed for clarity.
+
+### Reach Zones
+- **Zone A (0–18")**: Keep frequently used items like jiggers, strainers, and bitters within immediate reach.
+- **Zone B (18–30")**: Place less frequently used bottles and tools here. This zone is ideal for spirits used in multiple cocktails.
+- **Zone C (>30")**: Store backup supplies and less-used bottles outside of immediate reach to avoid clutter.
+
+### Rail Loadout
+- **Bottle Order**: Arrange bottles from left to right based on usage frequency and type. Consider grouping similar categories together (e.g., vodka, gin, rum).
+- **Tool Placement**: Position jiggers, shakers, and strainers in a central location within Zone A for easy access.
+
+### Build Path
+- **Sequence**: Follow a consistent build order: glass → ice → spirit → modifiers → shake/stir → strain → garnish.
+- **Efficiency**: Use a two-bottle pour technique where possible to save time on builds.
+
+### Prep & Pars
+- **Daily Pars**: Set clear pars for ice, citrus, and syrups. Ensure these are prepped and restocked during slower periods.
+- **Labeling**: Use clear labels for syrups and juices to prevent confusion and speed up service.
+
+### Collision Controls
+- **POS Placement**: Ensure the POS system is easily accessible without crossing paths. Consider a second terminal if space allows.
+- **Pass Line**: Establish a designated pass line for drinks to be picked up by servers, reducing the need for bartenders to move around.
+
+### KPIs & Stress Test
+- **Throughput Target**: Aim for 12–15 tickets per minute during peak times.
+- **Mock Service Drill**: Conduct a 15-minute drill before peak hours to identify bottlenecks and adjust as needed.
+
+### Summary Checklist
+1. Assign and clarify bartender roles.
+2. Mark traffic lanes and ensure one-way movement.
+3. Set up reach zones and rail loadout for optimal efficiency.
+4. Establish a consistent build path and train staff on it.
+5. Conduct a pre-service drill to test and refine the setup.
+
+Implementing these changes should help streamline your service well operations, reduce collisions, and keep ticket times under five minutes.
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-08-29 17:20:05)

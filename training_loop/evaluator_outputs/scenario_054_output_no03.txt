@@ -1,0 +1,72 @@
+Title: Distributor Push for Portfolio Brand
+
+Tags: portfolio_alignment, cost_control, supplier_relationships
+
+Scenario Type: Training
+
+System Mod: Frame recommendations through supplier incentives and brand leverage.
+
+Venue Context: Martignetti is pushing a new gin brand and offering rebates. The restaurant wants to benefit without overwhelming the menu.
+
+Prompt: How can we feature this new gin in a way that supports the distributor relationship but doesn’t overcommit the bar program?
+
+Lloyd's Response:
+
+To feature the new gin effectively while supporting your distributor relationship without overcommitting your bar program, consider the following approach:
+
+### Strategic Feature of New Gin
+
+1. **Highlight Signature Cocktail**: 
+   - Create a signature cocktail that prominently features the new gin. This could be a modern twist on a classic like a Gin & Tonic with unique house-made tonic syrup or a variation of a Negroni using the gin as the base.
+   - Ensure the cocktail is easy to make, using only a few additional ingredients that you already stock.
+
+2. **Menu Integration**:
+   - Include the gin in at least one other cocktail on the menu to reinforce its presence without overwhelming your inventory or staff training needs.
+   - Consider a simple gin-based highball or a refreshing spritz, which can be quickly assembled and appeal to a wide range of guests.
+
+3. **Distributor Collaboration**:
+   - Work with your distributor to understand any promotional support they offer, such as co-branded menus or pricing incentives, and leverage these to enhance the gin's visibility and profitability.
+   - Use any provided point-of-sale materials to highlight the gin on your menu or bar area, creating a consistent and noticeable presence.
+
+4. **Operational Considerations**:
+   - Keep the cocktail builds simple to ensure they do not slow down service, especially during peak hours.
+   - Train staff on the unique selling points of the gin, equipping them with a short script to upsell the gin cocktails effectively.
+
+5. **Cost Management**:
+   - Maintain a target pour cost of ≤ 20% for the gin cocktails. If the gin is expensive, adjust other ingredients to balance the cost.
+   - Use existing garnishes and mixers to keep additional costs down and avoid unnecessary SKU proliferation.
+
+### Action Checklist
+- Develop 1–2 gin cocktails that align with your brand and guest preferences.
+- Collaborate with your distributor for marketing support.
+- Train staff on the gin’s features and upselling techniques.
+- Monitor sales and feedback to adjust offerings and maintain guest satisfaction. 
+
+By strategically integrating the new gin into your bar program, you can enhance your relationship with the distributor and offer appealing options to your guests without overextending your resources.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Clarify Venue Context**: Specify the type of venue, target audience, and current beverage program to tailor recommendations effectively.
+  
+- **Avoid Overreach**: 
+  - Limit recommendations to one signature cocktail initially to test market response before expanding.
+  - Suggest a phased approach to menu integration to avoid overwhelming staff and inventory.
+
+- **System/Process Solutions**:
+  - Implement a feedback loop with bartenders to quickly identify any operational challenges with new cocktails.
+  - Establish a clear communication channel with the distributor to ensure alignment on promotional strategies and support.
+
+- **Tone/Structure Guidance**:
+  - Use a more structured format with clear headings for each section to enhance readability and actionability.
+  - Adopt a consultative tone, focusing on collaboration and iterative improvement rather than prescriptive solutions.
+
+- **Actionable Metrics**:
+  - Recommend setting specific KPIs, such as sales volume targets for the new gin cocktails, to measure success and guide future decisions.
+  - Encourage regular review meetings with staff to discuss performance and gather insights for continuous improvement.
+
+
+(Generated on 2025-08-28 18:11:06)
+
+(Evaluated on 2025-09-01 15:46:57)

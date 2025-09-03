@@ -10,3 +10,10 @@ batching(_| )strategies?
 speed[_\s-]?of[_\s-]?service
 gala
 trade show
+festival bar
+pop-up tents
+generator power
+jockey box
+1,000 guests
+throughput target
+service crush

@@ -6,6 +6,7 @@
 # - Gate -> inject to KB if score_overall >= gate, else send to critique_only
 # - Auto organizes working folders (processed_inputs/ etc.)
 # - Uses safe_write() everywhere to avoid overwriting past runs
+# - Optional: --diff writes unified diffs ONLY for scenarios present in scenario_inputs/
 # ------------------------------------------------------------
 
 from __future__ import annotations
@@ -67,6 +68,7 @@ EVAL_METRICS_DIR = EVAL_DIR / "metrics"       # metrics JSON lives here (master 
 INJECTED_DIR = TL / "injected_outputs"        # evaluated files that were injected to KB
 CRITIQUE_DIR = TL / "critique_only"           # evaluated files below gate
 RUN_ARCHIVE_DIR = TL / "run_archive"          # optional archival of staging files
+DIFF_DIR = TL / "diff_reports"                # unified diffs for current re-runs
 
 KB_DIR = ROOT / "knowledge_base" / "training_modules" / "scenario_runs"
 SCRIPTS_DIR = ROOT / "scripts"
@@ -117,6 +119,7 @@ def ensure_dirs() -> None:
     CRITIQUE_DIR.mkdir(parents=True, exist_ok=True)
     RUN_ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
     KB_DIR.mkdir(parents=True, exist_ok=True)
+    DIFF_DIR.mkdir(parents=True, exist_ok=True)
 
 def _ts() -> str:
     return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -325,110 +328,7 @@ def evaluate_metrics(content: str, model: str) -> Dict[str, Any]:
         base["error"] = f"OpenAI metrics failed: {e}"
         return base
 
-# ---------- Evaluation runners ----------
-
-def run_evaluator(src_dir: Path, dest_dir: Path, model_wlshd: str, model_metrics: str, inplace: bool = False) -> None:
-    files = sorted(src_dir.glob("scenario_*_output.txt"))
-    print(f"🔎 Evaluator scanning: {src_dir}  |  {len(files)} file(s)")
-    dest_dir.mkdir(parents=True, exist_ok=True)
-    EVAL_METRICS_DIR.mkdir(parents=True, exist_ok=True)
-
-    if not files:
-        print("⚠️  No .txt files found to evaluate (run --run first).")
-        return
-
-    for p in files:
-        content = p.read_text(encoding="utf-8")
-
-        # 1) Fill WLSHD if needed
-        if "[PLACEHOLDER]" in content:
-            critique = evaluate_wlshd(content, model=model_wlshd)
-            content = content.replace("[PLACEHOLDER]", critique)
-            content += f"\n\n(Evaluated on { _ts() })"
-        else:
-            if "(Evaluated on " not in content:
-                content += f"\n\n(Evaluated on { _ts() })"
-
-        # 2) Write evaluated file (never clobber)
-        if inplace:
-            out_path = safe_write(p, content)  # copy-in-place with _noXX
-            print(f"💬 Evaluated (in-place copy): {out_path.name}")
-        else:
-            out_path = safe_write(dest_dir / p.name, content)
-            print(f"💬 Evaluated → {out_path}")
-
-        # 3) Always create metrics JSON (even if later gated)
-        metrics = evaluate_metrics(content, model=model_metrics)
-
-        # Master metrics copy under evaluator_outputs/metrics
-        scenario_num = _extract_scenario_number_from_name(p.name)
-        m_master_base = (
-            EVAL_METRICS_DIR / _scenario_metrics_name(scenario_num)
-            if scenario_num is not None
-            else EVAL_METRICS_DIR / (p.stem + ".metrics.json")
-        )
-        m_master = safe_write(m_master_base, json.dumps(metrics, indent=2))
-
-        # Sibling copy adjacent to the evaluated .txt
-        m_sibling = safe_write(out_path.with_suffix(".metrics.json"), json.dumps(metrics, indent=2))
-
-        # 4) Append to rolling CSV
-        _append_metrics_csv(m_master, metrics, source_txt=out_path)
-        # If this is a _noXX re-run, compare to the base/original
-        base_file = None
-        if "_no" in out_path.stem:
-            base_name = out_path.stem.split("_no")[0] + ".txt"
-            base_file = out_path.parent / base_name
-        if base_file is not None and base_file.exists():
-            write_diff_report(base_file, out_path)
-
-def _extract_scenario_number_from_name(name: str) -> Optional[int]:
-    m = re.match(r"scenario_(\d{3})_output\.txt", name)
-    if not m:
-        return None
-    try:
-        return int(m.group(1))
-    except Exception:
-        return None
-
-def _append_metrics_csv(metrics_path: Path, metrics: Dict[str, Any], source_txt: Path) -> None:
-    """
-    Append a row to SUMMARY_CSV with columns:
-    ts, scenario_file, score_overall, clarity, feasibility, structure, actionability, alignment, notes
-    """
-    SUMMARY_CSV.parent.mkdir(parents=True, exist_ok=True)
-    write_header = not SUMMARY_CSV.exists()
-
-    row = {
-        "ts": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "scenario_file": source_txt.name,
-        "metrics_file": str(metrics_path.name),
-        "score_overall": metrics.get("score_overall", 0.0),
-        "clarity": metrics.get("clarity", 0.0),
-        "feasibility": metrics.get("feasibility", 0.0),
-        "structure": metrics.get("structure", 0.0),
-        "actionability": metrics.get("actionability", 0.0),
-        "alignment": metrics.get("alignment", 0.0),
-        "notes": (metrics.get("notes") or "")[:500],
-        "error": metrics.get("error", ""),
-    }
-
-    with SUMMARY_CSV.open("a", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(
-            f,
-            fieldnames=[
-                "ts", "scenario_file", "metrics_file",
-                "score_overall", "clarity", "feasibility", "structure", "actionability", "alignment",
-                "notes", "error"
-            ],
-        )
-        if write_header:
-            w.writeheader()
-        w.writerow(row)
-
 # ---------- Diff helpers ----------
-
-DIFF_DIR = TL / "diff_reports"
 
 def write_diff_report(old_file: Path, new_file: Path) -> None:
     """
@@ -454,6 +354,54 @@ def write_diff_report(old_file: Path, new_file: Path) -> None:
     report_path = DIFF_DIR / report_name
     report_path.write_text("\n".join(diff), encoding="utf-8")
     print(f"📝 Diff report written → {report_path}")
+
+def _current_input_numbers() -> set[int]:
+    """Return scenario_numbers detected in scenario_inputs/ (from JSON)."""
+    nums: set[int] = set()
+    for p in INPUT_DIR.glob("*.json"):
+        try:
+            data = json.loads(p.read_text(encoding="utf-8"))
+            n = int(str(data.get("scenario_number", "")).lstrip("0") or "0")
+            nums.add(n)
+        except Exception:
+            continue
+    return nums
+
+def _extract_scenario_number_from_name(name: str) -> Optional[int]:
+    m = re.match(r"scenario_(\d{3})_output\.txt", name)
+    if not m:
+        return None
+    try:
+        return int(m.group(1))
+    except Exception:
+        return None
+
+def _diff_current_inputs(new_outputs: List[Path]) -> None:
+    """
+    Generate diffs ONLY for scenario numbers that are currently present in scenario_inputs/.
+    Compares baseline in scenario_outputs vs newly evaluated outputs (supplied list).
+    """
+    target_nums = _current_input_numbers()
+    if not target_nums:
+        print("ℹ️  No current inputs detected; skipping diff.")
+        return
+
+    # index newly produced outputs by scenum
+    new_by_num: dict[int, Path] = {}
+    for p in new_outputs:
+        n = _extract_scenario_number_from_name(p.name)
+        if n is not None:
+            new_by_num[n] = p
+
+    # for each target num, if we have a baseline in scenario_outputs and a new evaluated file, diff them
+    for n in sorted(target_nums):
+        baseline = STAGING_DIR / f"scenario_{n:03d}_output.txt"
+        new = new_by_num.get(n)
+        if not new:
+            candidate = EVAL_DIR / f"scenario_{n:03d}_output.txt"
+            new = candidate if candidate.exists() else None
+        if baseline.exists() and new and new.exists():
+            write_diff_report(baseline, new)
 
 # ---------- KB + gating helpers ----------
 
@@ -584,15 +532,110 @@ def _run_scenarios() -> None:
         # move consumed input JSON → processed_inputs
         for cand in INPUT_DIR.glob(f"scenario_{n:03d}.json"):
             move_input_to_processed(cand)
+def _append_metrics_csv(metrics_path: Path, metrics: Dict[str, Any], source_txt: Path) -> None:
+    """
+    Append a row to SUMMARY_CSV with columns:
+    ts, scenario_file, metrics_file, score_overall, clarity, feasibility, structure,
+    actionability, alignment, notes, error
+    """
+    SUMMARY_CSV.parent.mkdir(parents=True, exist_ok=True)
+    write_header = not SUMMARY_CSV.exists()
+
+    row = {
+        "ts": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "scenario_file": source_txt.name,
+        "metrics_file": metrics_path.name,
+        "score_overall": metrics.get("score_overall", 0.0),
+        "clarity": metrics.get("clarity", 0.0),
+        "feasibility": metrics.get("feasibility", 0.0),
+        "structure": metrics.get("structure", 0.0),
+        "actionability": metrics.get("actionability", 0.0),
+        "alignment": metrics.get("alignment", 0.0),
+        "notes": (metrics.get("notes") or "")[:500],
+        "error": metrics.get("error", ""),
+    }
+
+    with SUMMARY_CSV.open("a", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(
+            f,
+            fieldnames=[
+                "ts", "scenario_file", "metrics_file",
+                "score_overall", "clarity", "feasibility", "structure",
+                "actionability", "alignment", "notes", "error",
+            ],
+        )
+        if write_header:
+            w.writeheader()
+        w.writerow(row)
+def run_evaluator(src_dir: Path, dest_dir: Path, model_wlshd: str, model_metrics: str, inplace: bool = False) -> List[Path]:
+    """
+    Evaluate all .txt in src_dir, write evaluated copies (never clobber),
+    write metrics (master + sibling), append rolling CSV.
+    Returns list of evaluated file paths produced.
+    """
+    files = sorted(src_dir.glob("scenario_*_output.txt"))
+    print(f"🔎 Evaluator scanning: {src_dir}  |  {len(files)} file(s)")
+    dest_dir.mkdir(parents=True, exist_ok=True)
+    EVAL_METRICS_DIR.mkdir(parents=True, exist_ok=True)
+
+    produced: List[Path] = []
+    if not files:
+        print("⚠️  No .txt files found to evaluate (run --run first).")
+        return produced
+
+    for p in files:
+        content = p.read_text(encoding="utf-8")
+
+        # 1) Fill WLSHD if needed
+        if "[PLACEHOLDER]" in content:
+            critique = evaluate_wlshd(content, model=model_wlshd)
+            content = content.replace("[PLACEHOLDER]", critique)
+            content += f"\n\n(Evaluated on { _ts() })"
+        else:
+            if "(Evaluated on " not in content:
+                content += f"\n\n(Evaluated on { _ts() })"
+
+        # 2) Write evaluated file (never clobber)
+        if inplace:
+            out_path = safe_write(p, content)  # copy-in-place with _noXX
+            print(f"💬 Evaluated (in-place copy): {out_path.name}")
+        else:
+            out_path = safe_write(dest_dir / p.name, content)
+            print(f"💬 Evaluated → {out_path}")
+
+        produced.append(out_path)
+
+        # 3) Always create metrics JSON (even if later gated)
+        metrics = evaluate_metrics(content, model=model_metrics)
+
+        # Master metrics copy under evaluator_outputs/metrics
+        scenario_num = _extract_scenario_number_from_name(p.name)
+        m_master_base = (
+            EVAL_METRICS_DIR / _scenario_metrics_name(scenario_num)
+            if scenario_num is not None
+            else EVAL_METRICS_DIR / (p.stem + ".metrics.json")
+        )
+        m_master = safe_write(m_master_base, json.dumps(metrics, indent=2))
+
+        # Sibling copy adjacent to the evaluated .txt
+        _ = safe_write(out_path.with_suffix(".metrics.json"), json.dumps(metrics, indent=2))
+
+        # 4) Append to rolling CSV
+        _append_metrics_csv(m_master, metrics, source_txt=out_path)
+
+    return produced
 
 def _evaluate(args) -> None:
-    run_evaluator(
+    produced = run_evaluator(
         src_dir=Path(args.eval_src),
         dest_dir=Path(args.eval_dest),
         model_wlshd=args.eval_model,
         model_metrics=args.metrics_model or args.eval_model,
         inplace=args.eval_inplace,
     )
+    # Optional filtered diffs (only for scenarios present in scenario_inputs/)
+    if getattr(args, "diff", False):
+        _diff_current_inputs(new_outputs=produced)
 
 def _inject(args) -> None:
     inject_to_kb(Path(args.inject_src), gate=float(args.gate))
@@ -625,6 +668,7 @@ def main() -> None:
     ap.add_argument("--eval-dest", default=str(EVAL_DIR), help="Where to write evaluated .txt (default: evaluator_outputs)")
     ap.add_argument("--eval-inplace", action="store_true", help="Write WLSHD back into source files instead of dest folder")
     ap.add_argument("--inject-src", default=str(EVAL_DIR), help="Folder to read evaluated files from for KB injection")
+    ap.add_argument("--diff", action="store_true", help="Write unified diffs only for scenarios present in scenario_inputs/")
 
     # Models
     ap.add_argument("--eval-model", default="gpt-4o", help="Model for WLSHD critique (default: gpt-4o)")

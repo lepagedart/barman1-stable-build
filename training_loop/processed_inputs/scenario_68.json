@@ -1,0 +1,9 @@
+{
+  "scenario_number": 68,
+  "title": "Outdoor Festival Bar Logistics",
+  "tags": ["event_setup", "workflow", "speed_service", "prep_planning"],
+  "scenario_type": "Training",
+  "system_mod": "Event Lens",
+  "venue_context": "A city summer festival needs to serve 2,000 people in a day with two temporary outdoor bars. Power and refrigeration are limited.",
+  "prompt": "Design the workflow, batching plan, and station setup for two outdoor bars at a 2,000-person festival with limited infrastructure."
+}

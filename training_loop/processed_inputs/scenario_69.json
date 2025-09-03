@@ -1,0 +1,9 @@
+{
+  "scenario_number": 69,
+  "title": "Aligning Supplier Portfolio with Seasonal Menu",
+  "tags": ["portfolio", "supplier_alignment", "menu_planning", "partnerships"],
+  "scenario_type": "Training",
+  "system_mod": "Portfolio Lens",
+  "venue_context": "A large-format restaurant group is rolling out a seasonal cocktail menu. Their distributor partner wants them to highlight certain brands in portfolio.",
+  "prompt": "How can we design a seasonal menu that balances creative integrity with portfolio alignment to keep both guests and distributor partners happy?"
+}

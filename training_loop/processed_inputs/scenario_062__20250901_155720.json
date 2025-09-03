@@ -1,0 +1,9 @@
+{
+  "scenario_number": 62,
+  "title": "Sustainable Straw Policy",
+  "tags": ["sustainability", "guest_experience", "policy", "waste_reduction"],
+  "scenario_type": "Training",
+  "system_mod": "Sustainability Lens",
+  "venue_context": "A mid-size hotel is moving to eliminate single-use plastic straws but is worried about guest complaints.",
+  "prompt": "How should we structure a straw policy that balances sustainability goals with guest expectations and accessibility needs?"
+}

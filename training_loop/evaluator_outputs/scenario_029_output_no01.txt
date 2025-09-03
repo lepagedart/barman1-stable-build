@@ -1,0 +1,94 @@
+Title: Improving Speed of Service at High-Volume Concert Venue
+
+Tags: workflow, layout_flow, event_setup, speed_of_service
+
+Scenario Type: Training
+
+System Mod: Recommend ergonomic layouts, batching, and staffing strategies specific to live events.
+
+Venue Context: Concert hall with 1,500 guests and multiple lobby bars. Guests often miss music sets waiting in long lines for drinks.
+
+Prompt: During concerts, lines for drinks are insane and guests miss the show. How should we design bar setups and menus to maximize speed without sacrificing margins?
+
+Lloyd's Response:
+
+To optimize your bar setup and menu for speed during concerts, focus on streamlining service while maintaining profitability. Here are actionable recommendations:
+
+**Bar Setup and Ergonomics**
+
+1. **Station Map**:
+   - Designate separate Service and Guest Wells to handle different volume needs.
+   - Create clear traffic lanes for staff movement, minimizing collisions.
+
+2. **Reach Zones**:
+   - Zone A (0–18"): Essential tools, commonly used spirits, and glassware.
+   - Zone B (18–30"): Secondary spirits and mixers.
+   - Zone C (>30"): Reserve storage for less frequently used items.
+
+3. **Rail Loadout**:
+   - Arrange bottles from left to right based on frequency of use.
+   - Position jiggers and tools centrally for quick access.
+   - Ensure dump sinks and ice wells are conveniently located.
+
+4. **Build Path**:
+   - Standardize a FIFO process: glass → ice → spirit → modifiers → shake/stir → strain → garnish.
+
+5. **Collision Controls**:
+   - Implement one-way traffic lanes.
+   - Position POS systems strategically to avoid bottlenecks.
+   - Define "no stand" zones to keep pathways clear.
+
+**Menu Adjustments for Speed**
+
+1. **Pre-Batched Cocktails**:
+   - Pre-batch high-demand cocktails to minimize individual drink assembly time.
+   - Use liquor-only batching for extended shelf life, and ensure freshness with daily prep.
+
+2. **Simplified Offerings**:
+   - Focus on a concise menu with high-margin, easy-to-prepare cocktails.
+   - Limit bespoke ingredients to reduce complexity and speed up service.
+
+3. **Draft Cocktails**:
+   - Consider offering a few high-volume cocktails on draft to expedite service.
+   - This requires upfront investment but significantly reduces serve time.
+
+4. **Pricing Strategy**:
+   - Maintain margins by ensuring all cocktails have a similar pour cost percentage.
+   - Regularly review and adjust pricing based on ingredient costs and sales data.
+
+**Operational Checklist**
+
+- Set up a 5-step action checklist for staff training on the new setup.
+- Run a 20-minute mock service drill to test the efficiency of the new layout.
+- Schedule quarterly reviews to assess margins and service speed.
+- Implement a restock cadence to maintain par levels without disrupting service.
+
+Using these strategies, you can enhance service speed during concerts, ensuring guests spend less time in line and more time enjoying the show, without compromising your margins.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - Include specific examples of high-margin, easy-to-prepare cocktails that align with the venue's theme or audience preferences.
+  - Address potential challenges with pre-batching, such as maintaining quality and consistency.
+  - Provide guidance on managing staff training and engagement to ensure buy-in and adherence to new processes.
+
+- **Overreach:**
+  - Avoid assuming that all venues can implement draft cocktails due to potential space and equipment constraints. Offer alternative solutions for venues unable to accommodate this.
+  - Be cautious with suggesting significant upfront investments (e.g., draft systems) without assessing the venue's financial capacity and return on investment.
+
+- **System/Process Solutions:**
+  - Introduce a feedback loop where staff can report on the effectiveness of the new setup and suggest improvements.
+  - Develop a digital inventory tracking system to streamline restocking and reduce downtime.
+  - Implement a customer feedback mechanism to gauge satisfaction with the new service speed and menu offerings.
+
+- **Tone/Structure Guidance:**
+  - Use a more collaborative tone by suggesting these changes as part of a partnership with the venue, rather than directives.
+  - Structure the response with clear headings and subheadings for each section to improve readability and quick reference.
+  - Include a brief introduction and conclusion to frame the recommendations within the context of the venue's specific needs and goals.
+
+
+(Generated on 2025-08-29 17:19:36)
+
+(Evaluated on 2025-08-29 17:21:27)

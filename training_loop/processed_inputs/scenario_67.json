@@ -1,0 +1,9 @@
+{
+  "scenario_number": 67,
+  "title": "Waste Reduction in Citrus Program",
+  "tags": ["sustainability", "waste_reduction", "citrus", "prep_efficiency"],
+  "scenario_type": "Training",
+  "system_mod": "Sustainability Lens",
+  "venue_context": "A mid-sized hotel bar uses fresh citrus heavily, but is discarding a lot of spent fruit. Management is concerned about waste costs and sustainability image.",
+  "prompt": "What systems can we put in place to reduce waste in a citrus-heavy cocktail program while maintaining quality and presentation?"
+}

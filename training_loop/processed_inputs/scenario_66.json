@@ -1,0 +1,9 @@
+{
+  "scenario_number": 66,
+  "title": "Maximizing Profits on Limited Menu",
+  "tags": ["profitability", "menu_engineering", "costing", "high_margin_items"],
+  "scenario_type": "Training",
+  "system_mod": "Profitability Lens",
+  "venue_context": "A neighborhood gastropub is running with a very limited cocktail menu (only 6 items). Owner wants to maximize profit without alienating regulars.",
+  "prompt": "How should we engineer a small 6-item cocktail list to maximize profitability and guest satisfaction at a gastropub with strong regulars?"
+}

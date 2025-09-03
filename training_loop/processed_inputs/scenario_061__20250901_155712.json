@@ -1,0 +1,9 @@
+{
+  "scenario_number": 61,
+  "title": "Cutting Costs on Fresh Citrus",
+  "tags": ["profitability", "cost_control", "fresh_vs_packaged", "sourcing"],
+  "scenario_type": "Training",
+  "system_mod": "Profitability Lens",
+  "venue_context": "A neighborhood cocktail bar is struggling with citrus costs and high spoilage rates from lemons and limes.",
+  "prompt": "How can we reduce costs and waste from fresh citrus while keeping cocktail quality high? Suggest alternatives, batching, and sourcing strategies."
+}

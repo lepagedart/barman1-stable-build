@@ -1,0 +1,79 @@
+--- scenario_055_output.txt
++++ scenario_055_output_no03.txt
+@@ -35,24 +35,24 @@
+ What Lloyd Should Have Done:
+
+ ### What Lloyd Should Have Done:
+
+ 
+
+-- **Clarify Venue Context**: Specify the type of venue (e.g., high-volume bar, craft cocktail lounge) to tailor waste-reduction strategies appropriately.
+
+-  
+
+-- **Avoid Overreach**: Ensure recommendations are realistic for the venue's operational scale. For instance, not all venues can implement complex zero-waste techniques without additional resources.
+
++- **Missing Contextualization**: 
+
++  - Provide specific examples or case studies of successful waste-reduction implementations in similar venues to ground the advice in real-world application.
+
++  - Include potential challenges or limitations of each strategy to prepare the venue for practical hurdles.
+
+ 
+
+-- **Add System/Process Solutions**:
+
+-  - **Inventory Management**: Suggest a system for tracking ingredient usage and waste, such as a digital inventory tool, to identify high-waste areas.
+
+-  - **Feedback Loop**: Implement a process for regular feedback from bartenders on the practicality of waste-reduction strategies.
+
+-  
+
++- **Overreach**:
+
++  - Avoid assuming all venues have the same capacity for ingredient storage or pre-prep space. Tailor suggestions to different venue sizes and capabilities.
+
++  - Do not imply that all bartenders have the same skill level; consider varying levels of expertise in training recommendations.
+
++
+
++- **System/Process Solutions**:
+
++  - Suggest a phased implementation plan to test and measure the effectiveness of each strategy before full-scale adoption.
+
++  - Recommend a feedback loop with bartenders to refine processes based on their on-the-ground experience.
+
++
+
+ - **Tone/Structure Guidance**:
+
+-  - **Actionable Steps**: Break down each strategy into clear, actionable steps. For example, detail how to set up a station for efficient garnish use.
+
+-  - **Prioritize Initiatives**: Rank strategies by impact and ease of implementation to guide focus during initial phases.
+
+-  - **Engagement**: Use inclusive language to encourage buy-in from the team, such as "we can explore" instead of "you should."
+
+-
+
+-- **Missing Pieces**:
+
+-  - **Cost Analysis**: Include a brief analysis of potential cost savings from reduced waste to strengthen the business case.
+
+-  - **Sustainability Goals**: Align strategies with broader sustainability goals, if applicable, to enhance organizational alignment.
+
++  - Use a more directive tone, such as "implement" instead of "consider integrating," to convey authority and confidence.
+
++  - Structure the response with clear, numbered steps or phases to guide the venue through a logical progression of implementation.
+
++  - Ensure clarity by defining industry-specific terms or techniques for audiences who may not be familiar with them.
+
+ 
+
+ 
+
+ (Generated on 2025-08-28 18:11:12)
+
+ 
+
+-(Evaluated on 2025-08-28 18:11:51)
++(Evaluated on 2025-09-01 15:47:03)

@@ -1,0 +1,10 @@
+
+{
+  "scenario_number": 64,
+  "title": "New Portfolio Rollout Training",
+  "tags": ["portfolio", "staff_training", "brand_alignment", "launch"],
+  "scenario_type": "Training",
+  "system_mod": "Portfolio Lens",
+  "venue_context": "A distributor partner is introducing a new tequila portfolio to restaurants in their region.",
+  "prompt": "Design a staff training session that highlights the new tequila portfolio, aligns with brand goals, and makes adoption easy for bartenders."
+}

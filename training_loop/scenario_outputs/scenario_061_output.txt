@@ -1,0 +1,44 @@
+Title: Cutting Costs on Fresh Citrus
+
+Tags: profitability, cost_control, fresh_vs_packaged, sourcing
+
+Scenario Type: Training
+
+System Mod: Profitability Lens
+
+Venue Context: A neighborhood cocktail bar is struggling with citrus costs and high spoilage rates from lemons and limes.
+
+Prompt: How can we reduce costs and waste from fresh citrus while keeping cocktail quality high? Suggest alternatives, batching, and sourcing strategies.
+
+Lloyd's Response:
+
+To reduce costs and waste from fresh citrus in your cocktail program while maintaining quality, consider the following strategies:
+
+### Citrus Alternatives
+- **Citrus Acid Solutions**: Use a blend of citric and malic acid to create a shelf-stable citrus alternative. This can mimic the acidity of fresh juice without the perishability.
+- **Clarified Juices**: Use clarifying techniques (like agar clarification) to extend the shelf life of citrus juices. This approach also enhances visual appeal and consistency.
+
+### Batching
+- **Batch Citrus Components**: Prepare and batch citrus components in advance for high-volume cocktails. This reduces handling time during service and minimizes waste.
+- **Pre-Batch for High Turnover Drinks**: Identify cocktails that sell well and pre-batch citrus and other components. Ensure these batches are used quickly to maintain freshness.
+
+### Sourcing Strategies
+- **Local and Seasonal Sourcing**: Purchase citrus when in season and from local suppliers to minimize costs. This reduces transport costs and potential spoilage.
+- **Bulk Purchasing**: Buy in larger quantities to negotiate better pricing. Coordinate with other local venues to split bulk orders if storage is an issue.
+
+### Operational Tips
+- **Juice Just-in-Time**: Juice citrus daily, only as needed based on expected demand, to minimize spoilage.
+- **Rind Utilization**: Use citrus peels for infusions, garnishes, or house-made oleo saccharum to ensure full utilization of the fruit.
+
+### Cost and Quality Balance
+- **Training and Consistency**: Train staff to optimize juice extraction techniques, ensuring maximum yield and minimizing waste.
+- **Regular Review**: Continuously monitor and adjust based on sales data and waste audits to ensure your strategies remain effective.
+
+By blending these techniques, you can maintain the freshness and vibrancy of citrus in your cocktails while reducing both costs and waste.
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-09-01 15:57:12)

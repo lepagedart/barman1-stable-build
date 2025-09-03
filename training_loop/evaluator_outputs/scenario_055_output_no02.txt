@@ -1,0 +1,58 @@
+Title: Waste Reduction at a High-Volume Sports Bar
+
+Tags: sustainability, cost_control, training, prep
+
+Scenario Type: Training
+
+System Mod: Emphasize waste tracking, garnish utilization, and batch management.
+
+Venue Context: A sports bar serving 600+ covers per night wants to cut waste from citrus and mixers.
+
+Prompt: What waste-reduction practices can we put in place that won’t slow down our bartenders during peak hours?
+
+Lloyd's Response:
+
+To implement waste-reduction practices that won't slow down your bartenders during peak hours, consider integrating the following strategies:
+
+### Ingredient Cross-Utilization
+- **Shared Ingredients**: Align cocktails to share common ingredients, which reduces SKU load and speeds up service. For instance, use a single syrup or infusion across multiple drinks.
+
+### Efficient Garnish Use
+- **Edible Garnishes**: Use garnishes that are made from cocktail ingredients, such as citrus twists or edible flowers, which can be prepped in batches and stored efficiently.
+
+### Pre-Prep Techniques
+- **Batched Syrups and Juices**: Prepare syrups and fresh juices in advance, stored in easy-pour bottles to streamline the service process. Ensure they are labeled with prep dates and stored at optimal temperatures to reduce spoilage.
+
+### Zero-Waste Techniques
+- **Full-Utilization**: Use all parts of ingredients, such as citrus rinds for oleo saccharum, which can be pre-made and stored for use in cocktails, enhancing flavor without added waste.
+
+### Training and SOPs
+- **Staff Training**: Educate staff on waste-conscious practices and efficient station organization to minimize movement and time spent searching for ingredients during busy periods.
+
+By implementing these strategies, you can effectively reduce waste while maintaining speed and efficiency behind the bar.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Data-Driven Insights:** Include metrics or case studies to demonstrate the effectiveness of these strategies in similar venues.
+  - **Feedback Loop:** Suggest a method for collecting bartender feedback on these practices to ensure they are practical and effective during peak hours.
+
+- **Overreach:**
+  - **Assumptions on Ingredient Availability:** Avoid assuming all venues have access to specific ingredients like edible flowers. Provide alternatives or a decision matrix for ingredient selection.
+
+- **System/Process Solutions:**
+  - **Standardized Recipe Cards:** Implement standardized recipe cards that highlight cross-utilization opportunities and zero-waste techniques.
+  - **Inventory Management System:** Recommend a digital inventory system to track ingredient usage and waste, providing real-time data for decision-making.
+  - **Regular Audits:** Schedule regular audits of waste-reduction practices to ensure compliance and identify areas for improvement.
+
+- **Tone/Structure Guidance:**
+  - **Conciseness:** Use bullet points for each strategy to enhance readability and quick reference.
+  - **Action-Oriented Language:** Use more directive language, e.g., "Implement," "Establish," "Conduct," to emphasize actionable steps.
+  - **Clear Segmentation:** Separate strategies into categories such as "Preparation," "Service," and "Training" for better organization and clarity.
+
+
+(Generated on 2025-08-28 18:11:12)
+
+(Evaluated on 2025-08-29 17:23:09)
