@@ -1,0 +1,38 @@
+Title: Allergen & ID Compliance at a Street Festival Bar
+
+Tags: compliance, event_setup, allergens, ID_checks, signage
+
+Scenario Type: Training
+
+System Mod: Provide an at-a-glance compliance kit: ID flow, allergy labeling, incident log, and escalation tree. Include signage language and a 5-step pre-shift brief.
+
+Venue Context: Outdoor street festival pop-up (1,200 guests, 4-hour window), limited shade, mixed staff from two venues, simple batched menu.
+
+Prompt: We need bulletproof ID checks and clear allergen labeling for two batched cocktails (one contains almond orgeat). Give us the exact setup, roles, scripts, and signage.
+
+Lloyd's Response:
+
+[ERROR] Failed to reach Lloyd: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5000/
+
+
+What Lloyd Should Have Done:
+What Lloyd Should Have Done:
+
+- **Error Handling:** Implement robust error handling to manage server errors gracefully. Ensure the system can provide a fallback response or an error message that guides users on the next steps.
+  
+- **Monitoring and Alerts:** Set up monitoring tools to detect server issues in real-time. Configure alerts to notify technical teams immediately when a server error occurs.
+
+- **Redundancy and Failover:** Establish redundancy in server architecture to prevent single points of failure. Implement failover mechanisms to switch to backup servers automatically in case of a primary server failure.
+
+- **Load Testing:** Conduct regular load testing to ensure the server can handle expected traffic without crashing. Optimize server performance based on test results.
+
+- **User Communication:** Develop a standard protocol for communicating with users during system outages. This should include a polite apology, acknowledgment of the issue, and an estimated timeline for resolution.
+
+- **Documentation:** Maintain comprehensive documentation for troubleshooting server errors, accessible to both technical teams and customer support.
+
+- **Continuous Improvement:** Regularly review and update server infrastructure and error handling processes to adapt to evolving demands and technologies.
+
+
+(Generated on 2025-09-05 17:34:42)
+
+(Evaluated on 2025-09-05 17:41:36)

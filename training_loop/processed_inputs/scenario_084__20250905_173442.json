@@ -1,0 +1,8 @@
+{
+  "scenario_number": 84,
+  "title": "Pour-Cost Spike & Shrinkage Hunt",
+  "tags": ["profitability", "inventory", "variance", "training", "controls"],
+  "system_mod": "Focus on fast variance detection, root-cause tree, and corrective controls. Include blind-count SOP, jigger vs free-pour test, and a 14-day recovery plan.",
+  "venue_context": "Downtown lounge seeing pour cost rise from 21% to 27% over 6 weeks; two new hires; weekend bottle-necks; inconsistent comps/voids logging.",
+  "prompt": "Build a step-by-step plan to diagnose and fix our pour-cost spike. What should we audit first, what data to pull, and which controls to put in place immediately?"
+}

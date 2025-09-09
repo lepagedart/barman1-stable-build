@@ -1,0 +1,8 @@
+{
+  "scenario_number": 74,
+  "title": "Compliance-Forward Patio Service",
+  "tags": ["compliance", "id_checks", "batching_rules", "signage", "service_protocols"],
+  "system_mod": "Center on compliance: age verification, labeling, off-well storage limits, batch documentation, and staff scripts.",
+  "venue_context": "Large patio bar with two satellite stations and frequent private events. New city audit standards just rolled out.",
+  "prompt": "Build a compliance-first service plan for our patio: ID checks, batch logs/labels, allergy notation, guest signage, and server scripts. Include a pre-shift compliance checklist and incident escalation flow."
+}

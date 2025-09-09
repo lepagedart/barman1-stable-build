@@ -1,0 +1,8 @@
+{
+  "scenario_number": 82,
+  "title": "Zero-Waste Garnish & Juice Program",
+  "tags": ["sustainability", "prep", "batching", "inventory", "costing"],
+  "system_mod": "Emphasize yield tracking, repurposing byproducts, freezing strategy, and safe shelf-life. Include a weekly zero-waste scorecard and staff prep checklists.",
+  "venue_context": "Craft cocktail bar producing 25L citrus weekly with variable fruit quality; limited cold storage; team wants greener practices without slowing service.",
+  "prompt": "Design a zero-waste juice and garnish workflow: how to capture peels/pith/pulp, stabilize juice, pre-batch efficiently, and measure savings without sacrificing quality."
+}

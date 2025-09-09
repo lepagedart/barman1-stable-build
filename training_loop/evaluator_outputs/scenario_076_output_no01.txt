@@ -1,0 +1,91 @@
+Title: Resort Pool Bar: Peak Hour Speed Without Sacrificing Quality
+
+Tags: layout, event_setup, speed_of_service, batching, guest_experience
+
+Scenario Type: Training
+
+System Mod: Focus on Event Setup and Layout lenses. Emphasize station maps, throughput targets, batching math, and collision controls.
+
+Venue Context: Open-air resort pool bar with two POS terminals, limited shade, 180 seats, daily 2–3pm surge after pool games.
+
+Prompt: Our pool bar gets slammed 2–3pm; lines reach 20+ deep, ice melts fast, and garnishes run out. We have 3 bartenders and 1 barback. Design a service flow and batching plan that keeps drinks at spec and pushes at least 140 drinks/hour. Include an ASCII station map, rail loadout, ice/mixer cadence, and a 20-minute stress drill.
+
+Lloyd's Response:
+
+To enhance service flow at your pool bar and maintain high drink quality under peak conditions, here's a structured plan:
+
+### Station Map
+```
+[Service Well]  [Guest Well]  [Guest Well]
+  Bartender 1   Bartender 2   Bartender 3
+```
+
+- **Bartender 1**: Focuses on service well, handling orders from servers.
+- **Bartender 2 & 3**: Focus on walk-up guests, each responsible for one guest well.
+- **Barback**: Manages restocking, ice, and garnishes.
+
+### Rail Loadout (L→R for each station)
+- Vodka, Gin, Rum, Tequila, Whiskey
+- Triple Sec, Simple Syrup, Lime Juice, Lemon Juice
+- Bitters, Tonic, Soda Water
+
+### Reach Zones
+- **Zone A (0–18")**: Jiggers, shakers, most-used spirits, garnishes.
+- **Zone B (18–30")**: Backup spirits, spare glassware.
+- **Zone C (>30")**: Bulk ice, extra mixers.
+
+### Ice & Mixer Cadence
+- **Ice**: Refill every 15 minutes to prevent melting.
+- **Mixers**: Pre-batch common mixers (simple syrup, lime juice), stored in labeled bottles for quick access.
+
+### Batching Plan
+- **Batch Liquors**: Pre-batch top-selling cocktails (e.g., Margaritas, Mojitos) with spirits only. Store in chilled containers with a 24-hour shelf life.
+- **Mixers**: Prepare a large batch of simple syrup and lime juice daily, stored in squeeze bottles for easy access.
+
+### 20-Minute Stress Drill
+1. **Prep**: Ensure all stations are stocked with spirits, mixers, ice, and garnishes.
+2. **Role Assignments**: Confirm each team member knows their station and responsibilities.
+3. **Batch Test**: Run a practice round of making batched cocktails to ensure consistency.
+4. **Speed Test**: Push for 140 drinks/hour pace by practicing rapid builds and handoffs.
+5. **Review**: Post-drill, review efficiency and adjust station requirements as needed.
+
+### Operational Checklist
+- Assign clear roles to bartenders and barback.
+- Maintain a one-way flow to avoid collisions.
+- Regularly restock ice and garnishes.
+- Use pre-batched mixes for speed and consistency.
+- Conduct regular drills to maintain team readiness under pressure.
+
+By implementing this structured setup and focusing on efficient batching and restocking, you should successfully maintain both speed and quality during peak hours.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - Include a clear introduction and conclusion to frame the response and reinforce key takeaways.
+  - Provide context on why these specific processes are recommended, linking them to common challenges faced during peak hours.
+  - Address potential customer interaction issues and how to maintain service quality while focusing on speed.
+
+- **Overreach:**
+  - Avoid overly prescriptive details without understanding the specific venue layout or staff capabilities. Tailor recommendations to be adaptable.
+  - The batching plan assumes availability of space and equipment for storage, which may not be feasible for all venues.
+
+- **System/Process Solutions:**
+  - Introduce a feedback loop for staff to report on the effectiveness of the setup and suggest improvements.
+  - Implement a digital system for tracking inventory levels in real-time to prevent shortages.
+  - Develop a contingency plan for unexpected high demand or staff shortages.
+
+- **Tone/Structure Guidance:**
+  - Use a more conversational tone to engage the reader, while maintaining professionalism.
+  - Break down complex processes into simpler, actionable steps with clear headings and bullet points.
+  - Ensure consistency in formatting, such as using bullet points or numbered lists uniformly.
+
+- **Conciseness:**
+  - Eliminate redundant information and focus on the most impactful actions.
+  - Use concise language to convey instructions clearly and efficiently.
+
+
+(Generated on 2025-09-05 16:34:07)
+
+(Evaluated on 2025-09-05 17:40:32)

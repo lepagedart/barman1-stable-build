@@ -1,0 +1,65 @@
+Title: Cutting Costs on Fresh Citrus
+
+Tags: profitability, cost_control, fresh_vs_packaged, sourcing
+
+Scenario Type: Training
+
+System Mod: Profitability Lens
+
+Venue Context: A neighborhood cocktail bar is struggling with citrus costs and high spoilage rates from lemons and limes.
+
+Prompt: How can we reduce costs and waste from fresh citrus while keeping cocktail quality high? Suggest alternatives, batching, and sourcing strategies.
+
+Lloyd's Response:
+
+To reduce costs and waste from fresh citrus in your cocktail program while maintaining quality, consider the following strategies:
+
+### Citrus Alternatives
+- **Citrus Acid Solutions**: Use a blend of citric and malic acid to create a shelf-stable citrus alternative. This can mimic the acidity of fresh juice without the perishability.
+- **Clarified Juices**: Use clarifying techniques (like agar clarification) to extend the shelf life of citrus juices. This approach also enhances visual appeal and consistency.
+
+### Batching
+- **Batch Citrus Components**: Prepare and batch citrus components in advance for high-volume cocktails. This reduces handling time during service and minimizes waste.
+- **Pre-Batch for High Turnover Drinks**: Identify cocktails that sell well and pre-batch citrus and other components. Ensure these batches are used quickly to maintain freshness.
+
+### Sourcing Strategies
+- **Local and Seasonal Sourcing**: Purchase citrus when in season and from local suppliers to minimize costs. This reduces transport costs and potential spoilage.
+- **Bulk Purchasing**: Buy in larger quantities to negotiate better pricing. Coordinate with other local venues to split bulk orders if storage is an issue.
+
+### Operational Tips
+- **Juice Just-in-Time**: Juice citrus daily, only as needed based on expected demand, to minimize spoilage.
+- **Rind Utilization**: Use citrus peels for infusions, garnishes, or house-made oleo saccharum to ensure full utilization of the fruit.
+
+### Cost and Quality Balance
+- **Training and Consistency**: Train staff to optimize juice extraction techniques, ensuring maximum yield and minimizing waste.
+- **Regular Review**: Continuously monitor and adjust based on sales data and waste audits to ensure your strategies remain effective.
+
+By blending these techniques, you can maintain the freshness and vibrancy of citrus in your cocktails while reducing both costs and waste.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Environmental Impact**: Include considerations for sustainability beyond cost, such as reducing carbon footprint or waste management practices.
+  - **Customer Feedback Loop**: Implement a system to gather customer feedback on the taste and quality of cocktails using alternatives to fresh citrus.
+  - **Supplier Relationships**: Discuss building strong relationships with suppliers for better pricing and quality assurance.
+
+- **Overreach:**
+  - **Clarification Techniques**: Avoid suggesting complex techniques like agar clarification without assessing the venue's capability and staff skill level.
+  - **Bulk Purchasing**: Caution against bulk purchasing without evaluating storage capacity and spoilage risk.
+
+- **System/Process Solutions:**
+  - **Inventory Management System**: Recommend implementing a digital inventory management system to track usage and reduce waste.
+  - **Standard Operating Procedures (SOPs)**: Develop SOPs for juicing and batching to ensure consistency and reduce training time for new staff.
+  - **Waste Tracking**: Establish a waste tracking system to identify patterns and areas for improvement.
+
+- **Tone/Structure Guidance:**
+  - **Prioritize Recommendations**: Organize suggestions by impact and feasibility to help the venue prioritize actions.
+  - **Clear Action Steps**: Use clear, actionable language for each recommendation to facilitate implementation.
+  - **Balanced Tone**: Maintain a balance between cost-saving measures and quality assurance to align with venue goals.
+
+
+(Generated on 2025-09-01 15:57:12)
+
+(Evaluated on 2025-09-03 18:47:32)

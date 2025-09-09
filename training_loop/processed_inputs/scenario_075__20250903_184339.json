@@ -1,0 +1,8 @@
+{
+  "scenario_number": 75,
+  "title": "Pop-Up Champagne & Spritz Garden",
+  "tags": ["event_setup", "layout", "speed_of_service", "staffing", "throughput"],
+  "system_mod": "Combine event setup + layout lenses: quick-serve stations, glassware flow, ice/mixer totals, and contingency plans.",
+  "venue_context": "Hotel courtyard pop-up for a summer launch event. Expect 350 guests in 90 minutes; two bars plus one roving tray team.",
+  "prompt": "Design a pop-up service to move 350 guests through Champagne and two spritz SKUs in 90 minutes. Provide station maps, staffing roles, par levels, ice/mixer math, tray runs, and a 20-minute peak drill. Keep lines under 4 minutes."
+}

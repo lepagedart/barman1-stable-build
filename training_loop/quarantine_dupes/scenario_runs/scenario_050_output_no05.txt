@@ -1,0 +1,69 @@
+Title: Distributor Portfolio Audit
+
+Tags: portfolio_matching, financials, supplier_relationships
+
+Scenario Type: Training
+
+System Mod: Call out quarterly review systems and supplier incentive tracking.
+
+Venue Context: A regional hotel group is reviewing its liquor contracts and wants to maximize distributor incentives across five properties.
+
+Prompt: How should we audit and align our cocktail menu with our distributors’ portfolios so we maximize rebates and incentives at scale?
+
+Lloyd's Response:
+
+To effectively audit and align your cocktail menu with distributors' portfolios, maximizing rebates and incentives, focus on the following strategies:
+
+### Financial Impact
+- **Pour Cost Targets**: Ensure each cocktail aligns with your target pour cost, ideally below 22%. Use high-volume items from distributors to leverage better pricing.
+- **SKU Rationalization**: Limit SKUs by focusing on versatile products that can serve multiple cocktails. This reduces waste and increases leverage with distributors.
+- **Incentive Tracking**: Set up a system to track rebates and incentives on a quarterly basis. Ensure these are factored into pricing strategies.
+
+### Supplier Integration
+- **Quarterly Reviews**: Implement a quarterly review process with distributors to assess performance, update on incentive programs, and adjust menu offerings accordingly.
+- **Contract Compliance**: Regularly check that your purchases are in line with distributor agreements to maintain eligibility for incentives.
+
+### Operational Processes
+- **SKU Mapping**: Map cocktails to distributor products to ensure each item has a clear purpose and aligns with portfolio goals.
+- **Par Level Management**: Set par levels based on sales data and distributor agreements to avoid overstocking and ensure freshness.
+
+### Staff Training
+- **Brand Education**: Create modules for staff focused on the featured products, ensuring they can effectively communicate value to guests.
+- **Upselling Scripts**: Develop scripts that help staff highlight the benefits of featured products, enhancing both guest experience and sales.
+
+### Guest Perception
+- **Guest-First Approach**: While focusing on distributor products, ensure that choices feel natural and aligned with guest preferences. Avoid making the menu feel like a sales pitch.
+
+### Summary Checklist
+1. Audit current menu items against distributor portfolios.
+2. Adjust cocktail specs to meet pour cost targets and leverage distributor incentives.
+3. Implement a system for tracking rebates and reviewing distributor agreements quarterly.
+4. Train staff on key products to enhance upselling and guest engagement.
+5. Regularly assess guest feedback to ensure menu changes align with expectations.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Guest Feedback Integration:** Include a mechanism for collecting and analyzing guest feedback to ensure menu changes resonate with customer preferences.
+  - **Competitive Analysis:** Conduct a competitive analysis to benchmark against similar venues and ensure the menu remains competitive and appealing.
+  - **Sustainability Considerations:** Address sustainability by considering eco-friendly products or practices, which can also be a selling point.
+
+- **Overreach:**
+  - **Complexity in Financial Tracking:** Simplify the financial tracking process by integrating it with existing accounting systems to avoid overcomplicating the rebate and incentive tracking.
+  - **Excessive SKU Rationalization:** Avoid over-reducing SKUs to the point where it limits creativity or guest options.
+
+- **System/Process Solutions:**
+  - **Integrated Software Solutions:** Use a centralized software to manage inventory, track incentives, and analyze sales data to streamline operations.
+  - **Feedback Loop:** Establish a regular feedback loop with staff and guests to continuously refine the menu and service based on real-time insights.
+
+- **Tone/Structure Guidance:**
+  - **Clarity and Brevity:** Use clear, concise language and bullet points to ensure the guidance is easily digestible for busy venue managers.
+  - **Actionable Steps:** Focus on actionable steps rather than broad strategies to provide clear direction for implementation.
+  - **Balanced Approach:** Maintain a balance between financial objectives and guest experience to ensure both are prioritized effectively.
+
+
+(Generated on 2025-08-28 16:26:22)
+
+(Evaluated on 2025-08-28 16:29:18)

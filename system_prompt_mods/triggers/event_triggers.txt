@@ -1,19 +1,45 @@
-# Triggers for Event / Pop-Up Lens
-event(s)?
-pop-?up
+# Triggers for Event / Pop-Up Lens (plain text; loader applies case-insensitive + boundaries)
+
+event
+events
+pop-up
+pop up
+pop-ups
+pop ups
 wedding
+weddings
 banquet
+banquets
 festival
-temporary
+festivals
+temporary bar
+temporary setup
+temporary service
 outdoor bar
-batching(_| )strategies?
-speed[_\s-]?of[_\s-]?service
+batching
+batching strategies
+speed of service
 gala
+galas
 trade show
-festival bar
+trade shows
+pop-up tent
+pop up tent
 pop-up tents
+pop up tents
 generator power
 jockey box
+jockey boxes
+1000 guests
 1,000 guests
 throughput target
+throughput plan
 service crush
+service line
+service lines
+spritz garden
+champagne service
+tray run
+tray runs
+launch event
+launch events

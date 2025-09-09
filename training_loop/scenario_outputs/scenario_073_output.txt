@@ -1,0 +1,53 @@
+Title: Sustainable Citrus & Ice Program
+
+Tags: sustainability, prep, waste_reduction, ice_program, batching
+
+Scenario Type: Training
+
+System Mod: Focus on low-waste prep, stabilized juice strategies, reclaimed ice/water cycles, and vendor options that maintain quality.
+
+Venue Context: Coastal restaurant group with two bars. Citrus waste is high and freezer space is limited. Management wants greener ops without taste tradeoffs.
+
+Prompt: Design a low-waste citrus and ice program. Include stabilized/clarified juice options, when to use high-quality bottled juice vs fresh, freeze/thaw guidance, reclaimed ice/water practices, and a monthly waste audit checklist.
+
+Lloyd's Response:
+
+To design a low-waste citrus and ice program that aligns with sustainability goals while maintaining quality, consider the following strategies and practices:
+
+### Citrus Program
+
+**Use of Citrus**
+- **Stabilized Juices**: Clarified juices can be used for cocktails where a clear visual is desired. This involves separating solids using agar or centrifugation. Stabilized juice has a longer shelf life and consistent flavor.
+- **Bottled vs. Fresh**: Use high-quality bottled juice for high-volume cocktails or where fresh juice doesn't significantly enhance flavor. Reserve fresh juice for premium drinks where taste is paramount.
+- **Full-Utilization**: Use whole citrus by repurposing peels for oleo saccharum or garnishes, and zest for infusions or syrups.
+
+**Freeze/Thaw Guidance**
+- **Juice Freezing**: Freeze surplus juice in ice cube trays to extend its life, noting that it should be used in shaken cocktails where aeration can mask any slight texture changes.
+- **Thawing**: Thaw juice slowly in the refrigerator to maintain its quality. Use thawed juice within a day for optimal freshness.
+
+### Ice Program
+
+**Reclaimed Ice/Water Practices**
+- **Reclaimed Ice**: Use leftover ice from shaken drinks as a cooling element for back-of-house use, such as pre-chilling glasses or cooling down syrups.
+- **Meltwater Reuse**: Collect and filter meltwater for cleaning purposes or watering plants, ensuring a closed-loop system.
+
+### Monthly Waste Audit Checklist
+
+1. **Inventory Review**: Check stock levels of fresh and bottled juice. Note any overstock or frequent shortfalls.
+2. **Usage Tracking**: Record daily juice and ice usage to identify patterns or inefficiencies.
+3. **Waste Log**: Maintain a log of all citrus waste (peels, leftover juice) and ice waste (meltwater) with notes on quantities and potential alternative uses.
+4. **Supplier Feedback**: Review supplier options for more sustainable or local sources to minimize transportation impact.
+5. **Process Evaluation**: Assess the effectiveness of current freezing/thawing and reclaim practices and identify areas for improvement.
+
+### Summary
+- **Rationale**: These practices aim to minimize waste, reduce costs, and maintain cocktail quality, aligning with sustainable and zero-waste objectives.
+- **Implementation**: Requires regular staff training on new processes and maintaining a detailed waste log to ensure compliance and continual improvement.
+
+By adopting these strategies, the venue can effectively reduce waste while keeping the cocktail program financially and environmentally sustainable.
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-09-03 18:43:10)

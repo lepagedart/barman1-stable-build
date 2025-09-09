@@ -5,3 +5,7 @@ When answering, include:
 - Collision rules and POS placement.
 - KPIs (tickets/min/well; steps/drink) and a 20-min stress drill.
 Avoid cocktail recipes.
+----------------------------------------------------------------
+When considering bar layout, evaluate staff reach zones, collision points, and throughput under peak stress.
+Always account for line of sight, guest handoff points, and integration of POS/printers into the service flow.
+Station maps should prioritize ergonomics, minimizing wasted steps, and protecting staff from repetitive strain.

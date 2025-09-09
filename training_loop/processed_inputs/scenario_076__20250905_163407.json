@@ -1,0 +1,8 @@
+{
+  "scenario_number": 76,
+  "title": "Resort Pool Bar: Peak Hour Speed Without Sacrificing Quality",
+  "tags": ["layout", "event_setup", "speed_of_service", "batching", "guest_experience"],
+  "system_mod": "Focus on Event Setup and Layout lenses. Emphasize station maps, throughput targets, batching math, and collision controls.",
+  "venue_context": "Open-air resort pool bar with two POS terminals, limited shade, 180 seats, daily 2–3pm surge after pool games.",
+  "prompt": "Our pool bar gets slammed 2–3pm; lines reach 20+ deep, ice melts fast, and garnishes run out. We have 3 bartenders and 1 barback. Design a service flow and batching plan that keeps drinks at spec and pushes at least 140 drinks/hour. Include an ASCII station map, rail loadout, ice/mixer cadence, and a 20-minute stress drill."
+}

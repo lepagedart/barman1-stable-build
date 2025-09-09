@@ -1,0 +1,85 @@
+Title: New Portfolio Rollout Training
+
+Tags: portfolio, staff_training, brand_alignment, launch
+
+Scenario Type: Training
+
+System Mod: Portfolio Lens
+
+Venue Context: A distributor partner is introducing a new tequila portfolio to restaurants in their region.
+
+Prompt: Design a staff training session that highlights the new tequila portfolio, aligns with brand goals, and makes adoption easy for bartenders.
+
+Lloyd's Response:
+
+To effectively train your staff on the new tequila portfolio while aligning with brand goals and ensuring easy adoption, let's structure the training session into three parts: Education, Practical Application, and Brand Alignment.
+
+### Training Session Structure
+
+#### 1. Education
+- **Tequila Basics**: 
+  - Briefly explain the tequila production process (agave types, fermentation, distillation).
+  - Differentiate between tequila types (Blanco, Reposado, Añejo, Extra Añejo). 
+  - Discuss flavor profiles and how they fit into your venue's offerings.
+- **Portfolio Overview**: 
+  - Introduce each tequila in your portfolio, highlighting unique selling points and flavor notes.
+  - Discuss the rationale behind choosing these tequilas for your brand.
+
+#### 2. Practical Application
+- **Tasting Session**: 
+  - Conduct a guided tasting for each tequila, emphasizing tasting notes and potential cocktail pairings.
+  - Encourage staff to describe what they taste, enhancing their confidence in discussing these spirits with guests.
+- **Signature Cocktails**:
+  - Demonstrate 2-3 signature cocktails from the menu featuring the tequila portfolio.
+  - Allow staff to practice making these drinks, focusing on consistency and technique.
+  - Discuss any prep or batching strategies relevant to these cocktails.
+
+#### 3. Brand Alignment
+- **Brand Storytelling**:
+  - Share the brand's story and how tequila fits into your overall concept.
+  - Equip bartenders with engaging stories about each tequila to share with guests, enhancing their experience.
+- **Upselling Techniques**:
+  - Train staff on how to suggest tequila cocktails or neat pours, using customer cues.
+  - Discuss pricing strategies and how to align recommendations with guest preferences.
+
+### Operational Notes
+- **Training Duration**: 2-3 hours, ensuring enough time for both education and hands-on practice.
+- **Materials**: Tasting mats, product sheets, cocktail recipe cards, and any necessary bar tools.
+- **Follow-up**: Schedule a brief recap session or quiz a week later to reinforce knowledge and address any questions.
+
+### Summary Checklist
+1. Prepare educational materials and tasting kits.
+2. Conduct the session with a focus on engagement and practical skills.
+3. Equip staff with storytelling and upselling techniques.
+4. Schedule a follow-up session to reinforce learning.
+5. Monitor service to ensure smooth implementation of training.
+
+This structure ensures that your staff is knowledgeable, confident, and ready to present your tequila offerings in a way that aligns with your brand's goals and enhances the guest experience.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces**:
+  - **Venue Context**: Specify the type of venue (e.g., upscale bar, casual restaurant) to tailor the training to the environment.
+  - **Audience Analysis**: Identify the experience level of the staff to adjust the depth of training content accordingly.
+  - **Feedback Mechanism**: Include a method for staff to provide feedback on the training session to refine future sessions.
+
+- **Overreach**:
+  - **Training Duration**: Consider breaking the session into multiple shorter segments if 2-3 hours is too long for staff schedules.
+  - **Content Density**: Avoid overwhelming staff with too much information at once; prioritize key takeaways.
+
+- **System/Process Solutions**:
+  - **Pre-Session Materials**: Distribute a brief overview or video on tequila basics before the session to maximize in-person training time for practical application and interaction.
+  - **Digital Resources**: Create an online repository of training materials for ongoing access and reference.
+  - **Performance Metrics**: Develop metrics to assess the impact of training on sales and customer satisfaction.
+
+- **Tone/Structure Guidance**:
+  - **Engagement Focus**: Incorporate interactive elements such as quizzes or role-playing scenarios to maintain engagement.
+  - **Clear Objectives**: Begin with clear objectives for what the session aims to achieve, aligning with both staff and brand goals.
+  - **Conciseness**: Use bullet points for clarity and brevity, ensuring each section delivers actionable insights without unnecessary detail.
+
+
+(Generated on 2025-09-01 15:57:42)
+
+(Evaluated on 2025-09-01 16:00:56)

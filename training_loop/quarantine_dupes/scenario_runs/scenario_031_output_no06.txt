@@ -1,0 +1,82 @@
+Title: Speed-Well Redesign for Two-Bartender Service
+
+Tags: layout_flow, prep_efficiency, speed, service_well, menu_design
+
+Scenario Type: Training
+
+System Mod: Prioritize station ergonomics, rail loadout, reach zones, and build-path sequencing. Include a 15-minute peak stress drill with throughput targets.
+
+Venue Context: 80-seat neighborhood restaurant; bar has 10 stools and a single service well. Friday/Saturday peaks with two bartenders on, one focused on service well tickets.
+
+Prompt: Our service well gets crushed on weekends. Can you redesign the well layout and build flow so two bartenders can run without collisions and keep ticket times under five minutes?
+
+Lloyd's Response:
+
+To optimize your service well layout for two bartenders, we'll focus on minimizing movement, preventing collisions, and ensuring an efficient build flow. Here's a practical approach:
+
+### Station Map
+- **Service Well Assignment**: Designate one bartender to primarily handle the service well and the other to focus on the guest-facing well to streamline roles and reduce crossover.
+- **Traffic Lanes**: Establish a one-way flow behind the bar to avoid collisions — for example, moving left-to-right or vice versa, depending on your layout.
+
+### Reach Zones
+- **Zone A (0–18")**: Place frequently used items like jiggers, strainers, and glassware within easy reach. The speed rail should hold core spirits in the order of the cocktail build.
+- **Zone B (18–30")**: Store secondary items like juices, syrups, and bitters here. Use speed pourers for quick access.
+- **Zone C (>30")**: Reserve for less frequently used items, like extra glassware or backup spirits.
+
+### Rail Loadout
+- **Left to Right**: Arrange spirits in the order of most used cocktails — e.g., vodka, gin, rum, tequila, whiskey, liqueurs. Ensure modifiers like vermouths and bitters are grouped nearby.
+- **Tools and Dump Sink**: Place tools like muddlers and bar spoons on the far left or right, depending on dominant hand use. Keep the dump sink centrally located but easily accessible.
+
+### Build Path
+1. **FIFO Order**: Align the build path from glass to garnish. Start with glassware, add ice, pour spirits, add modifiers, shake/stir, strain, and finish with garnish.
+2. **Batching**: Pre-batch popular cocktails or modifiers if volume justifies it to speed up service.
+
+### Prep & Pars
+- **Daily Pars**: Set daily pars for ice, citrus, and syrups to prevent shortages. Label and date all prepped items.
+- **Restock Cadence**: Establish a restock routine during lulls (e.g., every hour) to maintain readiness.
+
+### Collision Controls
+- **POS Placement**: Ensure the POS system is within reach but doesn’t disrupt flow. Avoid placing it near the busiest stations.
+- **Pass Line and No-Stand Zones**: Create designated areas for order handoffs and ensure bartenders avoid lingering in high-traffic zones.
+
+### KPIs & Tests
+- **Tickets/Minute**: Aim for at least 2-3 tickets per minute per bartender during peak times.
+- **Steps/Drink**: Minimize steps by organizing tools and ingredients logically.
+- **Stress Test**: Conduct a 15-minute mock service drill to identify and address bottlenecks.
+
+### 5-Step Action Checklist
+1. Reorganize tools and spirits according to the specified rail loadout.
+2. Set clear roles for each bartender and establish traffic lanes.
+3. Implement batching for high-volume cocktails.
+4. Schedule regular restocking and prep check-ins.
+5. Conduct a mock service drill to fine-tune layout and build flow.
+
+This layout strategy should help your bartenders work more efficiently, reduce wait times, and handle high-volume service with ease.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - Include a section on staff training for new layout and processes to ensure smooth implementation.
+  - Address potential customer interaction improvements, such as visibility and accessibility of bartenders to guests.
+  - Consider safety measures for handling spills and broken glassware.
+
+- **Overreach:**
+  - Avoid overly prescriptive instructions on tool placement without considering venue-specific needs and bartender preferences.
+  - Limit assumptions about cocktail popularity and batching without data from the venue.
+
+- **System/Process Solutions:**
+  - Implement a feedback loop post-implementation to gather bartender insights and adjust the layout as needed.
+  - Develop a checklist for daily setup and closing procedures to maintain consistency.
+  - Introduce a digital inventory system to track stock levels and reduce manual errors.
+
+- **Tone/Structure Guidance:**
+  - Use a more collaborative tone, inviting feedback and suggestions from the venue staff.
+  - Structure the response with a clear introduction and conclusion to frame the detailed recommendations.
+  - Break down complex processes into simpler, actionable steps for clarity and ease of understanding.
+
+
+(Generated on 2025-08-28 13:23:49)
+
+(Evaluated on 2025-08-28 16:26:27)

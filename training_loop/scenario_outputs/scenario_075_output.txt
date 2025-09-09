@@ -1,0 +1,66 @@
+Title: Pop-Up Champagne & Spritz Garden
+
+Tags: event_setup, layout, speed_of_service, staffing, throughput
+
+Scenario Type: Training
+
+System Mod: Combine event setup + layout lenses: quick-serve stations, glassware flow, ice/mixer totals, and contingency plans.
+
+Venue Context: Hotel courtyard pop-up for a summer launch event. Expect 350 guests in 90 minutes; two bars plus one roving tray team.
+
+Prompt: Design a pop-up service to move 350 guests through Champagne and two spritz SKUs in 90 minutes. Provide station maps, staffing roles, par levels, ice/mixer math, tray runs, and a 20-minute peak drill. Keep lines under 4 minutes.
+
+Lloyd's Response:
+
+To efficiently serve 350 guests with Champagne and two spritz cocktails in 90 minutes, a well-organized pop-up service plan is crucial. Here's a detailed strategy to keep lines moving and ensure a premium guest experience.
+
+### Station Setup
+- **Bar Layout**: Two main service bars, each 6-feet long, positioned centrally to the guest flow.
+- **Station Map**:
+  ```
+  | Ice Bin | Champagne | Spritz 1 | Spritz 2 | Garnishes | POS |
+  ```
+
+### Staffing Roles
+- **Bartenders (4 total)**:
+  - **2 Champagne Pourers**: Dedicated to quickly popping bottles and pouring Champagne.
+  - **2 Spritz Makers**: Focused on mixing and serving the two spritz cocktails.
+- **1 Runner**: Handles restocking of Champagne, mixers, and ice; assists with tray runs.
+- **1 Support Staff**: Manages glassware collection and cleaning.
+
+### Par Levels and Inventory
+- **Champagne**: Estimate 1.5 glasses per guest. For 350 guests, prepare 525 glasses. Depending on bottle size, calculate total bottles needed (e.g., approximately 105 bottles for 750ml size).
+- **Spritz Ingredients**: 
+  - **Spritz 1 & 2**: Pre-batch each spritz for easy pouring. Mix enough for roughly 1 drink per person per SKU.
+  - **Garnishes**: Lemon wheels, orange slices, or herbs depending on the spritz recipes.
+- **Ice**: Calculate based on spritz needs, approximately 1 pound per drink plus reserves.
+- **Mixers**: Batches should include any soda or tonic needed for spritzes.
+
+### Ice and Mixer Math
+- **Ice**: Ensure a minimum of 350 pounds of ice, with an additional 100 pounds reserve.
+- **Mixer**: Confirm quantities align with recipe batching, allowing for slight over-prep to prevent shortages.
+
+### Tray Runs
+- **Trays**: Use for circulating Champagne and spritzes during peak times. Each tray holds 8-10 drinks.
+- **Runner Tasks**: Refill trays every 5 minutes; coordinate with bartenders to ensure constant availability.
+
+### 20-Minute Peak Drill
+1. **Pre-Shift Huddle**: Brief staff on roles and expectations. Emphasize speed and efficiency.
+2. **Mock Service**: Conduct a 20-minute drill with staff serving each other to simulate peak conditions.
+3. **Review & Adjust**: Post-drill, discuss bottlenecks and adjust station setups accordingly.
+4. **Final Prep**: Confirm all stations are restocked and ready.
+5. **Go Live**: Start service with all stations fully operational and staffed.
+
+### Contingency Plans
+- **Glassware**: Keep extra stock available; assign a staff member to monitor and replenish.
+- **Ice/Power Issues**: Have backup ice stored in coolers; use manual methods if electrical equipment fails.
+- **Staffing**: Cross-train staff to cover roles in case of absenteeism.
+
+This plan should keep lines moving efficiently and ensure guests enjoy their drinks with minimal wait times.
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-09-03 18:43:39)

@@ -1,24 +1,64 @@
-# Triggers for Portfolio Lens
+# Portfolio lens — plain trigger terms
+
+# General portfolio/supplier language
 portfolio
-distributor(s)?
-supplier(s)?
-brand (rep|reps|ambassador|program|partnership|incentive|programming|placement)s?
-incentive(s)?
-rebate(s)?
-depletion(s)?
-pricing (support|tier|program)
-co-?marketing
-pour (deal|agreement|program)s?
-preferred (vendor|portfolio|brand)s?
+portfolios
+distributor
+distributors
+supplier
+suppliers
+preferred vendor
+preferred portfolio
+preferred brand
+supplier alignment
+
+# Brand reps / ambassadors / programming
+brand rep
+brand reps
+brand ambassador
+brand ambassadors
+brand program
+brand programming
+brand partnership
+brand partnerships
+brand placement
+brand placements
+
+# Incentives / pricing / rebates
+incentive
+incentives
+rebate
+rebates
+depletion
+depletions
+pricing support
+pricing tier
+pricing tiers
+pricing program
+pricing programming
+marketing
+co-marketing
+brand incentive
+brand incentives
+portfolio deal
+portfolio deals
+push brand
+push brands
+pour deal
+pour deals
+pour agreement
+pour agreements
+pour program
+pour programs
+
+# Major distributor names
 martignetti
-southern(\s+glazer'?s)?
+southern
+southern glazer
+southern glazers
+southern glazer's
 rndc
 empire
 breakthru
-young'?s
-Breakthru
-push brands
-supplier alignment
-co-marketing
-portfolio deal
-brand incentives
+youngs
+young's

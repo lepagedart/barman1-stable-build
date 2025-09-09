@@ -1,31 +1,53 @@
-# Guest experience / consistency / recovery
+# Guest Experience / Consistency / Recovery Triggers
+
 guest experience
 inconsistent
 consistency
+consistent
+complaint
 complaints
+regular
 regulars
+lost regular
 lost regulars
 trust
 send-back
+send back
+send-backs
+send backs
 remake
+remakes
 too sweet
 too sour
 watery
 flat
 overdiluted
+over-diluted
+under-diluted
 underdiluted
 service recovery
 comp
+comps
+comped
 make-good
+make good
 manager touch
 table touch
 wow service
 hospitality script
 apology
+apologies
 follow-up
+follow up
+follow-ups
+follow ups
 survey
+surveys
 NPS
+review
 reviews
 yelp
+google review
 google reviews
+repeat visit
 repeat visits

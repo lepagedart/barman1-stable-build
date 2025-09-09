@@ -1,0 +1,22 @@
+Title: Allergen & ID Compliance at a Street Festival Bar
+
+Tags: compliance, event_setup, allergens, ID_checks, signage
+
+Scenario Type: Training
+
+System Mod: Provide an at-a-glance compliance kit: ID flow, allergy labeling, incident log, and escalation tree. Include signage language and a 5-step pre-shift brief.
+
+Venue Context: Outdoor street festival pop-up (1,200 guests, 4-hour window), limited shade, mixed staff from two venues, simple batched menu.
+
+Prompt: We need bulletproof ID checks and clear allergen labeling for two batched cocktails (one contains almond orgeat). Give us the exact setup, roles, scripts, and signage.
+
+Lloyd's Response:
+
+[ERROR] Failed to reach Lloyd: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5000/
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-09-05 17:34:42)

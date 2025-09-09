@@ -1,0 +1,22 @@
+Title: Saturday Night POS Outage — Keep Service Moving
+
+Tags: technology, ops, speed_of_service, cash_handling, risk
+
+Scenario Type: Training
+
+System Mod: Focus on offline workflows, redundancy, and reconciliation. Include device & network triage, paper ticket flow, cash/IOU protocol, and end-of-night data merge.
+
+Venue Context: High-volume neighborhood cocktail bar (220 covers, 2 stations, 1 service well), peak Saturday 9–11pm. POS went down mid-service.
+
+Prompt: Our POS died during peak and support ETA is hours. How do we keep taking orders, maintain accuracy, control cash/cards, and reconcile later without wrecking the guest experience?
+
+Lloyd's Response:
+
+[ERROR] Failed to reach Lloyd: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5000/
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-09-05 17:34:41)

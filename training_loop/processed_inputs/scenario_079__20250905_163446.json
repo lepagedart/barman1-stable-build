@@ -1,0 +1,8 @@
+{
+  "scenario_number": 79,
+  "title": "Distributor-Aligned Seasonal Menu With Cost Guardrails",
+  "tags": ["portfolio", "profitability", "menu_engineering", "supplier_alignment"],
+  "system_mod": "Activate Portfolio + Profitability lenses. Tie features to supplier priorities, rebates, and margin floors.",
+  "venue_context": "Neighborhood restaurant bar, 14 taps, 10 cocktails. Two distributors offer co-op dollars if we feature 3 SKUs each and meet quarterly case goals.",
+  "prompt": "Draft a seasonal menu plan that aligns with two distributors’ priority SKUs while protecting a 78% beverage margin target. Include: SKU selections with rationale, cost cards, rebate/co-op accounting, staff spiffs, and a 6-week rotation calendar. Add a one-pager for FOH training and a simple scorecard to track sell-through vs goals."
+}

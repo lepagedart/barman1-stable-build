@@ -1,0 +1,22 @@
+Title: Zero-Waste Garnish & Juice Program
+
+Tags: sustainability, prep, batching, inventory, costing
+
+Scenario Type: Training
+
+System Mod: Emphasize yield tracking, repurposing byproducts, freezing strategy, and safe shelf-life. Include a weekly zero-waste scorecard and staff prep checklists.
+
+Venue Context: Craft cocktail bar producing 25L citrus weekly with variable fruit quality; limited cold storage; team wants greener practices without slowing service.
+
+Prompt: Design a zero-waste juice and garnish workflow: how to capture peels/pith/pulp, stabilize juice, pre-batch efficiently, and measure savings without sacrificing quality.
+
+Lloyd's Response:
+
+[ERROR] Failed to reach Lloyd: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5000/
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-09-05 17:34:41)

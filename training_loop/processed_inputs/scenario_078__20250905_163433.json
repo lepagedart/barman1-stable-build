@@ -1,0 +1,8 @@
+{
+  "scenario_number": 78,
+  "title": "Compliance at Scale: Stadium Cocktail Kiosk",
+  "tags": ["compliance", "event_setup", "batching", "workflow", "signage"],
+  "system_mod": "Use Compliance + Event Setup lenses. Emphasize ID flows, signage, labeling, and documented batch logs.",
+  "venue_context": "Stadium concourse kiosk serving 1,200 guests during 30-minute halftime window. Limited back-of-house, canned beer/wine plus two batched cocktails.",
+  "prompt": "Design a compliance-forward kiosk playbook: ID check flow, age-band wristbanding, visible signage, allergen labels, batch log template, and a pre-shift compliance checklist. Provide staffing roles for 4 team members and a 30-minute surge plan to hit 240 drinks/half-time with zero compliance flags."
+}

@@ -1,0 +1,106 @@
+Title: Distributor-Aligned Seasonal Menu With Cost Guardrails
+
+Tags: portfolio, profitability, menu_engineering, supplier_alignment
+
+Scenario Type: Training
+
+System Mod: Activate Portfolio + Profitability lenses. Tie features to supplier priorities, rebates, and margin floors.
+
+Venue Context: Neighborhood restaurant bar, 14 taps, 10 cocktails. Two distributors offer co-op dollars if we feature 3 SKUs each and meet quarterly case goals.
+
+Prompt: Draft a seasonal menu plan that aligns with two distributors’ priority SKUs while protecting a 78% beverage margin target. Include: SKU selections with rationale, cost cards, rebate/co-op accounting, staff spiffs, and a 6-week rotation calendar. Add a one-pager for FOH training and a simple scorecard to track sell-through vs goals.
+
+Lloyd's Response:
+
+To create a seasonal menu plan that aligns with distributor priorities while maintaining a 78% beverage margin, here's a structured approach:
+
+### SKU Selection & Rationale
+1. **Distributor A Priority SKU**: 
+   - **Vodka Brand X**: Widely recognized with strategic pricing incentives. 
+   - **Rationale**: Vodka is versatile and can be featured in multiple cocktails; distributor offers a rebate on volume purchases.
+   
+2. **Distributor B Priority SKU**: 
+   - **Gin Brand Y**: Premium brand with a strong market presence.
+   - **Rationale**: Fits into classic and modern cocktail profiles; co-op marketing funds available to support promotions.
+
+### Menu Design
+- **Vodka-Focused Cocktail**: Seasonal Vodka Mule
+  - Cost-effective mixers and garnishes to maximize margin.
+- **Gin-Focused Cocktail**: Autumnal Gin & Tonic
+  - Utilizes seasonal botanicals or garnishes to elevate experience.
+
+### Cost Cards
+- **Vodka Mule**: 
+  - Vodka Brand X: $0.50 per 1 oz
+  - Ginger Beer: $0.20 per 4 oz
+  - Lime Juice: $0.05
+  - Garnish: Mint Sprig: $0.10
+  - **Total Cost**: $0.85
+  - **Menu Price**: $10.00 (78.5% margin)
+
+- **Autumnal Gin & Tonic**:
+  - Gin Brand Y: $0.70 per 1 oz
+  - Tonic Water: $0.15 per 4 oz
+  - Seasonal Garnish: $0.10
+  - **Total Cost**: $0.95
+  - **Menu Price**: $12.00 (79.2% margin)
+
+### Rebate/Co-op Accounting
+- **Vodka Brand X**: $200 rebate after 100 bottles.
+- **Gin Brand Y**: $150 co-op fund for promotional materials.
+
+### Staff Spiffs
+- **Incentive Program**: $5 for every 20 Vodka Mules or Autumnal Gin & Tonics sold.
+- **Objective**: Encourage staff engagement and upselling.
+
+### 6-Week Rotation Calendar
+- **Weeks 1-2**: Launch Vodka Mule with promotional push.
+- **Weeks 3-4**: Focus on Autumnal Gin & Tonic, leveraging co-op marketing.
+- **Weeks 5-6**: Highlight both cocktails with a "Seasonal Pairing" offer.
+
+### FOH Training One-Pager
+- **Cocktail Profiles**: Key flavor notes and suggested pairings.
+- **Talking Points**: Brand stories and unique selling points.
+- **Upsell Techniques**: Encourage guest interaction and customization.
+
+### Scorecard for Sell-Through
+- **Metrics**: Number of each cocktail sold vs target.
+- **Weekly Review**: Adjust incentives or promotions based on performance.
+- **Feedback Loop**: Gather staff input on guest preferences and menu reception.
+
+### Summary Checklist
+1. Set up distributor meetings to confirm rebates and co-op funds.
+2. Print cost cards and distribute to bar staff.
+3. Implement FOH training and provide staff spiff details.
+4. Launch initial promotions according to the calendar.
+5. Monitor scorecard weekly and adjust tactics as needed. 
+
+This plan ensures distributor alignment, maintains margins, and encourages staff engagement, all while keeping the guest experience at the forefront.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Market Analysis:** Include a brief analysis of current market trends or consumer preferences to justify SKU selection.
+  - **Competitor Benchmarking:** Compare proposed menu items with competitors to ensure competitive pricing and differentiation.
+  - **Guest Feedback Mechanism:** Implement a system for collecting guest feedback on new cocktails to inform future menu iterations.
+
+- **Overreach:**
+  - **Incentive Program Specificity:** Avoid setting a fixed incentive amount without confirming budget constraints and potential ROI. Suggest a range or tiered system based on sales volume.
+  - **Detailed Cost Cards:** While detailed, ensure cost cards are simplified for quick reference by staff during service.
+
+- **System/Process Solutions:**
+  - **Digital Menu Integration:** Use digital platforms to update and promote seasonal menus efficiently.
+  - **Automated Rebate Tracking:** Implement software to automatically track rebate eligibility and claims to minimize manual errors.
+  - **Feedback Loop Enhancement:** Use digital surveys or POS systems to streamline the collection and analysis of guest feedback.
+
+- **Tone/Structure Guidance:**
+  - **Conciseness:** Use bullet points for all sections to enhance readability and quick reference.
+  - **Clarity:** Clearly separate strategic objectives from tactical actions to avoid confusion.
+  - **Consistency:** Ensure all financial figures and percentages are consistently formatted for professional presentation.
+
+
+(Generated on 2025-09-05 16:34:46)
+
+(Evaluated on 2025-09-05 16:35:39)

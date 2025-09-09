@@ -1,0 +1,8 @@
+{
+  "scenario_number": 85,
+  "title": "Distributor-Aligned Seasonal Menu Across Three Venues",
+  "tags": ["portfolio", "menu_engineering", "co_marketing", "ops_alignment"],
+  "system_mod": "Prioritize supplier tiers/placements, cross-venue prep alignment, and measurable trade support. Include a 12-week rollout calendar and staff incentive plan.",
+  "venue_context": "Group with three distinct bars (hotel lobby, rooftop, neighborhood). Partner distributor offers support if we feature two portfolio SKUs in a seasonal menu.",
+  "prompt": "Propose a cohesive seasonal menu using the partner’s SKUs that still fits each venue’s style. Outline recipes, prep alignment, pricing, KPI targets, and distributor activation plan."
+}

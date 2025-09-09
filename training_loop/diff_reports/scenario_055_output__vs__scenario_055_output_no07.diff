@@ -1,0 +1,83 @@
+--- scenario_055_output.txt
++++ scenario_055_output_no07.txt
+@@ -35,24 +35,26 @@
+ What Lloyd Should Have Done:
+
+ ### What Lloyd Should Have Done:
+
+ 
+
+-- **Clarify Venue Context**: Specify the type of venue (e.g., high-volume bar, craft cocktail lounge) to tailor waste-reduction strategies appropriately.
+
+-  
+
+-- **Avoid Overreach**: Ensure recommendations are realistic for the venue's operational scale. For instance, not all venues can implement complex zero-waste techniques without additional resources.
+
++- **Missing Pieces:**
+
++  - **Data-Driven Insights**: Include metrics or case studies to support the effectiveness of waste-reduction strategies.
+
++  - **Feedback Loop**: Establish a system for ongoing feedback from bartenders to refine processes.
+
++  - **Technology Integration**: Suggest using inventory management software to track ingredient usage and waste.
+
+ 
+
+-- **Add System/Process Solutions**:
+
+-  - **Inventory Management**: Suggest a system for tracking ingredient usage and waste, such as a digital inventory tool, to identify high-waste areas.
+
+-  - **Feedback Loop**: Implement a process for regular feedback from bartenders on the practicality of waste-reduction strategies.
+
+-  
+
+-- **Tone/Structure Guidance**:
+
+-  - **Actionable Steps**: Break down each strategy into clear, actionable steps. For example, detail how to set up a station for efficient garnish use.
+
+-  - **Prioritize Initiatives**: Rank strategies by impact and ease of implementation to guide focus during initial phases.
+
+-  - **Engagement**: Use inclusive language to encourage buy-in from the team, such as "we can explore" instead of "you should."
+
++- **Overreach:**
+
++  - **Assumptions on Staff Training**: Avoid assuming all staff will adapt quickly; propose a phased training approach.
+
++  - **Generalization on Ingredient Use**: Recognize that not all venues can use the same ingredients across different cocktails due to menu diversity.
+
+ 
+
+-- **Missing Pieces**:
+
+-  - **Cost Analysis**: Include a brief analysis of potential cost savings from reduced waste to strengthen the business case.
+
+-  - **Sustainability Goals**: Align strategies with broader sustainability goals, if applicable, to enhance organizational alignment.
+
++- **System/Process Solutions:**
+
++  - **Standard Operating Procedures (SOPs)**: Develop detailed SOPs for each strategy, ensuring consistency in implementation.
+
++  - **Regular Audits**: Schedule periodic audits to assess the effectiveness of waste-reduction measures and adjust as necessary.
+
++  - **Cross-Functional Collaboration**: Encourage collaboration between kitchen and bar staff for shared ingredient use.
+
++
+
++- **Tone/Structure Guidance:**
+
++  - **Clarity and Specificity**: Use clear, specific language to outline each strategy, avoiding jargon.
+
++  - **Action-Oriented Language**: Frame suggestions as actionable steps, e.g., "Implement a system for..."
+
++  - **Structured Format**: Use numbered lists for strategies to enhance readability and follow a logical order from preparation to execution.
+
+ 
+
+ 
+
+ (Generated on 2025-08-28 18:11:12)
+
+ 
+
+-(Evaluated on 2025-08-28 18:11:51)
++(Evaluated on 2025-09-05 17:37:08)

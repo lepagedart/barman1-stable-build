@@ -247,12 +247,37 @@ def detect_lens_mods(user_prompt: str, venue_prompt: str = "") -> Tuple[List[str
 
     for key, rx in patterns.items():
         if rx.search(text):
-            lens_names.append(key)
             lens_file_basename = f"{key}_lens"
             block = _read_lens_text(lens_file_basename)
             if block:
+                lens_names.append(key)
                 blocks.append(block)
 
+            # --- Co-trigger logic ---
+            if key == "event" and "compliance" not in lens_names:
+                extra_block = _read_lens_text("compliance_lens")
+                if extra_block:
+                    lens_names.append("compliance")
+                    blocks.append(extra_block)
+
+            # if wow_factor fires, also add layout + compliance (once)
+            if key == "wow_factor":
+                if "layout" not in lens_names:
+                    blk = _read_lens_text("layout_lens")
+                    if blk:
+                        lens_names.append("layout")
+                        blocks.append(blk)
+                if "compliance" not in lens_names:
+                    blk = _read_lens_text("compliance_lens")
+                    if blk:
+                        lens_names.append("compliance")
+                        blocks.append(blk)
+
+            if key == "financials" and "profitability" not in lens_names:
+                extra_block = _read_lens_text("profitability_lens")
+                if extra_block:
+                    lens_names.append("profitability")
+                    blocks.append(extra_block)
     return (lens_names, "\n\n".join(blocks).strip() if blocks else "")
 
 def lens_preamble_for(lens_names: List[str]) -> str:
@@ -267,3 +292,30 @@ def lens_preamble_for(lens_names: List[str]) -> str:
         if txt:
             pieces.append(txt)
     return "\n\n".join(pieces).strip()
+
+# --- Co-trigger map: when multiple lenses fire, add extra lens blocks in this order
+LENS_SYNERGIES = {
+    ("event_setup", "layout"):        ["event_setup", "layout"],   # already both; order emphasizes both
+    ("portfolio", "profitability"):   ["portfolio", "profitability"],
+    ("wow_factor", "layout"):         ["wow_factor", "layout"],
+    ("training", "layout"):           ["training"],
+    ("compliance", "event_setup"):    ["compliance"],
+    ("sustainability", "profitability"): ["sustainability", "profitability"],
+    ("technology", "training"):       ["technology", "training"],
+}
+
+def apply_co_triggers(lens_names: list[str]) -> list[str]:
+    """Return a deduped, possibly expanded list of lenses based on combos."""
+    s = set(lens_names)
+    for a, b in list(LENS_SYNERGIES.keys()):
+        if a in s and b in s:
+            for extra in LENS_SYNERGIES[(a, b)]:
+                s.add(extra)
+    # keep a stable order
+    order = ["portfolio","profitability","layout","event_setup","wow_factor","training","compliance","sustainability","technology"]
+    return [x for x in order if x in s]
+
+def consultative_questions_preamble(lens_names: list[str]) -> str:
+    """Load the consultative questions preamble and return it (empty if not present)."""
+    path = Path("system_prompt_mods/preambles/consultative_questions.txt")
+    return path.read_text(encoding="utf-8").strip() if path.exists() else ""

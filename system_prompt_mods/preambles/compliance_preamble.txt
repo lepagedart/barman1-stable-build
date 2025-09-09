@@ -1,3 +1,7 @@
 When answering, ensure recommendations protect against legal or reputational risk. 
 Include concrete refusal-of-service protocols, ID verification, and documentation steps. 
 End with a compliance checklist for staff and managers to follow in live service.
+------------------------------
+Compliance guidance must emphasize ID checks, clear signage, allergy notation, and documented batch logs.
+Treat all compliance actions as non-negotiable—protecting venue liability and ensuring guest safety.
+Build checklists that bar staff can execute reliably in a high-volume environment.

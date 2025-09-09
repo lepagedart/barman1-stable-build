@@ -1,0 +1,8 @@
+{
+  "scenario_number": 83,
+  "title": "Allergen & ID Compliance at a Street Festival Bar",
+  "tags": ["compliance", "event_setup", "allergens", "ID_checks", "signage"],
+  "system_mod": "Provide an at-a-glance compliance kit: ID flow, allergy labeling, incident log, and escalation tree. Include signage language and a 5-step pre-shift brief.",
+  "venue_context": "Outdoor street festival pop-up (1,200 guests, 4-hour window), limited shade, mixed staff from two venues, simple batched menu.",
+  "prompt": "We need bulletproof ID checks and clear allergen labeling for two batched cocktails (one contains almond orgeat). Give us the exact setup, roles, scripts, and signage."
+}

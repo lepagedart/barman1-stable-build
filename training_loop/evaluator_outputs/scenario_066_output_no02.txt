@@ -1,0 +1,96 @@
+Title: Maximizing Profits on Limited Menu
+
+Tags: profitability, menu_engineering, costing, high_margin_items
+
+Scenario Type: Training
+
+System Mod: Profitability Lens
+
+Venue Context: A neighborhood gastropub is running with a very limited cocktail menu (only 6 items). Owner wants to maximize profit without alienating regulars.
+
+Prompt: How should we engineer a small 6-item cocktail list to maximize profitability and guest satisfaction at a gastropub with strong regulars?
+
+Lloyd's Response:
+
+For a gastropub with a loyal regular customer base, the cocktail list should be approachable yet innovative, emphasizing both classic appeal and slight twists to keep guests intrigued. Here's a practical approach to engineering a profitable and satisfying 6-item cocktail menu:
+
+### Cocktail List Strategy
+
+1. **Classic Base with a Twist**
+   - **Old Fashioned Variant**: Utilize a bourbon or rye base with a seasonal syrup (e.g., cinnamon or maple in colder months). 
+   - **Spec**: 2 oz bourbon, 0.25 oz seasonal syrup, 2 dashes Angostura bitters.
+   - **Glass/Ice/Garnish**: Rocks glass, large ice cube, orange twist.
+   - **Cost Note**: Seasonal syrup can be batch-made to control costs.
+   
+2. **Refreshing Highball**
+   - **Gin & Tonic with Herbaceous Note**: Feature a local gin paired with a unique tonic and a fresh herb (e.g., rosemary or basil).
+   - **Spec**: 1.5 oz gin, top with premium tonic, fresh herb sprig.
+   - **Glass/Ice/Garnish**: Collins glass, long ice, herb sprig.
+   - **Cost Note**: Rotate herbs seasonally to maintain interest and reduce waste.
+
+3. **Sour Category**
+   - **Whiskey Sour with a Twist**: Offer a classic whiskey sour with an optional egg white for texture.
+   - **Spec**: 2 oz whiskey, 0.75 oz lemon juice, 0.5 oz simple syrup, egg white optional.
+   - **Glass/Ice/Garnish**: Coupe glass, no ice, lemon wheel.
+   - **Cost Note**: Egg whites should be optional to reduce waste and labor.
+
+4. **Martini Style**
+   - **Espresso Martini**: Capitalize on coffee's popularity for a dessert cocktail option.
+   - **Spec**: 1.5 oz vodka, 0.5 oz coffee liqueur, 1 oz fresh espresso.
+   - **Glass/Ice/Garnish**: Coupe glass, no ice, 3 coffee beans.
+   - **Cost Note**: Use house espresso to maintain flavor and reduce cost.
+
+5. **Collins/Fizz**
+   - **Seasonal Collins or Fizz**: a rotating seasonal fruit syrup to keep the menu fresh.
+   - **Spec**: 1.5 oz vodka or gin, 0.5 oz seasonal syrup, 0.5 oz lemon juice, soda water.
+   - **Glass/Ice/Garnish**: Highball glass, long ice, seasonal fruit slice.
+   - **Cost Note**: Use local, in-season fruits for the syrup.
+
+6. **Low/No-ABV Option**
+   - **Non-Alcoholic Spritz**: Offer an option with a non-alcoholic spirit or amaro.
+   - **Spec**: 2 oz non-alcoholic spirit, 1 oz tonic, splash of soda.
+   - **Glass/Ice/Garnish**: Wine glass, large ice, orange slice.
+   - **Cost Note**: Keeps the menu accessible and inclusive.
+
+### Operational Considerations
+
+- **Batching**: Consider batching non-perishable components for speed and consistency, especially for high-volume items.
+- **Shelf Life**: Focus on ingredients with a longer shelf life to reduce waste. Seasonal syrups should be used within a week.
+- **Garnishes**: Opt for garnishes that can be prepped in advance or reused across multiple drinks. Avoid perishable or labor-intensive options.
+- **Training**: Ensure staff are trained on upselling and storytelling to enhance guest experience and perceived value.
+
+### Summary Checklist
+- Ensure cost-effective seasonal syrups and garnishes.
+- Rotate 1-2 cocktails seasonally to keep the menu fresh.
+- Batch where possible to improve service speed.
+- Train staff on the menu's narrative to enhance guest interaction and satisfaction. 
+
+This approach balances profitability with guest satisfaction, leveraging the gastropub's appeal to regulars through classic familiarity and subtle innovation.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Venue Context**: Specify the gastropub's unique characteristics (e.g., location, clientele preferences) to tailor the menu more precisely.
+  - **Customer Feedback Loop**: Incorporate a system for gathering and analyzing customer feedback on the new menu items to ensure alignment with guest preferences.
+  - **Local Ingredient Sourcing**: Highlight the importance of using local ingredients not only for cost-saving but also for supporting local businesses and sustainability.
+
+- **Overreach:**
+  - **Complexity in Training**: Avoid overloading staff with complex narratives; focus on key selling points for each cocktail.
+  - **Seasonal Rotation**: Limit the number of seasonal rotations to avoid overwhelming the kitchen and bar staff.
+
+- **System/Process Solutions:**
+  - **Inventory Management**: Implement a robust inventory tracking system to monitor ingredient usage and reduce waste.
+  - **Standard Operating Procedures (SOPs)**: Develop clear SOPs for batching and garnishing to ensure consistency and efficiency.
+  - **Cost Analysis**: Conduct a detailed cost analysis for each cocktail to ensure profitability and adjust pricing as necessary.
+
+- **Tone/Structure Guidance:**
+  - **Clarity and Precision**: Use concise language and bullet points for each cocktail to enhance readability and quick reference for staff.
+  - **Prioritize Key Information**: Highlight the most critical elements (e.g., cost-saving measures, guest experience enhancements) at the beginning of each section.
+  - **Engagement**: Use engaging language that reflects the gastropub's brand personality to make the menu more appealing to guests.
+
+
+(Generated on 2025-09-01 16:27:42)
+
+(Evaluated on 2025-09-05 17:38:50)

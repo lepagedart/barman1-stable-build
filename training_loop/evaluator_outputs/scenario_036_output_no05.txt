@@ -1,0 +1,74 @@
+Title: Hotel Pool Bar High-Volume Afternoon
+
+Tags: event_setup, workflow, speed_of_service, batching, guest_experience
+
+Scenario Type: Training
+
+System Mod: Prioritize throughput, heat/ice constraints, and drink durability. Avoid fussy builds—opt for scalable recipes and garnish discipline.
+
+Venue Context: Resort pool bar serving 200 guests in afternoon peak. Hot weather, limited cold storage, and a single ice machine shared with banquets.
+
+Prompt: Our pool bar melts down every weekend when 200+ guests hit at once. Drinks take forever, ice runs out, and garnishes spoil. How do we fix menu and setup so service flies and drinks hold up in the heat?
+
+Lloyd's Response:
+
+To address the bottlenecks at your pool bar and ensure smooth service during peak times, consider the following strategies:
+
+### Menu Simplification and Optimization
+1. **Focus on Highball and Spritz Cocktails**:
+   - Prioritize easy-to-make, refreshing drinks like spritzes and highballs that require minimal ingredients and steps.
+   - Example: Aperol Spritz (3 oz Prosecco, 2 oz Aperol, splash of soda) served in a wine glass with ice and an orange slice.
+
+2. **Pre-Batched Cocktails**:
+   - Pre-batch popular cocktails such as Margaritas or Mojitos. Keep them in chillers or dispense from tap systems if available.
+   - Pre-batched **Margarita Spec**: 1 part tequila, 1 part lime juice, 0.5 part triple sec. Serve over ice with a lime wedge.
+
+### Operational Adjustments
+1. **Ice Management**:
+   - Reduce ice usage by using larger cubes or spheres in cocktails, which melt slower.
+   - Implement a strict ice allocation per shift and ensure ice bins are well-insulated.
+
+2. **Garnish Discipline**:
+   - Limit garnishes to those that are heat-resistant and simple, such as citrus wheels or mint sprigs.
+   - Pre-slice and store garnishes in chilled containers to maintain freshness.
+
+3. **Workstation Layout**:
+   - Streamline stations with a clear FIFO (first in, first out) process: Glass → Ice → Spirit → Modifier → Garnish.
+   - Ensure all tools and ingredients are within arm’s reach to minimize movement.
+
+### Action Checklist
+- **Batch** key cocktails ahead of time and equip staff with a batching log to track usage and shelf life.
+- **Optimize** ice usage by training staff on efficient ice management practices.
+- **Arrange** garnishes and tools for quick access and minimal movement.
+- **Test** workflow with a mock service drill during a quiet period to identify any bottlenecks.
+- **Monitor** service speed and adjust staffing or processes as needed during peak hours.
+
+These strategic adjustments will help you maintain fast service, reduce ice dependency, and keep drinks fresh and appealing in the heat.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces**:
+  - **Customer Experience Focus**: Include strategies for enhancing customer interaction and satisfaction, such as staff training on upselling or personalized service.
+  - **Feedback Mechanism**: Implement a system for gathering real-time feedback from guests to continuously improve service.
+  - **Technology Integration**: Suggest using technology, like mobile ordering or digital menus, to streamline orders and reduce wait times.
+
+- **Overreach**:
+  - **Garnish Discipline**: The recommendation to limit garnishes may overlook customer expectations for visually appealing drinks. Balance simplicity with presentation.
+  - **Ice Management**: Suggesting strict ice allocation might be too rigid; instead, focus on optimizing ice production and storage.
+
+- **System/Process Solutions**:
+  - **Inventory Management**: Implement a digital inventory system to track ingredient usage and reduce waste.
+  - **Staff Training Programs**: Develop ongoing training sessions focusing on efficiency and customer service skills.
+  - **Peak Time Analysis**: Use data analytics to predict peak times and adjust staffing levels accordingly.
+
+- **Tone/Structure Guidance**:
+  - **Conciseness**: Use bullet points for clarity and brevity, ensuring each point is actionable and specific.
+  - **Prioritization**: Rank suggestions by impact and feasibility to guide implementation.
+  - **Empathy and Support**: Adopt a supportive tone, acknowledging existing efforts and offering solutions as enhancements rather than corrections.
+
+
+(Generated on 2025-08-29 17:20:14)
+
+(Evaluated on 2025-09-03 18:45:08)

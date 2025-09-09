@@ -1,31 +1,58 @@
-# Compliance / risk management
+# Compliance / Risk Management — trigger terms (plain text; case-insensitive applied by loader)
+
 compliance
 liability
 dram shop
 overservice
-over-service
+over service
 refusal of service
 cut off
 cut-off
 intoxicated guest
-ID check
+intoxicated guests
+id check
+id checks
 carding
-fake ID
+carded
+fake id
+fake ids
 incident log
+incident logs
 incident report
+incident reports
 allergy
+allergies
 allergen
+allergens
 labeling
+labelling
 servsafe alcohol
 tips certification
 state regulation
+state regulations
 last call
+minor
 minors
 policy
+policies
 security
-ID check
 wristband
+wristbands
 beer garden
+beer gardens
 service boundary
-ABC check
+service boundaries
+abc check
+abc checks
 on-site compliance
+onsite compliance
+batch log
+batch logs
+batch label
+batch labels
+signage
+allergy notation
+allergy notations
+compliance checklist
+compliance checklists
+incident escalation

@@ -1,0 +1,75 @@
+--- scenario_066_output.txt
++++ scenario_066_output_no02.txt
+@@ -72,25 +72,25 @@
+ ### What Lloyd Should Have Done:
+
+ 
+
+ - **Missing Pieces:**
+
+-  - **Venue Context:** Clearly define the gastropub's theme, target demographic, and any existing beverage program to tailor the cocktail list effectively.
+
+-  - **Customer Feedback Loop:** Implement a system for gathering regular customer feedback on the new menu to ensure it meets their expectations and preferences.
+
+-  - **Pricing Strategy:** Include a pricing strategy that aligns with the gastropub's market positioning and customer spending habits.
+
++  - **Venue Context**: Specify the gastropub's unique characteristics (e.g., location, clientele preferences) to tailor the menu more precisely.
+
++  - **Customer Feedback Loop**: Incorporate a system for gathering and analyzing customer feedback on the new menu items to ensure alignment with guest preferences.
+
++  - **Local Ingredient Sourcing**: Highlight the importance of using local ingredients not only for cost-saving but also for supporting local businesses and sustainability.
+
+ 
+
+ - **Overreach:**
+
+-  - **Complexity in Execution:** Avoid overly complex cocktails that may slow down service in a high-volume setting. Simplify where possible without sacrificing quality.
+
+-  - **Ingredient Assumptions:** Do not assume the availability of specific local gins or seasonal fruits without confirming supplier reliability and cost-effectiveness.
+
++  - **Complexity in Training**: Avoid overloading staff with complex narratives; focus on key selling points for each cocktail.
+
++  - **Seasonal Rotation**: Limit the number of seasonal rotations to avoid overwhelming the kitchen and bar staff.
+
+ 
+
+ - **System/Process Solutions:**
+
+-  - **Inventory Management:** Establish a robust inventory management system to track ingredient usage and minimize waste.
+
+-  - **Supplier Relationships:** Develop strong relationships with local suppliers to ensure consistent quality and availability of seasonal ingredients.
+
+-  - **Staff Training Program:** Implement a structured training program focusing on efficient cocktail preparation, storytelling, and upselling techniques.
+
++  - **Inventory Management**: Implement a robust inventory tracking system to monitor ingredient usage and reduce waste.
+
++  - **Standard Operating Procedures (SOPs)**: Develop clear SOPs for batching and garnishing to ensure consistency and efficiency.
+
++  - **Cost Analysis**: Conduct a detailed cost analysis for each cocktail to ensure profitability and adjust pricing as necessary.
+
+ 
+
+ - **Tone/Structure Guidance:**
+
+-  - **Clarity and Conciseness:** Use bullet points for each cocktail description to enhance readability and quick reference for staff.
+
+-  - **Actionable Steps:** Provide clear, actionable steps for implementation, such as specific batching methods or seasonal rotation schedules.
+
+-  - **Engaging Narrative:** Encourage a narrative that connects each cocktail to the gastropub's identity, enhancing the storytelling aspect for staff and customers.
+
++  - **Clarity and Precision**: Use concise language and bullet points for each cocktail to enhance readability and quick reference for staff.
+
++  - **Prioritize Key Information**: Highlight the most critical elements (e.g., cost-saving measures, guest experience enhancements) at the beginning of each section.
+
++  - **Engagement**: Use engaging language that reflects the gastropub's brand personality to make the menu more appealing to guests.
+
+ 
+
+ 
+
+ (Generated on 2025-09-01 16:27:42)
+
+ 
+
+-(Evaluated on 2025-09-01 16:31:39)
++(Evaluated on 2025-09-05 17:38:50)

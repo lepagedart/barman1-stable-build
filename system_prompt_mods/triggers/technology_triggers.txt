@@ -1,25 +1,75 @@
-# Tech / POS / inventory / forecasting
-POS
+# Technology / POS / inventory / forecasting — plain trigger terms
+
+# Point of Sale
+point of sale
+pos
 pos integration
+pos system
+
+# Integrations
 api
 integration
+integrate
 webhook
+sync
+connector
+export
+import
+
+# Inventory & counts
 inventory
+real time inventory
 real-time inventory
+inventory sync
+inventory variance
+inventory depletion
+inventory reconciliation
+inventory count
+inventory counts
+stock
+par
 barcode
-scanner
+barcode scanner
 variance report
+variance reports
+
+# Analytics & reporting
 dashboard
 analytics
-forecast
-forecasting
+report
+reporting
+BI
+business intelligence
 sales mix
+product mix
+
+# Mapping / costing / theoretical pours
+sku
+sku map
 sku mapping
+sku rationalization
+recipe map
 recipe mapping
+recipe costing
+theoretical pour
 theoretical pours
+
+# Kitchen display / QR / multi-site
 kds
+kitchen display
+kitchen display system
+qr
 qr code
+multi location
 multi-location
+
+# Data engineering
 data pipeline
+data warehouse
 etl
-par forecasting
+
+# Forecasting
+par forecast
+sales forecast
+demand forecast
+forecasting

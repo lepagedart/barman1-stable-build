@@ -1,21 +1,56 @@
-# Keywords/phrases that activate the sustainability lens
+# Sustainability lens — plain trigger terms
+
+# Core terms
 sustainable
 sustainability
 zero waste
+zero-waste
 waste reduction
+low waste
+low-waste
+
+# Eco / environment
 eco
+eco friendly
+eco program
+eco initiative
 environment
+environmental
+environmental program
+environmental initiative
+environmental impact
+environmental footprint
 green program
+green initiative
+green practice
+green operation
+
+# Specific practices
+farm to table
 farm-to-table
 carbon footprint
 upcycle
-repurpose
-compost
-zero waste
+upcycled
 upcycle peels
+repurpose
+repurposed
+compost
+compostable
+composting
 spent citrus
-clarified citrus
-freezer batching
+spent citri
 waste stream
+waste audit
+
+# Techniques
+clarified citrus
+clarified juice
+stabilized juice
+freeze thaw
+freeze-thaw
 dehydrator
+dehydrators
 oleo-saccharum
+reclaimed ice
+freezer batch
+freezer batching

@@ -1,0 +1,69 @@
+Title: Sustainable Straw Policy
+
+Tags: sustainability, guest_experience, policy, waste_reduction
+
+Scenario Type: Training
+
+System Mod: Sustainability Lens
+
+Venue Context: A mid-size hotel is moving to eliminate single-use plastic straws but is worried about guest complaints.
+
+Prompt: How should we structure a straw policy that balances sustainability goals with guest expectations and accessibility needs?
+
+Lloyd's Response:
+
+To craft a straw policy that aligns sustainability goals with guest expectations and accessibility needs, follow these steps:
+
+### Policy Structure
+
+1. **Default No-Straw Policy**
+   - Implement a default policy of not automatically providing straws with drinks. Train staff to offer straws only upon request to minimize usage.
+
+2. **Sustainable Straw Options**
+   - Stock sustainable alternatives such as paper, metal, or biodegradable straws. Ensure that these options are easily accessible for staff when requested by guests.
+
+3. **Accessibility Considerations**
+   - Maintain a supply of plastic straws for guests with accessibility needs. Clearly communicate this option to guests and staff to ensure that those who require them can access them easily.
+
+4. **Guest Communication**
+   - Use signage and menu notes to inform guests of your sustainability initiative and straw policy. Highlight that straws are available upon request and that options exist for those with specific needs.
+
+5. **Staff Training**
+   - Train staff to understand the policy, including the importance of sustainability and the need for accessibility. Equip them with scripts to explain the policy to guests politely and informatively.
+
+### Implementation Checklist
+
+- [ ] Remove straws from default setups and provide only upon request.
+- [ ] Stock a mix of paper, metal, and biodegradable straws for regular use.
+- [ ] Keep plastic straws discreetly available for accessibility needs.
+- [ ] Create and display signage explaining the straw policy.
+- [ ] Train staff on policy details, guest communication, and accessibility support.
+
+By structuring your straw policy in this way, you align with sustainability goals while respecting all guests' needs, ensuring an inclusive and environmentally conscious service experience.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Data-Driven Insights:** Include data or case studies to support the effectiveness of straw reduction policies in similar venues.
+  - **Feedback Mechanism:** Establish a system for collecting guest feedback on the policy to continuously improve and adapt.
+  - **Cost Analysis:** Provide a cost comparison of sustainable straw options versus traditional plastic straws to justify the change economically.
+
+- **Overreach:**
+  - **Assumption of Guest Preferences:** Avoid assuming all guests will understand or appreciate the policy without clear, empathetic communication.
+  - **Implementation Complexity:** Simplify the training process to ensure it is not overly burdensome for staff, focusing on key points.
+
+- **System/Process Solutions:**
+  - **Inventory Management:** Implement a tracking system for straw usage to monitor effectiveness and adjust stock levels accordingly.
+  - **Regular Policy Review:** Schedule regular reviews of the policy to incorporate new sustainable materials or practices as they become available.
+
+- **Tone/Structure Guidance:**
+  - **Empathetic Communication:** Ensure the policy language is inclusive and considerate, addressing potential guest concerns about accessibility and sustainability.
+  - **Clear, Concise Messaging:** Use bullet points or short paragraphs for guest-facing materials to enhance readability and comprehension.
+  - **Positive Framing:** Frame the policy as a positive contribution to sustainability, emphasizing the venue's commitment to environmental responsibility and guest satisfaction.
+
+
+(Generated on 2025-09-01 15:57:20)
+
+(Evaluated on 2025-09-01 16:00:38)

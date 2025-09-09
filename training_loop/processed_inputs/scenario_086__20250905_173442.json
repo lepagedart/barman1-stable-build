@@ -1,0 +1,8 @@
+{
+  "scenario_number": 86,
+  "title": "Client Request: Bar Layout Plan",
+  "tags": ["layout", "workflow", "consultation"],
+  "system_mod": "Emphasize ergonomic efficiency, collision reduction, and speed of service.",
+  "venue_context": "New neighborhood restaurant planning to add a cocktail program with limited space.",
+  "prompt": "We’d like your help designing our bar layout. What’s the most efficient setup for our staff?"
+}

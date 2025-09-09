@@ -1,0 +1,8 @@
+{
+  "scenario_number": 72,
+  "title": "Boost Margin Without Killing Quality",
+  "tags": ["profitability", "menu_engineering", "pour_cost", "supplier_alignment", "sku_rationalization"],
+  "system_mod": "Emphasize profitability levers: priced tiers, batch efficiency, modifier costs, loss/waste controls, and supplier incentives.",
+  "venue_context": "High-volume hotel lobby bar with 24 cocktail SKUs, current pour cost 25.8%, comps running high on two signature drinks.",
+  "prompt": "We need to reduce cocktail pour cost from ~26% to 22% while improving guest sentiment. What are the fastest menu and workflow changes we can make this month? Include swap/keep lists, cost math examples, and a weekly KPI tracker."
+}

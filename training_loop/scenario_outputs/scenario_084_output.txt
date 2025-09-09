@@ -1,0 +1,22 @@
+Title: Pour-Cost Spike & Shrinkage Hunt
+
+Tags: profitability, inventory, variance, training, controls
+
+Scenario Type: Training
+
+System Mod: Focus on fast variance detection, root-cause tree, and corrective controls. Include blind-count SOP, jigger vs free-pour test, and a 14-day recovery plan.
+
+Venue Context: Downtown lounge seeing pour cost rise from 21% to 27% over 6 weeks; two new hires; weekend bottle-necks; inconsistent comps/voids logging.
+
+Prompt: Build a step-by-step plan to diagnose and fix our pour-cost spike. What should we audit first, what data to pull, and which controls to put in place immediately?
+
+Lloyd's Response:
+
+[ERROR] Failed to reach Lloyd: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5000/
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-09-05 17:34:42)

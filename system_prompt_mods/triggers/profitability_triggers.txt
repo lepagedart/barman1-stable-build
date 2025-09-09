@@ -1,22 +1,65 @@
-# Trigger terms for profitability lens
+# Profitability lens — plain trigger terms
+
+# Core profit & margin concepts
 profit
-margin
-pour cost
-cost control
-pricing
+profits
+profitability
+gross margin
+gross margins
+contribution margin
+contribution margins
+unit margin
+unit margins
+cogs
+prime cost
+prime costs
 roi
 return on investment
-yield
-waste
-variance
-overpour
-overhead
-happy hour
-HH special
-contribution margin
+
+# Costing / pour cost / controls
+beverage cost
+beverage costs
+pour cost
+pour costs
+cost control
+cost controls
+costing
 costing strategy
-menu engineering
-profit mix
+costing math
+variance
+variances
+variance report
+overpour
+overpouring
+overhead
+overheads
+sku rationalization
+kpi tracker
+
+# Pricing & engineering
+pricing
 price ladder
+price architecture
+price band
+price bands
+menu engineering
 well-to-premium trade-up
 small format pour
+small format pours
+profit mix
+sales mix
+contribution analysis
+
+# Promotions & supplier leverage
+happy hour
+hh special
+hh specials
+supplier incentive
+supplier incentives
+rebate
+rebates
+
+# Yield / waste
+yield
+yields
+waste

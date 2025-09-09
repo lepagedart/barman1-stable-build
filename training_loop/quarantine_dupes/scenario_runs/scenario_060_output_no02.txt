@@ -1,0 +1,84 @@
+Title: Pop-Up Wedding Bar: Throughput With Minimal Power/Ice
+
+Tags: event_setup, batching_strategies, workflow, speed_of_service, layout_flow
+
+Scenario Type: Training
+
+System Mod: Activate Event Setup Lens + Layout Lens. Provide station maps (ASCII ok), throughput targets (drinks/min), batching math, ice/mixer cadence, contingency plans, and a 15-min pre-shift brief.
+
+Venue Context: Farm venue with limited power, 250 guests, two 6-foot folding bars, 3 bartenders, no back-of-house ice machine. 90-minute peak right after ceremony.
+
+Prompt: Design the full pop-up service plan to keep lines short and quality high—menu design, batching, layout, staffing roles, and backup plans for ice/power hiccups.
+
+Lloyd's Response:
+
+Here's a comprehensive service plan to ensure your pop-up bar operates efficiently, even during peak times, while maintaining high-quality cocktails and minimizing wait times.
+
+### Menu Design
+- **Streamlined Selection**: Limit the menu to 5–6 cocktails focusing on simplicity and speed. Choose drinks that share ingredients to minimize prep time and SKU load.
+- **Drink Types**: Include highballs, spritzes, and spirit-forward drinks that don't require shaking.
+- **Cross-Utilized Ingredients**: Use versatile syrups and infusions applicable to multiple drinks, like a citrus syrup that works in both a gin highball and a vodka spritz.
+
+### Batching
+- **Pre-Batched Cocktails**: Batch spirit-only cocktails like Negronis or Old Fashioneds. Store in secure containers with spouts for quick service.
+- **Shelf Life**: Ensure batched cocktails are stored in coolers to maintain freshness, with a shelf life of 2–3 days.
+- **Ice-Resilient Options**: Offer at least one cocktail that can be served over crushed ice or with minimal dilution, like a Tiki-style punch.
+
+### Layout
+- **Station Map**: 
+  - Designate separate areas for order-taking, drink assembly, and pickup to streamline the workflow.
+  - Use a U-shaped bar layout to minimize bartender movement and facilitate faster service.
+- **Reach Zones**:
+  - **Zone A (0–18")**: Place jiggers, frequently used spirits, and tools within immediate reach.
+  - **Zone B (18–30")**: Store secondary ingredients and backup glassware.
+  - **Zone C (>30")**: Keep bulk supplies, backup ice, and items for restock.
+
+### Staffing Roles
+- **Bartender 1**: Dedicated to batching and restocking, ensuring there's always a supply of pre-batched cocktails ready.
+- **Bartender 2**: Focuses on assembly and serving of drinks, maximizing speed and efficiency.
+- **Support Staff**: One runner responsible for handling orders and delivering drinks to guests, minimizing congestion at the bar.
+
+### Backup Plans
+- **Ice Management**: 
+  - Use insulated bins to store backup ice and reduce melt.
+  - Have a contingency plan for additional ice delivery if needed.
+- **Power Hiccups**: 
+  - Ensure all batched cocktails and perishable items are stored in coolers with ice packs.
+  - Keep a manual shaker and hand crank ice crusher as fallback options.
+
+### Summary Checklist
+1. Finalize the streamlined menu and ensure ingredient cross-utilization.
+2. Batch cocktails in advance and store securely.
+3. Arrange bar layout for efficient service with designated reach zones.
+4. Assign clear roles to staff to enhance operational flow.
+5. Implement backup measures for ice and power interruptions.
+
+By following this plan, your pop-up bar can maintain high service quality and efficiency, even under challenging conditions.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Customer Experience Focus:** Include strategies for engaging with customers and enhancing their experience, such as personalized service or interactive elements.
+  - **Feedback Loop:** Implement a system for gathering and analyzing customer feedback to continuously improve service and offerings.
+  - **Health and Safety Protocols:** Outline specific health and safety measures, especially in high-traffic environments, to ensure compliance and customer safety.
+
+- **Overreach:**
+  - **Detailed Role Assignments:** Avoid overly prescriptive staffing roles without considering venue-specific factors like staff skills and customer volume variations.
+  - **Backup Plans:** Simplify backup plans to focus on the most likely scenarios, avoiding excessive contingency measures that may not be necessary.
+
+- **System/Process Solutions:**
+  - **Inventory Management System:** Implement a digital system for real-time tracking of inventory levels to prevent shortages and overstocking.
+  - **Training Program:** Develop a training program for staff to ensure they are well-versed in the menu, batching processes, and customer service protocols.
+  - **Performance Metrics:** Establish KPIs to measure efficiency, such as average service time per drink and customer satisfaction scores.
+
+- **Tone/Structure Guidance:**
+  - **Conciseness:** Use bullet points for clarity and brevity, ensuring each section is easily digestible.
+  - **Prioritization:** Start with the most critical elements for operational success, ensuring the plan is actionable and focused.
+  - **Engagement:** Use an engaging tone that motivates staff and stakeholders to implement the plan effectively.
+
+
+(Generated on 2025-08-29 16:35:45)
+
+(Evaluated on 2025-08-29 16:37:24)

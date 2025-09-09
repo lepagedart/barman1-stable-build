@@ -1,0 +1,8 @@
+{
+  "scenario_number": 77,
+  "title": "Sustainability Push: Reduce Ice & Citrus Waste at a High-Volume Cocktail Bar",
+  "tags": ["sustainability", "profitability", "batching", "prep_workflow", "waste_reduction"],
+  "system_mod": "Apply Sustainability + Profitability lenses. Prioritize waste tracking, closed-loop prep, re-usable systems, and cost deltas.",
+  "venue_context": "Downtown cocktail bar, 220 covers on weekends, heavy citrus program, 600 lb/day ice usage; owner wants greener ops without slowing service.",
+  "prompt": "Build a 4-week plan to cut citrus waste by 35% and ice usage by 20% without hurting quality. Include clarified citrus/oleo/citric blends, frozen juice rotation (incl. reputable no-additive suppliers as contingency), melt management, batch sizing, and a simple KPI dashboard with weekly targets and savings."
+}

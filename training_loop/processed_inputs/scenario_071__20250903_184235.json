@@ -1,0 +1,8 @@
+{
+  "scenario_number": 71,
+  "title": "Tight Kitchen, Faster Service",
+  "tags": ["layout", "workflow", "speed_of_service", "prep", "bottlenecks"],
+  "system_mod": "Prioritize small-footprint station maps, reach zones, collision rules, and build paths. Give measurable throughput targets.",
+  "venue_context": "Busy 60-seat neighborhood bistro with a tiny back bar and one service well. Peak demand hits pre-theater from 6:15–7:15pm.",
+  "prompt": "We’re getting crushed in a 60-minute pre-theater rush. How should we redesign the station map and build path to hit 120 drinks/hour with one primary well and a service printer? Include reach zones, par lists, and a 20-minute stress drill."
+}

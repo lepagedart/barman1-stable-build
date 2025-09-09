@@ -1,0 +1,22 @@
+Title: Distributor-Aligned Seasonal Menu Across Three Venues
+
+Tags: portfolio, menu_engineering, co_marketing, ops_alignment
+
+Scenario Type: Training
+
+System Mod: Prioritize supplier tiers/placements, cross-venue prep alignment, and measurable trade support. Include a 12-week rollout calendar and staff incentive plan.
+
+Venue Context: Group with three distinct bars (hotel lobby, rooftop, neighborhood). Partner distributor offers support if we feature two portfolio SKUs in a seasonal menu.
+
+Prompt: Propose a cohesive seasonal menu using the partner’s SKUs that still fits each venue’s style. Outline recipes, prep alignment, pricing, KPI targets, and distributor activation plan.
+
+Lloyd's Response:
+
+[ERROR] Failed to reach Lloyd: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5000/
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-09-05 17:34:42)

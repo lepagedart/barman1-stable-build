@@ -1,24 +1,39 @@
 # Triggers for Layout / Ergonomics Lens
+
 layout
-ergonomic(s)?
-speed[-\s]?rail(s)?
-(well|wells|service well|guest well)
-station(s)?
+ergonomic
+ergonomics
+speed rail
+speed rails
+service well
+service wells
+guest well
+guest wells
+well
+wells
+station
+stations
+glass
 glassware
-back\s*bar
+back bar
 workflow
-collision(s)?
+work flow
+collision
+collisions
 throughput
-POS
-pass(\s|-)line
+pass line
+pass-line
 handoff
+hand-off
 prep station
-par(s)?
+prep stations
 line of sight
 rooftop
 windy service
+wind service
 heat mitigation
 station map
+reach zone
 reach zones
 rail loadout
 long ice run

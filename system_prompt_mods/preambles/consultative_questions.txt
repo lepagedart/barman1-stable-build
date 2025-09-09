@@ -1,0 +1,34 @@
+Before prescribing, ask 4–6 precise fact-finding questions to reduce uncertainty, then answer.
+Rules:
+- Questions must be crisp, non-leading, and grouped by topic.
+- If user has already provided a detail, do NOT ask for it again.
+- After questions, proceed with a provisional plan that notes assumptions.
+
+Question banks (pick what matches the active lenses):
+
+[Common]
+• Headcount & roles? • Peak hour volume (drinks/hr)? • Budget constraints? • Menu size targets?
+
+[Layout]
+• Current station footprint (W×D), ice wells, rails, drains, hand sink? • Glassware storage and dish return path?
+
+[Event]
+• Guest count & drink mix? • Service window length? • Power/ice/hand-wash availability? • Rentals approved?
+
+[Portfolio]
+• Preferred distributors/brands? • Active incentives (rebates, depletions)? • Contracted placements or pour deals?
+
+[Profitability]
+• Target pour cost % by tier? • Price ladder bands? • Must-carry SKUs? • Happy hour constraints?
+
+[Sustainability]
+• Waste priorities (citrus/glass/water)? • Dehydrator/clarification capability? • Compost/recycling vendor?
+
+[Training]
+• Jigger mandate? • Spec cards in use? • Pre-shift tastings cadence? • New-hire lead time?
+
+[Compliance]
+• Local ABV/serve rules? • Permit scope (on/off-site)? • Allergen disclosure policy? • ID check process?
+
+[Technology]
+• POS recipe sync? • Inventory cadence? • Variance report in use? • Multi-location consolidation?

@@ -1,0 +1,88 @@
+Title: Compliance at Scale: Stadium Cocktail Kiosk
+
+Tags: compliance, event_setup, batching, workflow, signage
+
+Scenario Type: Training
+
+System Mod: Use Compliance + Event Setup lenses. Emphasize ID flows, signage, labeling, and documented batch logs.
+
+Venue Context: Stadium concourse kiosk serving 1,200 guests during 30-minute halftime window. Limited back-of-house, canned beer/wine plus two batched cocktails.
+
+Prompt: Design a compliance-forward kiosk playbook: ID check flow, age-band wristbanding, visible signage, allergen labels, batch log template, and a pre-shift compliance checklist. Provide staffing roles for 4 team members and a 30-minute surge plan to hit 240 drinks/half-time with zero compliance flags.
+
+Lloyd's Response:
+
+### Compliance-Forward Kiosk Playbook
+
+**1. ID Check Flow**
+   - **Greeter Role**: Position one staff member as the greeter at the kiosk entrance. They are responsible for checking IDs using a UV light scanner for authenticity and issuing age-appropriate wristbands (21+).
+   - **Wristband System**: Use color-coded wristbands to identify age groups. Ensure clarity and visibility for staff at all points of service.
+
+**2. Visible Signage**
+   - Place clear, prominent signage at the entrance and order points detailing ID check requirements, age restrictions, and allergen information.
+   - Include emergency contact information and procedures for guests needing assistance.
+
+**3. Allergen Labels**
+   - All menu items should be accompanied by allergen information. Use a standardized label template that includes common allergens (gluten, nuts, dairy, etc.).
+   - Ensure batch containers are labeled with detailed ingredient lists and potential allergens.
+
+**4. Batch Log Template**
+   - Use a logbook or digital tool to maintain records of all batched cocktails. Include:
+     - Batch Name
+     - Ingredients & Proportions
+     - Date & Time of Preparation
+     - Use-By Date
+     - Allergen Information
+     - Staff Signature
+
+**5. Pre-Shift Compliance Checklist**
+   - Verify all signage is visible and up-to-date.
+   - Ensure all staff have ID verification tools (UV light, guides).
+   - Check wristband supplies and restock as needed.
+   - Confirm all allergens are correctly labeled on menu and batch containers.
+   - Review batch logs for accuracy and completeness.
+
+### Staffing Roles for 4 Team Members
+1. **Greeter/ID Checker**: Positioned at the entrance for age verification and wristbanding.
+2. **Bartender 1**: Focus on high-volume cocktail preparation, ensuring compliance with batch protocols.
+3. **Bartender 2**: Handles guest interactions, taking orders, and addressing allergen inquiries.
+4. **Floater/Support**: Assists with restocking, compliance checks, and guest assistance.
+
+### 30-Minute Surge Plan (240 Drinks/30 Minutes)
+- **Batch Ready**: Pre-batch cocktails to cover 80% of expected orders, focusing on bestsellers.
+- **Station Efficiency**: Set up two dedicated service lanes to minimize wait times.
+- **Role Rotation**: Every 10 minutes, rotate staff roles to maintain energy and focus.
+- **Real-Time Monitoring**: Use a handheld device for tracking ID checks and allergen queries, ensuring compliance is met in real-time.
+
+### Zero Compliance Flags Strategy
+- Conduct a pre-event briefing to ensure all staff are clear on roles and compliance expectations.
+- Implement a “two-touch” system for sensitive tasks like allergen disclosure and ID verification, ensuring another team member verifies the action.
+- Have a rapid escalation protocol for any compliance issues, with the floater ready to address or escalate issues immediately.
+
+This playbook should keep your kiosk both efficient and compliant, providing a seamless and safe service experience.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Emergency Protocols**: Include a detailed emergency response plan for incidents beyond compliance issues, such as medical emergencies or security threats.
+  - **Training Program**: Outline a training schedule for staff to ensure they are well-versed in compliance, customer service, and emergency protocols.
+
+- **Overreach:**
+  - **Role Rotation Frequency**: Rotating roles every 10 minutes may disrupt workflow and reduce efficiency. Consider longer intervals or role-specific rotations based on task demands.
+  - **Two-Touch System**: While ensuring compliance is critical, the two-touch system for every sensitive task might slow down operations. Implement it selectively for high-risk tasks.
+
+- **System/Process Solutions:**
+  - **Digital Integration**: Incorporate a digital system for ID verification and allergen tracking to streamline processes and reduce human error.
+  - **Feedback Loop**: Establish a feedback mechanism for staff to report on the effectiveness of the playbook and suggest improvements.
+
+- **Tone/Structure Guidance:**
+  - **Clarity and Brevity**: Use concise language and bullet points for each section to enhance readability and quick reference during operations.
+  - **Action-Oriented Language**: Use imperative verbs to clearly define actions (e.g., "Position staff," "Place signage," "Verify tools").
+  - **Consistency**: Ensure consistent formatting across sections for ease of use, such as using the same bullet style and indentation for similar items.
+
+
+(Generated on 2025-09-05 16:34:33)
+
+(Evaluated on 2025-09-05 17:40:51)

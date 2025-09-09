@@ -1,0 +1,8 @@
+{
+  "scenario_number": 80,
+  "title": "Pop-Up Wedding Bar: Minimal Power, Max Throughput",
+  "tags": ["event_setup", "layout", "speed_of_service", "batching", "contingencies"],
+  "system_mod": "Event Setup + Layout lenses. Focus on stations, kegged/dispensed options, ice/mixer logistics, and backup plans.",
+  "venue_context": "Outdoor wedding, 280 guests, generator power only, limited ice storage, 3 bartenders and 1 floater.",
+  "prompt": "Design a pop-up bar that keeps lines <6 minutes at peak. Specify: station map (ASCII), roles, 3-drink focused menu (pre-batch math, still/kegged options), ice/mixer totals and cadence, glassware vs premium disposables, contingency protocols (ice/mixer shortfalls, staff call-out), pre-shift briefing, and a 5-step teardown plan."
+}
