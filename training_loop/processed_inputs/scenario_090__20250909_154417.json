@@ -1,0 +1,8 @@
+{
+  "scenario_number": 90,
+  "title": "Pop-Up Festival Bar (Unknown Utilities)",
+  "tags": ["event", "layout", "throughput", "compliance"],
+  "system_mod": "Build a resilient pop-up plan with contingency paths for power/water limits and strict ID controls.",
+  "venue_context": "One-day outdoor festival. Bar team of 8. Sales target 1,200 drinks in 3 hours.",
+  "prompt": "We’re running a festival bar and need a full plan: station maps, batching, ice strategy, ID flow, and a crush plan. Utilities aren’t confirmed yet—please call out what you need to know if it changes the setup."
+}

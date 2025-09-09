@@ -1,0 +1,79 @@
+--- scenario_067_output.txt
++++ scenario_067_output_no03.txt
+@@ -36,25 +36,24 @@
+ What Lloyd Should Have Done:
+
+ ### What Lloyd Should Have Done:
+
+ 
+
+-- **Contextual Clarity**: Clearly define the venue context and specific challenges faced. Without this, recommendations may lack relevance or specificity.
+
+-  
+
+-- **Overreach in Solutions**: Avoid assuming that all venues can implement complex systems like inventory management software. Suggest scalable solutions based on venue size and capabilities.
+
++- **Clarify Venue Context**: Specify the type of venue (e.g., high-volume bar, fine dining restaurant) to tailor strategies appropriately. This ensures relevance and practicality of the proposed solutions.
+
+ 
+
+-- **System/Process Solutions**:
+
+-  - **Prioritize Simplicity**: Introduce simpler, immediate actions before complex systems. For example, start with basic tracking sheets before recommending software.
+
+-  - **Implementation Steps**: Provide a step-by-step guide for each recommendation, ensuring clarity on how to execute each strategy.
+
+-  - **Feedback Loop**: Establish a process for regular feedback and adjustment of systems to ensure they are effective and sustainable.
+
++- **Avoid Overreach**: The response should focus solely on citrus management. Avoid expanding into broader sustainability practices unless directly related to citrus.
+
+ 
+
+-- **Tone/Structure Guidance**:
+
+-  - **Conciseness**: Use bullet points for clarity and brevity. Avoid lengthy paragraphs that may dilute key messages.
+
+-  - **Actionable Language**: Use direct, actionable language. Replace "consider" with "implement" or "adopt" to convey urgency and importance.
+
+-  - **Prioritization**: Rank recommendations by impact and ease of implementation to guide the venue on where to start.
+
++- **Detail Implementation Steps**: Provide clear, step-by-step guidance on how to implement each system or strategy. This includes specific actions, responsible parties, and timelines.
+
+ 
+
+-- **Missing Pieces**:
+
+-  - **Staff Training**: Include a section on training staff to ensure consistent execution of new systems.
+
+-  - **Cost Analysis**: Address potential cost implications and savings, helping venues weigh the financial benefits of waste reduction strategies.
+
++- **Include Measurement Metrics**: Suggest metrics to evaluate the effectiveness of the implemented systems, such as reduction in citrus waste percentage or cost savings.
+
++
+
++- **Tone and Structure**: 
+
++  - Use a more directive tone, emphasizing action and accountability.
+
++  - Organize content into clear, actionable sections with headers for easy navigation.
+
++  - Ensure each bullet point is concise and directly related to citrus waste reduction.
+
++
+
++- **Add Examples**: Incorporate specific examples or case studies of successful citrus management practices from similar venues to provide practical insights.
+
++
+
++- **Guest Communication**: Refine the approach to guest communication by suggesting specific messaging strategies or platforms (e.g., menu notes, social media) to convey sustainability efforts effectively.
+
+ 
+
+ 
+
+ (Generated on 2025-09-01 16:27:49)
+
+ 
+
+-(Evaluated on 2025-09-01 16:31:56)
++(Evaluated on 2025-09-09 14:42:33)

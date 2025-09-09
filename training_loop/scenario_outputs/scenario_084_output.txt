@@ -12,11 +12,47 @@ Prompt: Build a step-by-step plan to diagnose and fix our pour-cost spike. What 
 
 Lloyd's Response:
 
-[ERROR] Failed to reach Lloyd: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5000/
+To address a spike in pour costs effectively, you need a structured approach to diagnose the problem and implement controls. Here's a step-by-step plan:
+
+### Step 1: Initial Diagnosis
+- **Review POS Data:** Pull sales data for the past three months to identify trends. Look for specific cocktails or ingredients with increased usage.
+- **Inventory Checks:** Conduct a thorough inventory of all spirits, wines, and modifiers. Compare the actual stock with expected levels based on sales data.
+- **Staff Interviews:** Speak with bartenders and managers to gather insights on potential wastage, over-pouring, or theft.
+
+### Step 2: Data Collection
+- **Cost of Goods Sold (COGS):** Calculate the COGS for each cocktail. Compare with target pour costs (typically 18-22%) to spot discrepancies.
+- **Waste Logs:** Implement or review existing waste logs to track any spillage or spoilage.
+- **Vendor Pricing:** Revisit supplier invoices to ensure there haven't been unnoticed price increases.
+
+### Step 3: Identify Issues
+- **High-Priced Items:** Identify cocktails with the highest ingredient costs and assess their profitability.
+- **Inefficient Recipes:** Look for recipes using uncommon or expensive ingredients that affect margins.
+- **Inconsistent Pours:** Audit staff performance for variances in pour sizes or preparation methods.
+
+### Step 4: Implement Immediate Controls
+- **Standardized Recipes:** Ensure all bartenders are using standard recipes and portions. Retrain if necessary.
+- **Inventory Management:** Set tighter inventory control with regular checks and balances.
+- **Portion Control Tools:** Introduce jiggers or automated pourers to maintain consistent serving sizes.
+- **Regular Audits:** Schedule weekly inventory audits and monthly pour cost reviews.
+
+### Step 5: Monitoring and Adjustment
+- **Daily Tracking:** Monitor daily sales and inventory changes closely for immediate detection of issues.
+- **Feedback Loop:** Establish a system for regular feedback from staff on service and operational challenges.
+- **Menu Engineering:** Consider revising the menu to remove or adjust low-margin cocktails.
+
+### Summary Checklist
+1. Pull and analyze POS and inventory data.
+2. Conduct staff interviews for operational insights.
+3. Calculate COGS and compare against targets.
+4. Identify and address high-cost cocktails and inefficient recipes.
+5. Implement tools for portion control and standardized recipes.
+6. Schedule regular audits and reviews.
+
+By following this plan, you'll gain clarity on where the pour-cost spikes are occurring and establish controls to prevent future issues, helping protect your margins while maintaining a great guest experience.
 
 
 What Lloyd Should Have Done:
 [PLACEHOLDER]
 
 
-(Generated on 2025-09-05 17:34:42)
+(Generated on 2025-09-09 14:36:01)

@@ -1,0 +1,75 @@
+--- scenario_071_output.txt
++++ scenario_071_output_no02.txt
+@@ -53,25 +53,25 @@
+ ### What Lloyd Should Have Done:
+
+ 
+
+ - **Missing Pieces:**
+
+-  - **Customer Interaction:** Include strategies for maintaining quality customer interaction during high-volume periods.
+
+-  - **Staff Training:** Outline a plan for training staff on the new setup and processes to ensure smooth implementation.
+
+-  - **Contingency Plan:** Provide a backup plan for unexpected issues, such as equipment failure or staff shortages.
+
++  - **Customer Interaction:** Include strategies for managing customer interactions during peak times to ensure service quality isn't compromised.
+
++  - **Staff Training:** Outline a training plan for staff to familiarize them with the new station setup and processes.
+
++  - **Contingency Plan:** Address potential issues such as equipment failure or unexpected staff shortages.
+
+ 
+
+ - **Overreach:**
+
+-  - **Complexity:** Simplify the station map and build path instructions to avoid overwhelming staff with excessive detail.
+
+-  - **Assumptions:** Avoid assuming the availability of resources like additional staff or equipment without confirming their presence.
+
++  - **Complexity of Setup:** Simplify the setup instructions to avoid overwhelming staff, focusing on essential changes that yield the highest efficiency gains.
+
++  - **Assumption of Uniformity:** Avoid assuming all venues have the same layout or resources; provide adaptable solutions for different setups.
+
+ 
+
+ - **System/Process Solutions:**
+
+-  - **Checklists:** Implement pre-shift checklists to ensure all items are in place and pars are met before the rush.
+
+-  - **Feedback Mechanism:** Establish a system for ongoing feedback from staff to continuously improve the setup and processes.
+
+-  - **Technology Use:** Consider using technology, such as POS system integrations, to streamline order processing and inventory tracking.
+
++  - **Feedback Mechanism:** Implement a system for real-time feedback during shifts to quickly address any inefficiencies or challenges.
+
++  - **Inventory Management:** Incorporate a digital inventory management system to track ingredient usage and restock needs dynamically.
+
++  - **Continuous Improvement:** Establish a regular review process to refine the station setup and processes based on performance data and staff input.
+
+ 
+
+ - **Tone/Structure Guidance:**
+
+-  - **Clarity:** Use clear, concise language to ensure instructions are easily understood by all staff members.
+
+-  - **Prioritization:** Highlight the most critical steps and components to focus on during the rush.
+
+-  - **Engagement:** Encourage a collaborative approach by inviting staff input and suggestions for improvement.
+
++  - **Conciseness:** Use bullet points for each section to enhance readability and quick reference during busy periods.
+
++  - **Action-Oriented Language:** Use imperative verbs to clearly direct actions (e.g., "Place," "Store," "Organize").
+
++  - **Clarity and Simplicity:** Ensure instructions are clear and jargon-free, making them accessible to all staff levels.
+
+ 
+
+ 
+
+ (Generated on 2025-09-03 18:42:35)
+
+ 
+
+-(Evaluated on 2025-09-03 18:49:21)
++(Evaluated on 2025-09-09 14:43:25)

@@ -1,0 +1,47 @@
+Title: Bar Backlog: Slow Friday Ticket Times
+
+Tags: layout, workflow, speed_of_service, guest_experience
+
+Scenario Type: Training
+
+System Mod: Emphasize throughput and collision reduction; tighten pass-line and handoff.
+
+Venue Context: Neighborhood cocktail bar, 80 seats, single service well + 1 guest well. POS at bar ends. Recent complaints about 12–15 min ticket times between 8–10pm.
+
+Prompt: We’re seeing a Friday night backlog—drinks are taking too long and the well looks jammed. Can you redesign our station map and rail load-out to speed things up without adding staff?
+
+Lloyd's Response:
+
+Certainly! To address the Friday night backlog and streamline your service, we’ll focus on optimizing your station layout, rail load-out, and workflow. Here's a pragmatic approach:
+
+### Station Map
+1. **Designate Roles**: Assign clear roles to each bartender. One should handle the service well for server orders, while the other focuses on guest-facing orders.
+2. **Traffic Lanes**: Establish a one-way flow behind the bar to prevent collisions. Use floor tape or signage to guide movement direction.
+
+### Reach Zones
+- **Zone A (0–18")**: Place the most frequently used tools and spirits within immediate reach. This includes jiggers, shaking/stirring tools, and top-selling spirits.
+- **Zone B (18–30")**: Position less frequently used spirits and glassware here.
+- **Zone C (>30")**: Store backups, like extra ice and bulk supplies, to reduce clutter.
+
+### Rail Load-out (Left to Right)
+- Group spirits by cocktail family (e.g., Vodka, Gin, Rum, Tequila, Whiskey).
+- Place modifiers and liqueurs after base spirits.
+- Keep bitters, syrups, and garnishes at the end of the rail for easy access.
+
+### Build Path Optimization
+1. **Glassware First**: Start with glassware and ice to prep each station.
+2. **Spirit Addition**: Add base spirits followed by modifiers.
+3. **Mixers and Garnishes**: Complete with mixers and garnishes after shaking/stirring.
+
+### Operational Notes
+- **Par Levels**: Ensure par levels for glassware, ice, and garnishes are met before peak hours to prevent restocking delays.
+- **Stress Drill**: Conduct a 20-minute drill before peak hours to test throughput and adjust as necessary.
+
+By implementing these changes, you should see a decrease in ticket times and a smoother workflow, helping your team maintain speed without needing additional staff.
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-09-09 15:43:33)

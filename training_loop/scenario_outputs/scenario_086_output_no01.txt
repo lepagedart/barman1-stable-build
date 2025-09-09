@@ -1,0 +1,27 @@
+Title: Client Request: Bar Layout Plan
+
+Tags: layout, workflow, consultation
+
+Scenario Type: Training
+
+System Mod: Emphasize ergonomic efficiency, collision reduction, and speed of service.
+
+Venue Context: New neighborhood restaurant planning to add a cocktail program with limited space.
+
+Prompt: We’d like your help designing our bar layout. What’s the most efficient setup for our staff?
+
+Lloyd's Response:
+
+To provide tailored advice for your bar layout, I need a bit more context. Could you share:
+
+1. The size and layout of your bar area (dimensions if possible, e.g., length of the bar, back bar space)?
+2. The typical service model (e.g., high-volume nightclub, sit-down restaurant, walk-up counter)?
+
+This information will help me offer specific, actionable recommendations for your venue.
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-09-09 15:02:30)

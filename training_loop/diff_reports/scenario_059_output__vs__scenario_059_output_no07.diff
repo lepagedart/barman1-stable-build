@@ -1,0 +1,77 @@
+--- scenario_059_output.txt
++++ scenario_059_output_no07.txt
+@@ -49,27 +49,25 @@
+ What Lloyd Should Have Done:
+
+ ### What Lloyd Should Have Done:
+
+ 
+
+-- **Clarify Venue Context**: Specify the type of venue (e.g., upscale bar, casual dining) to tailor recommendations appropriately. This context is crucial for aligning strategies with the venue's brand and clientele.
+
++- **Clarify Scenario Context**: Specify the type of venue and its target demographic to tailor recommendations effectively. Include any relevant tags or system modifications to provide context for the response.
+
+ 
+
+-- **Define Tags and Scenario Type**: Clearly identify the scenario type (e.g., inventory management, menu development) and relevant tags (e.g., cost control, supplier relations) to ensure the response is targeted and comprehensive.
+
++- **Align with Venue Goals**: Ensure recommendations align with the venue's overall strategic goals, not just Breakthru's portfolio targets. Include a statement on how these align with the venue's brand and guest experience.
+
+ 
+
+-- **Avoid Overreach in Financial Metrics**: Provide a range for pour cost targets but avoid prescribing exact percentages without venue-specific data. Suggest using historical data and industry benchmarks to set realistic targets.
+
++- **Balance Financial and Guest Experience**: While financial metrics are crucial, emphasize the balance between profitability and maintaining a premium guest experience. Avoid making it sound solely financially driven.
+
+ 
+
+-- **Enhance System/Process Solutions**:
+
+-  - **Inventory Management System**: Recommend implementing a digital inventory management system for real-time tracking and analysis of SKU performance.
+
+-  - **Feedback Mechanism**: Establish a structured process for collecting and analyzing guest feedback, integrating it into quarterly reviews with Breakthru.
+
++- **Avoid Overreach in Supplier Integration**: Suggest collaboration rather than dependency on Breakthru. Ensure the venue maintains autonomy in decision-making and menu adaptations.
+
+ 
+
+-- **Tone and Structure Guidance**:
+
+-  - **Conciseness and Clarity**: Use bullet points for each section to enhance readability and focus on actionable items.
+
+-  - **Avoid Jargon**: Simplify language to ensure clarity for all stakeholders, including non-industry professionals.
+
++- **Refine Operational Processes**: Provide more detailed guidance on implementing SKU mapping and substitution protocols. Ensure these processes are practical and easily adoptable by the venue staff.
+
+ 
+
+-- **Strengthen Staff Training**: Expand on the training modules to include role-playing scenarios and regular assessments to ensure staff are confident and knowledgeable about Breakthru products.
+
++- **Enhance Staff Training**: Expand on how training modules will be delivered and assessed. Include methods for ongoing education and feedback to ensure staff remains engaged and informed.
+
+ 
+
+-- **Integrate Guest Experience Focus**: Emphasize the importance of balancing supplier goals with guest satisfaction. Suggest ways to subtly incorporate Breakthru products into the menu without overtly pushing sales.
+
++- **Tone and Structure**: Use a more conversational tone to engage the reader. Break down complex processes into simpler, actionable steps. Ensure the structure flows logically from financial impact to guest perception.
+
+ 
+
+-- **Regular Review and Adaptation**: Highlight the need for ongoing evaluation and flexibility in strategies to adapt to changing market conditions and guest preferences.
+
++- **Guest Feedback Mechanism**: Elaborate on how guest feedback will be collected and utilized. Suggest specific tools or methods for gathering and analyzing feedback to continually refine the guest experience.
+
++
+
++- **Summary Checklist**: Ensure the checklist is actionable and concise. Remove any redundant points and focus on the most impactful actions.
+
+ 
+
+ 
+
+ (Generated on 2025-08-29 16:35:28)
+
+ 
+
+-(Evaluated on 2025-08-29 16:37:13)
++(Evaluated on 2025-09-09 14:40:53)

@@ -1,0 +1,8 @@
+{
+  "scenario_number": 89,
+  "title": "Low-Waste Citrus Program Without Lab Gear",
+  "tags": ["sustainability", "prep", "batching", "profitability"],
+  "system_mod": "Prioritize zero/low-waste techniques that are feasible with basic bar equipment.",
+  "venue_context": "High-volume hotel lobby bar; limited back-of-house, no centrifuge. Looking to cut citrus waste and stabilize juice for 48–72 hours.",
+  "prompt": "Design us a low-waste citrus program—including stabilized juice, uses for peels/pulp, and freezer batching—suitable for a high-volume lobby bar without lab equipment."
+}

@@ -1,0 +1,9 @@
+
+{
+  "scenario_number": 87,
+  "title": "Bar Backlog: Slow Friday Ticket Times",
+  "tags": ["layout", "workflow", "speed_of_service", "guest_experience"],
+  "system_mod": "Emphasize throughput and collision reduction; tighten pass-line and handoff.",
+  "venue_context": "Neighborhood cocktail bar, 80 seats, single service well + 1 guest well. POS at bar ends. Recent complaints about 12–15 min ticket times between 8–10pm.",
+  "prompt": "We’re seeing a Friday night backlog—drinks are taking too long and the well looks jammed. Can you redesign our station map and rail load-out to speed things up without adding staff?"
+}

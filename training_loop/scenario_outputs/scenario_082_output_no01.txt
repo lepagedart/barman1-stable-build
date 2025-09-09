@@ -1,0 +1,55 @@
+Title: Zero-Waste Garnish & Juice Program
+
+Tags: sustainability, prep, batching, inventory, costing
+
+Scenario Type: Training
+
+System Mod: Emphasize yield tracking, repurposing byproducts, freezing strategy, and safe shelf-life. Include a weekly zero-waste scorecard and staff prep checklists.
+
+Venue Context: Craft cocktail bar producing 25L citrus weekly with variable fruit quality; limited cold storage; team wants greener practices without slowing service.
+
+Prompt: Design a zero-waste juice and garnish workflow: how to capture peels/pith/pulp, stabilize juice, pre-batch efficiently, and measure savings without sacrificing quality.
+
+Lloyd's Response:
+
+To establish a zero-waste juice and garnish workflow that captures peels, pith, and pulp while stabilizing juice, follow these steps:
+
+### Juice Stabilization and Pre-Batching
+1. **Citrus Juice Stabilization**:
+   - Use a combination of citric and malic acids to create a stabilized juice solution. This helps maintain acidity and freshness over time.
+   - Consider clarifying juices using agar or a centrifuge to remove solids, extending shelf life and improving clarity.
+
+2. **Pre-Batching Juices**:
+   - Batch juices in advance for high-volume cocktails. Store in airtight containers and label with the preparation date.
+   - Use vacuum sealing where possible to prevent oxidation and extend shelf life.
+
+### Garnish Utilization
+1. **Peel Utilization**:
+   - Zest citrus fruits before juicing. Use peels for infusions or to make oleo saccharum by macerating with sugar, which can be used as a sweetener.
+   - Dehydrate peels for use as garnishes or ground into citrus powders.
+
+2. **Pith and Pulp Utilization**:
+   - Use leftover pulp in syrups or marmalades, adding a unique flavor dimension to cocktails.
+   - Compost pith and other non-utilized organic matter to minimize waste.
+
+### Waste Measurement and Savings
+1. **Tracking and Reporting**:
+   - Implement a waste log to record the amount of citrus and garnishes used, and track reductions over time.
+   - Regularly review inventory and sales to measure the impact on cost savings and reduced waste.
+
+2. **Cost Analysis**:
+   - Calculate cost savings by comparing the cost of whole citrus versus stabilized solutions and pre-batched components over a defined period.
+   - Use POS data to analyze sales trends and adjust the workflow to ensure it aligns with demand and minimizes excess prep.
+
+### Operational Notes
+- **Training**: Ensure staff are trained on the new processes, emphasizing the importance of zero-waste practices.
+- **Quality Checks**: Regularly taste batches to ensure quality and consistency. Adjust acid or sugar levels as needed.
+
+By implementing these strategies, you can effectively minimize waste and measure cost savings without sacrificing the quality of your cocktail offerings.
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-09-09 14:35:32)

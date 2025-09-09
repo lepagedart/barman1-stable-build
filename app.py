@@ -90,6 +90,24 @@ FIN_PREAMBLE      = _load_text(PREAMBLES_DIR / "financials_preamble.txt",       
 WOW_PREAMBLE      = _load_text(PREAMBLES_DIR / "wow_factor_preamble.txt",       "Design a single memorable moment with fast garnishes + script.")
 COMP_PREAMBLE     = _load_text(PREAMBLES_DIR / "compliance_preamble.txt",       "Add ID workflow, refusal protocol, allergy labeling, incident log.")
 TECH_PREAMBLE     = _load_text(PREAMBLES_DIR / "technology_preamble.txt",       "Map POS/inventory integrations, dashboards, and forecasting cadence.")
+VENUE_SCOPE_PREAMBLE = _load_text(
+    PREAMBLES_DIR / "venue_scope_preamble.txt",
+    "Ground recommendations in venue size/type. Ask fact-finding questions if details are missing."
+)
+# --------- Global system addendum (always appended to system prompt) ----------
+GLOBAL_GUARDRAILS = _load_text(Path("system_prompt_mods") / "global_guardrails.txt",
+    "Ground advice in venue type/size/staff; ask ≤3 clarifying questions if missing; scale scope; call out trade-offs.")
+
+# NEW: consultative questions preamble (always appended)
+CONSULT_PREAMBLE  = _load_text(
+    PREAMBLES_DIR / "consultative_preamble.txt",
+    (
+        "Before recommending, list the 5–10 most critical clarifying questions. "
+        "If answers are unavailable, proceed anyway: state explicit assumptions "
+        "up front and continue with a complete, actionable plan that notes where "
+        "assumptions were made."
+    ),
+)
 
 # --------- Load regex triggers ----------
 PORTFOLIO_RE   = _load_triggers(TRIGGERS_DIR / "portfolio_triggers.txt")
@@ -131,6 +149,25 @@ def detect_scenario_prompt_mod_name(user_prompt: str, venue: str) -> str:
     return "+".join(names) if names else "none"
 
 def _preambles_for(names: str) -> list[tuple[str, str]]:
+    mapping = {
+        "layout_lens": ("layout_preamble", LAYOUT_PREAMBLE),
+        "event_lens": ("event_preamble", EVENT_PREAMBLE),
+        "guest_experience_lens": ("guest_experience_preamble", GUEST_PREAMBLE),
+        "financials_lens": ("financials_preamble", FIN_PREAMBLE),
+        "wow_factor_lens": ("wow_factor_preamble", WOW_PREAMBLE),
+        "compliance_lens": ("compliance_preamble", COMP_PREAMBLE),
+        "technology_lens": ("technology_preamble", TECH_PREAMBLE),
+        # 🔥 Always-on venue scope anchor
+        "venue_scope": ("venue_scope_preamble", VENUE_SCOPE_PREAMBLE),
+    }
+    out = []
+    if names and names != "none":
+        for key, val in mapping.items():
+            if key in names:
+                out.append(val)
+    # 🔥 Force-append venue_scope_preamble regardless of lens
+    out.append(("venue_scope_preamble", VENUE_SCOPE_PREAMBLE))
+    return out   
     """Return [(name, text), ...] for preambles implied by lens names."""
     mapping = {
         "layout_lens": ( "layout_preamble", LAYOUT_PREAMBLE ),
@@ -197,6 +234,13 @@ def load_system_prompt():
     except Exception as e:
         app.logger.warning("Could not load system prompt: %s", e)
         return "You are Lloyd, an AI-powered Bar Director providing expert bar program advice."
+
+# Small system rule to enforce “assume & proceed” when answers aren’t available
+ASSUMPTIONS_RULE = (
+    "If clarifying details are missing, list targeted questions first. "
+    "When answers are unavailable, state explicit assumptions and proceed with a complete, "
+    "actionable plan that flags assumption-sensitive steps."
+)
 
 # =============================================================================
 #                            Auto-reindex Helpers
@@ -284,8 +328,18 @@ def index():
             # ---- Auto-append preambles to the user prompt based on active lenses ----
             preambles = _preambles_for(selected_mod_name)
             for pre_name, pre_text in preambles:
+                pass  # No operation, just iterating (can be removed if unnecessary)
+            # Always-on venue scope preamble (prevents overreach & forces scaling)
+            if VENUE_SCOPE_PREAMBLE:
+                preambles.append(("venue_scope_preamble", VENUE_SCOPE_PREAMBLE))
+               
+            for pre_name, pre_text in preambles:
                 user_prompt = f"{user_prompt}\n\n{pre_text}"
                 app.logger.info("📝 Preamble injected: %s", pre_name)
+            # ---- ALWAYS append consultative preamble ----
+            if CONSULT_PREAMBLE:
+                user_prompt = f"{user_prompt}\n\n{CONSULT_PREAMBLE}"
+                app.logger.info("🗣️  Preamble injected: consultative_preamble")
 
             # ---------- RAG context ----------
             try:
@@ -312,7 +366,15 @@ def index():
 
             # ---------- Compose messages ----------
             base_prompt = load_system_prompt()
-            combined_prompt = f"{base_prompt}\n\n{scenario_mod}".strip() if scenario_mod else base_prompt
+            # include the assumptions rule before any lens blocks
+            combined_prompt = base_prompt
+            if ASSUMPTIONS_RULE:
+                combined_prompt = f"{combined_prompt}\n\n{ASSUMPTIONS_RULE}"
+            if scenario_mod:
+                combined_prompt = f"{combined_prompt}\n\n{scenario_mod}"
+            if GLOBAL_GUARDRAILS:
+                combined_prompt += "\n\n" + GLOBAL_GUARDRAILS
+            combined_prompt = combined_prompt.strip()
 
             messages = [
                 {"role": "system", "content": combined_prompt},

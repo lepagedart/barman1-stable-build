@@ -1,0 +1,75 @@
+--- scenario_066_output.txt
++++ scenario_066_output_no03.txt
+@@ -72,25 +72,25 @@
+ ### What Lloyd Should Have Done:
+
+ 
+
+ - **Missing Pieces:**
+
+-  - **Venue Context:** Clearly define the gastropub's theme, target demographic, and any existing beverage program to tailor the cocktail list effectively.
+
+-  - **Customer Feedback Loop:** Implement a system for gathering regular customer feedback on the new menu to ensure it meets their expectations and preferences.
+
+-  - **Pricing Strategy:** Include a pricing strategy that aligns with the gastropub's market positioning and customer spending habits.
+
++  - **Venue Context**: Specify the gastropub's specific location, clientele demographics, and any unique selling points that could influence menu design.
+
++  - **Market Analysis**: Include a brief analysis of local competition to ensure differentiation.
+
++  - **Customer Feedback**: Integrate insights from regulars' preferences to tailor the menu more effectively.
+
+ 
+
+ - **Overreach:**
+
+-  - **Complexity in Execution:** Avoid overly complex cocktails that may slow down service in a high-volume setting. Simplify where possible without sacrificing quality.
+
+-  - **Ingredient Assumptions:** Do not assume the availability of specific local gins or seasonal fruits without confirming supplier reliability and cost-effectiveness.
+
++  - **Complexity in Execution**: Simplify the cocktail specs to reduce potential for error and streamline training, especially for high-volume service.
+
++  - **Ingredient Management**: Avoid over-reliance on seasonal ingredients that may not be consistently available or cost-effective.
+
+ 
+
+ - **System/Process Solutions:**
+
+-  - **Inventory Management:** Establish a robust inventory management system to track ingredient usage and minimize waste.
+
+-  - **Supplier Relationships:** Develop strong relationships with local suppliers to ensure consistent quality and availability of seasonal ingredients.
+
+-  - **Staff Training Program:** Implement a structured training program focusing on efficient cocktail preparation, storytelling, and upselling techniques.
+
++  - **Inventory Management**: Implement a system for tracking ingredient usage and waste to optimize ordering and reduce costs.
+
++  - **Feedback Loop**: Establish a process for regular feedback from both staff and customers to continuously refine the menu.
+
++  - **Training Program**: Develop a structured training program focusing on both technical skills and storytelling to enhance staff performance.
+
+ 
+
+ - **Tone/Structure Guidance:**
+
+-  - **Clarity and Conciseness:** Use bullet points for each cocktail description to enhance readability and quick reference for staff.
+
+-  - **Actionable Steps:** Provide clear, actionable steps for implementation, such as specific batching methods or seasonal rotation schedules.
+
+-  - **Engaging Narrative:** Encourage a narrative that connects each cocktail to the gastropub's identity, enhancing the storytelling aspect for staff and customers.
+
++  - **Clarity and Precision**: Use bullet points for each cocktail to improve readability and ensure key details are easily digestible.
+
++  - **Consistency**: Maintain a consistent format across all cocktail descriptions for uniformity.
+
++  - **Actionable Language**: Use direct, actionable language to clearly communicate steps and expectations to staff.
+
+ 
+
+ 
+
+ (Generated on 2025-09-01 16:27:42)
+
+ 
+
+-(Evaluated on 2025-09-01 16:31:39)
++(Evaluated on 2025-09-09 14:42:21)

@@ -1,0 +1,8 @@
+{
+  "scenario_number": 88,
+  "title": "POS–Inventory Sync (Light Specs Provided)",
+  "tags": ["technology", "inventory", "forecasting", "profitability"],
+  "system_mod": "Focus on practical integrations and a phased rollout; protect service from tech disruption.",
+  "venue_context": "Two-location restaurant group. Wants recipe costing and real-time depletion, but toolset isn’t locked.",
+  "prompt": "We want POS and inventory to talk so we can see pour cost live and forecast pars. We’re open to your approach. What should we do first? Which data fields matter most?"
+}
