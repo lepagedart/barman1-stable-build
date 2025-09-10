@@ -1,0 +1,75 @@
+Title: Craft Cocktail Bar – Menu Refresh with Seasonal Focus
+
+Tags: menu design, seasonal, guest experience
+
+Scenario Type: Training
+
+System Mod: wow_factor_lens+portfolio_lens
+
+Venue Context: Cocktail-focused lounge, 80 seats, guests expect rotating seasonal menus with creative flair but practical execution.
+
+Prompt: How do we design a spring seasonal refresh that highlights local produce while keeping prep and training manageable for staff?
+
+Lloyd's Response:
+
+To design a spring seasonal refresh that highlights local produce while keeping prep and training manageable, focus on simplicity, strategic batching, and clear staff guidelines. Here's a plan:
+
+### Menu Structure
+- **Highlight Local Produce**: Select 2-3 local, seasonal ingredients to feature across the menu. This could be rhubarb, strawberries, or fresh herbs like mint and basil.
+- **Balanced Cocktail Families**:
+  - **Sours**: A Rhubarb Sour using fresh rhubarb syrup.
+  - **Highballs**: Strawberry-Mint Gin & Tonic.
+  - **Old Fashioned Variants**: A Basil-infused Negroni.
+
+### Cocktail Specs
+1. **Rhubarb Sour**
+   - Spec: 2 oz Bourbon, 1 oz Fresh Lemon Juice, 0.75 oz Rhubarb Syrup
+   - Ice / Glass / Garnish: Shaken, served on the rocks, garnished with lemon wheel and rhubarb ribbon.
+   - Cost Notes: Keep syrup costs low with local rhubarb. Aim for a 20% pour cost.
+
+2. **Strawberry-Mint Gin & Tonic**
+   - Spec: 1.5 oz Local Gin, 0.5 oz Strawberry-Mint Infusion, Top with Tonic
+   - Ice / Glass / Garnish: Built in a highball, mint sprig and strawberry slice garnish.
+   - Cost Notes: Use local strawberries to control costs, target 18% pour cost.
+
+### Batching Strategy
+- **Infusions and Syrups**: Pre-batch the rhubarb syrup and strawberry-mint infusion. These can be made in advance and stored for up to a week when refrigerated.
+- **Training Focus**: Ensure staff knows how to make these simple syrups and infusions. Allocate a prep session for practicing these recipes.
+
+### Staff Training
+- **Simple Prep**: Conduct a training session focused on new ingredients and prep. Teach efficient methods for syrup and infusion production.
+- **Cocktail Assembly**: Spend time on the build path for each cocktail to ensure speed and consistency. Use mock service drills to practice under time constraints.
+
+### Operational Notes
+- **Storage**: Ensure syrups and infusions are labeled with prep dates and stored correctly to maximize shelf life.
+- **Feedback Loop**: Post-launch, gather staff and guest feedback to adjust recipes and service flow where needed.
+
+By focusing on a few key local ingredients and keeping the menu concise, you can deliver a fresh, seasonal experience without overwhelming your staff.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Venue Context**: Clearly define the type of venue and its clientele to tailor the menu appropriately.
+  - **Staff Skill Level**: Assess current staff skill levels to customize training and ensure they can execute the new menu effectively.
+  - **Customer Preferences**: Incorporate insights on customer preferences or past sales data to guide ingredient and cocktail selection.
+
+- **Overreach:**
+  - **Ingredient Complexity**: Avoid overcomplicating with too many new ingredients; focus on 1-2 key local items to simplify inventory and training.
+  - **Batching Duration**: Ensure batch storage guidelines are realistic and safe; verify that one-week storage aligns with health regulations.
+
+- **System/Process Solutions:**
+  - **Standardized Recipes**: Develop standardized recipes with precise measurements and instructions to maintain consistency.
+  - **Inventory Management**: Implement a system for tracking ingredient usage and waste to optimize ordering and reduce costs.
+  - **Feedback Mechanism**: Establish a structured feedback system with regular intervals for both staff and guests to make timely adjustments.
+
+- **Tone/Structure Guidance:**
+  - **Clarity and Precision**: Use clear, direct language and avoid jargon to ensure all staff levels understand the instructions.
+  - **Actionable Steps**: Break down processes into step-by-step actions to facilitate easier training and execution.
+  - **Engagement and Motivation**: Include motivational language to engage staff and emphasize the benefits of the new menu to both staff and customers.
+
+
+(Generated on 2025-09-10 15:02:26)
+
+(Evaluated on 2025-09-10 15:03:20)

@@ -1,0 +1,69 @@
+Title: Neighborhood Speakeasy – Wow Factor Moment
+
+Tags: wow_factor, guest_experience
+
+Scenario Type: Training
+
+System Mod: wow_factor_lens+guest_experience_lens
+
+Venue Context: 50-seat speakeasy, hidden entrance, loyal local base, open kitchen crossover.
+
+Prompt: What’s a low-cost but memorable wow factor cocktail or service moment that fits the intimate space?
+
+Lloyd's Response:
+
+For an intimate space, you want a cocktail or service moment that feels personal and engaging without overwhelming the small setting. Here’s a suggestion:
+
+**Smoke & Spice Old Fashioned**
+
+**Spec:**
+- 2 oz Bourbon (select a cost-effective, flavorful brand)
+- 0.25 oz Spiced Syrup (cinnamon, clove, and a hint of chili)
+- 3 dashes Angostura bitters
+
+**Ice / Glass / Garnish:**
+- Large ice cube / Rocks glass / Orange peel
+
+**Method:**
+1. Combine bourbon, spiced syrup, and bitters in a mixing glass.
+2. Stir with ice until well-chilled.
+3. Strain over a large ice cube in a rocks glass.
+4. Express an orange peel over the drink, then garnish with it.
+
+**Cost Notes:**
+- Target a pour cost of around 18-20%. The spiced syrup can be made in-house to keep costs low and reused in other cocktails.
+
+**Service Notes:**
+- Consider a smoke presentation: capture smoke under a cloche with the drink, removing it tableside for a dramatic reveal. Use wood chips like apple or cherry for a pleasant aroma.
+- Spiced syrup can be batched and stored for up to a week.
+
+**Rationale:**
+This cocktail combines a classic with a twist, enhancing the guest experience with a simple yet effective smoke reveal. It’s memorable and fits the intimate setting by engaging guests with a sensory experience that doesn’t require loud or flashy elements. The homemade syrup keeps costs down while adding a unique touch.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Venue Context:** Clearly define the venue’s theme, clientele, and existing beverage program to ensure the cocktail aligns with the overall concept.
+  - **Guest Experience:** Include specific guest interaction strategies or staff training tips to enhance the personal touch in service.
+  - **Allergy Considerations:** Address potential allergens in the spiced syrup and suggest alternatives or precautions.
+
+- **Overreach:**
+  - **Smoke Presentation:** While engaging, the smoke reveal can be logistically challenging in a small space. Suggest simpler alternatives or ensure the venue can support this feature without disrupting service flow.
+
+- **System/Process Solutions:**
+  - **Batching Protocol:** Provide detailed instructions on batching and storing the spiced syrup, including measurements, storage conditions, and labeling practices.
+  - **Cost Management:** Offer a breakdown of ingredient costs and potential suppliers to ensure the target pour cost is realistic and achievable.
+
+- **Tone/Structure Guidance:**
+  - **Conciseness:** Streamline the cocktail description and preparation steps to focus on key details, avoiding overly descriptive language.
+  - **Professional Language:** Use precise, industry-standard terminology to maintain professionalism and clarity.
+  - **Engagement Tips:** Offer specific phrases or actions for staff to use when presenting the cocktail to enhance guest interaction.
+
+By addressing these areas, Lloyd can provide a more comprehensive, feasible, and engaging cocktail program tailored to the venue's unique setting.
+
+
+(Generated on 2025-09-09 17:37:40)
+
+(Evaluated on 2025-09-09 17:38:42)

@@ -1,0 +1,8 @@
+{
+  "scenario_number": 92,
+  "title": "New Hotel Lobby Bar – Profitability Targets",
+  "tags": ["profitability", "financials", "portfolio"],
+  "system_mod": "financials_lens+profitability_lens+portfolio_lens",
+  "venue_context": "Hotel lobby bar, 80 seats, mix of transient guests and conference traffic, F&B director has strict 25% pour cost mandate.",
+  "prompt": "We need menu design ideas that hit profitability targets without compromising guest experience. Where should we focus?"
+}

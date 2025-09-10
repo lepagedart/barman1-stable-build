@@ -1,0 +1,9 @@
+{
+    "scenario_number": 108,
+    "title": "Craft Cocktail Bar – Menu Refresh with Seasonal Focus",
+    "tags": ["menu design", "seasonal", "guest experience"],
+    "scenario_type": "Training",
+    "system_mod": "wow_factor_lens+portfolio_lens",
+    "venue_context": "Cocktail-focused lounge, 80 seats, guests expect rotating seasonal menus with creative flair but practical execution.",
+    "prompt": "How do we design a spring seasonal refresh that highlights local produce while keeping prep and training manageable for staff?"
+  }

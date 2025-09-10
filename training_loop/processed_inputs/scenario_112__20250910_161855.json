@@ -1,0 +1,8 @@
+{
+  "scenario_number": 112,
+  "title": "Stadium Concourse Pop-Ups – High Throughput, Low Waste",
+  "tags": ["event", "sustainability", "compliance", "throughput", "batching"],
+  "system_mod": "event_lens+sustainability_lens+compliance_lens",
+  "venue_context": "Major-league stadium concourse. 4 pop-up bars running 90 minutes pre-game + halftime crush. Limited back-of-house, ice delivered by tote, waste streams audited by venue sustainability team. Strict ID checks and service boundaries.",
+  "prompt": "Build a throughput plan for 4 pop-up bars that cuts single-use waste and keeps lines moving. Specify batching strategies, clarified juice or stabilized mixers where appropriate, garnish plan with minimal waste, reclaimed-ice policy if viable, and a compliance-forward ID/refusal workflow. Include per-station par sheets and a halftime ‘crush mode’ configuration."
+}

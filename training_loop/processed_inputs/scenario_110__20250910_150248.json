@@ -1,0 +1,9 @@
+ {
+    "scenario_number": 110,
+    "title": "Upscale Restaurant – Compliance & Guest Allergies",
+    "tags": ["compliance", "guest safety", "training"],
+    "scenario_type": "Training",
+    "system_mod": "compliance_lens+guest_experience_lens",
+    "venue_context": "100-seat fine dining restaurant, diverse cocktail list, high expectation for staff to navigate allergies and guest safety with finesse.",
+    "prompt": "How should we train bartenders to handle allergy disclosures, cross-contamination risks, and communicate safety without breaking guest experience?"
+ }

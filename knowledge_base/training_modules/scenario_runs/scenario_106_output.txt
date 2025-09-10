@@ -1,0 +1,74 @@
+Title: Small Neighborhood Bistro – Limited Bar Menu
+
+Tags: small venue, limited menu, cost control, workflow
+
+Scenario Type: Training
+
+System Mod: financials_lens+guest_experience_lens
+
+Venue Context: 45-seat bistro, single bartender covering both bar and service station, menu has 5 cocktails max.
+
+Prompt: How should we design a cocktail list that is manageable for one bartender, keeps costs under control, and still feels thoughtful for guests?
+
+Lloyd's Response:
+
+To design a cocktail list that's manageable for one bartender, cost-effective, and appealing to guests, focus on simplicity, versatility, and guest experience. Here’s a structured plan:
+
+### Cocktail List Design
+1. **Balanced Families**: Include a mix of cocktail families to provide variety. Consider:
+   - **Sour**: A classic Margarita or Daiquiri.
+   - **Old Fashioned**: A simple Whiskey Old Fashioned.
+   - **Highball**: A Gin & Tonic or Vodka Soda.
+   - **Martini/Manhattan Variants**: A basic Negroni or Manhattan.
+
+2. **Shared Ingredients**: Use common ingredients across multiple drinks to simplify inventory and reduce costs. For example, citrus, simple syrup, and a versatile spirit like vodka or gin can be used in various cocktails.
+
+3. **Limited SKUs**: Keep the back bar streamlined by limiting unique ingredients. Aim for a core selection of spirits that can be used in multiple drinks.
+
+4. **Seasonal/Local Flavor**: Incorporate a seasonal or local ingredient that can be featured in a special cocktail or as a garnish to add interest without complicating the menu.
+
+### Operational Considerations
+- **Batching**: If possible, batch liquor-only components of popular cocktails to speed up service and maintain consistency.
+- **Prep Time**: Limit cocktails that require extensive prep or rare ingredients. Focus on builds and simple shakes/stirs.
+- **Shelf Life**: Choose components with a good shelf life to minimize waste and cost.
+
+### Menu Presentation
+- **Clear Descriptions**: Provide brief but enticing descriptions that highlight the main flavors or unique aspects.
+- **Price Range**: Ensure pricing aligns with your cost targets, ideally aiming for a pour cost of around 20-25%.
+
+### Execution Checklist
+- **Test Runs**: Conduct a mock service to ensure the bartender can manage the flow smoothly.
+- **Feedback Loop**: Gather guest feedback to refine the menu over time.
+- **Training**: Ensure the bartender is well-versed in each recipe to maintain quality and speed.
+
+By focusing on these elements, you can create a cocktail list that’s both efficient for the bartender and engaging for guests, all while keeping costs in check.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces**:
+  - **Venue Context**: Specify the type of venue (e.g., upscale bar, casual pub) to tailor the cocktail list to the clientele and setting.
+  - **Target Audience**: Identify the target demographic to ensure the cocktail offerings align with their preferences.
+  - **Competitive Analysis**: Include a brief comparison with local competitors to ensure the menu stands out.
+
+- **Overreach**:
+  - **Complexity**: Avoid suggesting batching without assessing the venue’s storage and prep capabilities. Not all venues can accommodate this.
+  - **Ingredient Assumptions**: Do not assume the availability of certain ingredients without confirming with the venue’s supply chain.
+
+- **System/Process Solutions**:
+  - **Inventory Management**: Implement a digital inventory system to track ingredient usage and reduce waste.
+  - **Regular Updates**: Schedule quarterly reviews of the cocktail list to incorporate seasonal changes and guest feedback.
+  - **Training Program**: Develop a structured training program for new bartenders to ensure consistency and quality.
+
+- **Tone/Structure Guidance**:
+  - **Conciseness**: Use bullet points for each section to enhance readability and quick reference.
+  - **Action-Oriented Language**: Use imperative verbs to clearly communicate steps (e.g., "Incorporate," "Limit," "Conduct").
+  - **Prioritization**: Highlight the most critical actions at the beginning of each section to guide focus.
+
+By addressing these areas, Lloyd can create a more tailored and efficient cocktail program that aligns with the venue’s capabilities and guest expectations.
+
+
+(Generated on 2025-09-10 15:02:04)
+
+(Evaluated on 2025-09-10 15:02:57)

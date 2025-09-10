@@ -1,0 +1,9 @@
+ {
+    "scenario_number": 106,
+    "title": "Small Neighborhood Bistro – Limited Bar Menu",
+    "tags": ["small venue", "limited menu", "cost control", "workflow"],
+    "scenario_type": "Training",
+    "system_mod": "financials_lens+guest_experience_lens",
+    "venue_context": "45-seat bistro, single bartender covering both bar and service station, menu has 5 cocktails max.",
+    "prompt": "How should we design a cocktail list that is manageable for one bartender, keeps costs under control, and still feels thoughtful for guests?"
+  }

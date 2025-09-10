@@ -1,0 +1,74 @@
+Title: Hotel Lobby Bar – Multi-Day Prep Constraints
+
+Tags: batching, prep, hotel operations, consistency
+
+Scenario Type: Training
+
+System Mod: event_lens+financials_lens
+
+Venue Context: 120-room hotel lobby bar, small prep kitchen, staff rotates between AM/PM shifts with limited overlap, cocktails must hold across 2-3 days.
+
+Prompt: What batching, prep, and storage guidelines should we establish so cocktails stay consistent across multiple shifts and prep cycles?
+
+Lloyd's Response:
+
+To ensure cocktail consistency across multiple shifts and prep cycles, here’s a structured approach focusing on batching, prep, and storage:
+
+### Batching Guidelines
+- **Select Batchable Cocktails**: Choose cocktails that have a stable flavor profile and can be pre-batched without losing quality. Classics like Negronis, Margaritas, and Spirit-Forward builds are ideal.
+- **Batch by Base Spirit**: Combine only the base spirits and modifiers that don’t require fresh components like citrus or dairy. This reduces the need for precise measuring during service.
+- **Pre-dilution**: For stirred cocktails, consider adding a controlled amount of water to mimic the dilution that would occur during stirring, ensuring consistency.
+
+### Prep Procedures
+- **Standardized Recipes**: Create and maintain recipe cards with exact measurements and methods. Ensure all staff are trained to use these consistently.
+- **Prep Schedule**: Establish a prep schedule that aligns with busy periods to ensure fresh components like juices and garnishes are always available.
+- **Labeling and Documentation**: Use clear labeling that includes the date, batch size, and preparer’s initials. Maintain a logbook for tracking batch usage and shelf life.
+
+### Storage Practices
+- **Temperature Control**: Store batches in a cool, dark place to maintain flavor integrity. Use refrigeration when possible for items that require it.
+- **Shelf Life Management**: Clearly define shelf lives for each batch based on ingredient stability. Regularly audit stored batches to prevent spoilage.
+- **Sanitation**: Ensure all containers are sanitized before use to prevent contamination and flavor degradation.
+
+### Operational Tips
+- **Batch Size**: Calculate batch sizes based on expected service volume to minimize waste.
+- **Backup Supplies**: Keep backup supplies of key ingredients and prepped components to handle unexpected demand surges.
+- **Training**: Conduct regular staff training to reinforce the importance of following established procedures and maintaining consistency.
+
+### Summary Checklist
+- Identify and standardize batchable cocktails.
+- Create detailed recipe cards and ensure staff training.
+- Implement a prep and storage log system.
+- Regularly audit batches for quality and compliance.
+- Provide ongoing training and feedback loops.
+
+By adhering to these guidelines, you ensure that cocktails remain consistent and of high quality regardless of who is on shift or the day’s demands.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Ingredient Sourcing:** Address the importance of consistent sourcing for ingredients to maintain flavor profiles.
+  - **Feedback Loop:** Implement a system for staff to provide feedback on batch quality and process effectiveness.
+  - **Customer Feedback:** Include a mechanism for capturing customer feedback on cocktail consistency and quality.
+
+- **Overreach:**
+  - **Pre-dilution Specifics:** Avoid suggesting pre-dilution without specifying exact water ratios, as this can vary significantly between cocktails.
+  - **Backup Supplies:** Clarify that backup supplies should be managed to avoid overstocking, which can lead to waste.
+
+- **System/Process Solutions:**
+  - **Digital Recipe Management:** Utilize digital tools for recipe management and updates, ensuring real-time access for all staff.
+  - **Inventory Management System:** Integrate an inventory management system to track ingredient usage and batch turnover.
+  - **Quality Control Checks:** Establish periodic quality control checks to ensure batch integrity and adherence to standards.
+
+- **Tone/Structure Guidance:**
+  - **Conciseness:** Streamline sections to focus on key actions and eliminate redundancy.
+  - **Clarity:** Use clear, direct language to ensure all staff, regardless of experience level, can understand and implement procedures.
+  - **Actionable Steps:** Break down guidelines into actionable steps with clear responsibilities assigned to staff roles.
+
+By addressing these areas, Lloyd can enhance the operational efficiency and consistency of cocktail preparation across shifts.
+
+
+(Generated on 2025-09-10 15:02:37)
+
+(Evaluated on 2025-09-10 15:03:30)

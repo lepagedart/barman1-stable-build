@@ -1,0 +1,8 @@
+{
+  "scenario_number": 114,
+  "title": "Winery Tasting Room – Adding Low-ABV Cocktail Program",
+  "tags": ["layout", "technology", "compliance", "low-abv", "batching"],
+  "system_mod": "layout_lens+technology_lens+compliance_lens",
+  "venue_context": "Winery tasting room with limited back bar (no full kitchen, small undercounter fridge). Team is wine-trained, limited cocktail experience. Desire for spritz/amaro/vermouth-forward offerings; local ABC rules on batching/labeling apply.",
+  "prompt": "Propose a low-ABV cocktail mini-program (4–6 drinks) aligned with a winery tasting context. Include station layout, glassware/rack plan, minimal-equipment batching, POS buttons/modifiers, and compliant batch labels/logs. Prioritize speed and staff learnability while keeping brand voice on the wine side."
+}

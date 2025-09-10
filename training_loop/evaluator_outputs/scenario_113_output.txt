@@ -1,0 +1,119 @@
+Title: Neighborhood Lounge – Consistency & Recovery Playbook
+
+Tags: guest_experience, consistency, layout, financials, training
+
+Scenario Type: Training
+
+System Mod: guest_experience_lens+layout_lens+financials_lens
+
+Venue Context: 70-seat cocktail lounge with a single service well and a short rail. Guest reviews mention 'too sweet', 'inconsistent', and slow remakes on weekends. One bartender + one barback on peak nights.
+
+Prompt: Create a guest-experience recovery playbook and a consistency toolkit. We need: (1) calibration standards for citrus/syrup and a jigger compliance routine, (2) a quick-fix matrix for common send-backs (too sweet/sour/watery), (3) a station map + reach zones that speed remakes, and (4) a comp/manager-touch policy that controls cost but earns back trust.
+
+Lloyd's Response:
+
+### Guest-Experience Recovery Playbook
+
+#### 1. Calibration and Consistency Toolkit
+
+**Citrus/Syrup Calibration:**
+- **Daily Calibration**: 
+  - Taste all citrus juices and syrups during setup.
+  - Adjust recipes based on sweetness and acidity (e.g., if lemon is too tart, slightly reduce quantity or increase simple syrup).
+  - Document any adjustments for staff reference.
+
+**Jigger Compliance Routine:**
+- **Weekly Training**:
+  - Conduct a 15-minute jigger pouring exercise at the start of each week.
+  - Use water to minimize waste; aim for consistent pours each time.
+  - Spot checks during service to ensure compliance.
+
+#### 2. Quick-Fix Matrix for Common Send-Backs
+
+- **Too Sweet**: 
+  - Add a dash of lemon or lime juice to balance.
+  - Stir and taste before returning to the guest.
+
+- **Too Sour**: 
+  - Add a small amount of simple syrup or a sweeter modifier like St. Germain.
+  - Stir and taste before returning to the guest.
+
+- **Too Watery**: 
+  - Shake again with fresh ice to reinvigorate the dilution balance.
+  - Optionally add a small splash of fresh base spirit if needed.
+
+#### 3. Station Map + Reach Zones
+
+**Station Layout:**
+- **Zone A (0–18")**: Frequently used tools (jiggers, bar spoons), bitters, salt/sugar rimmer.
+- **Zone B (18–30")**: Spirits, syrups, citrus juices, and smallware.
+- **Zone C (>30")**: Garnishes, less frequently used modifiers, and additional glassware.
+
+**Speed Strategy:**
+- Place the dump sink centrally for quick access.
+- Organize the rail by frequency of use (e.g., vodka, gin, tequila, rum, whiskey).
+
+#### 4. Comp/Manager-Touch Policy
+
+**Compensation Guidelines:**
+- **Comp Criteria**: 
+  - Only comp when the guest is visibly dissatisfied and a remake doesn’t resolve the issue.
+  - Offer a complimentary small appetizer or dessert as an alternative to a drink comp.
+
+**Manager Touchpoints:**
+- **Engagement**: 
+  - Managers should approach tables when a comp is issued.
+  - Offer a sincere apology and a brief explanation of the correction.
+
+**Cost Control:**
+- Track comps in the POS with a reason code for monthly review.
+- Focus on learning from patterns to reduce future send-backs.
+
+### Summary Checklist
+
+1. Implement daily citrus/syrup calibration and weekly jigger training.
+2. Use the Quick-Fix Matrix for immediate response to guest feedback.
+3. Reorganize the station map for efficient access and reduced remake times.
+4. Develop a comp policy that supports guest satisfaction while controlling costs.
+
+### 20-Minute Mock Service Drill
+
+1. **Setup**: Organize the bar station following the new layout.
+2. **Calibration**: Conduct a citrus/syrup calibration session.
+3. **Training**: Run a jigger compliance routine with the bar team.
+4. **Scenario**: Simulate send-back scenarios using the Quick-Fix Matrix.
+5. **Review**: Have a manager conduct a mock comp scenario for training. 
+
+Implementing this playbook should enhance guest satisfaction, improve drink consistency, and manage costs effectively.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Guest Feedback Loop:** Include a mechanism for collecting and analyzing guest feedback post-recovery to continuously improve the process.
+  - **Staff Feedback:** Implement a system for staff to provide feedback on the effectiveness of the playbook and suggest improvements.
+  - **Training Documentation:** Ensure all training sessions are documented and accessible for new staff onboarding.
+
+- **Overreach:**
+  - **Compensation Guidelines:** Avoid offering specific alternatives like appetizers or desserts without considering the venue's menu and cost structure. Tailor options to the venue's capabilities.
+  - **Station Layout Specificity:** Adapt the station layout suggestions to the specific venue's space and workflow rather than prescribing a one-size-fits-all approach.
+
+- **System/Process Solutions:**
+  - **Digital Tracking:** Use digital tools for tracking calibration adjustments and comp reasons to facilitate easier analysis and reporting.
+  - **Feedback Integration:** Integrate feedback from both guests and staff into regular team meetings to ensure continuous improvement.
+  - **Regular Updates:** Schedule quarterly reviews of the playbook to incorporate new insights and industry trends.
+
+- **Tone/Structure Guidance:**
+  - **Clarity and Precision:** Use clear, concise language to ensure all staff can easily understand and implement the playbook.
+  - **Prioritization:** Highlight the most critical actions in each section to guide staff focus during busy service times.
+  - **Consistency in Terminology:** Ensure consistent use of terms (e.g., "comp," "remake") to avoid confusion among staff.
+
+- **Conciseness:**
+  - **Brevity in Instructions:** Streamline instructions to focus on key actions, reducing cognitive load on staff during service.
+  - **Eliminate Redundancies:** Remove repetitive elements across sections to maintain a concise, efficient guide.
+
+
+(Generated on 2025-09-10 16:19:15)
+
+(Evaluated on 2025-09-10 16:20:10)

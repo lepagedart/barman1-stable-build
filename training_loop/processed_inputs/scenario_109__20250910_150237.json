@@ -1,0 +1,9 @@
+ {
+    "scenario_number": 109,
+    "title": "Hotel Lobby Bar – Multi-Day Prep Constraints",
+    "tags": ["batching", "prep", "hotel operations", "consistency"],
+    "scenario_type": "Training",
+    "system_mod": "event_lens+financials_lens",
+    "venue_context": "120-room hotel lobby bar, small prep kitchen, staff rotates between AM/PM shifts with limited overlap, cocktails must hold across 2-3 days.",
+    "prompt": "What batching, prep, and storage guidelines should we establish so cocktails stay consistent across multiple shifts and prep cycles?"
+  }

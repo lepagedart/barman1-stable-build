@@ -1,0 +1,8 @@
+{
+  "scenario_number": 115,
+  "title": "Cruise Ship Flagship Bar – Safe Spectacle at Scale",
+  "tags": ["wow_factor", "event", "sustainability", "technology", "training"],
+  "system_mod": "wow_factor_lens+event_lens+sustainability_lens+technology_lens",
+  "venue_context": "Large cruise ship atrium bar serving 2,000+ passengers daily. Strict safety rules (no open flame, careful with dry ice/nitrogen). Central commissary supports batching; shipboard inventory + data connectivity are intermittent.",
+  "prompt": "Design a marquee, repeatable ‘wow’ serve that is safe at sea and scalable. Provide the service script, fast-prep garnishes, batch spec, presentation hardware that survives motion and cleaning, and an ops plan for intermittent POS/data sync. Add a sustainability angle (reusable elements, low waste) and a training micro-drill for crew turnover."
+}

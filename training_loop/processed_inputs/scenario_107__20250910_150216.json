@@ -1,0 +1,9 @@
+ {
+    "scenario_number": 107,
+    "title": "High-Volume Stadium Kiosk",
+    "tags": ["batching", "speed", "high-volume", "event service"],
+    "scenario_type": "Training",
+    "system_mod": "event_lens+workflow_lens",
+    "venue_context": "Concession kiosk at a 20,000-seat stadium, extremely limited space, expected throughput of 300+ drinks/hour, draft cocktails allowed.",
+    "prompt": "What batching and workflow strategies should we use to serve efficiently while keeping staff stress low and ensuring consistent pours?"
+  }

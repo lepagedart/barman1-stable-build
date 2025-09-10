@@ -81,6 +81,8 @@ FINANCIALS_LENS_BLOCK  = _load_text(LENS_DIR / "financials_lens.txt",         "-
 WOW_FACTOR_LENS_BLOCK  = _load_text(LENS_DIR / "wow_factor_lens.txt",         "--- Wow Factor Lens (fallback) ---")
 COMPLIANCE_LENS_BLOCK  = _load_text(LENS_DIR / "compliance_lens.txt",         "--- Compliance Lens (fallback) ---")
 TECH_LENS_BLOCK        = _load_text(LENS_DIR / "technology_lens.txt",         "--- Technology Lens (fallback) ---")
+CREATIVITY_FEASIBILITY_LENS_BLOCK = _load_text(LENS_DIR / "creativity_vs_feasibility_lens.txt","--- Creativity vs Feasibility Lens (fallback) ---")
+
 
 # --------- Load preambles (appended to user prompt) ----------
 LAYOUT_PREAMBLE   = _load_text(PREAMBLES_DIR / "layout_preamble.txt",   "Provide ASCII map, reach zones, rail loadout, build path, KPIs.")
@@ -90,6 +92,10 @@ FIN_PREAMBLE      = _load_text(PREAMBLES_DIR / "financials_preamble.txt",       
 WOW_PREAMBLE      = _load_text(PREAMBLES_DIR / "wow_factor_preamble.txt",       "Design a single memorable moment with fast garnishes + script.")
 COMP_PREAMBLE     = _load_text(PREAMBLES_DIR / "compliance_preamble.txt",       "Add ID workflow, refusal protocol, allergy labeling, incident log.")
 TECH_PREAMBLE     = _load_text(PREAMBLES_DIR / "technology_preamble.txt",       "Map POS/inventory integrations, dashboards, and forecasting cadence.")
+CREATIVITY_FEASIBILITY_PREAMBLE = _load_text(
+    PREAMBLES_DIR / "creativity_vs_feasibility_preamble.txt",
+    "--- Creativity vs Feasibility Preamble (fallback) ---"
+)
 VENUE_SCOPE_PREAMBLE = _load_text(
     PREAMBLES_DIR / "venue_scope_preamble.txt",
     "Ground recommendations in venue size/type. Ask fact-finding questions if details are missing."
@@ -118,6 +124,7 @@ FINANCIALS_RE  = _load_triggers(TRIGGERS_DIR / "financials_triggers.txt")
 WOW_FACTOR_RE  = _load_triggers(TRIGGERS_DIR / "wow_factor_triggers.txt")
 COMPLIANCE_RE  = _load_triggers(TRIGGERS_DIR / "compliance_triggers.txt")
 TECH_RE        = _load_triggers(TRIGGERS_DIR / "technology_triggers.txt")
+CREATIVITY_FEASIBILITY_RE = _load_triggers(TRIGGERS_DIR / "creativity_vs_feasibility_triggers.txt")
 
 def _any_match(regex: re.Pattern, user_prompt: str, venue: str) -> bool:
     text = f"{user_prompt or ''} {venue or ''}"
@@ -134,6 +141,7 @@ def detect_scenario_prompt_mod(user_prompt: str, venue: str) -> str | None:
     if _any_match(WOW_FACTOR_RE, user_prompt, venue): blocks.append(WOW_FACTOR_LENS_BLOCK)
     if _any_match(COMPLIANCE_RE, user_prompt, venue): blocks.append(COMPLIANCE_LENS_BLOCK)
     if _any_match(TECH_RE, user_prompt, venue):       blocks.append(TECH_LENS_BLOCK)
+    if _any_match(CREATIVITY_FEASIBILITY_RE, user_prompt, venue):blocks.append(CREATIVITY_FEASIBILITY_LENS_BLOCK)
     return "\n\n".join(blocks) if blocks else None
 
 def detect_scenario_prompt_mod_name(user_prompt: str, venue: str) -> str:
@@ -146,7 +154,9 @@ def detect_scenario_prompt_mod_name(user_prompt: str, venue: str) -> str:
     if _any_match(WOW_FACTOR_RE, user_prompt, venue): names.append("wow_factor_lens")
     if _any_match(COMPLIANCE_RE, user_prompt, venue): names.append("compliance_lens")
     if _any_match(TECH_RE, user_prompt, venue):       names.append("technology_lens")
+    if _any_match(CREATIVITY_FEASIBILITY_RE, user_prompt, venue): names.append("creativity_vs_feasibility_lens")
     return "+".join(names) if names else "none"
+
 
 def _preambles_for(names: str) -> list[tuple[str, str]]:
     mapping = {
@@ -159,6 +169,7 @@ def _preambles_for(names: str) -> list[tuple[str, str]]:
         "technology_lens": ("technology_preamble", TECH_PREAMBLE),
         # 🔥 Always-on venue scope anchor
         "venue_scope": ("venue_scope_preamble", VENUE_SCOPE_PREAMBLE),
+        "creativity_vs_feasibility_lens": ("creativity_vs_feasibility_preamble", CREATIVITY_FEASIBILITY_PREAMBLE),
     }
     out = []
     if names and names != "none":

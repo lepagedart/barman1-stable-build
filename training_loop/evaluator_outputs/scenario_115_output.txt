@@ -1,0 +1,104 @@
+Title: Cruise Ship Flagship Bar – Safe Spectacle at Scale
+
+Tags: wow_factor, event, sustainability, technology, training
+
+Scenario Type: Training
+
+System Mod: wow_factor_lens+event_lens+sustainability_lens+technology_lens
+
+Venue Context: Large cruise ship atrium bar serving 2,000+ passengers daily. Strict safety rules (no open flame, careful with dry ice/nitrogen). Central commissary supports batching; shipboard inventory + data connectivity are intermittent.
+
+Prompt: Design a marquee, repeatable ‘wow’ serve that is safe at sea and scalable. Provide the service script, fast-prep garnishes, batch spec, presentation hardware that survives motion and cleaning, and an ops plan for intermittent POS/data sync. Add a sustainability angle (reusable elements, low waste) and a training micro-drill for crew turnover.
+
+Lloyd's Response:
+
+**Marquee Cocktail Concept: "Ocean Breeze"**
+
+**Batch Spec:**
+- Vodka: 2 parts
+- Blue Curaçao: 1 part
+- Coconut Water: 2 parts
+- Pineapple Juice: 2 parts
+- Lime Juice: 1 part
+
+**Ice / Glass / Garnish:**
+- Glass: Clear polycarbonate hurricane glass (durable for ship movement)
+- Ice: Crushed ice
+- Garnish: Dehydrated pineapple wheel and an edible blue flower
+
+**Method:**
+1. Pre-batch all ingredients in the central commissary, ensuring a 3-day shelf life.
+2. Store in airtight, food-safe containers.
+3. Fill glass with crushed ice.
+4. Pour 5 oz of batched mix over the ice.
+5. Garnish with a dehydrated pineapple wheel and an edible blue flower.
+
+**Cost Notes:**
+- Target a 20% pour cost by sourcing bulk ingredients.
+- Consider a substitution of blue curaçao with a locally-sourced blue syrup if unavailable.
+
+**Service Script:**
+"Welcome aboard! Our signature 'Ocean Breeze' captures the essence of the sea with refreshing coconut and pineapple. Topped with a touch of blue for the ocean waves, it's the perfect way to begin your journey. Enjoy!"
+
+**Presentation Hardware:**
+- Durable polycarbonate hurricane glasses withstand ship movement and are easy to clean.
+- Reusable stainless-steel straws to align with sustainability goals.
+- Serving trays with non-slip surfaces for safe transport.
+
+**Ops Plan for Intermittent POS/Data Sync:**
+- Utilize manual order tickets during sync downtimes; train bartenders to note key details.
+- Synchronize data during off-peak hours or when connectivity stabilizes.
+- Implement a daily inventory check to adjust to potential discrepancies caused by intermittent data syncing.
+
+**Sustainability Angle:**
+- Reusable polycarbonate glasses and stainless-steel straws reduce waste.
+- Dehydrated garnishes have a longer shelf life, minimizing spoilage.
+- Bulk batching reduces single-use packaging waste.
+
+**Training Micro-Drill for Crew Turnover:**
+1. **Introduction**: Explain the concept and importance of the 'Ocean Breeze.'
+2. **Demonstration**: Show the step-by-step preparation and garnish placement.
+3. **Hands-On Practice**: Allow each crew member to make the cocktail with supervision.
+4. **Service Role-Play**: Practice the service script to ensure consistency.
+5. **Feedback Session**: Discuss any challenges and reinforce key points.
+
+**Summary Checklist:**
+- Ensure commissary batches are replenished every 3 days.
+- Maintain a consistent training schedule for all crew turnover.
+- Regularly check and clean all presentation hardware.
+- Monitor inventory closely, especially during data sync downtimes.
+- Review waste reduction practices regularly. 
+
+This plan ensures the cocktail is not only a visual and sensory delight but also practical and sustainable for high-seas service.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Ingredient Sourcing:** Specify suppliers for bulk ingredients to ensure consistent quality and availability.
+  - **Allergen Information:** Include potential allergens in the cocktail to inform guests with dietary restrictions.
+  - **Pricing Strategy:** Detail the pricing strategy to achieve the target pour cost and ensure profitability.
+
+- **Overreach:**
+  - **Complexity of Garnish:** Consider simplifying the garnish to streamline preparation and reduce costs, especially in high-volume settings.
+  - **Sustainability Claims:** Ensure all sustainability claims are verifiable and align with broader company sustainability policies.
+
+- **System/Process Solutions:**
+  - **Inventory Management:** Implement a digital inventory management system to track ingredient usage and reduce discrepancies.
+  - **Training Documentation:** Develop comprehensive training manuals and videos for consistency across crew turnovers.
+  - **POS/Data Sync:** Explore advanced POS systems with offline capabilities to mitigate issues during connectivity downtimes.
+
+- **Tone/Structure Guidance:**
+  - **Conciseness:** Use bullet points for each section to improve readability and quick reference.
+  - **Clarity:** Clearly separate sections with headers for easy navigation (e.g., Ingredients, Method, Cost Notes).
+  - **Consistency:** Ensure consistent use of measurement units and terminology throughout the document.
+
+- **Additional Recommendations:**
+  - **Feedback Loop:** Establish a feedback mechanism for crew to report issues or suggest improvements.
+  - **Customer Feedback:** Implement a system to gather guest feedback on the cocktail to inform future adjustments.
+
+
+(Generated on 2025-09-10 16:19:42)
+
+(Evaluated on 2025-09-10 16:20:28)

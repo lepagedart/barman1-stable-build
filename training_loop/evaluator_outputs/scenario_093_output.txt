@@ -1,0 +1,85 @@
+Title: Pop-Up Event – Craft Cocktail Tent
+
+Tags: event, compliance, sustainability
+
+Scenario Type: Training
+
+System Mod: event_lens+compliance_lens+sustainability_lens
+
+Venue Context: Outdoor festival tent, 1,200 guests expected over 5 hours, limited refrigeration, staff mostly volunteers.
+
+Prompt: How should we batch, set up stations, and handle compliance while minimizing waste in this temporary build?
+
+Lloyd's Response:
+
+To efficiently manage a temporary bar setup while ensuring compliance and minimizing waste, here’s a structured approach considering batching, station setup, and compliance:
+
+### Batching Strategy
+1. **Cocktail Selection**: Choose 3-4 high-demand cocktails that can be pre-batched. Opt for recipes with stable shelf lives at room temperature or chilled (e.g., spirit-forward cocktails).
+2. **Batch Prep**:
+   - Use sealed containers for pre-batched cocktails; label with contents and date.
+   - Batch liquor-only components to maintain freshness and avoid spoilage.
+   - Prepare fresh juice in smaller quantities with a clear labeling system to manage waste.
+3. **Storage**: Use portable coolers or ice buckets to keep batched cocktails cold if refrigeration isn’t available.
+
+### Station Setup
+1. **Station Map**:
+   ```
+   [Station 1]  [Station 2]  [Station 3]
+     Bartender   Bartender   Bartender
+   ```
+   - Position stations for optimal guest flow and accessibility.
+   - Assign specific roles (e.g., Bartender 1 for ID checks and initial orders, Bartender 2 for batching and serving).
+
+2. **Rail Loadout**:
+   - Arrange bottles from left to right based on cocktail popularity.
+   - Keep garnishes, ice, and frequently used tools within reach (Zone A: 0–18").
+
+3. **Traffic Flow**:
+   - Establish clear traffic lanes behind the bar to avoid collisions.
+   - Use floor markings or signage to guide staff and guests.
+
+### Compliance & Waste Management
+1. **ID Verification**: Designate a team member at the entrance or bar front for checking IDs, ensuring compliance with age regulations.
+2. **Waste Minimization**:
+   - Regularly review par levels for garnishes and juices to adjust for demand.
+   - Implement a protocol for handling leftover batched cocktails—consider repurposing or safe disposal.
+   - Train staff on efficient pouring and garnish use to avoid overuse.
+
+### Summary Checklist
+- Batch high-demand cocktails with stable components.
+- Optimize station layout for minimal movement.
+- Ensure compliance with designated ID checks.
+- Regularly review and adjust par levels for waste management.
+- Conduct a 20-minute stress drill to test efficiency and compliance under peak conditions.
+
+This approach ensures a smooth, compliant, and waste-efficient operation in a temporary bar setting.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Venue Context & Specifics:** Include details about the venue size, expected guest count, and event duration to tailor the setup and batching strategy.
+  - **Inventory Management:** Outline a system for tracking inventory levels in real-time to prevent shortages or overstock.
+  - **Staff Training:** Specify training protocols for staff to ensure consistency in service and adherence to compliance standards.
+
+- **Overreach:**
+  - **Station Setup Complexity:** Simplify the station setup description to avoid overwhelming staff. Focus on essential elements and prioritize flexibility.
+  - **Batching Strategy Details:** Avoid over-specifying cocktail types without knowing guest preferences or event theme. Suggest a flexible menu that can adapt to real-time feedback.
+
+- **System/Process Solutions:**
+  - **Real-Time Feedback Loop:** Implement a feedback mechanism (e.g., quick surveys or direct guest feedback) to adjust offerings and operations dynamically.
+  - **Digital Tools:** Use digital tools for inventory and order management to streamline operations and reduce manual errors.
+
+- **Tone/Structure Guidance:**
+  - **Conciseness:** Use bullet points for each section to enhance readability and quick reference.
+  - **Clarity:** Ensure each section has a clear objective and actionable steps. Avoid jargon or overly technical language.
+  - **Prioritization:** Highlight the most critical actions first in each section to guide immediate focus during setup and operation.
+
+By addressing these areas, Lloyd can enhance the efficiency and effectiveness of managing a temporary bar setup.
+
+
+(Generated on 2025-09-09 17:37:29)
+
+(Evaluated on 2025-09-09 17:38:28)

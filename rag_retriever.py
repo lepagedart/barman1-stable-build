@@ -12,6 +12,14 @@ from langchain_community.embeddings.huggingface import HuggingFaceEmbeddings
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 VECTORSTORE_DIR = "codex_faiss_index"
 
+# -------- Retrieval tuning (adaptive K + diversity + budget) --------
+DEFAULT_TOP_K = 8          # reasonable middle ground when we can't infer better
+MMR_LAMBDA = 0.4           # 0 => pure diversity, 1 => pure relevance; 0.3–0.5 is typical
+POOL_MULTIPLIER = 6        # we fetch a wider pool (k * multiplier) before re-ranking
+POOL_MIN = 30              # ensure a minimum candidate pool width
+SCENARIO_MAX_CHUNKS = 2    # cap chunks per scenario to avoid one-scenario domination
+CHAR_BUDGET = 3000         # total characters allowed in the final concatenated context
+
 # Caches
 _embeddings_cache = None
 _vectorstore_cache = None
@@ -54,7 +62,7 @@ def _detect_scenario_num(text: str) -> Optional[str]:
     return m.group(1) if m else None
 
 def _extract_tags(meta: dict, content: str) -> List[str]:
-    # Prefer metadata (from kb_loader); fall back to parsing line 2.
+    # Prefer metadata (from kb_loader); fall back to parsing the "Tags:" line.
     raw = (meta or {}).get("tags", "")
     if not raw:
         m = _TAGS_LINE_RE.search(content or "")
@@ -122,7 +130,7 @@ def _intent_tags_from_text(text: str) -> List[str]:
     return list(candidates)
 
 def _disallowed_tags_for_prompt(prompt: str) -> List[str]:
-    allow_wow = any(w in (prompt or "").lower() for w in ["wow","standout","instagram","visual","presentation"])
+    allow_wow = any(w in (prompt or "").lower() for w in ["wow","standout","instagram","visual","presentation","signature"])
     return [] if allow_wow else ["wow_factor"]
 
 # ---------- scoring, filtering, diversity ----------
@@ -161,7 +169,7 @@ def _score_doc(meta: dict, content: str, wanted: List[str], disallowed: List[str
     return score
 
 def _filter_by_required_tags(candidates, wanted: List[str]) -> List:
-    """If intent tags exist, keep docs sharing at least one. Else return all."""
+    """If intent tags exist, keep docs sharing at least one. Else return all (fail-open)."""
     if not wanted: return candidates
     kept = []
     for d in candidates:
@@ -172,7 +180,7 @@ def _filter_by_required_tags(candidates, wanted: List[str]) -> List:
             kept.append(d)
     return kept or candidates
 
-def _enforce_scenario_diversity(docs: List, max_per_scenario: int = 2) -> List:
+def _enforce_scenario_diversity(docs: List, max_per_scenario: int = SCENARIO_MAX_CHUNKS) -> List:
     """Cap how many chunks any single scenario can contribute."""
     bucket: Dict[str, int] = {}
     out = []
@@ -185,37 +193,86 @@ def _enforce_scenario_diversity(docs: List, max_per_scenario: int = 2) -> List:
         bucket[scn] = bucket.get(scn, 0) + 1
     return out
 
+# ---------- adaptive K helpers ----------
+def _adaptive_top_k(user_prompt: str, venue_context: str, wanted_tags: List[str]) -> int:
+    """
+    Scale K by:
+      - richness of intent tags
+      - rough prompt length
+    """
+    tag_count = len(wanted_tags)
+    length = len((user_prompt or "")) + len((venue_context or ""))
+
+    # base by tag richness
+    if tag_count >= 3:
+        base = 10
+    elif tag_count == 2:
+        base = 8
+    elif tag_count == 1:
+        base = 7
+    else:
+        base = DEFAULT_TOP_K  # 8
+
+    # nudge for long prompts (likely multi-faceted)
+    if length > 800:
+        base += 1
+    if length > 1400:
+        base += 1
+
+    # clamp
+    return max(6, min(base, 12))
+
+def _trim_to_budget(docs: List, budget_chars: int = CHAR_BUDGET) -> List:
+    total = 0
+    out = []
+    for d in docs:
+        content = getattr(d, "page_content", "") or ""
+        if total + len(content) > budget_chars:
+            break
+        out.append(d)
+        total += len(content)
+    return out
+
 # ---------- public API ----------
-def retrieve_codex_context(user_prompt, venue_context, max_results=6, use_live_search=False):
+def retrieve_codex_context(user_prompt, venue_context, max_results=None, use_live_search=False):
     """
     Retrieve contextual docs with:
-      - wide vector recall
+      - MMR-diversified candidate pool
       - dynamic tag intent derived from KB vocabulary
       - disallowed/wow downweight (unless requested)
       - scenario diversity cap
+      - adaptive K with a final character budget
     """
     try:
-        print(f"🔍 RAG query: '{user_prompt[:60]}...' with venue '{venue_context}'")
+        print(f"🔍 RAG query: '{(user_prompt or '')[:60]}...' with venue '{(venue_context or '')[:60]}'")
         vectordb = load_vectorstore()
         query = f"Venue: {venue_context}\nQuestion: {user_prompt}"
 
-        # Step 1: wide candidate pool for better re-ranking
-        k_pool = max(max_results * 5, 20)
-        candidates = vectordb.similarity_search(query, k=k_pool)
+        # Step 0: infer intent from BOTH prompt and venue (dynamic to vocab)
+        scenario_hint = _detect_scenario_num(user_prompt) or _detect_scenario_num(venue_context)
+        wanted = list(set(_intent_tags_from_text(user_prompt)) | set(_intent_tags_from_text(venue_context)))
+        disallowed = _disallowed_tags_for_prompt(user_prompt)
+
+        # Decide K adaptively unless caller hard-sets max_results
+        top_k = _adaptive_top_k(user_prompt, venue_context, wanted) if not max_results else max_results
+        pool_k = max(top_k * POOL_MULTIPLIER, POOL_MIN)
+
+        # Step 1: wide pool with MMR for diversity (uses FAISS internal embeddings)
+        # fetch_k should be >= pool_k; increase for more variety, then MMR picks k items.
+        candidates = vectordb.max_marginal_relevance_search(
+            query,
+            k=int(pool_k),
+            fetch_k=int(pool_k * 2),
+            lambda_mult=MMR_LAMBDA,
+        )
         if not candidates:
             print("⚠️ No relevant documents found")
             return "No relevant context found in knowledge base."
 
-        # Step 2: infer intent from BOTH prompt and venue (dynamic to vocab)
-        scenario_hint = _detect_scenario_num(user_prompt) or _detect_scenario_num(venue_context)
-        wanted = set(_intent_tags_from_text(user_prompt)) | set(_intent_tags_from_text(venue_context))
-        wanted = list(wanted)
-        disallowed = _disallowed_tags_for_prompt(user_prompt)
-
-        # Step 3: filter by required tags (fail-open)
+        # Step 2: filter by required tags (fail-open)
         candidates = _filter_by_required_tags(candidates, wanted)
 
-        # Step 4: score & sort
+        # Step 3: score & sort with tag-aware re-rank
         scored = []
         for d in candidates:
             meta = getattr(d, "metadata", {}) or {}
@@ -224,12 +281,14 @@ def retrieve_codex_context(user_prompt, venue_context, max_results=6, use_live_s
             scored.append((s, d))
         scored.sort(key=lambda x: x[0], reverse=True)
 
-        # Step 5: scenario diversity
-        ranked = [d for s, d in scored]
-        ranked = _enforce_scenario_diversity(ranked, max_per_scenario=2)
+        # Step 4: scenario diversity cap
+        ranked = _enforce_scenario_diversity([d for s, d in scored], max_per_scenario=SCENARIO_MAX_CHUNKS)
 
-        # Step 6: take top-k and build context
-        docs = ranked[:max_results]
+        # Step 5: take top-k, then trim to a total character budget
+        docs = ranked[:top_k]
+        docs = _trim_to_budget(docs, budget_chars=CHAR_BUDGET)
+
+        # Step 6: build context
         print("🔝 Top sources (after rerank):")
         parts = []
         for i, doc in enumerate(docs):
@@ -242,8 +301,8 @@ def retrieve_codex_context(user_prompt, venue_context, max_results=6, use_live_s
             parts.append(f"[Context {i+1} – {category}]\n{content}")
 
         ctx = "\n\n".join(parts)
-        print(f"✅ {len(docs)} docs, {len(ctx)} characters total")
-        return ctx
+        print(f"✅ {len(docs)} docs, {len(ctx)} characters total (K={top_k}, pool≈{int(pool_k)})")
+        return ctx if ctx else "No relevant context found in knowledge base."
 
     except Exception as e:
         print(f"❌ Error retrieving RAG context: {e}")
@@ -272,11 +331,11 @@ def clear_cache():
     print("🗑️ Cleared vectorstore and embedding/tag vocab caches")
 
 if __name__ == "__main__":
-    print("🧪 Testing RAG retriever (generalized intent)...")
+    print("🧪 Testing RAG retriever (generalized intent + adaptive K + MMR)…")
     try:
         ctx = retrieve_codex_context(
             "First 30 days plan for a new bar manager—stabilize operations and early wins",
-            "A newly promoted bar manager in a craft-focused venue"
+            "A newly promoted bar manager in a craft-focused venue with high-volume weekends"
         )
         print(f"✅ Success – {len(ctx)} characters retrieved")
     except Exception as e:

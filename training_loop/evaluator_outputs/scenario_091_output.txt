@@ -1,0 +1,79 @@
+Title: High-Volume Rooftop Bar – Limited Prep Space
+
+Tags: layout, event, high-volume, summer
+
+Scenario Type: Training
+
+System Mod: layout_lens+event_lens
+
+Venue Context: Seasonal rooftop bar, ~150 seats, single service well, minimal prep/storage area, mostly highballs and spritzes.
+
+Prompt: How do we design the station and workflow to handle crush periods during rooftop season while keeping staff moving safely?
+
+Lloyd's Response:
+
+To effectively manage crush periods during rooftop season, you'll need to design a station and workflow that optimizes safety and efficiency for your staff. Here's a structured approach:
+
+### Station Map
+- **Designate Roles**: Assign specific roles to bartenders to streamline operations:
+  - **Bartender 1**: Service Well – Handles orders from servers.
+  - **Bartender 2**: Guest Well – Focuses on walk-up guests.
+  - **Bartender 3**: Floater – Assists both wells, manages restocking, and glassware.
+
+- **Traffic Lanes**: Establish one-way lanes to minimize collision risks. Use floor tape or signage to guide staff flow. Consider a clockwise motion if space allows.
+
+### Reach Zones
+- **Zone A (0–18")**: Keep frequently used tools (jiggers, shakers, strainers) and top-selling spirits within immediate reach.
+- **Zone B (18–30")**: Store less commonly used spirits and backup glassware.
+- **Zone C (>30")**: Reserve for bulk supplies, extra ice bins, and less frequently accessed items.
+
+### Build Path
+1. **Glassware**: Retrieve glass, place on bar mat.
+2. **Ice**: Scoop ice into glass.
+3. **Spirit**: Pour base spirit.
+4. **Modifiers**: Add mixers or modifiers.
+5. **Shake/Stir**: If applicable, shake or stir.
+6. **Strain/Pour**: Strain into glass or top with mixer.
+7. **Garnish**: Add garnish and serve.
+
+### Operational Notes
+- **Par Levels**: Set daily par levels for spirits, mixers, and garnishes to ensure consistent restocking.
+- **Restock Cadence**: Coordinate with barback for regular restocking intervals, especially during peak times.
+- **Ice Management**: Ensure ice bins are regularly topped up to prevent running out during high demand.
+- **Garnish Prep**: Pre-slice garnishes during slower periods to reduce prep time during rushes.
+
+### 20-Minute Stress Drill
+1. Simulate a rush period with staff performing their assigned roles.
+2. Focus on maintaining one-way traffic and efficient build paths.
+3. Use a timer to track drink preparation times, aiming for under 60 seconds per drink.
+4. Review and adjust station setup based on feedback to enhance flow and safety.
+
+By setting clear roles, organizing the station layout efficiently, and establishing traffic lanes, you can maintain high service quality and safety during peak rooftop seasons.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Customer Interaction:** Include strategies for managing customer expectations and communication during high-volume periods.
+  - **Technology Integration:** Suggest using POS systems or mobile ordering to streamline order taking and reduce wait times.
+  - **Staff Training:** Outline a training plan for new staff to quickly adapt to the station's workflow and roles.
+
+- **Overreach:**
+  - **Excessive Detail:** Simplify the build path steps to focus on key actions, avoiding unnecessary granularity that may overwhelm staff.
+  - **Role Complexity:** Consider reducing the number of roles or combining duties to simplify operations and improve flexibility.
+
+- **System/Process Solutions:**
+  - **Feedback Loop:** Implement a system for staff to provide feedback on workflow efficiency and safety, allowing for continuous improvement.
+  - **Inventory Management:** Use inventory tracking software to automate par level monitoring and restocking alerts.
+  - **Emergency Protocols:** Develop clear protocols for handling emergencies or unexpected high-volume surges.
+
+- **Tone/Structure Guidance:**
+  - **Conciseness:** Use bullet points for each section to enhance readability and quick reference during busy periods.
+  - **Action-Oriented Language:** Focus on direct, actionable language to ensure clarity and immediate applicability.
+  - **Prioritization:** Highlight the most critical steps and processes to prevent information overload and ensure focus on key actions.
+
+
+(Generated on 2025-09-09 17:36:53)
+
+(Evaluated on 2025-09-09 17:38:06)

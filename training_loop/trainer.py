@@ -75,8 +75,8 @@ SCRIPTS_DIR = ROOT / "scripts"
 TAG_SCRIPT_PATH = SCRIPTS_DIR / "update_tag_vocab.py"
 
 # Manifests (so later stages know the exact files from the last stage)
-LAST_RUN_MANIFEST = TL / "last_run_outputs.json"     # names of scenario_*_output.txt created in --run
-LAST_EVAL_MANIFEST = TL / "last_eval_outputs.json"   # names of evaluated files written in --evaluate
+LAST_RUN_MANIFEST  = TL / "last_run_outputs.json"     # names of scenario_*_output.txt created in --run
+LAST_EVAL_MANIFEST = TL / "last_eval_outputs.json"    # names of evaluated files written in --evaluate
 
 # Rolling CSV (lives under evaluator_outputs/metrics by default)
 SUMMARY_CSV = EVAL_METRICS_DIR / "summary_metrics.csv"
@@ -137,7 +137,10 @@ def _sibling_metrics_name(txt_name: str) -> str:
     return txt_name.replace(".txt", ".metrics.json")
 
 def _save_manifest(path: Path, names: List[str]) -> None:
-    path.write_text(json.dumps({"files": names, "saved_at": datetime.utcnow().isoformat() + "Z"}, indent=2), encoding="utf-8")
+    path.write_text(
+        json.dumps({"files": names, "saved_at": datetime.utcnow().isoformat() + "Z"}, indent=2),
+        encoding="utf-8",
+    )
 
 def _load_manifest(path: Path) -> List[str]:
     if not path.exists():
@@ -267,7 +270,7 @@ def evaluate_wlshd(content: str, model: str) -> str:
             temperature=0.3,
         )
         text = (resp.choices[0].message.content or "").strip()
-        return text if text else "[ERROR] No response from OpenAI"
+        return text if text else "[ERROR] No response from OpenAI]"
     except Exception as e:
         return f"[ERROR] OpenAI call failed: {e}"
 
@@ -417,14 +420,24 @@ def run_evaluator(
     """
     Evaluate scenario_*_output.txt files.
 
-    - If only_names is provided, evaluate ONLY those filenames.
-    - Fill WLSHD if [PLACEHOLDER] exists.
-    - Always write metrics JSON (master copy + sibling copy).
-    - Never clobber: uses safe_write() everywhere.
-    - Returns the list of evaluated output filenames (out_path.name).
+    Behavior:
+      - If only_names is provided, evaluate ONLY those filenames.
+      - Else, if last_run_outputs.json exists, evaluate ONLY that last batch.
+      - Else, evaluate everything in src_dir.
+      - Fill WLSHD if [PLACEHOLDER] exists.
+      - Always write metrics (master copy + sibling).
+      - Never clobber: uses safe_write().
+      - Returns list of evaluated basenames.
     """
+    # Default scope from last run manifest if caller didn’t pass --only-names
+    if only_names is None:
+        last_run = _load_manifest(LAST_RUN_MANIFEST)  # returns List[str] or []
+        only_names = last_run if last_run else None
+
+    # Discover candidate files and apply filter
     candidates = sorted(src_dir.glob("scenario_*_output.txt"))
-    files = [p for p in candidates if (not only_names or p.name in only_names)]
+    name_set = {n.strip() for n in only_names} if only_names else None
+    files = [p for p in candidates] if name_set is None else [p for p in candidates if p.name.strip() in name_set]
 
     print(f"🔎 Evaluator scanning: {src_dir}  |  matched {len(files)} file(s)")
     dest_dir.mkdir(parents=True, exist_ok=True)
@@ -439,50 +452,51 @@ def run_evaluator(
     for p in files:
         content = p.read_text(encoding="utf-8")
 
-        # 1) Fill WLSHD if needed
+        # Fill WLSHD if needed
         if "[PLACEHOLDER]" in content:
             critique = evaluate_wlshd(content, model=model_wlshd)
             content = content.replace("[PLACEHOLDER]", critique)
             content += f"\n\n(Evaluated on { _ts() })"
-        else:
-            if "(Evaluated on " not in content:
-                content += f"\n\n(Evaluated on { _ts() })"
+        elif "(Evaluated on " not in content:
+            content += f"\n\n(Evaluated on { _ts() })"
 
-        # 2) Write evaluated file (never clobber)
+        # Write evaluated file (safe, non-clobber)
         if inplace:
-            out_path = safe_write(p, content)  # copy-in-place with _noXX
+            out_path = safe_write(p, content)
             print(f"💬 Evaluated (in-place copy): {out_path.name}")
         else:
             out_path = safe_write(dest_dir / p.name, content)
-            print(f"💬 Evaluated → {out_path}")
+            print(f"💬 Evaluated → {out_path.name}")
 
         produced.append(out_path.name)
 
-        # 3) Always create metrics JSON (even if later gated)
+        # Metrics (master + sibling)
         metrics = evaluate_metrics(content, model=model_metrics)
+        scen_num = _extract_scenario_number_from_name(p.name)
+        if scen_num is not None:
+            m_master = safe_write(
+                EVAL_METRICS_DIR / _scenario_metrics_name(scen_num),
+                json.dumps(metrics, indent=2),
+            )
+        else:
+            m_master = safe_write(
+                EVAL_METRICS_DIR / (p.stem + ".metrics.json"),
+                json.dumps(metrics, indent=2),
+            )
 
-        # Master metrics copy under evaluator_outputs/metrics
-        scenario_num = _extract_scenario_number_from_name(p.name)
-        m_master_base = (
-            EVAL_METRICS_DIR / _scenario_metrics_name(scenario_num)
-            if scenario_num is not None
-            else EVAL_METRICS_DIR / (p.stem + ".metrics.json")
-        )
-        m_master = safe_write(m_master_base, json.dumps(metrics, indent=2))
-
-        # Sibling copy adjacent to the evaluated .txt
         _ = safe_write(out_path.with_suffix(".metrics.json"), json.dumps(metrics, indent=2))
-
-        # 4) Append to rolling CSV
         _append_metrics_csv(m_master, metrics, source_txt=out_path)
 
-        # 5) Diff vs base if this is a _noXX re-run (only for scoped files)
-        base_file = None
-        if "_no" in out_path.stem:
-            base_name = out_path.stem.split("_no")[0] + ".txt"
-            base_file = out_path.parent / base_name
-        if base_file is not None and base_file.exists():
+        # Diff vs base (if this is a _noXX file and the base exists)
+        base_name = out_path.name
+        if "_no" in base_name:
+            base_name = base_name.split("_no")[0] + ".txt"
+        base_file = out_path.parent / base_name
+        if base_file.exists() and base_file != out_path:
             write_diff_report(base_file, out_path)
+
+    # Persist what we just evaluated (so next run can “only last batch” by default)
+    _save_manifest(LAST_EVAL_MANIFEST, produced)
 
     return produced
 
@@ -590,6 +604,7 @@ def rebuild_vectorstore() -> None:
     else:
         print("ℹ️  Tag vocab script not found; skipping.")
 
+# ---------- Question-only heuristics ----------
 
 QUESTION_RE = re.compile(r"\?\s*(?:$|[\n•-])")
 
@@ -623,8 +638,6 @@ def build_assumption_reply(scenario: Dict[str, Any]) -> str:
     ]
     return "\n".join(lines)
 
-
-
 # ---------- Runner: Run -> Evaluate -> Inject -> Rebuild ----------
 
 def _run_scenarios() -> List[str]:
@@ -647,10 +660,12 @@ def _run_scenarios() -> List[str]:
 
         print(f"🚀 Scenario {n:03d} — {s['title']}")
         resp = send_prompt_to_lloyd(s["venue_context"], s["prompt"])
-        # If Lloyd mainly asked questions, auto-follow-up with assumptions
+
+        # Auto-follow-up if Lloyd mainly asked questions
         if looks_like_question_only(resp):
             follow = build_assumption_reply(s)
             resp = send_prompt_to_lloyd(s["venue_context"], f"{s['prompt']}\n\n{follow}")
+
         txt = format_output(s, resp)
         out_path = save_txt(STAGING_DIR, n, txt)
         print(f"✅ Saved → {out_path}")
@@ -660,24 +675,26 @@ def _run_scenarios() -> List[str]:
         for cand in INPUT_DIR.glob(f"scenario_{n:03d}.json"):
             move_input_to_processed(cand)
 
-    # Save manifest for later stages
+    # Remember exactly what we just produced
     _save_manifest(LAST_RUN_MANIFEST, produced_names)
     return produced_names
 
-def _evaluate(args, only_names: Optional[List[str]]) -> List[str]:
+def _evaluate(args) -> None:
     produced = run_evaluator(
         src_dir=Path(args.eval_src),
         dest_dir=Path(args.eval_dest),
         model_wlshd=args.eval_model,
         model_metrics=args.metrics_model or args.eval_model,
         inplace=args.eval_inplace,
-        only_names=only_names,
+        only_names=args.only_names,  # may be None; falls back to LAST_RUN_MANIFEST
     )
-    _save_manifest(LAST_EVAL_MANIFEST, produced)
-    return produced
+    if produced:
+        print(f"🗂️  last_eval_outputs.json written with {len(produced)} file(s).")
 
-def _inject(args, only_names: Optional[List[str]]) -> None:
-    inject_to_kb(Path(args.inject_src), gate=float(args.gate), only_names=only_names)
+def _inject(args, only_names: Optional[List[str]] = None) -> None:
+    # If caller didn’t provide explicit list, use last eval batch
+    only = only_names or args.only_names or _load_manifest(LAST_EVAL_MANIFEST) or None
+    inject_to_kb(Path(args.inject_src), gate=float(args.gate), only_names=only)
 
 def _rebuild(_args) -> None:
     rebuild_vectorstore()
@@ -702,6 +719,14 @@ def main() -> None:
         help="Run → Evaluate → Inject → Rebuild in one shot (scoped to current run)",
     )
 
+    # Scope list (exact basenames, e.g., scenario_091_output.txt or scenario_091_output_no01.txt)
+    ap.add_argument(
+        "--only-names",
+        nargs="+",
+        default=None,
+        help="Limit evaluate/inject to these filenames (exact basenames).",
+    )
+
     # Paths / options
     ap.add_argument("--eval-src", default=str(STAGING_DIR), help="Where to read .txt for evaluation (default: scenario_outputs)")
     ap.add_argument("--eval-dest", default=str(EVAL_DIR), help="Where to write evaluated .txt (default: evaluator_outputs)")
@@ -715,24 +740,7 @@ def main() -> None:
     # Gate
     ap.add_argument("--gate", type=float, default=4.0, help="Minimum score_overall to inject into KB (default: 4.0)")
 
-    # Optional explicit scoping (comma-separated filenames)
-    ap.add_argument("--only", default="", help="Comma-separated scenario_XXX_output.txt names to scope eval/inject")
-
     args = ap.parse_args()
-
-    # Build the only_names list:
-    only_names: List[str] = []
-    if args.only.strip():
-        only_names = [s.strip() for s in args.only.split(",") if s.strip()]
-
-    # For chained stages, if user didn't pass --only, pull from last manifests
-    def _only_from_manifests() -> List[str]:
-        if only_names:
-            return only_names
-        names = _load_manifest(LAST_RUN_MANIFEST)
-        if not names:
-            names = _load_manifest(LAST_EVAL_MANIFEST)
-        return names
 
     # Guard: if running scenarios, ensure Lloyd is reachable
     if args.run or args.all:
@@ -742,13 +750,10 @@ def main() -> None:
 
     # One-shot pipeline
     if args.all:
-        # RUN
         run_names = _run_scenarios()
-        # EVALUATE (scoped to run_names)
-        eval_names = _evaluate(args, run_names)
-        # INJECT (scoped to eval_names)
-        _inject(args, eval_names)
-        # REBUILD
+        args.only_names = run_names
+        _evaluate(args)
+        _inject(args, run_names)
         _rebuild(args)
         return
 
@@ -757,12 +762,13 @@ def main() -> None:
         _ = _run_scenarios()
 
     if args.evaluate:
-        names = _only_from_manifests()
-        _ = _evaluate(args, names)
+        # If no explicit list from CLI, fall back to last run manifest
+        if not args.only_names:
+            args.only_names = _load_manifest(LAST_RUN_MANIFEST)
+        _evaluate(args)
 
     if args.inject:
-        names = _only_from_manifests()
-        _inject(args, names)
+        _inject(args)  # uses args.only_names or LAST_EVAL_MANIFEST
 
     if args.rebuild:
         _rebuild(args)

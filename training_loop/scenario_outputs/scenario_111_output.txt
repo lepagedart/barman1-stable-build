@@ -1,0 +1,85 @@
+Title: Multi-Property Hotel Group – Standardized Bar Playbook
+
+Tags: portfolio, financials, technology, multi-location, training
+
+Scenario Type: Training
+
+System Mod: portfolio_lens+financials_lens+technology_lens
+
+Venue Context: Regional hotel group (8 properties: urban + resort). Mixed bar formats (lobby bars, rooftop, pool bars). Existing POS is Lightspeed at 6 sites, Toast at 2; basic inventory counts monthly; no unified spec book.
+
+Prompt: Design a standardized, cross-property bar program that keeps local flair but unifies specs, costing, and reporting. We need: (1) a core cocktail list with allowed local swaps, (2) a pricing ladder and target pour cost ranges by market, (3) a POS/inventory integration plan that works across two POS vendors, and (4) how to leverage supplier portfolio incentives without locking out local heroes. Deliver a rollout plan and a 60-day training cadence.
+
+Lloyd's Response:
+
+To create a standardized yet flexible bar program for your hotel group, we’ll focus on balancing consistency with local character and optimizing operational efficiency. Here's a comprehensive plan:
+
+### 1. Core Cocktail List with Local Swaps
+- **Core Cocktails**: Select five signature cocktails that embody classic and popular styles. Each should have room for a local ingredient swap:
+  - **Classic Margarita**: Tequila, Triple Sec, Lime Juice, Agave Syrup
+    - Local Swap: Substitute Triple Sec with a regionally popular fruit liqueur.
+  - **Old Fashioned**: Bourbon, Simple Syrup, Angostura Bitters
+    - Local Swap: Use a local bitters or a unique syrup (e.g., maple if available).
+  - **Negroni**: Gin, Campari, Sweet Vermouth
+    - Local Swap: Swap gin with a local craft spirit.
+  - **Mojito**: White Rum, Lime Juice, Mint, Simple Syrup, Soda Water
+    - Local Swap: Infuse the rum with local herbs or spices.
+  - **Espresso Martini**: Vodka, Coffee Liqueur, Fresh Espresso
+    - Local Swap: Use a locally roasted coffee brand.
+
+- **Execution Notes**: 
+  - Batch core elements where possible (e.g., simple syrups) to maintain consistency.
+  - Ensure each venue maintains a list of approved local swaps to simplify training and ordering.
+
+### 2. Pricing Ladder and Target Pour Cost Ranges
+- **Pricing Tiers**:
+  - Urban Properties: Premium pricing to match market demand. Target pour cost: 18-20%.
+  - Resort Properties: Slightly lower pricing to encourage volume. Target pour cost: 20-22%.
+  
+- **Implementation**:
+  - Conduct a market analysis to set competitive pricing.
+  - Adjust based on local alcohol taxes and guest demographics.
+
+### 3. POS/Inventory Integration Plan
+- **POS Integration**:
+  - Use existing Lightspeed and Toast systems to harmonize inventory tracking.
+  - Develop a middleware solution or select a third-party app to unify reporting across systems.
+  - Standardize product codes and naming conventions across both systems for clarity.
+
+- **Inventory Management**:
+  - Shift to bi-weekly counts to improve accuracy.
+  - Train staff on input consistency and spot-check procedures.
+
+### 4. Leveraging Supplier Portfolio Incentives
+- **Supplier Strategy**:
+  - Negotiate with suppliers to include local hero products in their portfolios.
+  - Set up quarterly reviews to assess performance and adjust incentives.
+  - Balance purchases to meet incentives without excluding local favorites by setting clear SKU limits.
+
+### Rollout Plan and 60-Day Training Cadence
+- **Rollout Plan**:
+  1. **Week 1-2**: Finalize core cocktail specs, local swaps, and pricing strategy.
+  2. **Week 3-4**: Implement POS updates and conduct initial staff training on systems and cocktails.
+  3. **Week 5-6**: Begin new inventory procedures and integrate supplier incentives.
+  4. **Week 7-8**: Monitor operations, receive feedback, and adjust based on initial data.
+
+- **Training Cadence**:
+  - **Initial Training (Weeks 1-4)**: Focus on cocktail preparation, POS use, and inventory processes.
+  - **Follow-Up Training (Weeks 5-8)**: Emphasize consistency, troubleshoot issues, and adjust based on feedback.
+  - **Ongoing Education**: Monthly sessions on local swap creativity and upselling techniques.
+
+### Summary Checklist
+- Establish core cocktail specs and local swaps.
+- Set pricing tiers and target pour costs.
+- Integrate POS systems for unified reporting.
+- Balance supplier incentives with local offerings.
+- Implement rollout and training plan within 60 days.
+
+This approach ensures operational efficiency and allows each property to maintain its unique local flavor.
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-09-10 16:18:42)

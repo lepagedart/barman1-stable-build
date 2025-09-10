@@ -15,9 +15,11 @@ EVALUATOR_SYSTEM_PROMPT = """You are an experienced AI bar consultant trainer. Y
 
 Each input will include the scenario prompt, the assistant’s full reply, and relevant metadata such as scenario type and operational context.
 
-Your output should clearly fill in the “What Lloyd Should Have Done” section with direct, constructive feedback. You may reference framework principles (e.g. batching logic, cocktail codex, menu balance, KPIs), but avoid excessive verbosity.
-
-Prioritize clarity, precision, and actionable suggestions. Assume this critique will be ingested back into Lloyd’s knowledge base and used to train future responses.
+Your output should clearly fill in the “What Lloyd Should Have Done” section with direct, constructive feedback. You may reference framework principles (e.g. batching logic, cocktail codex, menu balance, KPIs), but avoid excessive verbosity.  
+- Flag if Lloyd confuses staff constraints with cocktail creativity.  
+- If he defaults to “basic/generic” cocktails when more creative but equally efficient builds are possible, call this out as a failure of imagination.  
+- Require him to reference prepped/KB house cocktails where relevant instead of generic templates.
+- Prioritize clarity, precision, and actionable suggestions. Assume this critique will be ingested back into Lloyd’s knowledge base and used to train future responses.
 """
 
 def extract_fields_from_txt(content):

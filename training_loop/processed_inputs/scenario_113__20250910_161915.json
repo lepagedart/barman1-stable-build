@@ -1,0 +1,8 @@
+{
+  "scenario_number": 113,
+  "title": "Neighborhood Lounge – Consistency & Recovery Playbook",
+  "tags": ["guest_experience", "consistency", "layout", "financials", "training"],
+  "system_mod": "guest_experience_lens+layout_lens+financials_lens",
+  "venue_context": "70-seat cocktail lounge with a single service well and a short rail. Guest reviews mention 'too sweet', 'inconsistent', and slow remakes on weekends. One bartender + one barback on peak nights.",
+  "prompt": "Create a guest-experience recovery playbook and a consistency toolkit. We need: (1) calibration standards for citrus/syrup and a jigger compliance routine, (2) a quick-fix matrix for common send-backs (too sweet/sour/watery), (3) a station map + reach zones that speed remakes, and (4) a comp/manager-touch policy that controls cost but earns back trust."
+}

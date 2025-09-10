@@ -1,0 +1,65 @@
+Title: New Hotel Lobby Bar – Profitability Targets
+
+Tags: profitability, financials, portfolio
+
+Scenario Type: Training
+
+System Mod: financials_lens+profitability_lens+portfolio_lens
+
+Venue Context: Hotel lobby bar, 80 seats, mix of transient guests and conference traffic, F&B director has strict 25% pour cost mandate.
+
+Prompt: We need menu design ideas that hit profitability targets without compromising guest experience. Where should we focus?
+
+Lloyd's Response:
+
+To design a profitable yet guest-friendly cocktail menu, focus on the following areas:
+
+### 1. Balanced Selection
+- **Cocktail Families**: Ensure a mix of cocktail styles (e.g., Sours, Old Fashioned, Highballs) to cater to diverse tastes and occasions.
+- **Low-Cost Foundations**: Use base spirits that have a good balance between quality and cost, such as well-selected mid-tier brands.
+- **Signature Twist**: Introduce a couple of signature cocktails that use house-made syrups or infusions — these add perceived value without significantly increasing cost.
+
+### 2. Ingredient Management
+- **Shared Ingredients**: Design cocktails that share common ingredients to minimize inventory and waste.
+- **Seasonal and Local**: Leverage seasonal fruits and herbs for garnishes and syrups, which can be cost-effective and add freshness.
+
+### 3. Pricing Strategy
+- **Cost Analysis**: Use a pour cost formula to set pricing, aiming for a target pour cost between 18-22% for cocktails.
+- **Value Perception**: Ensure the pricing reflects the perceived value. A cocktail with a unique presentation or a premium garnish can justify a higher price point.
+
+### 4. Operational Efficiency
+- **Batching**: For high-volume items, consider batching spirits and mixers to reduce service time and maintain consistency.
+- **Training**: Invest in staff training to ensure efficient service and upselling techniques, enhancing guest satisfaction and increasing average spend.
+
+### 5. Monitoring and Adjustment
+- **Review Process**: Implement a quarterly review of menu performance and adjust pricing or specs as needed based on ingredient costs and guest feedback.
+- **Guest Feedback**: Regularly gather and assess guest feedback to ensure the menu meets their expectations while achieving profitability.
+
+By focusing on these areas, you can maintain a balance between profitability and guest satisfaction, ensuring a successful cocktail program.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Market Analysis**: Include a section on analyzing competitor offerings and market trends to ensure the menu is competitive and appealing.
+  - **Guest Demographics**: Address the importance of understanding the venue’s target demographic to tailor the cocktail selection appropriately.
+  - **Allergen Information**: Mention the need for clear labeling of potential allergens in cocktails to ensure guest safety.
+
+- **Overreach:**
+  - **Signature Twist Complexity**: Avoid suggesting house-made syrups or infusions without assessing the venue’s capability to consistently produce these at scale.
+  - **Batching Assumption**: Do not assume batching is feasible for all venues; consider the venue’s storage and operational constraints.
+
+- **System/Process Solutions:**
+  - **Inventory Management System**: Recommend implementing an inventory management system to track ingredient usage and reduce waste.
+  - **Feedback Loop**: Establish a structured feedback loop involving both staff and guests to continuously refine the menu based on real-time insights.
+
+- **Tone/Structure Guidance:**
+  - **Clarity and Precision**: Use more precise language to avoid ambiguity, particularly in areas like pricing strategy and ingredient management.
+  - **Actionable Steps**: Break down each area into clear, actionable steps with specific examples to guide implementation.
+  - **Prioritization**: Highlight which actions are most critical for immediate implementation versus those that can be phased in over time.
+
+
+(Generated on 2025-09-09 17:37:12)
+
+(Evaluated on 2025-09-09 17:38:17)

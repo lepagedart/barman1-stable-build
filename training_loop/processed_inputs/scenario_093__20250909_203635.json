@@ -1,0 +1,8 @@
+{
+  "scenario_number": 93,
+  "title": "Pop-Up Event – Craft Cocktail Tent",
+  "tags": ["event", "compliance", "sustainability"],
+  "system_mod": "event_lens+compliance_lens+sustainability_lens",
+  "venue_context": "Outdoor festival tent, 1,200 guests expected over 5 hours, limited refrigeration, staff mostly volunteers.",
+  "prompt": "How should we batch, set up stations, and handle compliance while minimizing waste in this temporary build?"
+}

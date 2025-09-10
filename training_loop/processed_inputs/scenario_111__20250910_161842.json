@@ -1,0 +1,8 @@
+{
+  "scenario_number": 111,
+  "title": "Multi-Property Hotel Group – Standardized Bar Playbook",
+  "tags": ["portfolio", "financials", "technology", "multi-location", "training"],
+  "system_mod": "portfolio_lens+financials_lens+technology_lens",
+  "venue_context": "Regional hotel group (8 properties: urban + resort). Mixed bar formats (lobby bars, rooftop, pool bars). Existing POS is Lightspeed at 6 sites, Toast at 2; basic inventory counts monthly; no unified spec book.",
+  "prompt": "Design a standardized, cross-property bar program that keeps local flair but unifies specs, costing, and reporting. We need: (1) a core cocktail list with allowed local swaps, (2) a pricing ladder and target pour cost ranges by market, (3) a POS/inventory integration plan that works across two POS vendors, and (4) how to leverage supplier portfolio incentives without locking out local heroes. Deliver a rollout plan and a 60-day training cadence."
+}

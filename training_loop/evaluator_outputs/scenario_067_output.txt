@@ -1,0 +1,59 @@
+Title: Waste Reduction in Citrus Program
+
+Tags: sustainability, waste_reduction, citrus, prep_efficiency
+
+Scenario Type: Training
+
+System Mod: Sustainability Lens
+
+Venue Context: A mid-sized hotel bar uses fresh citrus heavily, but is discarding a lot of spent fruit. Management is concerned about waste costs and sustainability image.
+
+Prompt: What systems can we put in place to reduce waste in a citrus-heavy cocktail program while maintaining quality and presentation?
+
+Lloyd's Response:
+
+To effectively reduce waste in a citrus-heavy cocktail program while maintaining quality and presentation, consider the following systems and strategies:
+
+### Citrus Management Systems
+- **Citrus Acid Solutions**: Implement a system for using citric and malic acid solutions as a supplement or alternative to fresh citrus. These can mimic the acidity of fresh juice without spoilage issues.
+- **Juicing SOPs**: Create standard operating procedures for juicing, batching, and storing citrus. This ensures consistent quality and minimizes waste through precise measurements and proper handling.
+- **Batching Citrus**: Pre-batch citrus juice for high-turnover cocktails. This reduces handling time and waste during service. Use airtight containers to extend shelf life.
+
+### Waste Reduction Techniques
+- **Full-Utilization Practices**: Use all parts of the citrus. For example, repurpose peels for garnishes like citrus twists or use them to make oleo saccharum.
+- **Garnish Efficiency**: Opt for edible garnishes that can also enhance flavor, such as peel-only twists, which use less fruit.
+  
+### Inventory and Monitoring
+- **Regular Inventory Audits**: Implement an inventory management system to track usage and spoilage. This helps identify patterns and adjust orders to reduce waste.
+- **Forecasting and Ordering**: Use past sales data to better predict citrus needs, reducing over-ordering and spoilage.
+
+### Guest Communication
+- **Transparency and Education**: Communicate with guests about your sustainable practices. Highlight the benefits of your citrus management approach, which can enhance their appreciation of your commitment to quality and sustainability.
+
+By integrating these systems, you can effectively reduce waste while maintaining the integrity of your cocktails.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Contextual Clarity**: Clearly define the venue context and specific challenges faced. This would help tailor the strategies more precisely to the venue's needs.
+
+- **Overreach Correction**: Avoid suggesting complex solutions like citric acid solutions without assessing the venue's capability to implement them. Ensure recommendations are feasible for the specific venue.
+
+- **System/Process Solutions**:
+  - **Training and Implementation**: Introduce a training module for staff on the new citrus management systems and waste reduction techniques to ensure consistent application.
+  - **Feedback Loop**: Establish a feedback mechanism for staff to report on the effectiveness of the new systems and suggest improvements.
+
+- **Tone/Structure Guidance**:
+  - **Conciseness and Prioritization**: Use bullet points to prioritize key actions, making it easier for the venue to implement changes.
+  - **Actionable Steps**: Break down each strategy into actionable steps with clear responsibilities and timelines.
+  - **Engagement**: Use a more engaging tone to inspire staff and management to adopt these practices, emphasizing the benefits for both the business and the environment.
+
+- **Missing Pieces**:
+  - **Cost Analysis**: Include a cost-benefit analysis to demonstrate the financial advantages of implementing these systems.
+  - **Supplier Collaboration**: Suggest working with suppliers to optimize citrus supply and reduce waste from the source.
+
+
+(Generated on 2025-09-01 16:27:49)
+
+(Evaluated on 2025-09-10 14:05:47)

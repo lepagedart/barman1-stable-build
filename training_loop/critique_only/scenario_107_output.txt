@@ -1,0 +1,79 @@
+Title: High-Volume Stadium Kiosk
+
+Tags: batching, speed, high-volume, event service
+
+Scenario Type: Training
+
+System Mod: event_lens+workflow_lens
+
+Venue Context: Concession kiosk at a 20,000-seat stadium, extremely limited space, expected throughput of 300+ drinks/hour, draft cocktails allowed.
+
+Prompt: What batching and workflow strategies should we use to serve efficiently while keeping staff stress low and ensuring consistent pours?
+
+Lloyd's Response:
+
+To serve efficiently while maintaining consistent quality and minimizing staff stress, consider these batching and workflow strategies:
+
+### Batching Strategies
+1. **Pre-Batched Cocktails**: 
+   - **Select High-Volume Cocktails**: Choose 2-3 popular cocktails that can be pre-batched entirely or partially (e.g., all but citrus or fresh elements).
+   - **Batch Ratios**: Use precise measurements to ensure consistency. Pre-batch in large containers and store in coolers or on ice.
+   - **Portion Control**: Use pour spouts or pre-measured containers to maintain consistent servings.
+
+2. **Shelf-Life Considerations**:
+   - **Citrus and Fresh Ingredients**: Add these separately to maintain freshness. Consider batching only spirit-forward elements.
+   - **Storage**: Use airtight containers to extend shelf life, and label them with prep dates.
+
+### Workflow Improvements
+1. **Station Layout**:
+   - **Ergonomic Setup**: Place the most frequently used items (e.g., shakers, jiggers, commonly used spirits) within a 0–18" reach.
+   - **Organized Stations**: Ensure each bartender has a clear, organized area to work, minimizing movement and collision risk.
+
+2. **Role Designation**:
+   - **Specific Roles**: Assign roles to bartenders (e.g., one for batching and restocking, another for guest service, and one for server tickets) to streamline operations.
+   - **Rotations**: Rotate roles periodically to prevent fatigue and boredom.
+
+3. **Traffic Management**:
+   - **One-Way Lanes**: Implement clear traffic lanes behind the bar to reduce collisions. Use floor markers or tape for guidance.
+   - **Server Pickup Points**: Designate specific areas for servers to pick up drinks, reducing congestion at the bar.
+
+4. **Stress Management**:
+   - **Pacing**: Encourage bartenders to work at a steady pace rather than rushing, which can lead to mistakes.
+   - **Breaks**: Schedule short breaks during shifts to keep energy levels up and stress levels down.
+
+### Execution Checklist
+- **Batch Prep**: Prep cocktail batches before service hours, ensuring all components are ready to go.
+- **Station Setup**: Check that each station is stocked with necessary tools and ingredients.
+- **Role Assignment**: Clearly assign and communicate roles to all staff before service begins.
+- **Traffic Control**: Implement and communicate traffic flow rules to all staff.
+
+By implementing these strategies, you can boost efficiency, maintain quality, and keep staff morale high.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Venue Context:** Specify the type of venue (e.g., high-volume bar, fine dining restaurant) to tailor strategies appropriately.
+  - **Staff Training:** Include a section on training staff for new systems and processes to ensure smooth implementation.
+  - **Customer Experience:** Address how these strategies will impact customer service and experience.
+
+- **Overreach:**
+  - **Assumptions on Equipment:** Avoid assuming all venues have the same equipment (e.g., pour spouts, specific storage solutions). Suggest alternatives for different setups.
+  - **Role Rotation Frequency:** Be cautious with frequent role rotations; consider the learning curve and potential disruption.
+
+- **System/Process Solutions:**
+  - **Feedback Loop:** Implement a feedback mechanism for staff to report on the effectiveness of batching and workflow changes.
+  - **Inventory Management:** Integrate inventory tracking with batching to prevent over-preparation and waste.
+  - **Technology Use:** Suggest using technology (e.g., POS systems) to aid in role designation and traffic management.
+
+- **Tone/Structure Guidance:**
+  - **Conciseness:** Use bullet points for each strategy to enhance readability and quick reference.
+  - **Clarity:** Define industry-specific terms or provide examples for clarity.
+  - **Actionable Steps:** Begin each section with a clear, actionable step to guide implementation.
+  - **Positive Framing:** Frame suggestions in a positive light to encourage adoption and highlight benefits.
+
+
+(Generated on 2025-09-10 15:02:16)
+
+(Evaluated on 2025-09-10 15:03:10)

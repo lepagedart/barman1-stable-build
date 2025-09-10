@@ -1,0 +1,8 @@
+{
+  "scenario_number": 94,
+  "title": "Neighborhood Speakeasy – Wow Factor Moment",
+  "tags": ["wow_factor", "guest_experience"],
+  "system_mod": "wow_factor_lens+guest_experience_lens",
+  "venue_context": "50-seat speakeasy, hidden entrance, loyal local base, open kitchen crossover.",
+  "prompt": "What’s a low-cost but memorable wow factor cocktail or service moment that fits the intimate space?"
+}

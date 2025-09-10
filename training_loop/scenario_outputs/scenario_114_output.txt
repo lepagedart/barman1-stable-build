@@ -1,0 +1,93 @@
+Title: Winery Tasting Room – Adding Low-ABV Cocktail Program
+
+Tags: layout, technology, compliance, low-abv, batching
+
+Scenario Type: Training
+
+System Mod: layout_lens+technology_lens+compliance_lens
+
+Venue Context: Winery tasting room with limited back bar (no full kitchen, small undercounter fridge). Team is wine-trained, limited cocktail experience. Desire for spritz/amaro/vermouth-forward offerings; local ABC rules on batching/labeling apply.
+
+Prompt: Propose a low-ABV cocktail mini-program (4–6 drinks) aligned with a winery tasting context. Include station layout, glassware/rack plan, minimal-equipment batching, POS buttons/modifiers, and compliant batch labels/logs. Prioritize speed and staff learnability while keeping brand voice on the wine side.
+
+Lloyd's Response:
+
+### Low-ABV Cocktail Mini-Program
+
+#### Cocktail Menu
+
+1. **Aperol Spritz Twist**
+   - **Spec**: 2 oz Aperol, 3 oz Prosecco, 1 oz soda water
+   - **Glass**: Wine glass
+   - **Ice**: Cubed
+   - **Garnish**: Orange slice
+   - **Method**: Build in glass over ice, gently stir
+   - **Cost Notes**: Target pour cost around 20%; Prosecco is the main variable
+
+2. **Vermouth & Tonic**
+   - **Spec**: 2 oz white vermouth, 4 oz tonic water
+   - **Glass**: Highball
+   - **Ice**: Cubed
+   - **Garnish**: Lemon wheel
+   - **Method**: Build in glass over ice
+   - **Cost Notes**: White vermouth being the main cost driver, maintain under 25%
+
+3. **Amaro Sour**
+   - **Spec**: 1.5 oz Amaro, 0.75 oz lemon juice, 0.5 oz simple syrup
+   - **Glass**: Rocks
+   - **Ice**: Cubed
+   - **Garnish**: Lemon twist
+   - **Method**: Shake all ingredients with ice, strain
+   - **Cost Notes**: Amaro is high-cost; use sparingly, target 25% cost
+
+4. **Rose Vermouth Spritz**
+   - **Spec**: 2 oz rose vermouth, 2 oz soda water, 1 oz grapefruit juice
+   - **Glass**: Wine glass
+   - **Ice**: Cubed
+   - **Garnish**: Grapefruit peel
+   - **Method**: Build in glass over ice, gently stir
+   - **Cost Notes**: Rose vermouth cost coverage at 25%; grapefruit offers a fresh touch
+
+5. **White Port & Tonic**
+   - **Spec**: 2 oz white port, 4 oz tonic
+   - **Glass**: Highball
+   - **Ice**: Cubed
+   - **Garnish**: Lime wedge
+   - **Method**: Build in glass over ice
+   - **Cost Notes**: White port is moderately priced, target 20% pour cost
+
+6. **Ginger Amaro Highball**
+   - **Spec**: 1.5 oz Amaro, 0.5 oz ginger syrup, 3 oz soda water
+   - **Glass**: Highball
+   - **Ice**: Cubed
+   - **Garnish**: Candied ginger
+   - **Method**: Build in glass over ice
+   - **Cost Notes**: Ginger syrup adds minimal cost; amaro is the main driver
+
+#### Station Layout
+- **Back Bar**: Allocate space for Aperol, vermouths, amaro, and white port within easy reach, aligned by usage frequency.
+- **Glassware**: Store wine glasses and highball glasses on lower racks for easy access.
+- **Ice Bin**: Centrally located for efficient service.
+
+#### Batching & Compliance
+- **Batching**: For the Amaro Sour, pre-batch lemon juice and simple syrup for speed, respecting local ABC rules.
+- **Labeling**: Clearly label all pre-batched components with date and contents, complying with local regulations.
+- **Logs**: Maintain a daily log for any batched ingredients, noting batch creation date and expected shelf life.
+
+#### POS Buttons/Modifiers
+- **Base Buttons**: Aperol Spritz, Vermouth & Tonic, Amaro Sour, Rose Vermouth Spritz, White Port & Tonic, Ginger Amaro Highball.
+- **Modifiers**: Add-ons for extra Prosecco or tonic, additional garnishes.
+
+#### Operational Notes
+- **Training**: Conduct brief training sessions focusing on building and garnishing techniques.
+- **Speed**: Aim for sub-90s service time per drink.
+- **Simplicity**: Ensure each cocktail uses minimal ingredients and prep for ease of execution by wine-trained staff.
+
+This program aligns with the winery context by incorporating wine-related ingredients and low-ABV options, ensuring a seamless brand experience.
+
+
+What Lloyd Should Have Done:
+[PLACEHOLDER]
+
+
+(Generated on 2025-09-10 16:19:30)

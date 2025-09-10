@@ -1,0 +1,86 @@
+Title: Stadium Concourse Pop-Ups – High Throughput, Low Waste
+
+Tags: event, sustainability, compliance, throughput, batching
+
+Scenario Type: Training
+
+System Mod: event_lens+sustainability_lens+compliance_lens
+
+Venue Context: Major-league stadium concourse. 4 pop-up bars running 90 minutes pre-game + halftime crush. Limited back-of-house, ice delivered by tote, waste streams audited by venue sustainability team. Strict ID checks and service boundaries.
+
+Prompt: Build a throughput plan for 4 pop-up bars that cuts single-use waste and keeps lines moving. Specify batching strategies, clarified juice or stabilized mixers where appropriate, garnish plan with minimal waste, reclaimed-ice policy if viable, and a compliance-forward ID/refusal workflow. Include per-station par sheets and a halftime ‘crush mode’ configuration.
+
+Lloyd's Response:
+
+To optimize throughput for your 4 pop-up bars at a major-league stadium concourse, here's a precise plan focusing on minimizing single-use waste, enhancing service speed, and maintaining compliance.
+
+### Throughput Plan
+
+#### Batching Strategies
+- **Batch Cocktails**: Create large batches of your top-selling cocktails to reduce individual mixing time. Batch all spirit and mixer components, storing in kegs or large dispensers. Consider options like Margaritas, Mojitos, or a simple Rum Punch.
+- **Clarified Juices**: Use clarified lime and lemon juice in batches for sours or Margaritas. This extends shelf-life and consistency.
+- **Stabilized Mixers**: Use commercial-grade stabilizers for mixers like grenadine or simple syrup to ensure they last through service without refrigeration.
+
+#### Garnish Plan
+- **Minimal Waste Garnishes**: Use dehydrated citrus wheels or edible flowers that are shelf-stable and eliminate need for refrigeration.
+- **Reusable Picks**: Opt for bamboo or metal picks that can be reused, reducing single-use waste.
+
+#### Ice Management
+- **Reclaimed Ice**: Implement a policy to reclaim unused ice at the end of service, ensuring it’s only used for chilling purposes, not in direct contact with drinks.
+- **Ice Delivery**: Schedule consistent ice tote deliveries to each station to maintain supply without excess.
+
+#### Compliance & ID Workflow
+- **ID Checks**: Position dedicated staff at each bar entry for ID verification, using handheld scanners if possible. This reduces burden on bartenders and keeps lines moving.
+- **Refusal Protocol**: Train staff on a clear refusal protocol for over-service or underage concerns, documenting incidents as needed.
+
+### Station Configuration
+
+#### Per-Station Par Sheets
+- **Daily Pars**:
+  - Spirits: 5 bottles each (Vodka, Gin, Rum, Tequila, Whiskey)
+  - Mixers: 10 liters each (Tonic, Soda, Cola)
+  - Batch Cocktails: 20 liters each
+  - Garnishes: 50 dehydrated wheels
+  - Ice Totes: 4 per station
+
+#### Halftime ‘Crush Mode’
+- **Pre-preparation**: Pre-fill cups with ice and prepare quick-pour setups for batch cocktails.
+- **Additional Staff**: Assign runners to replenish batches and ice, freeing bartenders for service.
+- **Dedicated Lines**: Create separate lines for batch cocktails and beers to streamline service.
+
+### Action Checklist
+1. **Setup Keg/Batched Cocktail Systems**: Install keg setups and prepare dispensers for batch cocktails.
+2. **Clarify Juices**: Produce and store clarified juices in advance.
+3. **Train Staff**: Conduct training on ID checks, batch cocktail systems, and refusal protocol.
+4. **Implement Garnish Plan**: Switch to reusable or shelf-stable garnishes.
+5. **Conduct Mock Service Drill**: Run a 20-minute drill to test throughput and identify bottlenecks before game day.
+
+This plan balances the need for speed with the venue's sustainability goals and compliance requirements, ensuring a smooth operation during peak times.
+
+
+What Lloyd Should Have Done:
+### What Lloyd Should Have Done:
+
+- **Missing Pieces:**
+  - **Inventory Management**: Include a detailed inventory tracking system to monitor stock levels in real-time and prevent shortages or overstock.
+  - **Waste Management**: Address strategies for managing and reducing overall waste, beyond single-use items.
+  - **Customer Feedback Loop**: Implement a system for collecting customer feedback to continuously improve service and product offerings.
+
+- **Overreach:**
+  - **Batch Cocktail Assumptions**: Avoid assuming all cocktails can be batched without considering potential flavor degradation or customer preferences for freshly made drinks.
+  - **Ice Reclamation**: Reclaimed ice should be strictly for non-consumable purposes to avoid health risks, and this should be clearly communicated.
+
+- **System/Process Solutions:**
+  - **Digital Ordering System**: Introduce a mobile or kiosk-based ordering system to reduce wait times and streamline the ordering process.
+  - **Real-Time Data Analytics**: Utilize data analytics to forecast demand and adjust par levels dynamically.
+  - **Staff Scheduling Software**: Use software to optimize staff schedules based on predicted peak times and historical data.
+
+- **Tone/Structure Guidance:**
+  - **Conciseness**: Break down sections into bullet points for clarity and quick reference by staff.
+  - **Actionable Language**: Use more directive language, such as "Install," "Prepare," "Train," to ensure clarity in execution steps.
+  - **Prioritization**: Clearly prioritize actions in the checklist to guide immediate focus areas and long-term strategies.
+
+
+(Generated on 2025-09-10 16:18:55)
+
+(Evaluated on 2025-09-10 16:20:02)

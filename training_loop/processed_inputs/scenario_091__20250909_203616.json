@@ -1,0 +1,8 @@
+{
+  "scenario_number": 91,
+  "title": "High-Volume Rooftop Bar – Limited Prep Space",
+  "tags": ["layout", "event", "high-volume", "summer"],
+  "system_mod": "layout_lens+event_lens",
+  "venue_context": "Seasonal rooftop bar, ~150 seats, single service well, minimal prep/storage area, mostly highballs and spritzes.",
+  "prompt": "How do we design the station and workflow to handle crush periods during rooftop season while keeping staff moving safely?"
+}
